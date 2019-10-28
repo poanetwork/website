@@ -7,6 +7,9 @@
   * [POADAO consensus](features/poadao-consensus.md)
 * [Use Cases](use-cases/README.md)
   * [Scalability for BlockChain Games](use-cases/scalability-for-blockchain-games.md)
+* [Governance](governance/README.md)
+  * [Governance Quarterly Report](governance/governance-quarterly-report.md)
+* [POA Network Whitepaper](https://github.com/poanetwork/wiki/wiki/POA-Network-Whitepaper)
 * [Roadmap](roadmap.md)
 
 ## For users
@@ -21,8 +24,11 @@
   * [Stable Token](for-users/use-cases-of-poa-token/stable-token.md)
   * [Collateral Token](for-users/use-cases-of-poa-token/collateral-token.md)
   * [Staking Token](for-users/use-cases-of-poa-token/staking-token.md)
-* [Getting Airdrops](for-users/getting-airdrops/README.md)
-  * [Getting Airdrops via Discord](for-users/getting-airdrops/airdrops-via-discord.md)
+* [Tutorials](for-users/tutorials/README.md)
+  * [Getting Airdrops via Discord](for-users/tutorials/airdrops-via-discord.md)
+  * [Accepting POA payments with CoinPayments](for-users/tutorials/accepting-poa-token-payments-with-coinpayments.md)
+* [Wallets](for-users/wallets/README.md)
+  * [Nifty Wallet](for-users/wallets/nifty-wallet.md)
 
 ## For developers
 
@@ -32,7 +38,8 @@
 ## For validators
 
 * [Getting Started](for-validators/untitled.md)
-* [Validator Dapps](for-validators/validator-dapps.md)
+* [Validator Dapps](for-validators/validator-dapps/README.md)
+  * [Validators MetaData DApp](for-validators/validator-dapps/validators-metadata-dapp.md)
 
 ## Media <a id="social-media"></a>
 

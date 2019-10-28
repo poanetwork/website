@@ -9,7 +9,6 @@
   * [Scalability for BlockChain Games](use-cases/scalability-for-blockchain-games.md)
 * [Governance](governance/README.md)
   * [Governance Quarterly Report](governance/governance-quarterly-report.md)
-* [POA Network Whitepaper](https://github.com/poanetwork/wiki/wiki/POA-Network-Whitepaper)
 * [Roadmap](roadmap.md)
 
 ## For users
@@ -29,6 +28,23 @@
   * [Accepting POA payments with CoinPayments](for-users/tutorials/accepting-poa-token-payments-with-coinpayments.md)
 * [Wallets](for-users/wallets/README.md)
   * [Nifty Wallet](for-users/wallets/nifty-wallet.md)
+* [POA Network Whitepaper](for-users/poa-network-whitepaper/README.md)
+  * [Introduction](for-users/poa-network-whitepaper/introduction.md)
+  * [Proof of Authority](for-users/poa-network-whitepaper/proof-of-authority.md)
+  * [POA Network Functionality](for-users/poa-network-whitepaper/poa-network-functionality.md)
+  * [Decentralized apps \(DApps\)](for-users/poa-network-whitepaper/decentralized-apps-dapps/README.md)
+    * [Initial ceremony DApp](for-users/poa-network-whitepaper/decentralized-apps-dapps/initial-ceremony-dapp.md)
+    * [Proof of Physical Address \(PoPA\) DApp](for-users/poa-network-whitepaper/decentralized-apps-dapps/proof-of-physical-address-popa-dapp.md)
+    * [Proof of Bank Account DApp](for-users/poa-network-whitepaper/decentralized-apps-dapps/proof-of-bank-account-dapp.md)
+    * [Proof of Social Network DApp](for-users/poa-network-whitepaper/decentralized-apps-dapps/proof-of-social-network-dapp.md)
+    * [Proof of Phone Number DApp](for-users/poa-network-whitepaper/decentralized-apps-dapps/proof-of-phone-number-dapp.md)
+    * [Governance DApp](for-users/poa-network-whitepaper/decentralized-apps-dapps/governance-dapp.md)
+  * [Summary & Acknowledgements](for-users/poa-network-whitepaper/summary-and-acknowledgements.md)
+  * [References](for-users/poa-network-whitepaper/references.md)
+  * [Appendix A: Code Samples](for-users/poa-network-whitepaper/appendix-a-code-samples/README.md)
+    * [Ballots manager](for-users/poa-network-whitepaper/appendix-a-code-samples/ballots-manager.md)
+    * [Validators manager](for-users/poa-network-whitepaper/appendix-a-code-samples/validators-manager.md)
+    * [Deployment scripts for the mining node](for-users/poa-network-whitepaper/appendix-a-code-samples/deployment-scripts-for-the-mining-node.md)
 
 ## For developers
 

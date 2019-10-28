@@ -49,7 +49,7 @@
 ## For developers
 
 * [Developer Resources](for-developers/developer-resourses.md)
-* [Grants for building on POA](for-developers/untitled.md)
+* [Grants for Building on POA](for-developers/untitled.md)
 
 ## For validators
 

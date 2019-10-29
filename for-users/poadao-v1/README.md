@@ -1,6 +1,2 @@
 # Whitepaper
 
-## 
-
-
-

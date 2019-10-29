@@ -1,6 +1,6 @@
 # Proof of Phone Number DApp
 
-![Click on image to enlarge](../../../.gitbook/assets/pona.png)
+![Click on image to enlarge](../../../../.gitbook/assets/pona.png)
 
 User fills out a form in DApp providing his/her phone number and submits it to the server.
 

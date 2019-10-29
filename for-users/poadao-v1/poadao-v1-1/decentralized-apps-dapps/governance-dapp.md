@@ -6,7 +6,7 @@ The governance is available only with a valid voting key that should be selected
 
 #### Creating a new ballot
 
-![Click image to enlarge](../../../.gitbook/assets/new-ballot.png)
+![Click image to enlarge](../../../../.gitbook/assets/new-ballot.png)
 
  Valid notary of the POA Network fills out a form in DApp providing:
 
@@ -21,7 +21,7 @@ At the final step, one transaction to create a new ballot in POA contract will b
 
 #### Voting on a ballot
 
-![Click image to enlarge](../../../.gitbook/assets/ballot-voting.png)
+![Click image to enlarge](../../../../.gitbook/assets/ballot-voting.png)
 
 The user can see all his/her unanswered ballots by clicking on the self-titled button on the filtering panel. The list of unanswered ballots will be displayed after filtering, and the "Vote now" button will be enabled for any item in the list. After clicking on this button, a preview of the ballot will be opened with the notary's personal data, statistics of voting, and time to ballot's ending. Two buttons will be enabled here: "Vote for" and "Vote against". After clicking on any of them, the transaction to account the user's voice will be generated, and a MetaMask popup will be shown with the transaction information. After the confirmation and successful mining of the transaction by existing validators, the user will see the updated statistics with his/her voice, and the ballot will disappear from the unanswered ballots filter.
 

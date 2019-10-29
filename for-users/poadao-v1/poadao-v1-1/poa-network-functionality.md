@@ -30,7 +30,7 @@ Therefore, 2.5% of the network supply will be generated as a reward for validato
 
 Sustainability emission will be governed by decentralized apps.
 
-![Emission rate. X-axis - %, Y-axis - Years](../../.gitbook/assets/emission_rate_1.png)
+![Emission rate. X-axis - %, Y-axis - Years](../../../.gitbook/assets/emission_rate_1.png)
 
 ### Use Cases
 

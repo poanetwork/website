@@ -12,5 +12,5 @@ All keys are generated on the client side and not transmitted over the Internet 
 
 Initial ceremony is a required procedure to start a new network based on POA Network's ideas of independent validators.
 
-![](../../../.gitbook/assets/initial_1.png)
+![](../../../../.gitbook/assets/initial_1.png)
 

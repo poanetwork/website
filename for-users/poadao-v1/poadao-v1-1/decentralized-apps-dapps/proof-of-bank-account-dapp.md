@@ -1,6 +1,6 @@
 # Proof of Bank Account DApp
 
-![Click on image to enlarge](../../../.gitbook/assets/poba.png)
+![Click on image to enlarge](../../../../.gitbook/assets/poba.png)
 
 In contrast to other identity DApps, PoBA is \(from the contract's point of view\) a one-step verification process.
 

@@ -1,6 +1,6 @@
 # Proof of Social Network DApp
 
-![Click on image to enlarge](../../../.gitbook/assets/posn.png)
+![Click on image to enlarge](../../../../.gitbook/assets/posn.png)
 
 User fills out a form in DApp providing the link to his/her social network profile and submits it to the server.
 

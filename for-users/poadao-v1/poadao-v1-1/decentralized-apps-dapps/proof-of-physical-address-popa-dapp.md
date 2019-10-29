@@ -6,7 +6,7 @@ Using Proof of Physical Address, a user can confirm his/her physical address. It
 
 ### **Typical workflow for Identity DApps on PoPA example**
 
-![ Click on Image to Enlarge: User fills out a form in DApp and submits it to the server.](../../../.gitbook/assets/proof-of-address.png)
+![ Click on Image to Enlarge: User fills out a form in DApp and submits it to the server.](../../../../.gitbook/assets/proof-of-address.png)
 
 Server consists of a web app and a ****Parity node connected to the blockchain. The node is run under the Ethereum account that was used to deploy the PoPA contract \(contract's `owner`\), and this account needs to be unlocked. It shouldn't have any ether on it though, as it doesn't send any more transactions.
 

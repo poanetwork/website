@@ -1,3 +1,7 @@
+---
+description: The original POA Whitepaper was distributed October 2017.
+---
+
 # POADAO v1
 
 ## Original Publication Dates

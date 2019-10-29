@@ -2,7 +2,7 @@
 
 ## View Current Network Validators
 
-To see current validators along with their Notary information, visit [https://validators.poa.network/poa-dapps-validators](https://validators.poa.network/poa-dapps-validators).  In the Network Dropdown menu, select POA Core. You will set your MetaMask or Nifty Wallet to the POA RPC \([https://core.poa.network](https://core.poa.network)\) as well.
+To see current validators along with their Notary information, visit [https://validators.poa.network/poa-dapps-validators](https://validators.poa.network/poa-dapps-validators).  In the Network Dropdown menu, select POA Core.
 
 ![Select the POA Core to view the current validator set](../../.gitbook/assets/network_dropdown.png)
 

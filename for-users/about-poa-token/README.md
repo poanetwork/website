@@ -8,7 +8,10 @@ description: Information about POA and POA20 tokens
 
 The **POA token** is the native token or coin of the POA Network. It is used on the POA Network for transactional purposes, for transaction fees \(gas\), and as a reward mechanism for validators. DApps such as [DopeRaider](https://doperaider.com/#/) use POA for in-game purchases as well as transaction costs, while others like [Geon](https://www.geon.network/) leverage POA for gas fees while providing users with their own in-game tokens.
 
-The **POA20 token** is a representation of the POA token available to use on the Ethereum mainnet. It is an ERC20 token which has all of the same properties as the POA token but is compatible with the mainnet. More information on POA20 is available here.
+The **POA20 token** is a representation of the POA token available to use on the Ethereum mainnet. It is an ERC20 token which has all of the same properties as the POA token but is compatible with the mainnet.
+
+* [Convert your POA to POA20 using the Bridge UI](https://bridge.poa.net/)
+* [More information on POA20 ](faq-poa20-general-questions.md)
 
 ## Exchanges
 

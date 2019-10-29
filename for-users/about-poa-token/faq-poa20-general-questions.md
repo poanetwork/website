@@ -18,8 +18,7 @@ description: General questions related to POA20
 * [Is there a minimum or maximum amount of tokens per wallet that can be transferred via the POA20 Bridge?](faq-poa20-general-questions.md#is-there-a-minimum-or-maximum-amount-of-tokens-per-wallet-that-can-be-transferred-via-the-poa20-bridge)
 * [What are the fees for converting POA native tokens to POA20 tokens and vice-versa? Who will be paying these fees?](faq-poa20-general-questions.md#what-are-the-fees-for-converting-poa-native-tokens-to-poa20-tokens-and-vice-versa-who-will-be-paying-these-fees)
 * [How many confirmations are required to convert the POA20 tokens to POA native tokens and vice-versa?](faq-poa20-general-questions.md#how-many-confirmations-are-required-to-convert-the-poa20-tokens-to-poa-native-tokens-and-vice-versa)
-* [Where can I find more information about POA20 Bridge source code?](faq-poa20-general-questions.md#where-can-i-find-more-information-about-poa20-bridge-source-code)
-* [ELI5: How does the POA20 Bridge Work?](faq-poa20-general-questions.md#eli-5-how-does-the-poa20-bridge-work)
+* [Where can I find more information about POA20 Bridge source code](faq-poa20-general-questions.md#where-can-i-find-more-information-about-poa20-bridge-source-code)?
 
 ## What is the POA20 Bridge? 
 
@@ -27,7 +26,9 @@ The POA20 Bridge is an interoperability protocol which allows users to convert t
 
 This new interoperability technology opens up a whole new avenue of solutions for POA users.
 
-The UI is available at [https://bridge.poa.net/](https://bridge.poa.net/)
+{% hint style="success" %}
+**To convert your POA to POA20, vist the UI at** [**https://bridge.poa.net/**](https://bridge.poa.net/)\*\*\*\*
+{% endhint %}
 
 ## What is POA20? 
 
@@ -136,18 +137,4 @@ There will 15 confirmations. On the POA mainnet and 15 confirmations on the Ethe
 
 * Github: [https://github.com/poanetwork/tokenbridge](https://github.com/poanetwork/tokenbridge)
 * [TokenBridge Documentation](https://docs.tokenbridge.net/)
-
-## ELI5: How does the POA20 Bridge work? 
-
-The underlying TokenBridge powering the POA20 Bridge functionality is quite unique yet simple to understand. The ratio of POA:POA20 during network transfer always remains 1:1 and behaves in the following manner:
-
-When POA native tokens are moved from POA Network to Ethereum network
-
-1. POA native tokens are locked in the POA20 Bridge smart contract
-2. POA20 tokens are minted and can move freely on the Ethereum network
-
-When POA20 tokens are moved back from Ethereum network to POA Network
-
-1. POA native tokens are unlocked in the Bridge smart contract
-2. POA20 tokens are burned
 

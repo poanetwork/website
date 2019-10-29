@@ -16,7 +16,7 @@ In addition, validators discuss ideas and present intiatives in the POA forum. H
 * [Active and prior validator voting record \(set your network to the POA network\)](https://voting.poa.network/poa-dapps-voting)
 * [POA Validator Forum](https://forum.poa.network/c/poa-core/notaries-intro)
 
-![Validator List DApp](../.gitbook/assets/validators_dapp_1.png)
+![Validator List DApp](../../.gitbook/assets/validators_dapp_1.png)
 
 
 

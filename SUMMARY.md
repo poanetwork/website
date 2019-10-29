@@ -51,7 +51,6 @@
 
 * [Developer Resources](for-developers/developer-resourses.md)
 * [Grants for Building on POA](for-developers/grants-for-building-on-poa.md)
-* [Untitled](for-developers/untitled.md)
 
 ## For validators
 

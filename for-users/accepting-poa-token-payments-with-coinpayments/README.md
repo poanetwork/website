@@ -1,6 +1,6 @@
 ---
 description: >-
-  Coinpayments makes it easy to setup and account and start accepting POA20 for
+  Coinpayments makes it easy to setup an account and start accepting POA20 for
   goods and services
 ---
 

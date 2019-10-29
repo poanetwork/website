@@ -9,7 +9,7 @@ POA Network provides an irresistible scalability solution for Ethereum DApps and
 In addition to favorable network conditions, TokenBridge functionality provides the ability to move game tokens to and from the POA network. This is a "game-changer", and several games \(see Everdragons and Clovers below\) are taking advantage of this feature to provide fast, cheap gameplay on POA Network, while moving tokens across the bridge to access the larger Ethereum user base for marketplace functionality.
 
 {% hint style="success" %}
-[POA Games Fund \#2 is currently accepting applications!](../for-developers/untitled.md)
+[POA Games Fund \#2 is currently accepting applications!](../for-developers/grants-for-building-on-poa.md)
 {% endhint %}
 
 ### **"OG" games built on POA:**

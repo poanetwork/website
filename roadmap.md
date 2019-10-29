@@ -26,7 +26,7 @@ We will continue to monitor progress and are planning to update the Sokol testne
 **Target date: Q1 2020**
 
 {% hint style="success" %}
-We are currently accepting applications for our next round of funding. See [Grants for building on POA for more information](for-developers/untitled.md#poa-games-fund).
+We are currently accepting applications for our next round of funding. See [Grants for building on POA for more information](for-developers/grants-for-building-on-poa.md#poa-games-fund).
 {% endhint %}
 
 In 2019, the POA Games Fund contributed funding to 4 games deployed on the POA Network. These include:

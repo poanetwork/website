@@ -2,9 +2,9 @@
 
 * [Welcome to POA](README.md)
 * [Features](features/README.md)
-  * [Bridged Native Token](features/bridged-native-token.md)
   * [Known Validators](features/known-validators.md)
   * [POADAO consensus](features/poadao-consensus.md)
+  * [Bridged Native Token](features/bridged-native-token.md)
 * [Use Cases](use-cases/README.md)
   * [Scalability for BlockChain Games](use-cases/scalability-for-blockchain-games.md)
 * [Governance](governance/README.md)
@@ -50,7 +50,8 @@
 ## For developers
 
 * [Developer Resources](for-developers/developer-resourses.md)
-* [Grants for Building on POA](for-developers/untitled.md)
+* [Grants for Building on POA](for-developers/grants-for-building-on-poa.md)
+* [Untitled](for-developers/untitled.md)
 
 ## For validators
 
@@ -61,6 +62,7 @@
 ## Media <a id="social-media"></a>
 
 * [Events](social-media/events.md)
+* [R&D Partners](https://forum.poa.network/t/r-d-partners-of-poa-team/2598)
 * [Social Media](social-media/social-media.md)
 * [Media Kit](social-media/branding.md)
 * [Contact Us](social-media/contact-us.md)

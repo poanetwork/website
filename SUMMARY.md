@@ -21,7 +21,7 @@
   * [Bridged Token](for-users/use-cases-of-poa-token/bridged-token.md)
   * [Staking Token](for-users/use-cases-of-poa-token/staking-token.md)
   * [Stable Token](for-users/use-cases-of-poa-token/stable-token.md)
-* [Convert POA &lt;-&gt; POA20](for-users/convert-poa-less-than-greater-than-poa20.md)
+* [POA to POA20 Bridge](for-users/poa-bridge.md)
 * [Accept POA20 Payments](for-users/accepting-poa-token-payments-with-coinpayments/README.md)
   * [Account Registration & Login \(Merchant Setup\)](for-users/accepting-poa-token-payments-with-coinpayments/account-registration-and-login-merchant-setup.md)
   * [Setup Merchant Account](for-users/accepting-poa-token-payments-with-coinpayments/setup-merchant-account.md)

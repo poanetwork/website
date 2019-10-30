@@ -1,3 +1,9 @@
+---
+description: >-
+  The Metadata app shows the validator's address and notary information for
+  cross-verification purposes.
+---
+
 # Validators MetaData DApp
 
 ## View Current Network Validators
@@ -27,9 +33,9 @@ You must have a small amount of POA on your Voting Key to submit a transaction. 
 
 4\) Go to the  `SET METADATA` page.
 
-5\) Fill all the required fields with your contact details and license info.
+5\) Fill all the required fields with your contact details and license info
 
-**&lt;img needed&gt;**
+![Set Metadata](../../.gitbook/assets/p1.png)
 
 6\) Double-check the data you've provided.
 
@@ -37,17 +43,13 @@ You must have a small amount of POA on your Voting Key to submit a transaction. 
 
 8\) Press `SET METADATA` button at the bottom of the page.
 
-**&lt;img needed&gt;**
+9\) Confirm transaction in MetaMask and wait until the transaction is mined.
 
-9\) Confirm transaction in MetaMask.
+10\) Open the `PENDING CHANGES` tab and verify your data in the list.
 
-10\) Wait until the transaction is mined.
+11\) Ask fellow validators to confirm and finalize your request. The metadata-change request needs at least **2 confirmations** by different validators and can then be finalized by any validator including yourself. Finalizing a request commits changes to the network.
 
-11\) Open `PENDING CHANGES` tab and verify your data in the list.
-
-12\) Ask fellow validators to confirm and finalize your request. The metadata-change request needs at least 2 confirmations by different validators and then can be finalized by any validator including yourself. Finalizing a request commits changes to the network.
-
-**&lt;img needed&gt;**
+![Ask fellow validators to confirm your request](../../.gitbook/assets/p2.png)
 
 
 

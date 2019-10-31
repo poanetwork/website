@@ -3,7 +3,7 @@
 * [Welcome to POA](README.md)
 * [Features](features/README.md)
   * [Known Validators](features/known-validators.md)
-  * [POADAO consensus](features/poadao-consensus.md)
+  * [POADAO Consensus](features/poadao-consensus.md)
   * [Bridged Native Token](features/bridged-native-token.md)
 * [Use Cases](use-cases/README.md)
   * [Scalability for BlockChain Games](use-cases/scalability-for-blockchain-games.md)

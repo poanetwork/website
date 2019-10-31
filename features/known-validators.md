@@ -7,7 +7,7 @@ description: >-
 
 # Known Validators
 
-POA Network is governed by a decentralized group of US public notaries called validators. In addition to providing consensus on transactions, validators make all governance decisions through exclusive distributed applications \(DApps\). Every decision is recorded on the POA blockchain. This process creates an effective self-governed system where changes can be made quickly and efficiently to better serve the network.
+POA Network is governed by a decentralized group of US public notaries called validators \([See POADAO consensus for more information](poadao-consensus.md)\). In addition to providing consensus on transactions, validators make all governance decisions through exclusive distributed applications \(DApps\). Every decision is recorded on the POA blockchain. This process creates an effective self-governed system where changes can be made quickly and efficiently to better serve the network.
 
 #### Notaries
 
@@ -20,10 +20,6 @@ By putting their identity at stake, validators risk their reputations in order t
 #### Selection
 
 Validators are selected through various considerations such as knowledge about Blockchain, background, merit, interest, and a willingness to commit to the network. New validators start by introducing themselves in the public forum, confirming their notary status and participating in discussions. Participating candidates may then be added to a ballot to serve as validators on the POA Sokol testnet. If they continue to participate, they may then be added to a ballot to join the POA Network validators. A current validator must add a candidate to the ballot, and a majority vote is required for a new candidate to join the network as a validator.
-
-{% hint style="info" %}
-You must connect to the POA Network with a web3 wallet such as [MetaMask](https://metamask.io/) or [Nifty Wallet](https://chrome.google.com/webstore/detail/nifty-wallet/jbdaocneiiinmjbjlgalhcelgbejmnid?hl=en) to view and interact with POA DApps. 
-{% endhint %}
 
 * [Public Validator Forum](https://forum.poa.network/c/poa-core/notaries-intro)
 * [POA On-Chain Balloting DApp](https://voting.poa.network/poa-dapps-voting)

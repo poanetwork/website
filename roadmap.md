@@ -29,7 +29,7 @@ We will continue to monitor progress and are planning to update the Sokol testne
 We are currently accepting applications for our next round of funding. See [Grants for building on POA for more information](for-developers/grants-for-building-on-poa.md#poa-games-fund).
 {% endhint %}
 
-In 2019, the POA Games Fund has contributed funding to 4 games deployed on the POA Network. These include:
+In 2019, the POA Games Fund has contributed funding to 4 games:
 
 * \*\*\*\*[**Snailfarm**](https://www.stateofthedapps.com/dapps/poa-snailfarm)**:** A game where players buy resources which grow over time, in an endless virtuous loot loop. Learn more here: [https://medium.com/@thesnailking/the-next-great-frontier-for-snails-poa-ee7e2471bc51](https://medium.com/@thesnailking/the-next-great-frontier-for-snails-poa-ee7e2471bc51)
 * \*\*\*\*[**Geon**](https://www.stateofthedapps.com/dapps/geon-app)**:** An augmented reality game where users collect Geon Coins from real world locations**.** One of the most [popular games deployed on **any** Ethereum Network](https://www.stateofthedapps.com/rankings/category/games) with hundreds of active daily users.
@@ -43,10 +43,4 @@ As these previously funded games continue to gain traction, we are initiating a 
 **Target date: 2020**
 
 We will continue to research and explore ways to expand POA token usage, adoption and use cases. This includes creating a POA-based [stable token](for-users/use-cases-of-poa-token/stable-token.md), and exploring the ability to leverage POA as a [staking token](for-users/use-cases-of-poa-token/staking-token.md), either on its own or through a multi-collateral token basket.  To keep POA vital and growing, we must not only increase network adoption but also research the possibility of expanding usage beyond the network via the [TokenBridge](https://docs.tokenbridge.net/).
-
-
-
-
-
-
 

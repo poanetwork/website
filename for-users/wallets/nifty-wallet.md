@@ -18,13 +18,20 @@ Nifty Wallet and MetaMask do not function properly when both are activated at th
 {% endhint %}
 
 {% hint style="info" %}
-We are currently updating these instructions. For an overview, please see [https://medium.com/poa-network/nifty-wallet-now-supports-interactions-with-smart-contracts-5e8c43c19e3a](https://medium.com/poa-network/nifty-wallet-now-supports-interactions-with-smart-contracts-5e8c43c19e3a)
+We are currently updating the instructions here. For immediate help, please see:
+
+Basic Instructions:   
+[https://forum.poa.network/t/nifty-wallet-guide/1789](https://forum.poa.network/t/nifty-wallet-guide/1789)  
+  
+Interacting with Smart Contracts:  
+ [https://medium.com/poa-network/nifty-wallet-now-supports-interactions-with-smart-contracts-5e8c43c19e3a](https://medium.com/poa-network/nifty-wallet-now-supports-interactions-with-smart-contracts-5e8c43c19e3a)
 {% endhint %}
 
 ## The following items will be covered on their own subpages
 
 * Getting Started
-* Sending / Receiving Transactions
+* Sending & Receiving Transactions
 * Connecting to Different Chains
+* Importing Accounts
 * Calling Contract Methods
 

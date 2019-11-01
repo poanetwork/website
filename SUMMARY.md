@@ -71,4 +71,5 @@
 * [Social Media](social-media/social-media.md)
 * [Media Kit](social-media/branding.md)
 * [Contact Us](social-media/contact-us.md)
+* [xDai](https://xdaichain.com)
 

@@ -7,6 +7,9 @@
   * [Bridged Native Token](features/bridged-native-token.md)
 * [Use Cases](use-cases/README.md)
   * [Scalability for BlockChain Games](use-cases/scalability-for-blockchain-games.md)
+  * [Community-Based Currencies](use-cases/community-based-currencies.md)
+  * [Subsidized Transactions](use-cases/content-curation.md)
+  * [Decentralized Finance \(DeFi\)](use-cases/interoperability.md)
 * [Roadmap](roadmap.md)
 
 ## For users

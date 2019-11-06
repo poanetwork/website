@@ -33,6 +33,7 @@
 * [Tutorials](for-users/tutorials/README.md)
   * [Getting Airdrops via Discord](for-users/tutorials/airdrops-via-discord.md)
 * [Governance](for-users/governance/README.md)
+  * [Article: A Successful Year of On-Chain Governance](for-users/governance/article-a-successful-year-of-on-chain-governance.md)
   * [Governance Quarterly Report](for-users/governance/governance-quarterly-report.md)
 * [Wallets](for-users/wallets/README.md)
   * [Nifty Wallet](for-users/wallets/nifty-wallet.md)

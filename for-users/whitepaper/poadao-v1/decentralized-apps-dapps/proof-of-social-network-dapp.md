@@ -16,7 +16,7 @@ When the transaction is mined, `tx_id` is returned to the client and then via th
 
 Then the server uses the session code to get plain text confirmation code from memory and enclose it into a predefined meaningful text, e.g.:
 
-```text
+```
 My POA identity confirmation code is <confirmation code>
 ```
 

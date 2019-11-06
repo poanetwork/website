@@ -1,6 +1,6 @@
 # Validators manager
 
-```javascript
+```
 pragma solidity ^0.4.14;
 
 import "oracles-contract-validator/ValidatorClass.sol";

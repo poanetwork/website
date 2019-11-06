@@ -1,6 +1,6 @@
 # References
 
-```text
+```
 [^fn1]: Ethereum, A Next-Generation Smart Contract and Decentralized Application Platform https://github.com/ethereum/wiki/wiki/White-Paper    
 [^fn2]: Announcing Kovan — A Stable Ethereum Public Testnet https://medium.com/@Digix/announcing-kovan-a-stable-ethereum-public-testnet-10ac7cb6c85f    
 [^fn3]: Kovan proposal https://github.com/kovan-testnet/proposal    

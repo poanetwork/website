@@ -4,7 +4,7 @@ description: Code Sample
 
 # Ballots manager
 
-```javascript
+```
 pragma solidity ^0.4.14;
 
 import "./Utility.sol";

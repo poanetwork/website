@@ -18,7 +18,7 @@ Creates an html button which can be embedded into a website. Fill in the form an
 
 **Example Generated Button Output**. \([See all HTML POST fields here](https://www.coinpayments.net/merchant-tools-buttons).\)
 
-```
+```text
 <form action="https://www.coinpayments.net/index.php" method="post">
 	<input type="hidden" name="cmd" value="_pay">
 	<input type="hidden" name="reset" value="1">

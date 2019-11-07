@@ -1,6 +1,6 @@
 # Deployment scripts for the mining node
 
-```
+```bash
 #!/bin/bash
 set -e
 set -u

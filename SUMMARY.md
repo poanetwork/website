@@ -1,8 +1,8 @@
 # Table of contents
 
 * [欢迎来到POA](README.md)
-* [Features](features/README.md)
-  * [Known Validators](features/known-validators.md)
+* [特性](features/README.md)
+  * [已知验证人](features/known-validators.md)
   * [POADAO Consensus](features/poadao-consensus.md)
   * [Bridged Native Token](features/bridged-native-token.md)
 * [Use Cases](use-cases/README.md)

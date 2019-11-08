@@ -1,27 +1,24 @@
 ---
-description: >-
-  POA's consensus mechanism is unique in the public blockchain space. United
-  States notaries serve as validators providing consensus and protecting the
-  chain.
+description: POA的共识机制在公共区块链空间中是独一无二的。 美国公证人充当确认者，提供共识并保护区块链网络。
 ---
 
-# Known Validators
+# 已知验证人
 
-POA Network is governed by a decentralized group of US public notaries called validators \([See POADAO consensus for more information](poadao-consensus.md)\). In addition to providing consensus on transactions, validators make all governance decisions through exclusive distributed applications \(DApps\). Every decision is recorded on the POA blockchain. This process creates an effective self-governed system where changes can be made quickly and efficiently to better serve the network.
+POA网络由分散的美国公共公证人小组（称为验证人）管理（[有关更多信息，请参见POSDAO共识](poadao-consensus.md)）。 除了对交易达成共识外，验证人还通过专有的去中心化应用程序（DApp）做出所有治理决策。 每个决定都记录在POA区块链上。 这个过程创建了一个有效的自治系统，可以快速有效地进行更改以更好地服务于网络。 
 
-### Notaries
+### 公证人
 
-Each POA Network validator is required to be a public notary within the United States in good standing. A public notary is considered a public official of integrity appointed by a state government. They are duty-bound to provide impartial and trusted witness to the signing of official documents. This requirement creates a standard for network validators and allows for [accessible identity verification](https://validators.poa.network/poa-dapps-validators). In addition, every US state has different rules regarding notary licensing. Because validators reside in many different states, no single state law can impact all validators at once.
+每个POA网络验证者都必须是美国境内信誉良好的公共公证人。 公证人被视为由州政府任命的廉正公职人员。 他们有责任为签署正式文件提供公正和可信赖的证人。 该要求为网络验证器创建了标准，并允许随时[访问验证人的身份](https://validators.poa.network/poa-dapps-validators)。 此外，美国每个州在公证许可方面都有不同的规则。 由于验证人居住在许多不同的州，因此没有一个州法律可以立即影响所有验证人。
 
-### Transparency
+### 透明度
 
-By putting their identity at stake, validators risk their reputations in order to host a decentralized node. This transparency creates personal and group accountability as validators know their actions and participation are written to the public ledger and available for anyone to view.
+通过将自己的身份置于危险之中，验证人冒着声誉风险来托管分散的网络节点。 由于验证人知道他们的行为和参与会被写入公共分类帐，任何人都可以进行查看，因此这种透明性可建立个人和团体的问责制。
 
-### Selection
+### 选拔
 
-Validators are selected through various considerations such as knowledge about Blockchain, background, merit, interest, and a willingness to commit to the network. New validators start by introducing themselves in the public forum, confirming their notary status and participating in discussions. Participating candidates may then be added to a ballot to serve as validators on the POA Sokol testnet. If they continue to participate, they may then be added to a ballot to join the POA Network validators. A current validator must add a candidate to the ballot, and a majority vote is required for a new candidate to join the network as a validator.
+验证人是通过各种考核因素来严格选择的，例如其个人必须拥有与区块链有关的知识，背景，其个人优点，兴趣以及对网络的承诺。 新的验证人首先要在公共论坛中自我介绍，确认其公证身份并参与讨论。 然后可以将参加投票的候选人添加到选票中，以充当POA Sokol测试网上的验证者。 如果他们继续参与，则可以将他们添加到投票中以加入POA网络验证程序。 当前的验证人必须将候选人添加到选票中，并且新候选人需要以多数票才能作为新的验证人加入网络。
 
-* [Public Validator Forum](https://forum.poa.network/c/poa-core/notaries-intro)
-* [POA On-Chain Balloting DApp](https://voting.poa.network/poa-dapps-voting)
-* [Validator List DApp](https://validators.poa.network/poa-dapps-validators)
+* [公开验证人论坛 ](https://forum.poa.network/c/poa-core/notaries-intro)
+* [POA链式投票DApp ](https://voting.poa.network/poa-dapps-voting)
+* [验证人列表DApp](https://validators.poa.network/poa-dapps-validators)
 

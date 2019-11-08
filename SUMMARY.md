@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to POA](README.md)
+* [欢迎来到POA](README.md)
 * [Features](features/README.md)
   * [Known Validators](features/known-validators.md)
   * [POADAO Consensus](features/poadao-consensus.md)

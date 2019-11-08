@@ -4,7 +4,7 @@ description: >-
   the entire Ethereum ecosystem
 ---
 
-# Welcome to POA
+# 欢迎来到POA
 
 POA Network is an autonomous network secured by a group of trusted validators. All validators on the network are United States notaries, and their information is publicly available.  This distributed group of known validators allows the network to provide fast and inexpensive transactions.
 

@@ -65,7 +65,8 @@
 
 ## For validators
 
-* [Getting Started](for-validators/untitled.md)
+* [Getting Started](for-validators/untitled/README.md)
+  * [Validator Resources](for-validators/untitled/validator-resources.md)
 * [Bootnode Setup](for-validators/bootnode-setup/README.md)
   * [AWS Bootnode Setup](for-validators/bootnode-setup/aws-bootnode-setup/README.md)
     * [Prerequisites](for-validators/bootnode-setup/aws-bootnode-setup/prerequisites.md)
@@ -90,6 +91,8 @@
     * [Remote Machine Setup](for-validators/validator-node-setup/non-aws-validator-node-setup/remote-machine-setup.md)
     * [Configure Node using Deployment Playbook](for-validators/validator-node-setup/non-aws-validator-node-setup/configure-node-using-deployment-playbook.md)
   * [Untitled](for-validators/validator-node-setup/untitled.md)
+* [Hard Forks](for-validators/hard-forks/README.md)
+  * [Previous Hard Fork Information](for-validators/hard-forks/previous-hard-fork-information.md)
 * [Validator Dapps](for-validators/validator-dapps/README.md)
   * [Validators MetaData DApp](for-validators/validator-dapps/validators-metadata-dapp.md)
 

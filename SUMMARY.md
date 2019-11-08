@@ -4,7 +4,7 @@
 * [特性](features/README.md)
   * [已知验证人](features/known-validators.md)
   * [POADAO共识](features/poadao-consensus.md)
-  * [Bridged Native Token](features/bridged-native-token.md)
+  * [桥接原生令牌](features/bridged-native-token.md)
 * [Use Cases](use-cases/README.md)
   * [Scalability for BlockChain Games](use-cases/scalability-for-blockchain-games.md)
   * [Community-Based Currencies](use-cases/community-based-currencies.md)

@@ -6,19 +6,19 @@ description: 与POA20有关的一般问题
 
 ## 目录
 
-* [什么是POA20桥？](https://www.poa.network/v/zhong-wen/for-users/about-poa-token/faq-poa20-general-questions#shen-me-shi-poa-20-qiao)
-* 什么是POA20？
-* 我是否必须将我的POA原生令牌转换为POA20？
-* 拥有POA20代币的目的是什么？
-* POA20令牌会增加POA令牌的供应吗？
-* POA原生令牌和POA20令牌有什么区别？
-* 如何将POA原生令牌转换为POA20令牌？
-* POA20桥的合约代码是否已审核？
-* 可以桥接多少个POA原生令牌成为POA20令牌是否有限制？
-* 每个钱包是否可以通过POA20桥接器传输最小或最大数量的令牌？
-* 将POA原生令牌转换为POA20令牌，反之亦然，需要多少费用？ 谁来支付这些费用？
-* 将POA20令牌转换为POA原生令牌需要多少确认（反之亦然）？
-* 在哪里可以找到有关POA20桥源代码的更多信息？
+* [什么是POA20桥？](faq-poa20-general-questions.md#shen-me-shi-poa-20-qiao)
+* [什么是POA20？](faq-poa20-general-questions.md#shen-me-shi-poa-20)
+* [我是否必须将我的POA原生令牌转换为POA20？](faq-poa20-general-questions.md#wo-shi-fou-bi-xu-jiang-wo-de-poa-ben-ji-ling-pai-zhuan-huan-wei-poa-20)
+* [拥有POA20代币的目的是什么？](faq-poa20-general-questions.md#yong-you-poa-20-dai-bi-de-mu-de-shi-shen-me)
+* [POA20令牌会增加POA令牌的供应吗？](faq-poa20-general-questions.md#poa-20-ling-pai-hui-zeng-jia-poa-ling-pai-de-gong-ying-ma)
+* [POA原生令牌和POA20令牌有什么区别？](faq-poa20-general-questions.md#poa-ben-ji-ling-pai-he-poa-20-ling-pai-you-shen-me-qu-bie)
+* [如何将POA原生令牌转换为POA20令牌？](faq-poa20-general-questions.md#ru-he-jiang-poa-yuan-sheng-ling-pai-zhuan-huan-wei-poa-20-ling-pai)
+* [POA20桥的合约代码是否已审核？](faq-poa20-general-questions.md#poa-20-qiao-de-he-yue-dai-ma-shi-fou-yi-shen-he)
+* [可以桥接多少个POA原生令牌成为POA20令牌是否有限制？](faq-poa20-general-questions.md#ke-yi-qiao-jie-duo-shao-ge-poa-yuan-sheng-ling-pai-cheng-wei-poa-20-ling-pai-shi-fou-you-xian-zhi)
+* [每个钱包是否可以通过POA20桥接器传输最小或最大数量的令牌？](faq-poa20-general-questions.md#mei-ge-qian-bao-shi-fou-ke-yi-tong-guo-poa-20-qiao-jie-qi-chuan-shu-zui-xiao-huo-zui-da-shu-liang-de-ling-pai)
+* [将POA原生令牌转换为POA20令牌，反之亦然，需要多少费用？ 谁来支付这些费用？](faq-poa20-general-questions.md#jiang-poa-yuan-sheng-ling-pai-zhuan-huan-wei-poa-20-ling-pai-fan-zhi-yi-ran-xu-yao-duo-shao-fei-yong-shui-lai-zhi-fu-zhe-xie-fei-yong)
+* [将POA20令牌转换为POA原生令牌需要多少确认（反之亦然）？](faq-poa20-general-questions.md#jiang-poa-20-ling-pai-zhuan-huan-wei-poa-ben-ji-ling-pai-xu-yao-duo-shao-que-ren-fan-zhi-yi-ran)
+* [在哪里可以找到有关POA20桥源代码的更多信息？](faq-poa20-general-questions.md#zai-na-li-ke-yi-zhao-dao-you-guan-poa-20-qiao-yuan-dai-ma-de-geng-duo-xin-xi)
 
 ## 什么是POA20桥？ 
 
@@ -48,7 +48,7 @@ POA20是Ethereum网络上POA原生令牌的ERC20表示。 POA20令牌显示与�
 
 **不会**！ 请务必注意，POA令牌不会增加。 现有的循环**POA令牌数量将保持不变**，并且可以简单地**分布在2个网络**（POA网络和以太坊网络）中，而不是1个（POA网络），并且这是可加密审核的。
 
-## POA本机令牌和POA20令牌有什么区别？
+## POA原生令牌和POA20令牌有什么区别？
 
 POA本机令牌位于POA网络上，而POA20令牌位于以太坊网络上。
 
@@ -125,7 +125,7 @@ POA20 Bridge将是一个公共DApp，用户可以在其中使用[Metamask](https
 
 由于POA Network赞助通过网桥进行转移的费用，因此我们希望施加最少数量的令牌进行转移。 我们根据POA Network赞助的费用计算了要转让的最小代币数量。
 
-## 将POA本机令牌转换为POA20令牌，反之亦然，需要多少费用？ 谁来支付这些费用？
+## 将POA原生令牌转换为POA20令牌，反之亦然，需要多少费用？ 谁来支付这些费用？
 
 在试用期内，POA Network将为多项交易付费并赞助费用。 试用期结束后，情况将会改变。 使用Metamask提交交易时，用户将需要支付少量的gas费用。
 

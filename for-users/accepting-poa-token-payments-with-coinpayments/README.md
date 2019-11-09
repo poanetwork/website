@@ -1,21 +1,19 @@
 ---
-description: >-
-  Coinpayments makes it easy to setup an account and start accepting POA20 for
-  goods and services
+description: 使用Coinpayments可以轻松设置帐户并开始接受商品和服务的POA20
 ---
 
-# Accept POA20 Payments
+# 接受POA20付款
 
-[CoinPayments](https://www.coinpayments.net/) enables merchants to accept cryptocurrency for payment. Many coins are supported, including POA20. Coinpayments has a mobile app as well as a web interface. 
+[CoinPayments](https://www.coinpayments.net/)使商家可以接受加密货币进行支付。 支持许多代币，包括POA20。Coinpayments具有一个移动应用程序和一个Web界面。
 
-[Coinpayments also has many tutorials](https://blog.coinpayments.net/category/tutorials) for advanced features such as receiving converted payments directly to paypal, enabling escrow, and other cool features. 
+[Coinpayments还提供了许多有关高级功能的教程](https://blog.coinpayments.net/category/tutorials)，例如直接将转换后的付款直接接收到Paypal，启用托管和其他很酷的功能。 
 
-The following instructions cover the basics of **accepting payment online or in-person** using the Coinpayments website.
+以下说明介绍了使用Coinpayments网站在线或亲自接受付款的基本知识。
 
-* [Account Registration & Login](account-registration-and-login-merchant-setup.md)
-* [Setup Merchant Account](setup-merchant-account.md)
-* [Merchant Payment Methods Setup](merchant-payment-method-setup.md)
-* [Making a Payment with POA20 \(Customer Perspective\)](making-a-payment-with-poa20-customer-perspective.md)
+* [帐户注册和登录](account-registration-and-login-merchant-setup.md)
+* [设置商家帐户](setup-merchant-account.md)
+* [商户付款方式设置](merchant-payment-method-setup.md)
+* [使用POA20付款（客户角度）](making-a-payment-with-poa20-customer-perspective.md)
 
 
 

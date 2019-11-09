@@ -1,16 +1,16 @@
 ---
-description: Reliable token for stable transactions and payments
+description: 可靠的代币，用于稳定的交易和支付
 ---
 
-# Stable Token
+# 稳定令牌
 
-**Type:** Stable Token
+**类型:** 稳定令牌
 
-**Function:** Stable currencies remove volatility from payments. Senders and receivers know the value of the token won't change, so services and goods can be reliably exchanged.
+**用途:** 稳定的货币消除了付款的波动性。 发送者和接收者都知道令牌的价值不会改变，因此可以可靠地交换服务和商品。
 
-**Use Cases:** Users can choose to create stable coins by providing an amount of volatile tokens as collateral. This newly created stable coin can then be used for peer-to-peer payments, standardized services, or even invoking smart contract methods. 
+**用例:** 用户可以选择通过提供一定数量的易失性代币作为抵押品来创建稳定的代币。 然后，可以将这种新创建的稳定硬币用于点对点支付，标准化服务，甚至调用智能合约方法。
 
-**What is Possible?** It is possible to convert a number of volatile tokens into stable tokens!  Volatile assets like POA can be provided as collateral and the newly minted stable coin can be pegged to an asset like the US Dollar. Users can decide whether or not to convert some amount of their volatile assets into stable ones on the network.
+**潜在用例？**可以将许多易失性令牌转换为稳定令牌！ POA等易变资产可以作为抵押品提供，而新铸造的稳定硬币可以与美元等资产挂钩。 用户可以决定是否将一定数量的易失性资产转换为网络上的稳定资产。
 
-Services like the [Peg Network](https://peg.network/) make this vision a reality, and may be implemented soon for POA. 
+像[Peg Network](https://peg.network/)之类的服务使这一愿景成为现实，并且可能很快会用于POA。
 

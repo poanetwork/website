@@ -1,22 +1,22 @@
-# Setup Merchant Account
+# 设置商家帐户
 
-1\) Select the **Merchant Account** box to start the setup wizard.
+1\) 选择**商家帐户**框以启动安装向导。
 
-![Select Merchant Account](../../.gitbook/assets/merchant_account.png)
+![&#x9009;&#x62E9;&#x5546;&#x5BB6;&#x5E10;&#x6237;](../../.gitbook/assets/merchant_account.png)
 
-2\) In payment methods, select 2, **Only Coins I Select**
+2\) 在付款方式中，选择2，只有**我选择的代币**
 
 ![](../../.gitbook/assets/payment_methods.png)
 
-3\) From the list, select **POA20**. If you want to receive payments to an Address **immediately following confirmation**, **input that address in the Your Payment Address field** and **change the Payout mode to ASAP or ASAP + Convert**. Otherwise, purchases will be sent to your CoinPayments wallet address. 
+3\) 从列表中，选择**POA20**。 如果您想在确认后立即收到地址的付款，请**在您的付款地址字段中输入该地址**，然后**将付款方式更改为ASAP或ASAP + Convert**。 否则，购买将发送到您的CoinPayments钱包地址。
 
 {% hint style="info" %}
-Options for Payout Modes and Discount options are displayed below.
+付款模式和折扣选项如下所示。
 {% endhint %}
 
-![Select POA20 from the list, enter an address if you want ASAP Payments.](../../.gitbook/assets/poa20.png)
+![&#x4ECE;&#x5217;&#x8868;&#x4E2D;&#x9009;&#x62E9;POA20&#xFF0C;&#x5982;&#x679C;&#x8981;&#x5C3D;&#x5FEB;&#x4ED8;&#x6B3E;&#xFF0C;&#x8BF7;&#x8F93;&#x5165;&#x5730;&#x5740;&#x3002;](../../.gitbook/assets/poa20.png)
 
-💲 **Payout Modes:**
+💲 **付款方式:**
 
 * **To Balance:** Received payments are stored in your CoinPayments wallet for later withdrawal at your leisure.
 * **ASAP:** Received payments are sent to the address you specify as soon as they are received and confirmed.

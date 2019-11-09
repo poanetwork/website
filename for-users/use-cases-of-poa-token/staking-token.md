@@ -1,16 +1,16 @@
 ---
-description: Place stake to secure a Proof of Stake network
+description: 设置权益质押以保护权益证明网络
 ---
 
-# Staking Token
+# 质押令牌
 
-**Type:** Staking Token
+**类型:** 质押令牌
 
-**Function:**  Participants in a Proof of Stake protocol provide staking tokens to secure the network. They receive rewards in exchange for locking these tokens in the protocol.
+**功能:**  权益证明协议的参与者提供权益令牌以保护网络。 他们获得奖励以换取将这些令牌锁定在协议中。
 
-**Use Cases:** POA tokens can be bridged from the current chain to a sidechain implementing Proof of Stake and used as staking collateral. This is possible for chain validators, who are running nodes, and chain delegators, who provide additional stake to validators but do not need to run nodes.
+**用例:** POA代币可以从当前链桥接到侧链，以实现权益证明并用作权益质押品。 对于正在运行节点的区块链验证人和区块链委托人，这是可行的，区块链委托人为验证人提供了额外的赌注，但不需要运行节点。
 
-**What is Possible?** It is possible to have a multi-use token with utility functionality on one chain and staking capabilities on another. Using the TokenBridge, POA can be bridged to a new network and used as a staking token on that chain. A chain enabled with the [POSDAO protocol](https://www.xdaichain.com/for-validators/posdao-whitepaper) is a candidate for this type of functionality.
+**潜在用例?** 可能具有在一条链上具有实用程序功能而在另一链上具有权益的多用途令牌。 使用TokenBridge，POA可以桥接到新网络，并用作该链上的权益令牌。 使用[POSDAO协议](https://www.xdaichain.com/for-validators/posdao-whitepaper)启用的链是此类功能的候选者。
 
-In addition to using POA as a single staking token, it is also possible to create a new staking token using a "basket" of utility tokens. An application like [Balancer  ](http://balancer.finance)[http://balancer.finance](http://balancer.finance/) provides the opportunity to introduce Multi-Collateral Staking.
+除了将POA用作单个质押令牌外，还可以使用实用程序令牌的“篮子”来创建新的抵押令牌。 诸如[Balancer](http://balancer.finance/) [http://balancer.finance之类的应用程序提供了引入多质押权益的机会。](http://balancer.finance之类的应用程序提供了引入多抵押权益的机会。)
 

@@ -1,32 +1,32 @@
 ---
-description: Example use case when receiving an POS invoice using Nifty Wallet.
+description: 使用Nifty Wallet接收POS发票时的示例用例。
 ---
 
-# Making a Payment with POA20 \(Customer Perspective\)
+# 使用POA20付款（客户角度）
 
-To pay using POA20, a wallet that supports POA20 along with the required amount of POA20 is needed. Depending on the method \(web button, ecommerce plugin or in-person POS\) the interaction will vary. 
+要使用POA20付款，需要一个支持POA20以及所需数量POA20的钱包。 根据方法（Web按钮，电子商务插件或当面POS）的不同，交互也会有所不同。 
 
-In this example, an in-person request for payment is received. [Nifty Wallet](../wallets/nifty-wallet.md) is used to complete the payment.
+在此示例中，收到了亲自付款请求。 [Nifty Wallet](https://www.poa.network/v/zhong-wen/for-users/wallets/nifty-wallet)用于完成付款。 
 
-1\) Receive payment request.Open Nifty Wallet, connect to the Ethereum Mainnet, and **click on the dots** next to the POA20 token. This will open a second menu. Click **Send**.
+1）收到付款请求。打开Nifty钱包，连接到以太坊主网，然后**单击**POA20令牌旁边的点。 这将打开第二个菜单。 单击**发送**。
 
 ![](../../.gitbook/assets/nifty_1.png)
 
-2\) Enter in the payment address and POA20 amount from the POS invoice. If using a different wallet, it is possible to scan in QR code, however, you will still enter in the payment amount.
+2\) 输入付款地址和POS发票中的POA20金额。 如果使用其他钱包，则可以扫描QR码，但是您仍将输入付款金额。
 
-* 1\) Payment Address: 0x537d98e610c9bf1e95f77337e8a244c7cf0f14da
-* 2\) Payment Amount: 5.23206000
-* 3\) Click **Next**
+* 1\) 付款地址: 0x537d98e610c9bf1e95f77337e8a244c7cf0f14da
+* 2\) 付款金额: 5.23206000
+* 3\) 点击**下一步**
 
-![Enter in the address and amount to send your payment](../../.gitbook/assets/nifty2.png)
+![&#x8F93;&#x5165;&#x5730;&#x5740;&#x548C;&#x91D1;&#x989D;&#x4EE5;&#x53D1;&#x9001;&#x4ED8;&#x6B3E;](../../.gitbook/assets/nifty2.png)
 
-3\) Click **Submit** to complete the wallet transaction. It will be confirmed in your wallet before it is confirmed through Coinpayments.
+3\) 单击**提交**完成钱包交易。 在通过Coinpayments进行确认之前，将在您的钱包中进行确认。
 
-![Click Submit](../../.gitbook/assets/nifty3.png)
+![&#x70B9;&#x51FB;&#x63D0;&#x4EA4;](../../.gitbook/assets/nifty3.png)
 
-4\) The Payment Status page for this request will auto-refresh every 60 second, however the transaction may take some time to post here. If your transaction is viewable in a block explorer, you can be confident that the payment has gone through.
+4\) 该请求的“付款状态”页面将每60秒自动刷新一次，但是交易可能需要一些时间才能在此处发布。 如果您的交易在区块浏览器中可见，那么您可以确信付款已经完成。
 
-![Transaction confirmed on BlockChair Explorer](../../.gitbook/assets/blockchair.png)
+![&#x5728;BlockChain Explorer&#x4E0A;&#x786E;&#x8BA4;&#x4EA4;&#x6613;](../../.gitbook/assets/blockchair.png)
 
 
 

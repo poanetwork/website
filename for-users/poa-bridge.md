@@ -1,11 +1,11 @@
 ---
-description: POA can be converted to POA20 using the Bridge UI
+description: 可以使用Bridge UI将POA转换为POA20
 ---
 
-# POA to POA20 Bridge
+# POA到POA20桥
 
 {% hint style="info" %}
-Tutorial in Progress. Watch the video below to see a UI demo. The POA bridge is located at [https://bridge.poa.net/](https://bridge.poa.net/)
+教程进行中。 观看下面的视频以查看UI演示。 POA桥位于 [https://bridge.poa.net/](https://bridge.poa.net/)
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=8oMPorqRedw" %}

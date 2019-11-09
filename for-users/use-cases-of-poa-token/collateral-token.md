@@ -1,14 +1,14 @@
 ---
-description: Receive cryptocurrency loans by placing digital assets as collateral
+description: 通过将数字资产作为抵押来接收加密货币贷款
 ---
 
-# Collateral Token
+# 抵押代币
 
-**Type:** Collateral Token
+**类型:** 抵押代币
 
-**Function:** To receive a cryptocurrency loan, one type of token is used as collateral in order to borrow a different token.
+**功能:** 为了获得加密货币贷款，一种类型的令牌被用作抵押品，以借用不同的令牌。
 
-**Use Cases:** Users may want to retain their token positions but need funds for any reason. On the Ethereum Mainnet,  POA20 can be used as a collateral token with the [Ethlend](https://ethlend.io/) loan marketplace. Users can receive loans for up to 50% of the value of their collateral. ETH, DAI, TUSD and several other tokens are available to borrow.  
+**用例:** 用户可能想要保留其代币头寸，但出于任何原因都需要资金。 在以太坊主网上，POA20可用作[Ethlend](https://ethlend.io/)贷款市场的抵押代币。 用户最多可获得其抵押物价值的50％的贷款。 ETH，DAI，TUSD和其他几个代币都可以借用。
 
-**What is Possible?** It is possible to access value from your assets without having to sell them. Collateral loans provide the opportunity for investors to hold tokens while gaining funds to use for other purposes. This method of achieving liquidity also reduces taxable events.
+**潜在用例?** 无需出售资产即可从资产中获取价值。 抵押贷款为投资者提供了持有代币的机会，同时获得了用于其他目的的资金。 这种实现流动性的方法还减少了应纳税事件。
 

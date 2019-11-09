@@ -1,18 +1,18 @@
 ---
-description: Interaction with DApps and services
+description: 与DApp和服务的交互
 ---
 
-# Utility Token
+# 实用令牌
 
-**Type:** Utility Token
+**类型:** 实用令牌
 
-**Function:** An asset used for interaction with applications and services on a network. It is used for all transaction \(gas\) fees on the network.
+**功能**：用于与网络上的应用程序和服务进行交互的资产。 它用于网络上的所有交易（gas）费用。
 
-**Use Cases:**  On the POA Network, POA tokens are used for all network related functionality. This includes on-chain governance related transactions \(proposing votes, voting, and finalizing votes\), bridge transactions, and interactions with other applications deployed to the network. For example, [DopeRaider](https://doperaider.com/#/) players pay for in-game items with POA, and [Snailfarm](https://www.stateofthedapps.com/dapps/poa-snailfarm) players spend and earn POA through gameplay.
+**用例**：在POA网络上，POA令牌用于所有与网络相关的功能。 这包括与链上治理相关的交易（提议投票，投票和最终投票），桥接交易以及与部署到网络的其他应用程序的交互。 例如，[DopeRaider](https://doperaider.com/#/)玩家使用POA支付游戏内物品的费用，而[Snailfarm](https://www.stateofthedapps.com/dapps/poa-snailfarm)玩家则通过玩法消费并获得POA。
 
-Applications can also deploy to the POA network and issue their own tokens but use POA as the underlying platform[. Geon ](https://www.geon.network)uses this strategy with their augmented reality application. Transactions are paid for behind the scenes using POA, but players only interact with the deployed coin. [Kauri.io](https://kauri.io/) is also using POA to pay for meta-transaction fees.
+应用程序还可以部署到POA网络并发行自己的令牌，将POA用作基础平台。 [Geon](https://www.geon.network/)在其增强现实应用程序中使用了此策略。 使用POA在幕后为交易付费，但玩家仅与部署的代币互动。 [Kauri.io](https://kauri.io/)还使用POA支付元交易费用。
 
-**What is Possible?** Applications deployed to POA have only scratched the surface for potential POA token uses. Marketplace functionality, property registration, on-chain legal agreements, and many more potential use cases are attainable. Because POA Network is an EVM chain, smart contracts deployed to the Ethereum mainnet can also be deployed to POA with minimal changes. The functionality is the same, but instead of using ETH the contracts can use POA to power their DApps. 
+**潜在用例**？ 部署到POA的应用程序只是为潜在的POA令牌使用打下了基础。 市场功能，财产注册，链上法律协议以及更多潜在用例都是可以实现的。 由于POA网络是EVM区块链，因此部署到以太坊主网的智能合约也可以以最小的更改部署到POA。 功能是相同的，但是合约可以不使用ETH，而可以使用POA为其DApp提供动力。
 
 
 

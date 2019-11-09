@@ -7,9 +7,9 @@
   * [桥接原生令牌](features/bridged-native-token.md)
 * [用例](use-cases/README.md)
   * [区块链游戏的可扩展性](use-cases/scalability-for-blockchain-games.md)
-  * [Community-Based Currencies](use-cases/community-based-currencies.md)
-  * [Subsidized Transactions](use-cases/content-curation.md)
-  * [Decentralized Finance \(DeFi\)](use-cases/interoperability.md)
+  * [基于社区的货币](use-cases/community-based-currencies.md)
+  * [补贴交易](use-cases/content-curation.md)
+  * [去中心化金融（DeFi）](use-cases/interoperability.md)
 * [Roadmap](roadmap.md)
 
 ## For users

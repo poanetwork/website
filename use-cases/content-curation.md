@@ -1,24 +1,24 @@
 ---
-description: Low per-transaction fees enable applications to pay for user interactions
+description: 每次交易费用低，使应用程序可以为用户交互付费
 ---
 
-# Subsidized Transactions
+# 补贴交易
 
-### Subsidized Use Case: Kauri Article Registry
+### 资助的用例： Kauri文章注册
 
-Kauri is a decentralized article repository, similar to Medium for web3. Users create articles, tutorials and documentation and publish them on the platform. 
+Kauri是一个去中心化的文章存储库，类似于Medium for web3。用户创建文章，教程和文档，并将其发布在平台上。 
 
-When a user creates an article with Kauri, it is stored in [IPFS](https://ipfs.io/). Metadata like the author's name, article id, and IPFS hash is then committed on-chain to register ownership and creation time.
+当用户使用Kauri创建文章时，该文章将存储在IPFS中。然后，将诸如作者姓名，文章ID和IPFS哈希之类的元数据提交到链上，以注册所有权和创建时间。
 
-In a standard scenario, the user needs to create a transaction to publish the article, and another transaction for each and every update. This can become costly, unintuitive, and cumbersome for the article creator.
+在标准情况下，用户需要创建一个事务来发布文章，并为每个更新创建另一个事务。对于文章创建者来说，这可能变得昂贵，不直观并且麻烦。 
 
-Ideally, a user should not have to pay for each transaction when publishing content, or worry about how much a transaction will cost. To address this problem, on-chain transaction payments can be shifted to a meta-transaction model, where a relayer is setup to pay all transaction costs.  Users don't need any Ether, they can simply provide their data and the deployed contracts and relayer take care of the rest.
+理想情况下，用户在发布内容时不必为每个交易付费，也不必担心交易成本。为了解决这个问题，可以将链上交易付款转移到元交易模型中，在该模型中，设置中继器来支付所有交易费用。用户不需要任何以太币，他们只需提供数据即可，部署的合约和中继器负责其余的工作。 
 
-However, this can be unsustainable on the Ethereum mainnet where gas costs fluctuate and may become expensive. If an application wants to scale, costs can rise very quickly.
+但是，这在以太坊主网上是不可持续的，因为那里的Gas成本波动很大，而且可能变得昂贵。如果应用程序想要扩展，成本可能会迅速上升。 
 
-By moving publication registration to the POA Network, Kauri is able to subsidize transaction costs by using meta-transactions. A full block on POA costs less than .01 cent. This enables users to simply enter their data, and the transactions are paid for behind the scenes by the application. The user doesn't know they are using a sidechain, and the transaction costs are easy for Kauri to cover.
+通过将出版物注册转移到POA网络，Kauri能够通过使用元交易来补贴交易成本。完整的POA成本不到0.01美分。这使用户能够简单地输入他们的数据，并且交易由应用程序在后台支付。用户不知道他们在使用侧链，而Kauri很容易就完成了交易费用的支付。
 
-### More Information:
+### 更多信息:
 
 {% embed url="https://forum.poa.network/t/poa-network-and-kauri-announce-partnership-to-increase-access-to-information-in-the-ethereum-ecosystem/2935" %}
 

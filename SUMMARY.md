@@ -10,7 +10,7 @@
   * [基于社区的货币](use-cases/community-based-currencies.md)
   * [补贴交易](use-cases/content-curation.md)
   * [去中心化金融（DeFi）](use-cases/interoperability.md)
-* [Roadmap](roadmap.md)
+* [路线图](roadmap.md)
 
 ## For users
 

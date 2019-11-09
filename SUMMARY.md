@@ -38,7 +38,7 @@
   * [治理季度报告](for-users/governance/governance-quarterly-report.md)
 * [钱包](for-users/wallets/README.md)
   * [Nifty钱包](for-users/wallets/nifty-wallet.md)
-* [Whitepaper](for-users/whitepaper/README.md)
+* [白皮书](for-users/whitepaper/README.md)
   * [POADAO v1](for-users/whitepaper/poadao-v1/README.md)
     * [Introduction](for-users/whitepaper/poadao-v1/introduction.md)
     * [Proof of Authority](for-users/whitepaper/poadao-v1/proof-of-authority.md)
@@ -57,16 +57,16 @@
       * [Validators manager](for-users/whitepaper/poadao-v1/appendix-a-code-samples/validators-manager.md)
       * [Deployment scripts for the mining node](for-users/whitepaper/poadao-v1/appendix-a-code-samples/deployment-scripts-for-the-mining-node.md)
 
-## For developers
+## 面向开发者 <a id="for-developers"></a>
 
-* [Developer Resources](for-developers/developer-resourses.md)
-* [ERC20 Test Token Faucet](for-developers/erc20-test-token-faucet.md)
-* [Grants for Building on POA](for-developers/grants-for-building-on-poa.md)
+* [开发人员资源](for-developers/developer-resourses.md)
+* [ERC20测试令牌水龙头](for-developers/erc20-test-token-faucet.md)
+* [基于POA的赠款](for-developers/grants-for-building-on-poa.md)
 
-## For validators
+## 对于验证者 <a id="for-validators"></a>
 
-* [Getting Started](for-validators/untitled.md)
-* [Bootnode Setup](for-validators/bootnode-setup/README.md)
+* [入门](for-validators/untitled.md)
+* [引导节点设置](for-validators/bootnode-setup/README.md)
   * [AWS Bootnode Setup](for-validators/bootnode-setup/aws-bootnode-setup/README.md)
     * [Prerequisites](for-validators/bootnode-setup/aws-bootnode-setup/prerequisites.md)
     * [Configure AWS](for-validators/bootnode-setup/aws-bootnode-setup/configure-aws.md)
@@ -76,7 +76,7 @@
     * [Local/Remote Machine System Requirements](for-validators/bootnode-setup/non-aws-bootnode-setup-and-deployment/local-remote-machine-system-requirements.md)
     * [Node Preparation](for-validators/bootnode-setup/non-aws-bootnode-setup-and-deployment/node-preparation.md)
     * [Configure node with Deployment Playbook](for-validators/bootnode-setup/non-aws-bootnode-setup-and-deployment/configure-node-with-deployment-playbook.md)
-* [Validator Node Setup](for-validators/validator-node-setup/README.md)
+* [验证者节点设置](for-validators/validator-node-setup/README.md)
   * [AWS VM for Validator Node Deployment](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/README.md)
     * [MoC: Master of Ceremony Key Exchange & Generation](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/moc-master-of-ceremony-key-exchange-and-generation.md)
     * [Current Validators Vote in New Validators](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/current-validators-vote-in-new-validators.md)
@@ -90,14 +90,14 @@
     * [Remote Machine Setup](for-validators/validator-node-setup/non-aws-validator-node-setup/remote-machine-setup.md)
     * [Configure Node using Deployment Playbook](for-validators/validator-node-setup/non-aws-validator-node-setup/configure-node-using-deployment-playbook.md)
   * [Untitled](for-validators/validator-node-setup/untitled.md)
-* [Validator Dapps](for-validators/validator-dapps/README.md)
+* [验证程序Dapps](for-validators/validator-dapps/README.md)
   * [Validators MetaData DApp](for-validators/validator-dapps/validators-metadata-dapp.md)
 
-## Media <a id="social-media"></a>
+## 媒体 <a id="social-media"></a>
 
-* [Events](social-media/events.md)
-* [R&D Partners](https://forum.poa.network/t/r-d-partners-of-poa-team/2598)
-* [Social Media](social-media/social-media.md)
-* [Media Kit](social-media/branding.md)
-* [Contact Us](social-media/contact-us.md)
+* [大事记](social-media/events.md)
+* [研发合作伙伴](https://forum.poa.network/t/r-d-partners-of-poa-team/2598)
+* [社交媒体](social-media/social-media.md)
+* [媒体工具包](social-media/branding.md)
+* [联系我们](social-media/contact-us.md)
 

@@ -1,13 +1,13 @@
 ---
-description: Contact us by e-mail
+description: 通过电子邮件联系我们
 ---
 
-# Contact Us
+# 联系我们
 
-| Topic | E-mail |
+| 类别 | E-mail |
 | :--- | :--- |
-| All questions | [info@poa.network](mailto:info@poa.network) |
-| Security and Abuse | [security@poanetwork.com](mailto:security@poanetwork.com) |
+| 所有问题 | [info@poa.network](mailto:info@poa.network) |
+| 安全与滥用 | [security@poanetwork.com](mailto:security@poanetwork.com) |
 
 
 

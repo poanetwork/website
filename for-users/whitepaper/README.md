@@ -1,2 +1,2 @@
-# Whitepaper
+# 白皮书
 

@@ -2,7 +2,7 @@
 description: Branding and Logos
 ---
 
-# Media Kit
+# 媒体工具包
 
 ## 5B2DA7
 

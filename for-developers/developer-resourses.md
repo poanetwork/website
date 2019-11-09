@@ -2,7 +2,7 @@
 description: General information and links
 ---
 
-# Developer Resources
+# 开发人员资源
 
 ## General Information <a id="general-information"></a>
 

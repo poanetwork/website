@@ -1,2 +1,2 @@
-# Bootnode Setup
+# 引导节点设置
 

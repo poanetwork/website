@@ -2,7 +2,7 @@
 description: A list of social media presence for POA project
 ---
 
-# Social Media
+# 社交媒体
 
 | Social Media | URL |
 | :--- | :--- |

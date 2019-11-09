@@ -2,7 +2,7 @@
 description: Instructions for new POA Network validator candidates
 ---
 
-# Getting Started
+# 入门
 
 A new potential POA Network validator begins as a validator candidate.  See [POADAO Consensus](../features/poadao-consensus.md) to understand the duties and responsibilities required of a validator before proceeding.
 

@@ -4,7 +4,7 @@ description: >-
   functionality
 ---
 
-# ERC20 Test Token Faucet
+# ERC20测试令牌水龙头
 
 The [ERC20 Token Faucet](https://erc20faucet.com/) by [peppersec](https://peppersec.com/) provides a sleek and easy interface for ERC20 test token creation. 
 

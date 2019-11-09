@@ -1,2 +1,2 @@
-# Validator Node Setup
+# 验证者节点设置
 

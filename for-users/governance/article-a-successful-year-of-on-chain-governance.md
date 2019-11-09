@@ -1,30 +1,30 @@
 ---
-description: A look into POAs self-governance process and success
+description: POA自治过程和成功案例研究
 ---
 
-# Article: A Successful Year of On-Chain Governance
+# 文章：链上治理成功的一年
 
 {% hint style="info" %}
-This article was originally published in March, 2019.
+本文最初于2019年3月发布。
 {% endhint %}
 
-On February 21st, 2019 the first POA EmissionFunds Ballot \(ID:0\) was finalized. The result was close; eight validators voted to send the emission funds to support the POA Foundation team, and nine voted to freeze the funds until the next proposal. Four validators chose not to vote, meaning that **more than 80%** of the current validators weighed in on the ballot.
+2019年2月21日，第一份POA排放基金投票（ID：0）最终确定。 结果很接近。 八位验证者投票决定发送排放资金以支持POA基金会团队，九位投票者冻结资金直到下一个提案。 四个验证者选择不投票，这意味着**超过80％**的当前验证者参与了投票。
 
-While this was the first EmissionFunds ballot, it was the 46th successful ballot proposed and decided on through the POA on-chain governance process. The first ballot was finalized a year prior, on February 19, 2018. This initial ballot proposed the addition of a new mainnet validator \(Keys Ballot \(ID: 0\), the candidate was rejected five to one\).
+这是EmissionFunds的第一次投票，但这是通过POA链上治理流程提议并决定的第46次成功投票。 第一次投票于一年前，即2018年2月19日完成。该初始投票建议增加新的主网验证程序（Keys Ballot（ID：0），候选人以5比5的比例被否决）。
 
-Since that time, a number of new validators have been added, others have been rejected or voted out, and a measure has passed to increase the consensus threshold \(ConsensusBallot \(ID:0\), which passed eight to seven\). A full list of ballots can be viewed at [https://voting.poa.network/poa-dapps-voting/](https://voting.poa.network/poa-dapps-voting/) \(set the Network dropdown to POA Network to view\) 
+从那时起，添加了许多新的验证人，其他验证人已被拒绝或投票出去，并且已采取措施提高共识阈值（ConsensusBallot（ID：0），该验证人通过了8到7个）。 完整的投票列表可以在[https://voting.poa.network/poa-dapps-voting/](https://voting.poa.network/poa-dapps-voting/)上查看（将“网络”下拉列表设置为POA网络以进行查看）
 
-For over a year, POA has functioned as a fully self-governed blockchain. Unlike other models of on-chain governance, POA’s unique model relies on known, trusted individuals who use their equal voting power to protect and serve the network.
+一年多来，POA一直是一个完全自治的区块链。 与其他链上治理模型不同，POA的独特模型依赖于已知的，受信任的个人，他们使用同等的投票权来保护和服务于网络。
 
-### Proof of Autonomy
+### 自治证明
 
-POA Network’s Proof of Autonomy model creates a public system of ethical and accountable governance. Network validators are required to obtain a US notary license before they are considered for the core network. Each validator must use the network’s “proof of identity” [decentralized applications \(DApps\)](../../for-validators/validator-dapps/) to prove their identity and notary status.
+POA Network的自治证明模型创建了一个公共的道德和负责任的治理体系。 在将网络验证人考虑为核心网络之前，必须先获得美国公证人许可证。 每个验证人都必须使用网络的“身份证明”[去中心化应用程序（DApp）](https://www.poa.network/for-validators/validator-dapps)来证明其身份和公证状态。
 
-US notaries are duty-bound to provide impartial and trusted witness to the signing of official documents. They confirm the legality and integrity of contracts between parties. In the POA network, each validator’s information \(name, address, notary license\) is [publicly available.](https://core-validators.poa.network/) This transparency creates a strong incentive for them to work in the best interests of the network.
+美国公证人有义务为签署正式文件提供公正可靠的证人。 他们确认当事方之间合同的合法性和完整性。 在POA网络中，每个验证者的信息（姓名，地址，公证许可）都是[公开可用](https://core-validators.poa.network/)的。 这种透明性强烈激励他们为网络的最大利益而努力。
 
-In order for network governance to operate fairly, it is important these validators are autonomous individuals. They are not affiliated with one another, they reside in different parts of the United States, are engaged in different professions, and make independent and informed decisions.
+为了使网络治理公平运行，这些验证人必须是自治个人，这一点很重要。 他们彼此不隶属，他们居住在美国的不同地区，从事不同的职业，并做出独立而明智的决定。
 
-### Becoming a Validator
+### 成为验证人
 
 New validators are nominated and voted in by the current validators in the network. The process starts with an introduction in the [POA Forum](https://forum.poa.network/c/poa-core/notaries-intro). This forum provides an opportunity for transparent conversation; current validators \(and any other forum participants\) can ask questions of candidates in order to assess their interest in becoming a validator.
 

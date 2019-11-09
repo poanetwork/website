@@ -1,36 +1,36 @@
-# Wallets
+# 钱包
 
-The POA network is supported by a large selection of wallets, including browser-based wallets, mobile wallets for android and IOS, and hardware \(cold storage wallets\).
+多种钱包支持POA网络，包括基于浏览器的钱包，用于Android和IOS的移动钱包以及硬件（冷存储钱包）。
 
 {% hint style="info" %}
-Instructions for wallet setup with the POA Network are in process.
+正在使用POA网络进行钱包设置的说明。
 {% endhint %}
 
-**Web3 Wallets**  
-_Browser extensions for interacting with DApps built on Ethereum based networks._
+**Web3钱包**  
+_用于与基于以太坊网络构建的DApp进行交互的浏览器扩展。_
 
 * [Nifty Wallet ](https://chrome.google.com/webstore/detail/nifty-wallet/jbdaocneiiinmjbjlgalhcelgbejmnid?hl=en)
 * [MetaMask](https://metamask.io/)
 
-**Hardware wallets**   
-_Secure wallets designed for long term storage_
+**硬件钱包**  
+_专为长期存放而设计的安全钱包_
 
 * [Ledger ](https://www.ledger.com/)
 * [Trezor](https://trezor.io/)
 
-**Interactive Browser Wallets**  
-_Can be used as stand-alone wallets and as interfaces to connect through a web3 wallet or hardware wallet_
+**交互式浏览器钱包**  
+_可以用作独立钱包，也可以用作通过Web3钱包或硬件钱包连接的接口_
 
 * [MyEtherWallet ](https://www.myetherwallet.com/access-my-wallet)
 * [MyCrypto](https://mycrypto.com/)
 
-**Stand-alone browser wallets**   
-_Dedicated browser wallet with no downloads designed for desktop or mobile use_
+**独立浏览器钱包**  
+_专用浏览器钱包，无需下载即可用于台式机或移动设备_
 
 * [Portis](https://www.portis.io/)
 
-**Mobile Wallets**  
-_Unless noted, mobile wallets have downloadable apps for Android and IOS_
+**手机钱包**  
+_除非另有说明，否则手机钱包具有适用于Android和IOS的可下载应用程序_
 
 * [Alpha Wallet ](https://alphawallet.com/)
 * [Citowise ](https://citowise.com/) 

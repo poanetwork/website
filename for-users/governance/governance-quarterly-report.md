@@ -1,6 +1,6 @@
-# Governance Quarterly Report
+# 治理季度报告
 
 {% hint style="info" %}
-Coming Soon
+即将推出
 {% endhint %}
 

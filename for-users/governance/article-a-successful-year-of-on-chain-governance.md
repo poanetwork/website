@@ -26,54 +26,54 @@ POA Network的自治证明模型创建了一个公共的道德和负责任的治
 
 ### 成为验证人
 
-New validators are nominated and voted in by the current validators in the network. The process starts with an introduction in the [POA Forum](https://forum.poa.network/c/poa-core/notaries-intro). This forum provides an opportunity for transparent conversation; current validators \(and any other forum participants\) can ask questions of candidates in order to assess their interest in becoming a validator.
+网络中的当前验证人提名并投票选出新的验证人。该过程从[POA论坛](https://forum.poa.network/c/poa-core/notaries-intro)中的介绍开始。该论坛提供了透明对话的机会；当前的验证人（和任何其他论坛参与者）可以询问候选人的问题，以评估其成为验证人的兴趣。 
 
-If a current validator approves of a candidate, they can nominate them to join the Sokol Test network as a validator. This network provides an opportunity for new validators to participate in consensus and ensure that they can successfully run a node and perform governance responsibilities before moving to the mainnet.
+如果当前的验证人批准了候选人，则他们可以提名他们作为验证者加入Sokol测试网络。该网络为新的验证者提供了参与共识的机会，并确保他们可以成功地运行节点并在移交给主网之前执行管理职责。 
 
-If they are successful, and all qualifications are met \(US Resident over 18, Notary Public, active participation in the testnet\), the Sokol validator may be nominated by a current mainnet validator to move to the POA core network. For those who have successfully become mainnet validators, the average time from forum introduction to POA mainnet validator [is approximately 125 days](https://forum.poa.network/t/poa-validators-candidates-guide/1250).
+如果他们成功，并且符合所有资格（美国居民，年满18岁，公证人，积极参与测试网），则可以由当前的主网验证员提名Sokol验证员，以转到POA核心网络。对于那些已经成功成为主网验证者的人，从论坛介绍到POA主网验证人的[平均时间约为125天](https://forum.poa.network/t/poa-validators-candidates-guide/1250)。
 
-### Incentives and Accountability
+### 激励与责任
 
-Once elected and added as a node, validators receive 1 POA token plus transaction fees for every block they validate on the chain. When all nodes are functioning properly, a block is validated every 5 seconds. With 21 validators \(the current number, subject to change\) a validator receives @1 token \(+ fees\) every 105 seconds, or @822 tokens per 24 hour period.
+选出并添加为节点后，验证人将在链上验证的每个区块获得1个POA令牌以及交易费用。 当所有节点均正常运行时，每5秒验证一次块。 拥有21位验证人（当前人数，可能有变），验证者每105秒会收到@ 1令牌（+费用），或者每24小时获得@ 822令牌。
 
-This block reward incentivizes validators to maintain their nodes and participate in on-chain governance. If a node is corrupted in some way, or if a validator consistently fails to participate in governance \(this can be checked using the [poa-ballot-stats tool](https://github.com/poanetwork/poa-ballot-stats)\), a vote may be proposed by any validator to remove the non-compliant validator.
+该区块奖励激励验证人维护其节点并参与链上治理。 如果节点以某种方式损坏，或者验证人始终未能参与治理（可以使用[poa-ballot-stats](https://github.com/poanetwork/poa-ballot-stats)工具进行检查），则任何验证人都可以提出表决以删除不符合要求的验证人。
 
-![ The poa-ballot-stats tool shows voting participation rates from 2018 average over 86%!](../../.gitbook/assets/ballot_voting.png)
+![ Poa-ballot-stats&#x5DE5;&#x5177;&#x663E;&#x793A;2018&#x5E74;&#x4EE5;&#x6765;&#x7684;&#x6295;&#x7968;&#x53C2;&#x4E0E;&#x7387;&#x5E73;&#x5747;&#x8D85;&#x8FC7;86&#xFF05;&#xFF01;](../../.gitbook/assets/ballot_voting.png)
 
-It is the responsibility of all current validators to protect the network, and this includes monitoring their fellow validator nodes and resolving issues through the self-governance process.
+当前所有验证人都有责任保护网络，这包括监视其验证者同伴节点并通过自治过程解决问题。 当更新POA协议的票投在链上时，验证人会事先在POA论坛中讨论利弊。 
 
-While votes to update the POA protocol are cast on-chain, validators discuss the pros and cons beforehand in the POA forum. This platform provides the opportunity for an open dialogue where all community members can see and participate in the discussion. For example, the recent EmissionFunds Ballot was [debated for several weeks before the vote was initiated](https://forum.poa.network/t/first-round-of-poa-core-emission-funds-discussion-february-2019/1933).
+该平台提供了进行公开对话的机会，所有社区成员都可以看到并参与讨论。 例如，最近的EmissionFunds选票在投票开始前[经过了数周的辩论](https://forum.poa.network/t/first-round-of-poa-core-emission-funds-discussion-february-2019/1933)。
 
-### Securing the Network
+### 保护网络
 
-Validators provide security for the POA network by maintaining the nodes that provide blockchain consensus. Consensus is required on all transactions to ensure the ledger is consistent and accurate across all nodes. Transactions are varied on the POA network, and include:
+验证人通过维护提供区块链共识的节点来为POA网络提供安全性。 所有交易都需要达成共识，以确保分类账在所有节点上都是一致且准确的。 POA网络上的交易多种多样，包括：
 
-* **POA tokens as a medium of exchange:** Games like [DopeRaider](https://www.stateofthedapps.com/dapps/doperaider) use POA tokens for in game purchases and character actions. Players earn or lose POA based their choices in the game.
-* **POA tokens to pay gas fees:** DApps such as [Geon](https://www.stateofthedapps.com/dapps/geon-app) use the POA core network to take advantage of low costs and high speeds. Users transact with Geon Coins; POA tokens are used to pay tx fees. [Communities in Kenya](https://www.bloomberg.com/news/features/2018-10-31/closing-the-cash-gap-with-cryptocurrency) are also using the POA Network to reduce transaction fees.
-* **Bridged POA tokens:** Users can bridge POA to POA20 on the mainnet - then use POA20 as collateral for loans on [EthLend](https://ethlend.io/home), for merchant payments through [Coinpayments](https://www.coinpayments.net/), or as a way to arbitrage POA and POA20 on various market exchanges.
+* **POA代币作为一种交换媒介**：[DopeRaider](https://www.stateofthedapps.com/dapps/doperaider)之类的游戏在游戏购买和角色操作中都使用POA代币。 玩家根据游戏中的选择赚取或失去POA。
+* **POA代币支付gas费用**：诸如[Geon](https://www.stateofthedapps.com/dapps/geon-app)之类的DApp使用POA核心网络来利用低成本和高速度。 用户使用Geon代币进行交易； POA令牌用于支付发送费用。 [肯尼亚的社区](https://www.bloomberg.com/news/features/2018-10-31/closing-the-cash-gap-with-cryptocurrency)也正在使用POA网络来降低交易费用。 
+* **桥接POA代币**：用户可以将POA桥接到主网上的POA20，然后将POA20用作[EthLend](https://ethlend.io/home)上的贷款质押，通过[Coinpayments](https://www.coinpayments.net/)进行商户付款，或将POA和POA20套利到各种市场交易所。
 
-Validators are responsible for providing the blockchain nodes and security to facilitate these transactions in a fast and efficient way. When upgrades are required, validators propose on-chain ballots to maintain POA network functionality and integrity.
+验证人负责提供区块链节点和安全性，以快速有效地促进这些交易。 当需要升级时，验证者建议进行链上投票以维护POA网络的功能和完整性。
 
-### Proposing a Ballot
+### 发起选票
 
-Proposing a ballot is simple, and accomplished through the Governance DApp. This DApp supports the following ballot types:
+发起投票很简单，并且可以通过Governance DApp完成。 此DApp支持以下投票类型：
 
-* **Validator Management:** adding or removing validators, swapping validator keys.
-* **Consensus Thresholds:** increasing or decreasing the number of votes required for a ballot to be approved.
-* **Proxy Contracts:** modifying underlying smart contracts that constitute the network - may be utilized to update the network without a hard fork.
-* **Emission Funds:** managing the emission funds - may be created every 3 months.
+* **验证人管理**：添加或删除验证人，交换验证者密钥。 
+* **共识阈值**：增加或减少批准投票所需的票数。 
+* **代理合约**：修改构成网络的基础智能合同-无需硬分叉即可用于更新网络。 
+* **排放资金**：管理排放资金-可能每3个月创建一次。
 
-To create a ballot, a validator simply accesses the DApp, selects the ballot criteria \(description and end date\), and proposes it to the group. At the end of the ballot, the votes are tallied and the decision is enacted on the chain.
+要创建投票，验证人只需访问DApp，选择投票标准（描述和结束日期），然后将其提议给组即可。 投票结束时，将对票数进行计票，并在链上制定决定。
 
-![Ballot DApp](../../.gitbook/assets/validator_ballot.png)
+![&#x6295;&#x7968;DApp](../../.gitbook/assets/validator_ballot.png)
 
-### Sustained Self-Governance
+### 持续的自治
 
-The POA on-chain governance model has worked for over a year to sustain and improve the network. Validators must be accountable to perform their duties, and this creates a high level of participation and engagement in the process. Because their identity is at stake, and voting participation is transparent, validator’s actions can be viewed and checked by the community that trusts the POA network to securely conduct and record transactions.
+POA链上治理模型已经工作了一年多，以维持和改善网络。 验证人必须对执行职责负责，这会在过程中产生高度的参与和参与。 由于他们的身份受到监视，而且投票的参与是透明的，因此可以通过信任POA网络安全地进行和记录交易的社区来查看和检查验证人的行为。 
 
-[Artis](https://artis.eco/en/), [Lukso](https://www.lukso.network/), [Ocean](https://blog.oceanprotocol.com/ocean-on-poa-vs-ethereum-mainnet-decd0ac72c97?gi=5704f5b58c5f), [Colu](https://www.colu.com/) and other protocols have witnessed the success of POA on-chain governance on the POA Core and have adopted it for their own networks and projects. In May 2019, the Kovan test network also adopted POA Governance tools. As we continue to improve POA's on-chain governance tools, we hope to see even more protocols adopt on-chain governance as a viable method to secure and maintain their chains.
+[Artis](https://artis.eco/en/)，[Lukso](https://www.lukso.network/)，[Ocean](https://blog.oceanprotocol.com/ocean-on-poa-vs-ethereum-mainnet-decd0ac72c97?gi=5704f5b58c5f)，[Colu](https://www.colu.com/)和其他协议见证了POA核心在POA链上的POA链治理的成功，并将其用于自己的网络和项目。 2019年5月，Kovan测试网络还采用了POA治理工具。 随着我们继续改进POA的链上治理工具，我们希望看到更多协议采用链上治理作为保护和维护其链的可行方法。
 
 {% hint style="success" %}
-This article was moved from the POA forum: [https://forum.poa.network/t/a-successful-year-of-poa-on-chain-governance/2354](https://forum.poa.network/t/a-successful-year-of-poa-on-chain-governance/2354)
+本文来自POA论坛：[https://forum.poa.network/t/a-successful-year-of-poa-on-chain-governance/2354](https://forum.poa.network/t/a-successful-year-of-poa-on-chain-governance/2354)
 {% endhint %}
 

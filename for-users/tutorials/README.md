@@ -1,2 +1,2 @@
-# Tutorials
+# 教程
 

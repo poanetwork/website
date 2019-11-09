@@ -6,7 +6,7 @@ description: 与POA20有关的一般问题
 
 ## 目录
 
-* [什么是POA20桥？](https://www.poa.network/v/zhong-wen/for-users/about-poa-token/faq-poa20-general-questions#what-is-the-poa20-bridge)
+* [什么是POA20桥？](https://www.poa.network/v/zhong-wen/for-users/about-poa-token/faq-poa20-general-questions#shen-me-shi-poa-20-qiao)
 * 什么是POA20？
 * 我是否必须将我的POA原生令牌转换为POA20？
 * 拥有POA20代币的目的是什么？

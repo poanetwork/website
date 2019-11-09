@@ -1,10 +1,10 @@
 ---
-description: POA/POA20 is currently available on the following exchanges.
+description: POA/POA20目前在下列交易所上市交易。
 ---
 
-# POA & POA20 Exchanges
+# POA & POA20交易所
 
-## POA Markets
+## POA市场
 
 * [Binance Exchange](https://binance.com/)
   * [POA/BTC](https://www.binance.com/en/trade/POA_BTC)
@@ -17,13 +17,13 @@ description: POA/POA20 is currently available on the following exchanges.
   * [POA/BTC](https://cex.plus/market/poa_btc)
   * [POA/ETH](https://cex.plus/market/poa_eth)
 
-Swap exchange
+掉期交易所
 
 * [Stealthex](https://stealthex.io/)
 
-## POA20 Markets
+## POA20市场
 
-* DeFi Swap Exchanges
+* DeFi市场
   * [Uniswap Exchange](https://uniswap.exchange/swap)
   * [One Inch Exchange](https://1inch.exchange)
 * [Bancor Network](https://www.bancor.network/)
@@ -42,6 +42,6 @@ Swap exchange
   * [POA20/ETH](https://www.dex.io/trade/POA20-ETH)
 
 {% hint style="success" %}
-This content was moved from [https://forum.poa.network/t/exchanges-list-for-poa-poa20/2600](https://forum.poa.network/t/exchanges-list-for-poa-poa20/2600)
+该内容已从https://forum.poa.network/t/exchanges-list-for-poa-poa20/2600移出
 {% endhint %}
 

@@ -1,41 +1,41 @@
 ---
-description: Information about POA and POA20 tokens
+description: 有关POA和POA20令牌的信息
 ---
 
-# POA Tokens
+# POA令牌
 
-## Usage
+## 使用方法
 
-The **POA token** is the native token or coin of the POA Network. It is used on the POA Network for transactional purposes, for transaction fees \(gas\), and as a reward mechanism for validators. DApps such as [DopeRaider](https://doperaider.com/#/) use POA for in-game purchases as well as transaction costs, while others like [Geon](https://www.geon.network/) leverage POA for gas fees while providing users with their own in-game tokens.
+**POA令牌**是POA网络的原生令牌或代币。 它在POA网络上用于交易目的，交易费用（gas）以及验证者的奖励机制。 [DopeRaider](https://doperaider.com/#/)等DApp使用POA进行游戏内购买以及交易成本，而其他类似[Geon](https://www.geon.network/)的DApp利用POA支付gas费用，同时为用户提供自己的游戏代币。
 
-The **POA20 token** is a representation of the POA token available to use on the Ethereum mainnet. It is an ERC20 token which has all of the same properties as the POA token but is compatible with the mainnet.
+**POA20令牌**是可在以太坊主网上使用的POA令牌的替代。 它是ERC20令牌，具有与POA令牌相同的所有属性，但与主网兼容。
 
-* [Convert your POA to POA20 using the Bridge UI](https://bridge.poa.net/)
-* [More information on POA20 ](faq-poa20-general-questions.md)
+* [使用Bridge UI将POA转换为POA20](https://bridge.poa.net/)
+* [有关POA20的更多信息](https://www.poa.network/v/zhong-wen/for-users/about-poa-token/faq-poa20-general-questions)
 
-## Exchanges
+## 交易所
 
 {% hint style="success" %}
-POA and POA20 are available for trading on various exchanges.[ Please see the list her](poa-and-poa20-exchanges.md)e.
+POA和POA20可在各种交易所进行交易。 请在[此处查看](https://www.poa.network/v/zhong-wen/for-users/about-poa-token/poa-and-poa20-exchanges)列表。
 {% endhint %}
 
-## Distribution & Emissions
+## 分发 & 排放
 
-### Initial Supply
+### 初始排放
 
-POA's initial token supply when the core network was launched was **252,460,800 POA**. 
+启动核心网络时，POA的初始令牌供应量为**252,460,800**个POA。
 
-* **20%** or **50,492,160 POA** was reserved for founders/foundation/legal and released over two years. 
-* **10%** or **25,246,080 POA** was distributed to partners and advisors of POA Network. 
-* **70%** or **176,722,560 POA** was reserved for the token sale. All tokens were sold during the presale in 58 seconds.  
+* 为创始人/基金会/法律保留**20％**或**50,492,160 POA**，并在两年内分发。 
+* 向POA网络的合作伙伴和顾问分发了**10％**或**25,246,080 POA**。 
+* **70％**或**176,722,560** POA预留给代币销售。 在预售过程中，所有令牌均在58秒内售出。
 
-### POA Token Emission
+### POA代币排放
 
-Two additional POA tokens are created with each new new validated block on the network. 1 token is distributed to the block validator, and the other is sent to the POA Emission Fund. Blocks occur every ~5 seconds, resulting in: 31,536,000 sec/5 sec per block = 6,307,200 blocks created per year and 12,614,400 POA tokens minted per year.
+网络上每个新的经过验证的新块都会创建两个额外的POA令牌。 1个令牌分配给块验证人，另一个令牌发送给POA排放基金。 每隔约5秒就会发生一次区块，结果是：每个区块31,536,000秒/ 5秒=每年创建6,307,200个区块，每年铸造12,614,400个POA令牌。
 
-### Current Circulating Supply
+### 当前的循环供应量
 
-The current circulating supply is available by checking services like [coinmarketcap](https://coinmarketcap.com/currencies/poa/). 
+当前的循环供应量可通过检查诸如[coinmarketcap](https://coinmarketcap.com/currencies/poa/)之类的服务获得。 
 
 
 

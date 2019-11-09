@@ -1,33 +1,33 @@
 ---
-description: General questions related to POA20
+description: 与POA20有关的一般问题
 ---
 
-# FAQ: POA20 General Questions
+# 常见问题解答：POA20一般问题
 
-## Table of contents
+## 目录
 
-* [What is the POA20 Bridge?](faq-poa20-general-questions.md#what-is-the-poa20-bridge)
-* [What is POA20?](faq-poa20-general-questions.md#what-is-the-poa20-bridge)
-* [Do I have to transform my POA native tokens to POA20?](faq-poa20-general-questions.md#do-i-have-to-transform-my-poa-native-tokens-to-poa-20)
-* [What is the purpose of having a POA20 token?](faq-poa20-general-questions.md#what-is-the-purpose-of-having-a-poa20-token)
-* [Will the supply of POA tokens increase as a result of POA20 tokens?](faq-poa20-general-questions.md#will-the-supply-of-poa-tokens-increase-as-a-result-of-poa20-tokens)
-* [What is the difference between POA native token and POA20 token?](faq-poa20-general-questions.md#what-is-the-difference-between-poa-native-token-and-poa20-token)
-* [How do I transform my POA native tokens to POA20 tokens?](faq-poa20-general-questions.md#how-do-i-transform-my-poa-native-tokens-to-poa20-tokens)
-* [Has the contract code for the POA20 Bridge been audited?](faq-poa20-general-questions.md#has-the-contract-code-for-the-poa20-bridge-been-audited)
-* [Is there a limit on how many POA native tokens can be bridged over to become POA20 tokens?](faq-poa20-general-questions.md#is-there-a-limit-on-how-many-poa-native-tokens-can-be-bridged-over-to-become-poa20-tokens)
-* [Is there a minimum or maximum amount of tokens per wallet that can be transferred via the POA20 Bridge?](faq-poa20-general-questions.md#is-there-a-minimum-or-maximum-amount-of-tokens-per-wallet-that-can-be-transferred-via-the-poa20-bridge)
-* [What are the fees for converting POA native tokens to POA20 tokens and vice-versa? Who will be paying these fees?](faq-poa20-general-questions.md#what-are-the-fees-for-converting-poa-native-tokens-to-poa20-tokens-and-vice-versa-who-will-be-paying-these-fees)
-* [How many confirmations are required to convert the POA20 tokens to POA native tokens and vice-versa?](faq-poa20-general-questions.md#how-many-confirmations-are-required-to-convert-the-poa20-tokens-to-poa-native-tokens-and-vice-versa)
-* [Where can I find more information about POA20 Bridge source code](faq-poa20-general-questions.md#where-can-i-find-more-information-about-poa20-bridge-source-code)?
+* [什么是POA20桥？](https://www.poa.network/v/zhong-wen/for-users/about-poa-token/faq-poa20-general-questions#what-is-the-poa20-bridge)
+* 什么是POA20？
+* 我是否必须将我的POA原生令牌转换为POA20？
+* 拥有POA20代币的目的是什么？
+* POA20令牌会增加POA令牌的供应吗？
+* POA原生令牌和POA20令牌有什么区别？
+* 如何将POA原生令牌转换为POA20令牌？
+* POA20桥的合约代码是否已审核？
+* 可以桥接多少个POA原生令牌成为POA20令牌是否有限制？
+* 每个钱包是否可以通过POA20桥接器传输最小或最大数量的令牌？
+* 将POA原生令牌转换为POA20令牌，反之亦然，需要多少费用？ 谁来支付这些费用？
+* 将POA20令牌转换为POA原生令牌需要多少确认（反之亦然）？
+* 在哪里可以找到有关POA20桥源代码的更多信息？
 
-## What is the POA20 Bridge? 
+## 什么是POA20桥？ 
 
-The POA20 Bridge is an interoperability protocol which allows users to convert their own POA Native Tokens from the POA Network onto the Ethereum network in a quick and cost-efficient manner
+POA20桥是一种互操作性协议，允许用户以快速且经济高效的方式将自己的POA原生令牌从POA网络转换为以太坊网络。
 
-This new interoperability technology opens up a whole new avenue of solutions for POA users.
+这项新的互操作性技术为POA用户开辟了全新的解决方案渠道。
 
 {% hint style="success" %}
-**To convert your POA to POA20, vist the UI at** [**https://bridge.poa.net/**](https://bridge.poa.net/)\*\*\*\*
+**欲转换你的POA为POA20，请前往** [**https://bridge.poa.net/**](https://bridge.poa.net/)\*\*\*\*
 {% endhint %}
 
 ## What is POA20? 

@@ -12,11 +12,11 @@
   * [去中心化金融（DeFi）](use-cases/interoperability.md)
 * [路线图](roadmap.md)
 
-## For users
+## 面向用户 <a id="for-users"></a>
 
-* [POA Tokens](for-users/about-poa-token/README.md)
-  * [POA & POA20 Exchanges](for-users/about-poa-token/poa-and-poa20-exchanges.md)
-  * [FAQ: POA20 General Questions](for-users/about-poa-token/faq-poa20-general-questions.md)
+* [POA令牌](for-users/about-poa-token/README.md)
+  * [POA & POA20交易所](for-users/about-poa-token/poa-and-poa20-exchanges.md)
+  * [常见问题解答：POA20一般问题](for-users/about-poa-token/faq-poa20-general-questions.md)
 * [POA Token Use Cases](for-users/use-cases-of-poa-token/README.md)
   * [Utility Token](for-users/use-cases-of-poa-token/utility-token.md)
   * [Currency Token](for-users/use-cases-of-poa-token/currency-token.md)

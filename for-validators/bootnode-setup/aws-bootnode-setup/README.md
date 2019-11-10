@@ -1,29 +1,29 @@
 ---
-description: AWS Setup Instructions
+description: AWS设置说明
 ---
 
-# AWS Bootnode Setup
+# AWS引导节点设置
 
 {% hint style="info" %}
-Last update:  Jan 6, 2018
+最后更新：  2018年1月6日
 {% endhint %}
 
 {% hint style="info" %}
-If you experience any difficulties while setting up your node, please let other Validators know through the forum or telegram channel.
+如果在设置节点时遇到任何困难，请通过论坛或电报频道告知其他验证人。
 {% endhint %}
 
-## Sections
+## 章节
 
-* [Prerequisites](prerequisites.md)
-* [Configure AWS](configure-aws.md)
-* [Download & Configure Playbook](download-and-configure-playbook.md)
-* [Deploy](deploy.md)
+* [先决条件](prerequisites.md) 
+* [配置AWS ](configure-aws.md)
+* [下载并配置脚本](download-and-configure-playbook.md) 
+* [部署](deploy.md)
 
 {% hint style="success" %}
-A bootnode can be setup for POA Core or the Sokol Testnet based on parameters used during setup. If you are a new validator candidate, setting up a bootnode on Sokol is recommended.
+可以根据设置期间使用的参数为POA Core或Sokol Testnet设置引导节点。 如果您是新的验证候选人，建议在Sokol上设置一个引导节点。
 {% endhint %}
 
 {% hint style="info" %}
-Instruction migrated from: [https://github.com/poanetwork/wiki/wiki/Bootnode-Setup-AWS](https://github.com/poanetwork/wiki/wiki/Bootnode-Setup-AWS)
+指令说明迁移自： [https://github.com/poanetwork/wiki/wiki/Bootnode-Setup-AWS](https://github.com/poanetwork/wiki/wiki/Bootnode-Setup-AWS)
 {% endhint %}
 

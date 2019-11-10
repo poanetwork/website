@@ -1,36 +1,36 @@
-# Configure AWS
+# 配置AWS
 
-1. Register \(if you haven't already\) and login to the AWS management console: [https://aws.amazon.com/console/](https://aws.amazon.com/console/) 
-2. To create credentials for cli, open IAM home [https://console.aws.amazon.com/iam/home](https://console.aws.amazon.com/iam/home), select "Users" on the left hand side mav bar and then click "Add user". Pick a username, and check "Programmatic access" for "Access type". Click "Next:Permissions" 
-3. You can choose any of the available options, but "Attach existing policies directly" is the simplest one. In the list of policy types search for and then check "AmazonEC2FullAccess". Click "Next:Review". Review your account and click "Create user" to proceed. 
-4. **It is very important that you copy "Access Key ID" and "Secret Access Key" without leaving this page**, because there is no other way to retrieve "Secret Access Key" later and you will have to start again and create another user. After copying this important information, select "Close". 
-5. After you've copied and saved your AWS secret keys, the next step is to upload your SSH public key. In the top left corner of the page select "Services -&gt; EC2". On the left sidebar select "Network & Security" -&gt; "Key Pairs". Click "Import Key Pair". Give a name to this keypair, otherwise base name of the file will be used \(by default `id_rsa`\). Browse your filesystem for the public key, or copy/paste:
+1. 注册（如果尚未注册）并登录到AWS管理控制台：[https://aws.amazon.com/console/](https://aws.amazon.com/console/) 
+2. 要创建cli的凭据，请打开IAM主页 [https://console.aws.amazon.com/iam/home](https://console.aws.amazon.com/iam/home), 选择左侧mav栏上的 "Users" 然后点击 "Add user"。选择一个用户名，然后在 "Programmatic access" 中检查 "Access type"。然后点击 "Next:Permissions"。 
+3. 您可以选择任何可用选项，但是 "Attach existing policies directly" 是最简单的选项。 在策略类型列表中搜索，然后检查 "AmazonEC2FullAccess"。点击 "Next:Review". 。 查看您的帐户，然后单击 "Create user" 继续。 
+4. **在不离开此页面的情况下复制 "Access Key ID" 和 "Secret Access Key" 非常重要**，因为以后没有其他方法可以检索 "Secret Access Key" ，因此您将不得不重新启动并创建另一个用户。 复制此重要信息后，选择"Close"。 
+5. 复制并保存AWS密钥后，下一步就是上传SSH公钥。 在页面的左上角，选择 "Services -&gt; EC2"。 在左侧边栏中，选择 "Network & Security" -&gt; "Key Pairs"。点击 "Import Key Pair"。 为该密钥对命名，否则将使用文件的基本名称（默认为`id_rsa`）。 浏览文件系统以获取公钥，或复制/粘贴：
 
    ```text
    # if you are on MacOS
    pbcopy < ~/.ssh/id_rsa.pub
    ```
 
-   This will copy your public key into your clipboard and can then be pasted.  
+   这会将您的公钥复制到剪贴板中，然后可以粘贴。  
 
-6. configure aws cli:
+6. 配置aws cli：
 
    ```text
    aws configure
    ```
 
-   provide your credentials \(Access Key ID and Secret Access Key\) from earlier. Choose a region for your account \(e.g. `us-east-2`\) and output format \(`json` is recommended\).  
+   从以前提供您的凭据（Access Key ID and Secret Access Key）。 为您的帐户选择一个区域（例如`us-east-2`）并选择输出格式（建议使用`json`）。  
 
-7. check that keypair was correctly imported:
+7. 检查密钥对是否正确导入：
 
    ```text
    aws ec2 describe-key-pairs
    ```
 
-   you should see your keypair name in the list.
+   您应该在列表中看到密钥对名称。
 
 {% hint style="success" %}
-Proceed to [Download and Configure Playbook](download-and-configure-playbook.md)
+继续[下载并配置脚本](download-and-configure-playbook.md)
 {% endhint %}
 
 

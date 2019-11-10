@@ -65,7 +65,8 @@
 
 ## 对于验证者 <a id="for-validators"></a>
 
-* [入门](for-validators/untitled.md)
+* [入门](for-validators/untitled/README.md)
+  * [验证人资源](for-validators/untitled/yan-zheng-ren-zi-yuan.md)
 * [引导节点设置](for-validators/bootnode-setup/README.md)
   * [AWS Bootnode Setup](for-validators/bootnode-setup/aws-bootnode-setup/README.md)
     * [Prerequisites](for-validators/bootnode-setup/aws-bootnode-setup/prerequisites.md)

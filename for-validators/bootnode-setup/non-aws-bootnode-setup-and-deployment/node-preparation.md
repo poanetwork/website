@@ -48,7 +48,7 @@
 现在，可以使用POA提供的ansible-playbook来配置您的非AWS节点。 请按照以下说明获取配置网络节点所需的`部署手册`
 
 {% hint style="success" %}
-Proceed to [Configuration with Deployment Playbook](configure-node-with-deployment-playbook.md)
+进行[配置与部署脚本](configure-node-with-deployment-playbook.md)
 {% endhint %}
 
 

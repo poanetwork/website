@@ -14,9 +14,9 @@ description: 非aws部署的要求和说明
 
 ## 章节
 
-* [Local & Remote Machine Requirements](local-remote-machine-system-requirements.md)
-* [Prepping your node](node-preparation.md)
-* [Configuring your Node with the Deployment Playbook](configure-node-with-deployment-playbook.md)
+* [本地和远程机器要求](local-remote-machine-system-requirements.md) 
+* [准备你的节点](node-preparation.md) 
+* [使用部署手册配置节点](configure-node-with-deployment-playbook.md)
 
 {% hint style="success" %}
 可以根据设置期间使用的参数为POA Core或Sokol Testnet设置引导节点。 如果您是新的验证者候选人，建议在Sokol上设置一个引导节点。

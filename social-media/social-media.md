@@ -1,5 +1,5 @@
 ---
-description: A list of social media presence for POA project
+description: POA项目的社交媒体列表
 ---
 
 # 社交媒体

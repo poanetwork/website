@@ -1,14 +1,14 @@
 ---
-description: Branding and Logos
+description: 品牌和徽标
 ---
 
 # 媒体工具包
 
 ## 5B2DA7
 
-![Regular logo](../.gitbook/assets/poa.png)
+![&#x5E38;&#x89C4;logo](../.gitbook/assets/poa.png)
 
-![Logo with +100px borders](../.gitbook/assets/100poa.png)
+![&#x5BBD;100px&#x7684;Logo](../.gitbook/assets/100poa.png)
 
-Font: Roboto
+字体: Roboto
 

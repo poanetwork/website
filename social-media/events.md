@@ -1,36 +1,36 @@
 # 大事记
 
-## ETC Summit 
+## ETC峰会
 
-October 3 2019
+2019年10月3日
 
-1133 W Hastings St, Vancouver, BC V6E 3T3, Canada
+1133 W Hastings St，温哥华，BC V6E 3T3，加拿大 
 
-POA will be back at the ETC Summit for the second time, where Andrew Gross will be presenting contributions to the ETC ecosystem including the ETC Bridge and BlockScout.
+POA第二次参加ETC峰会，Andrew Gross在其中为ETC生态系统做出贡献，包括ETC Bridge和BlockScout.
 
-[Find out more](https://etcsummit.com/)
+[了解更多](https://etcsummit.com/)
 
 ## BlockchainUA
 
-September 20 2019
+2019年9月20日
 
-Conference Hall Oasis, Kyiv
+基辅Hall Oasis会议
 
-Igor Barinov, tech lead of of POA Network and creator of xDai Stable Chain, will be leading the technical stage in the BlockchainUA conference talking about derivatives based on Dai and how xDai fits in there
+POA Network的技术负责人和xDai Stable Chain的创建者Igor Barinov将在BlockchainUA会议上领导技术阶段，讨论基于Dai的衍生产品以及xDai如何适合其中
 
-[Find out more](https://blockchainua.com/en/)
+[了解更多](https://blockchainua.com/en/)
 
 
 
 ## DeFi St.Petersburg
 
-September 13 2019
+2019年9月13日
 
 St. Petersburg, Prospect Medikov, house 3, lit. BUT
 
-Igor Barinov, will be in St.Petersburg on September 13th, at the first first meeting of the DeFiRussia community in St. Petersburg. The talk and demo will be all about Derivatives based on stable Dai cryptocurrency, and will include a demo of an example chain will consider the chain ETH -&gt; WETH -&gt; PETH -&gt; DAI -&gt; cDai -&gt; rDai -&gt; xDai -&gt; WxDai
+Igor Barinov将于9月13日在圣彼得堡DeFiRussia社区的第一次第一次会议上在圣彼得堡。 讨论和演示将全部围绕基于稳定Dai加密货币的衍生产品，并将包括示例链的演示，其中将考虑链ETH-&gt; WETH-&gt; PETH-&gt; DAI-&gt; cDai-&gt; rDai-&gt; xDai-&gt; WxDai
 
-[Find out more](https://defimoscow.timepad.ru/event/1057340/)
+[了解更多](https://defimoscow.timepad.ru/event/1057340/)
 
 
 

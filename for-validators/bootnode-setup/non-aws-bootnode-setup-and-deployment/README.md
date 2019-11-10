@@ -1,28 +1,28 @@
 ---
-description: Requirements and instructions for non-aws deployment
+description: 非aws部署的要求和说明
 ---
 
-# Non-AWS Bootnode Setup & Deployment
+# 非AWS引导节点设置和部署
 
 {% hint style="info" %}
-Last update:  Mar 3, 2018
+最后更新：2018年3月3日
 {% endhint %}
 
 {% hint style="info" %}
-If you experience any difficulties while setting up your node, please let other Validators know through the forum or telegram channel.
+如果在设置节点时遇到任何困难，请通过论坛或电报频道告知其他验证人。
 {% endhint %}
 
-## Sections
+## 章节
 
 * [Local & Remote Machine Requirements](local-remote-machine-system-requirements.md)
 * [Prepping your node](node-preparation.md)
 * [Configuring your Node with the Deployment Playbook](configure-node-with-deployment-playbook.md)
 
 {% hint style="success" %}
-A bootnode can be setup for POA Core or the Sokol Testnet based on parameters used during setup. If you are a new validator candidate, setting up a bootnode on Sokol is recommended.
+可以根据设置期间使用的参数为POA Core或Sokol Testnet设置引导节点。 如果您是新的验证者候选人，建议在Sokol上设置一个引导节点。
 {% endhint %}
 
 {% hint style="info" %}
-Instruction migrated from: [https://github.com/poanetwork/wiki/wiki/Bootnode-Setup-AWS](https://github.com/poanetwork/wiki/wiki/Bootnode-Setup-Non-AWS)
+指令说明迁移自： [https://github.com/poanetwork/wiki/wiki/Bootnode-Setup-AWS](https://github.com/poanetwork/wiki/wiki/Bootnode-Setup-Non-AWS)
 {% endhint %}
 

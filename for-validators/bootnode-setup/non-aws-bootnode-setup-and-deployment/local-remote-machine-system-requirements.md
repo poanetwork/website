@@ -1,13 +1,13 @@
-# Local/Remote Machine System Requirements
+# 本地/远程计算机系统要求
 
-**Remote Machine Minimum System Requirements**
+**远程机器最低系统要求**
 
-* Ubuntu 16.04 Image
+* Ubuntu 16.04 系统
 * Minimum 1 CPU
-* Minimum 1GB Memory
-* Anything &gt; 4GB will be good, but may need to be upgraded in the future
+* Minimum 1GB 内存
+* Anything &gt; 4GB 会很好，但将来可能需要升级
 
-**Control Machine Dependencies** __
+**控制机器依赖性**
 
 * Linux Based Bash Terminal
 * Python 2 \(v2.6-v2.7\)/Python3 \(v3.5+\)
@@ -15,7 +15,7 @@
 * Git
 
 {% hint style="info" %}
-For instructions on installing any dependencies, see [AWS setup prerequisites](../aws-bootnode-setup/prerequisites.md)
+有关安装任何依赖项的说明，请参阅[AWS设置先决条件](../aws-bootnode-setup/prerequisites.md)
 {% endhint %}
 
 {% hint style="success" %}

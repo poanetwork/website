@@ -11,6 +11,7 @@ _Browser extensions for interacting with DApps built on Ethereum based networks.
 
 * [Nifty Wallet ](https://chrome.google.com/webstore/detail/nifty-wallet/jbdaocneiiinmjbjlgalhcelgbejmnid?hl=en)
 * [MetaMask](https://metamask.io/)
+* [Saturn Wallet](http://saturn.network)
 
 **Hardware wallets**   
 _Secure wallets designed for long term storage_
@@ -28,6 +29,7 @@ _Can be used as stand-alone wallets and as interfaces to connect through a web3 
 _Dedicated browser wallet with no downloads designed for desktop or mobile use_
 
 * [Portis](https://www.portis.io/)
+* [Squarelink](https://squarelink.com/)
 
 **Mobile Wallets**  
 _Unless noted, mobile wallets have downloadable apps for Android and IOS_

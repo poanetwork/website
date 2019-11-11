@@ -1,20 +1,20 @@
-# Local & Remote Machine System Requirements
+# 本地和远程机器系统要求
 
 {% hint style="info" %}
-If you need to generate keys, follow the method in AWS Validator Setup
+如果您需要生成密钥，请遵循AWS Validator Setup中的方法
 
-* [New Network \(Master of Ceremony Process\)](../aws-vm-for-validator-node-deployment/moc-master-of-ceremony-key-exchange-and-generation.md)
-* [Existing Network \(POA or Sokol\)](../aws-vm-for-validator-node-deployment/current-validators-vote-in-new-validators.md)
+* [新网络（仪式主持人）](../aws-vm-for-validator-node-deployment/moc-master-of-ceremony-key-exchange-and-generation.md)
+* [现有网络（POA或Sokol）](../aws-vm-for-validator-node-deployment/current-validators-vote-in-new-validators.md)
 {% endhint %}
 
-## **Requirements**
+## **系统要求**
 
-* Ubuntu 16.04 Image
-* Minimum 1 CPU
-* Minimum 1GB Memory
-* Anything &gt; 4GB will be good, but may need to be upgraded in the future
+* Ubuntu 16.04 系统
+* Minimum 1 核心CPU
+* Minimum 1GB 内存
+* Anything &gt; 4GB 会很好，但将来可能需要升级
 
-**Control Machine Dependencies**
+**控制机器依赖性**
 
 * Linux Based Bash Terminal
 * Python 2 \(v2.6-v2.7\)/Python3 \(v3.5+\)

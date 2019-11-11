@@ -1,54 +1,54 @@
-# Remote Machine Setup
+# 远程机器设置
 
-Log into your Cloud Dashboard and deploy a new node with a minimum of 1 CPU, 1GB \(1024Mb\) Memory & at least 4GB Hard Drive Capacity \(This may need to be upgraded in future\). This guide will be using `ubuntu` as the username, use the default or replace with your `sudo` username.
+登录到您的Cloud Dashboard，并部署一个至少具有1个CPU，1GB（1024Mb）内存和至少4GB硬盘驱动器容量的新节点（将来可能需要升级）。 本指南将使用`ubuntu`作为用户名，使用默认值或替换为您的`sudo`用户名。
 
-* If prompted to create new user during deployment, do so and skip the section about adding new user.
-* If prompted to add SSH Key for your new user, follow the steps below to generate your SSH Key and follow directions how to add to deployment.
+* 如果在部署过程中提示创建新用户，请执行此操作，并跳过有关添加新用户的部分。 
+* 如果系统提示您为新用户添加SSH密钥，请按照以下步骤生成SSH密钥，并按照说明进行添加。
 
-**Generating SSH Key**
+**生成SSH密钥**
 
-1. On your local control machine, open a terminal and generate your SSH key. It is recommended to use a different SSH Key for each POA network, key for `core` & key for `sokol`. We can set a parameter in ansible inventory script to use the specific key.
+1. 在本地控制机器上，打开一个终端并生成您的SSH密钥。 建议为每个POA网络使用不同的SSH密钥，对于核心网络`Core`使用密钥，对测试网络`sokol`使用密钥。 我们可以在ansible库存脚本中设置参数以使用特定键。
 
    ```text
     ssh-keygen -t rsa -b 4096 -C "node-label"
    ```
 
-   Enter a **STRONG** password \(write it down\) and save the key as something memorable, enter complete path to key to save as custom name, replacing `user` with your current local user. e.g. below
+   输入一个**强密码**（记下密码）并将密钥另存为令人难忘的内容，输入密钥的完整路径以另存为自定义名称，将用户`user`替换为当前的本地用户。 例如 下面
 
    ```text
     /home/ubuntu/.ssh/id_poa-core
     /home/ubuntu/.ssh/id_poa-sokol
    ```
 
-* This will save 2 files, .pub will be your public key and the other is your private key. Private SSH key stays on your local machine and Public key gets copied to remote machines you want access to.
+* 这将保存2个文件，.pub将是您的公钥，另一个是您的私钥。 私钥SSH密钥保留在本地计算机上，而公钥则复制到要访问的远程计算机上。
 
-**Add User with Sudo Privileges**
+**使用Sudo特权添加用户**
 
-1\) SSH into Remote Node using the root password provided by cloud service \(either by web portal or email\) or using the SSH key supplied during deployment. If you already have `sudo` user, replace `root` with your user and skip the next two steps.  
-_**Azure users will not have access to their root account by default, use your sudo user and skip to next section after connecting.**_
+1\) 使用云服务提供的根密码（通过Web门户或电子邮件）或使用部署期间提供的SSH密钥SSH到远程节点。 如果您已经有`sudo`用户，请用您的用户替换`root`并跳过接下来的两个步骤。  
+_**默认情况下，Azure用户将无权访问其根帐户，请使用您的sudo用户并在连接后跳至下一部分。**_
 
 ```text
  ssh root@192.0.2.1
 ```
 
-2\) Logged in as `root` add user and grant sudo privileges. It is recommended to use default user `ubuntu`.
+2\) 以`root`用户身份添加用户并授予sudo特权。 建议使用默认用户`ubuntu`。
 
 ```text
  adduser ubuntu
 ```
 
-* Enter a **STRONG** password to protect the user and you can leave the next 5 fields blank. Confirm the information is correct. We will be using a parameter to ask `sudo` pass during ansible deployment.
+* 输入一个**强密码**来保护用户，您可以将接下来的5个字段保留为空白。 确认信息正确。 在ansible部署期间，我们将使用一个参数来要求`sudo` 通过。
 
-3\) Grant user `ubuntu` sudo privileges
+3\) 授予用户`ubuntu` sudo特权
 
 ```text
  usermod -aG sudo ubuntu
 ```
 
-Your Non-AWS node is now ready for configuration using ansible-playbook provided by POA. 
+现在，可以使用POA提供的ansible-playbook来配置您的Non-AWS节点。
 
 {% hint style="success" %}
-Continue to [Node Configuration with Deployment Playbook](configure-node-using-deployment-playbook.md)
+继续使用部署手册进行节点配置
 {% endhint %}
 
 

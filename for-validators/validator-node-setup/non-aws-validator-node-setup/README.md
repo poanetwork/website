@@ -1,13 +1,13 @@
 ---
-description: Validator Node configuration and setup for Non-AWS instance
+description: Non-AWS实例的验证程序节点配置和设置
 ---
 
-# Non-AWS Validator Node Setup
+# 非AWS验证程序节点设置
 
 {% hint style="info" %}
-Last Updated: 2018/03/29
+上次更新时间：2018/03/29
 
-If you experience any difficulties while setting up your node, please let other Validators know through the forum or telegram channel.
+如果在设置节点时遇到任何困难，请通过论坛或电报频道告知其他验证人。
 {% endhint %}
 
 ## Sections

@@ -63,7 +63,7 @@ POA DAO从一个值得信赖的创世仪式开始。 仪式主持人向最初的
 
 ## POA DAO资源
 
-* [POADAO v1白皮书](https://www.poa.network/for-users/whitepaper/poadao-v1)
+* [POADAO v1白皮书](../for-users/whitepaper/)
 * 公共验证程序DApp（更改网络以查看基于不同POA的网络（例如Sokol，Kovan和xDai）的其他验证程序） 
   * [当前验证者列表](https://validators.poa.network/poa-dapps-validators) 
   * [投票记录 ](https://voting.poa.network/poa-dapps-voting)

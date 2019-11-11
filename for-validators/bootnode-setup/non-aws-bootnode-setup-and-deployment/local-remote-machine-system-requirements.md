@@ -3,7 +3,7 @@
 **远程机器最低系统要求**
 
 * Ubuntu 16.04 系统
-* Minimum 1 CPU
+* Minimum 1 核心CPU
 * Minimum 1GB 内存
 * Anything &gt; 4GB 会很好，但将来可能需要升级
 

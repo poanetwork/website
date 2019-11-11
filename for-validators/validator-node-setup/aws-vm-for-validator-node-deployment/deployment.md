@@ -1,20 +1,20 @@
-# Deployment
+# 部署方式
 
-## Create instance
+## 创建实例
 
-1\) with all options configured, you first need to create an instance: \(you should still be in: ~/deployment-playbooks\)
+1\) 在配置了所有选项之后，您首先需要创建一个实例：（您仍应位于：~/deployment-playbooks）
 
 ```text
 ansible-playbook validator.yml
 ```
 
-Running this script creates and powers up your remote AWS instance. this script will also ask you for your SSH key passphrase unless you didn't set a passphrase or you entered it recently.
+运行此脚本将创建并启动远程AWS实例。 除非您未设置密码短语或您最近输入密码，否则该脚本还会询问您SSH密钥密码短语。
 
-2\) after this process is complete, examine script's output and write down IP \(e.g. `192.0.2.1`\) address and AWS InstanceID \(e.g. `i-0123456789abcdef0`\) for later use. If you chose to use elastic IP, write down node's final IP address.
+2\) 完成此过程后，检查脚本的输出并记下IP（例如`192.0.2.1`）地址和AWS InstanceID（例如`i-0123456789abcdef0`）以备后用。 如果选择使用弹性IP，请记下节点的最终IP地址。
 
-## Configure instance
+## 配置实例
 
-1\) create file `hosts` with the following content \(assuming IP address is `192.0.2.1`, gathered from previous step\)
+1\) 创建具有以下内容的`hosts`文件（假定IP地址为`192.0.2.1`，从上一步中收集）
 
 ```text
 touch hosts
@@ -26,29 +26,29 @@ NOTE:  Feel free to edit the hosts file directly with any text editor (vi, pico,
 192.0.2.1
 ```
 
-2\) run this script to configure your remote node instance:
+2\) 运行以下脚本来配置您的远程节点实例：
 
 ```text
 ansible-playbook -i hosts site.yml
 ```
 
-if you get an error that host cannot be reached over SSH, please wait a minute and start again. This error may appear because AWS instance is rebooted after creation, and this may take some time to complete.
+如果您收到无法通过SSH访问主机的错误，请稍等片刻，然后重新启动。 可能会出现此错误，因为创建后重新启动了AWS实例，这可能需要一些时间才能完成。
 
-3\) open the url for `NETSTAT_SERVER` and check that your node has appeared in the list
+3\) 打开`NETSTAT_SERVER`的URL并检查您的节点是否已出现在列表中
 
-## Set Metadata‌ in DApp
+## 在DApp中设置元数据
 
-Follow the guide on how to [Update Validator MetaData.](evernote-html-snippet:///@poa/s/poa/~/drafts/-Lt65LU4zQf0k_iW4w-G/for-validators/validator-dapps/validators-metadata-dapp#for-validators-update-metadata)
+遵循有关如何更新[验证人元数据的指南](../../validator-dapps/validators-metadata-dapp.md)。
 
-## Obtaining enode uri for Master of Ceremony
+## 获取礼仪大师的enode uri
 
 {% hint style="warning" %}
-**NOTE** skip this step if you are deploying your node to CORE network. You should not make your `enode` public as it will make your validator node an easy target for denial of service attacks
+**注意**如果要将节点部署到CORE网络，请跳过此步骤。 您不应公开自己的`enode`，因为它将使您的验证器节点成为拒绝服务攻击的简单目标
 {% endhint %}
 
-If you are deploying on a testnet \(sokol\), follow the steps below: 
+如果要在测试网上（sokol）进行部署，请按照以下步骤操作： 
 
-1\) Login to the node and get enode from parity logs:
+1\) 登录到该节点并从奇偶校验日志中获取enode：
 
 ```text
 ssh root@192.0.2.1 OR, if root SSH access is not enabled:
@@ -59,68 +59,68 @@ sudo su    #NOTE:  enter the 'ubuntu' user password, or other user password if y
 grep enode /home/validator/logs/parity.log
 ```
 
-2\) copy `enode` uri and send it to Master of Ceremony. If this line is not found, restart parity
+2\) 复制`enode` uri并将其发送给仪式主持人。 如果找不到此行，请重新启动奇偶校验
 
 ```text
 systemctl restart poa-parity
 ```
 
-and try again. If `enode` uri is still not found, use the commands below to restart all services.
+然后再试一次。 如果仍然找不到`enode` uri，请使用以下命令重新启动所有服务。
 
 {% hint style="info" %}
-If after parity restart you notice that on `NETSTATS_SERVER` url your node starts to fall behind other nodes \(block number is less than on other nodes\) and has not caught up after a few minutes, _try the following:_ 
+如果奇偶校验重新启动后，您发现`NETSTATS_SERVER` url上您的节点开始落后于其他节点（块号小于其他节点）并且几分钟后仍未赶上，_请尝试以下操作：_ 
 {% endhint %}
 
-1\) try to restart statistics service \(assuming you are connected as `root`\):
+1\) 尝试重新启动统计信息服务（假设您以`root`用户身份连接）：
 
 ```text
 su validator
 pm2 restart all
 ```
 
-after that, refresh the `NETSTATS_SERVER` url in your browser and check your node's block number again. If your node is still not active or missing `enode` entry
+之后，在浏览器中刷新`NETSTATS_SERVER` URL，然后再次检查节点的块号。 如果您的节点仍然不活动或缺少`enode`条目
 
-2\) log in to root account and reboot the OS. 
+2\) 登录到root帐户并重新启动操作系统。
 
-PLEASE WAIT at least five minutes for your node to "catch up" before rebooting your remote server, and do so only as a final resort.
+重新启动远程服务器之前，**请等待**至少五分钟，以使节点“赶上”，这只能作为最后的手段。
 
 ```text
 su
 shutdown -hr now
 ```
 
-## Configure access to your node
+## 配置对节点的访问
 
-Later, you may wish to change access options for your node. For example, initially you might have disabled access over ssh but now want to re-enable it. These options are set by parameters in the file group\_vars/all:
+稍后，您可能希望更改节点的访问选项。 例如，最初您可能已经禁用了通过ssh的访问，但现在想重新启用它。 这些选项由文件group\_vars / all中的参数设置：
 
-* `allow_validator_ssh` - `true`/`false` - allow/deny access over ssh
-* `allow_validator_p2p` - `true`/`false` - allow/deny peer-discovery
+* `allow_validator_ssh` - `true`/`false` - 通过ssh允许/拒绝访问
+* `allow_validator_p2p` - `true`/`false` - 允许/拒绝对等发现
 
-When you make changes, rerun the playbook:
+进行更改后，请重新运行脚本：
 
 ```text
 ansible-playbook -i hosts site.yml
 ```
 
 {% hint style="info" %}
-tThis script applies simultaneously to all your instances with security group named `validator-security` and technically any other servers in your 'hosts' file. This note is relevant only if you have several validator node or other instances running.
+该脚本同时适用于具有名为`validator-security`的安全组的所有实例，以及技术上在“主机”文件中的所有其他服务器。 仅当您运行多个验证程序节点或其他实例时，此注释才有意义。.
 {% endhint %}
 
-## Remove Instance
+## 删除实例
 
-**If you want to remove your AWS instance:**
+**如果要删除您的AWS实例：**
 
-a. do it via AWS GUI: open AWS management console [https://console.aws.amazon.com/ec2/v2/home\#Instances](https://console.aws.amazon.com/ec2/v2/home#Instances) check the instance you want to remove, click Actions &gt; Instance State &gt; Terminate.
+a. 通过AWS GUI进行操作：打开AWS管理控制台[https://console.aws.amazon.com/ec2/v2/home\#Instances](https://console.aws.amazon.com/ec2/v2/home#Instances)检查要删除的实例，单击Actions&gt; Instance State&gt; Terminate。
 
-b. do it via aws cli: get AWS Instance ID \(the one you saved previously, or you can look it up in AWS management console\) and run
+b. 通过aws cli执行此操作：获取AWS实例ID（您之前保存的ID，或者您可以在AWS管理控制台中查找它）并运行
 
 ```text
 aws ec2 terminate-instances --instance-ids i-0123456789abcdef0
 ```
 
-\(replace `i-0123456789abcdef0` with your actual AWS InstanceID\).
+（将`i-0123456789abcdef0`替换为您的实际AWS InstanceID）。
 
 {% hint style="danger" %}
-This operation is irreversible! If you want to redeploy, you will have to create a new instance from scratch.
+此操作是不可逆的！ 如果要重新部署，则必须从头开始创建一个新实例。
 {% endhint %}
 

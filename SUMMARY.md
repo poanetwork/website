@@ -78,10 +78,10 @@
     * [节点准备](for-validators/bootnode-setup/non-aws-bootnode-setup-and-deployment/node-preparation.md)
     * [使用部署手册配置节点](for-validators/bootnode-setup/non-aws-bootnode-setup-and-deployment/configure-node-with-deployment-playbook.md)
 * [验证者节点设置](for-validators/validator-node-setup/README.md)
-  * [AWS VM for Validator Node Deployment](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/README.md)
-    * [MoC: Master of Ceremony Key Exchange & Generation](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/moc-master-of-ceremony-key-exchange-and-generation.md)
-    * [Current Validators Vote in New Validators](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/current-validators-vote-in-new-validators.md)
-    * [Validator Node Setup Prerequisites](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/validator-node-setup-prerequisites.md)
+  * [适用于验证程序节点部署的AWS VM](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/README.md)
+    * [MoC：仪式密钥交换和生成大师](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/moc-master-of-ceremony-key-exchange-and-generation.md)
+    * [当前的验证人为新的验证人投票](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/current-validators-vote-in-new-validators.md)
+    * [验证程序节点设置先决条件](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/validator-node-setup-prerequisites.md)
     * [Configuring AWS](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/configuring-aws.md)
     * [Download and Configure Playbook](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/download-and-configure-playbook.md)
     * [Deployment](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/deployment.md)
@@ -94,7 +94,7 @@
 * [硬分叉](for-validators/ying-fen-cha/README.md)
   * [历次硬分叉信息](for-validators/ying-fen-cha/li-ci-ying-fen-cha-xin-xi.md)
 * [验证程序Dapps](for-validators/validator-dapps/README.md)
-  * [Validators MetaData DApp](for-validators/validator-dapps/validators-metadata-dapp.md)
+  * [验证人元数据DApp](for-validators/validator-dapps/validators-metadata-dapp.md)
 
 ## 媒体 <a id="social-media"></a>
 

@@ -1,36 +1,36 @@
-# Validator Node Setup Prerequisites
+# 验证程序节点设置先决条件
 
-#### 0. Choose your local Ansible Control Station username.
+**0.选择您的本地Ansible Control Station用户名。**
 
-* For clarity, you may wish to use identical usernames on your Ansible Control Station and your remote node.  For example, one could create a user named "ubuntu" on both your Ansible Control Station and your remote note.  If you have the means, using a dedicated node for the Ansible Control Station that can be powered down or moved off-network when not in use is ideal. If using a local workstation, creating and using a dedicated Ansible Control Station user reduces potential for error.  When you create a new local user \(we recommend using our example 'ubuntu' username\), ensure this user has sudo or su \(Super User\) authority on the Ansible Control Station.  The rest of this example assumes your user is in the sudo group.
+* 为了清楚起见，您可能希望在Ansible Control Station和远程节点上使用相同的用户名。 例如，可以在Ansible控制站和远程便笺上创建一个名为“ ubuntu”的用户。 如果可以的话，为Ansible Control Station使用专用节点可以在不使用时关闭电源或将其移出网络是理想的选择。 如果使用本地工作站，则创建和使用Ansible Control Station专用用户可减少发生错误的可能性。 当您创建新的本地用户时（建议使用示例“ ubuntu”用户名），请确保该用户在Ansible Control Station上具有sudo或su（超级用户）权限。 本示例的其余部分假定您的用户位于sudo组中。
 
 #### 1. git
 
-1. check that you have git installed
+1. 检查您是否已安装git
 
    ```text
    git --version
    ```
 
-   if not - install it following instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+   如果不是，请按照[此处](https://www.python.org/downloads/)的说明进行安装
 
 #### 2. python & pip
 
-1. check that you have python 2 version &gt;= 2.6.5 or python 3 version &gt;= 3.3 installed
+1. 检查您是否已安装python 2版本&gt; = 2.6.5或python 3版本&gt; = 3.3
 
    ```text
    python --version
    ```
 
-   if not - install it choosing appropriate binary from [here](https://www.python.org/downloads/)  
+   如果不是，请从[此处](https://www.python.org/downloads/)选择合适的二进制文件进行安装  
 
-2. check if you have `pip` python package manager install
+2. 检查您是否安装了`pip` python软件包管理器
 
    ```text
    pip --version
    ```
 
-   if not - install it following instructions from [here](https://pip.pypa.io/en/stable/installing/). Basically, you need to download this script and save it on your computer [https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py) then run
+   如果不是，请按照此处的说明进行安装。 基本上，您需要下载此脚本并将其保存在计算机上 [https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py) 然后运行
 
    ```text
    python get-pip.py
@@ -38,13 +38,13 @@
 
 #### 3. ansible
 
-1. follow [this guide](http://docs.ansible.com/ansible/latest/intro_installation.html) to install ansible. For example, you can use `pip` to do it:
+1. 请按照[本指南](http://docs.ansible.com/ansible/latest/intro_installation.html)进行安装。 例如，您可以使用pip来做到这一点：
 
    ```text
    sudo pip install ansible
    ```
 
-2. use `pip` to install the following packages:
+2. 使用`pip`安装以下软件包：
 
    ```text
    sudo pip install boto
@@ -53,37 +53,37 @@
 
 #### 4. SSH keys
 
-1. check if you already have a keypair:
+1. 检查您是否已经有密钥对：
 
    ```text
    ls -la ~/.ssh
    ```
 
-   if you get error that directory does not exist or the directory is empty, you need to follow the instructions below. If you already have key pair, you can skip this section.
+   如果出现目录不存在或目录为空的错误，则需要按照以下说明进行操作。 如果您已经有密钥对，则可以跳过此部分。
 
-2. generate ssh key-pair
+2. 生成SSH密钥对
 
    ```text
    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    ```
 
-   insert your email address there and a strong password. By default, keys will be saved to `~/.ssh/` and named `id_rsa` with your public key being `~/.ssh/id_rsa.pub`.
+   在其中插入您的电子邮件地址和一个强密码。 默认情况下，密钥将保存到`~/.ssh/`，并命名为`id_rsa`，而公共密钥为`~/.ssh/id_rsa.pub`。
 
 #### 5. aws cli
 
-1. check if you have aws cli installed
+1. 检查您是否安装了AWS CLI
 
    ```text
    aws --version
    ```
 
-   if not - install it following [these instructions](http://docs.aws.amazon.com/cli/latest/userguide/installing.html). The simplest way is to use `pip`:
+   如果不是，请按照以下说明进行安装。 最简单的方法是使用`pip`：
 
    ```text
    pip install awscli --upgrade --user
    ```
 
-   Mac systems with homebrew installed:
+   安装了自制软件的Mac系统：
 
    ```text
    brew install awscli

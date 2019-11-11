@@ -1,23 +1,25 @@
-# Current Validators Vote in New Validators
+# 当前的验证人为新的验证人投票
 
-After the initial ceremony stage, it's time for the initial set of validators to vote in new validators using the POA Voting Dapp. One validator will create a Ballot for each of the needed keys to participate and each validator will cast their own vote minus the MoC, who is not allowed to vote on consensus level. It has been agreed upon by the POA network that the next stage would end with 25 Validators on the Core network. This number may change in the future and can have any amount one desires, this would likely be proposed by a ballot to increase.
+在初始仪式阶段之后，是时候使用POA投票Dapp对初始验证人进行新的验证人投票了。 一个验证人将为每个需要参与的密钥创建一个选票，每个验证人将投出自己的票数减去MoC，而MoC不允许在共识级别上投票。 POA网络已经同意，下一阶段将在核心网络上以25个验证人结束。 这个数字将来可能会改变，并且可以有一个人想要的任何数量，投票可能会建议增加这个数字。 
 
-Before the ballot can be proposed, the applicant would need to generate 3 separate key pairs with passwords & JSON keyfiles. There is a very simple method of doing this, see below. 1. Simply go to this URL in your browser to generate 3 key/pass pairs with needed keyfiles.
+在提出投票建议之前，申请人需要生成3个带有密码和JSON密钥文件的单独密钥对。 有一个非常简单的方法，请参见下文。 1.只需在浏览器中转到该URL，即可生成3个具有所需密钥文件的密钥/密码对。
 
 * [https://ceremony.poa.network/\#just-generate-keys](https://ceremony.poa.network/#just-generate-keys)
 
 {% hint style="danger" %}
-**ATTENTION:** This next part is **VERY** important and must be done correctly in order to be able to participate in the consensus immediately, follow directions below **BEFORE** closing out of the browser window. 
+**注意：**下一部分**非常**重要，必须正确完成，以便能够立即参与共识，在关闭浏览器窗口**之前**，请遵循以下指示。
 {% endhint %}
 
-**Open up a Notepad and copy required info as follows:**
+**打开记事本并复制所需的信息，如下所示：**
 
-* Click the `Copy` Button next to each `Address`. Mining, Payout, Voting. Paste them separately in the Notepad.
-* Click the `Copy` Button next to each `Password`, matching to resulting address in the Notepad. Mining, Payout, Voting.
-* Finally, Click Button to download the JSON Keystore files for each key and keep the Notepad file & all 3 keys + initial key somewhere safe.
+1. 单击每个地址`Address`旁边的复制`Copy`按钮。 采矿，支出，投票。 将它们分别粘贴在记事本中。 
+2. 单击每个密码`Password`旁边的复制`Copy`按钮，以匹配记事本中的结果地址。 采矿，支出，投票。 
+3. 最后，单击“按钮”以下载每个密钥的JSON密钥库文件，并将记事本文件和所有3个密钥+初始密钥保存在安全的地方。
 
 {% hint style="info" %}
-Preferred method to store the keyfiles and information is to store on an encrypted drive. e.g. usb drive. If you go this route, please do not forget your password for the encryption as you will lose your data and will have to get your old keys voted out and new ones voted in if any issue happens with the validator's node.
+存储密钥文件和信息的首选方法是存储在加密的驱动器上。 例如 USB驱动器。 
+
+如果您采用这种方式，请不要忘记加密密码，因为如果验证器的节点发生任何问题，您将丢失数据，并且必须淘汰旧密钥，而必须投票淘汰新密钥。
 {% endhint %}
 
 {% hint style="success" %}

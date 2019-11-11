@@ -29,6 +29,6 @@
    您应该在列表中看到密钥对名称。
 
 {% hint style="success" %}
-Continue to [Download and Configure Playbook](download-and-configure-playbook.md)
+继续阅读[下载和配置脚本](download-and-configure-playbook.md)
 {% endhint %}
 

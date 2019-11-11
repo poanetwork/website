@@ -85,7 +85,7 @@
     * [配置AWS](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/configuring-aws.md)
     * [下载并配置脚本](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/download-and-configure-playbook.md)
     * [部署方式](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/deployment.md)
-    * [Upgrade Instance to a Larger Instance Type](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/upgrade-instance-to-a-larger-instance-type.md)
+    * [升级实例到更大的类型](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/upgrade-instance-to-a-larger-instance-type.md)
   * [Non-AWS Validator Node Setup](for-validators/validator-node-setup/non-aws-validator-node-setup/README.md)
     * [Local & Remote Machine System Requirements](for-validators/validator-node-setup/non-aws-validator-node-setup/local-and-remote-machine-system-requirements.md)
     * [Remote Machine Setup](for-validators/validator-node-setup/non-aws-validator-node-setup/remote-machine-setup.md)

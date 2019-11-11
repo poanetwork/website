@@ -79,7 +79,7 @@ nano group_vars/all
   7. 您也可以为`validator_instance_type`选择其他值。 对于`region: "us-east-2"`，我们建议使用`m4.xlarge`。 通过以下网址确认您所在地区可用实例类型的选项：[https://aws.amazon.com/ec2/pricing/on-demand/](https://aws.amazon.com/ec2/pricing/on-demand/)
 
 {% hint style="success" %}
-Continue to [Deployment](deployment.md)
+继续阅读[部署](deployment.md)
 {% endhint %}
 
 

@@ -28,7 +28,7 @@
 {% endhint %}
 
 {% hint style="success" %}
-Continue to [Prerequisites](validator-node-setup-prerequisites.md)
+继续阅读[先决条件](validator-node-setup-prerequisites.md)
 {% endhint %}
 
 

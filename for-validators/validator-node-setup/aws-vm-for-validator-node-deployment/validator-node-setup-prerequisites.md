@@ -90,6 +90,6 @@
    ```
 
 {% hint style="success" %}
-Continue to [Configuring AWS](configuring-aws.md)
+继续阅读[配置AWS](configuring-aws.md)
 {% endhint %}
 

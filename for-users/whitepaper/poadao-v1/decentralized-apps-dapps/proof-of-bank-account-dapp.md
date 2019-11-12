@@ -1,25 +1,29 @@
-# Proof of Bank Account DApp
+---
+description: Proof of Bank Account DApp
+---
 
-![Click on image to enlarge](../../../../.gitbook/assets/poba.png)
+# 银行帐户DApp证明
 
-In contrast to other identity DApps, PoBA is \(from the contract's point of view\) a one-step verification process.
+![&#x70B9;&#x51FB;&#x56FE;&#x7247;&#x53EF;&#x653E;&#x5927;](../../../../.gitbook/assets/poba.png)
 
-DApp client and server are integrated with bank accounting API service \(plaid.com\).
+与其他身份DApp相比，PoBA（从合约的角度来看）是一个一步的验证过程。
 
-Client side uses the service's widget \(Plaid Link\) to authenticate the user, and as a result of successful authentication, access\_token is returned from Plaid to the client. User then fills out a form with his/her bank account number and submits it to the server alongside Plaid's access token.
+DApp客户端和服务器与银行会计API服务（plaid.com）集成在一起。
 
-Server consists of a web app and a parity node connected to the blockchain. The node is run under the ethereum account that was used to deploy the PoP contract \(contract's `owner`\). This account needs to be unlocked.
+客户端使用服务的小部件（格子链接 - Plaid Link）对用户进行身份验证，并通过成功的身份验证，将access\_token从格子中返回给客户端。然后，用户用他/她的银行帐号填写表格，并将其与Plaid的访问令牌一起提交到服务器。
 
-Server validates and normalizes the user's account number by removing trailing spaces. Then the server fetches the bank account numbers from Plaid using access\_token. It checks that the account number submitted by the user is present in the list returned by Plaid.
+服务器由一个Web应用程序和一个连接到区块链的奇偶校验节点组成。该节点在用于部署PoP合约（合约的`所有者`）的以太坊帐户下运行。该帐户需要解锁。
 
-Server then combines `user's eth address + bank's name + account number` into a single string and hashes it with SHA-3 function. The hash is then signed with `owner`'s private key \(this is why `owner` account needs to be unlocked\).
+服务器通过删除尾随空格来验证和规范化用户的帐号。然后，服务器使用access\_token从Plaid获取银行帐号。它检查用户提交的帐号是否存在于Plaid返回的列表中。
 
-Signature, normalized account number, and bank name are returned to the client. User then signs the transaction in MetaMask and invokes the contract's method.
+然后，服务器将用户的`eth地址+银行名称+帐号`合并为一个字符串，并使用SHA-3函数对其进行哈希处理。然后使用`所有者`的私钥对哈希进行签名（这就是为什么需要解锁`所有者`帐户的原因）。
 
-Contract checks that the account number for this bank for this eth address doesn't already exist. If it does, the contract rejects the transaction. Otherwise, it combines parameters in the same order as the server did and computes `sha3` hash of them. Then it uses the built-in `ecrecover` function to validate that the signature belongs to the `owner`. If it doesn't, the contract rejects the transaction, otherwise, it saves the information to the blockchain.
+签名，规范化的帐号和银行名称返回给客户。然后，用户在MetaMask中签署交易并调用合约的方法。
 
-### Possible cheating
+合约检查此eth地址的该银行的帐号是否不存在。如果是这样，合同将拒绝该交易。否则，它将以与服务器相同的顺序组合参数，并计算它们的`sha3`哈希。然后，它使用内置的`ecrecover`函数来验证签名属于`所有者`。如果不是，则合约拒绝交易，否则，将信息保存到区块链。
 
-1. _user can generate his/her own confirmation code, compute all hashes, and submit it to the contract, and then confirm it_ This can't be done because the user doesn't know the `owner`'s private key and hence can't compute a valid signature.
-2. _user can use someone else's access\_token returned by Plaid and thus verify the account he/she has no real access to_ This is equivalent to either hacking someone else's computer or the account's owner deliberately providing the user with his/her access\_token. Since all communications with Plaid are via HTTPS protocol, there is no way for the user to intercept access\_token sent to someone else.
+### 可能的作弊
+
+1. _用户可以生成自己的确认代码，计算所有哈希，然后将其提交给合同_，然后进行确认。这无法完成，因为用户不知道`所有者`的私钥，因此无法计算出有效的签名。
+2. _用户可以使用由Plaid返回的其他人的access\_token，从而验证他/她没有真正的帐户访问权限_。这等同于黑客入侵他人的计算机或该帐户的所有者有意向用户提供他/她的access\_token。由于与Plaid的所有通信都是通过HTTPS协议进行的，因此用户无法拦截发送给其他人的access\_token。
 

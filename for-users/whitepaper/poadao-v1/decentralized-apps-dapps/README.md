@@ -1,3 +1,7 @@
+---
+description: Decentralized apps (DApps)
+---
+
 # 去中心化应用程序（DApps）
 
 去中心化应用程序或DApp代表可与智能合约配合使用的应用程序，可在任何主机上部署并在遭受攻击或审查的情况下重新部署而不会对其功能造成任何损害。 POA Network提供了一组受支持的DApp，用于身份验证，治理和网络管理

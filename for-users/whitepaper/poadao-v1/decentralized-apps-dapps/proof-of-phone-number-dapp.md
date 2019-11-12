@@ -1,28 +1,32 @@
-# Proof of Phone Number DApp
+---
+description: Proof of Phone Number DApp
+---
 
-![Click on image to enlarge](../../../../.gitbook/assets/pona.png)
+# 电话号码证明DApp
 
-User fills out a form in DApp providing his/her phone number and submits it to the server.
+![&#x70B9;&#x51FB;&#x56FE;&#x7247;&#x53EF;&#x653E;&#x5927;](../../../../.gitbook/assets/pona.png)
 
-Server consists of a web app and a parity node connected to the blockchain. The node is run under the ethereum account that was used to deploy the PoP contract \(contract's `owner`\). This account needs to be unlocked.
+用户在DApp中填写一个提供其电话号码的表格，并将其提交给服务器。
 
-Server validates and normalizes the user's phone number: removes trailing spaces, converts it to international format.
+服务器由一个Web应用程序和一个连接到区块链的奇偶校验节点组成。该节点在用于部署PoP合约（合约的`所有者`）的以太坊帐户下运行。该帐户需要解锁。
 
-Then it generates a random confirmation code \(alphanumeric sequence\) and computes its SHA-3 \(strictly speaking, keccak256\) hash. Also, it generates a random session code \(see below\) that it stores in memory/database along with the user's eth address and plain text confirmation code. Then the server combines input data, namely `str2sign = (user's eth address + user's phone number + confirmation code's hash`\) into a string that is hashed and signed with the `owner`'s private key \(this is why `owner`'s account needs to be unlocked\).
+服务器验证并规范化用户的电话号码：删除尾随空格，将其转换为国际格式。
 
-Signature, the confirmation code's hash, the user's normalized phone number, and the session code are sent back to the client. User then confirms the transaction in MetaMask and invokes the contract's method. The contract combines input data in the same order as the server did, hashes it, and then uses the built-in function `ecrecover` to validate that the signature belongs to the `owner`. If it doesn't, the contract rejects the transaction, otherwise it adds some metadata, most importantly the current block's number, and saves it in the blockchain.
+然后，它生成一个随机的确认码（字母数字序列）并计算其SHA-3（严格来说是keccak256）哈希。此外，它还会生成一个随机会话代码（请参阅下文），并将其与用户的eth地址和纯文本确认代码一起存储在内存/数据库中。然后服务器将输入数据（即`str2sign =（用户的eth地址+用户的电话号码+确认码的哈希）`）合并为一个字符串，该字符串经过哈希处理并使用所有者的私钥签名（这就是为什么`所有者`帐户需要解锁的原因）。
 
-When the transaction is mined, `tx_id` is returned to the client and then via the client to the server along with session code. Server queries memory by the session code and validates the user's eth address. Then it fetches the transaction from the blockchain by `tx_id`. It verifies that `tx.to` is equal to `owner` and `tx.from` is equal to the user's eth address. Then, using `tx.blockNumber` the server uses the contract's method to find the phone number added at that blockNumber. User should be limited to registering at most one phone number per eth block.
+签名，确认代码的哈希，用户的规范化电话号码和会话代码将发送回客户端。然后，用户在MetaMask中确认交易并调用合约的方法。合约以与服务器相同的顺序组合输入数据，对其进行哈希处理，然后使用内置功能`ecrecover`来验证签名属于`所有者`。如果不是，则合约拒绝交易，否则它将添加一些元数据，最重要的是当前块的编号，并将其保存在区块链中。
 
-Then the server uses the session code to get plain text confirmation code from memory and send it via SMS service \(twilio.com\) to the user's phone number. Then the server removes the session code from memory to prevent reuse.
+当交易被挖掘时，`tx_id`返回到客户端，然后通过客户端与会话代码一起返回到服务器。服务器通过会话代码查询内存并验证用户的eth地址。然后，它通过`tx_id`从区块链中获取交易。它验证`tx.to`等于`所有者`，`tx.from`等于用户的eth地址。然后，服务器使用`tx.blockNumbe`r使用合约的方法来查找添加到该区块号的电话号码。用户应被限制为每个eth块最多注册一个电话号码。
 
-Having received SMS with verification code, the user returns to the DApp and confirms the transaction in MetaMask, which sends confirmation code to the contract's method directly, without calling the server. There doesn't seem to be any need for signing this transaction with the `owner`'s private key. Contract computes the confirmation code's hash and loops over the user's phone numbers to find a matching one.
+然后，服务器使用会话代码从内存中获取纯文本确认代码，并通过SMS服务（twilio.com）将其发送到用户的电话号码。然后，服务器从内存中删除会话代码以防止重用。
 
-## Possible cheating
+收到带有验证码的SMS后，用户将返回DApp并在MetaMask中确认交易，该交易将确认码直接发送到合约的方法，而无需调用服务器。似乎没有必要使用`所有者`的私钥签署此交易。Contract计算确认码的哈希值，然后循环遍历用户的电话号码以找到匹配的电话号码。
 
-1. _user can generate his/her own confirmation code, compute all hashes and submit it to the contract, and then confirm it_ This can't be done because the user doesn't know the `owner`'s private key and therefore can't compute a valid signature.
-2. _user can reuse someone else's confirmation code, or his/her own confirmation code from one of the previously confirmed phone numbers_ This is prevented by hashing all essential pieces of data together before signing \(user's eth address, phone number, confirmation code\) and by checking the phone number for duplicates in the contract.
-3. _user can submit the form, but doesn't sign the transaction_ For this reason, SMS is sent after the phone number is added to the blockchain and `tx_id` is presented to the server.
-4. _user can submit the form and sign the transaction, but sends another phone number to the server to send SMS to_ After the first transaction is mined, the server sees for itself what phone number was added and fetches it from the contract instead of trusting the client. Session code is then used to retrieve the corresponding confirmation code. To simpify things, we can limit the user to only submitting a single phone number per block. In this case the contract just needs to find the first record with matching `creation_block`.
-5. _user can resubmit the same tx\_id to the server multiple times_ This is prevented by removing the session code from memory after the first postcard was sent.
+### 可能的作弊 
+
+1. _用户可以生成自己的确认代码，计算所有哈希并将其提交给合约_，然后进行确认。这无法完成，因为用户不知道`所有者`的私钥，因此无法计算有效签名。
+2. _用户可以从先前确认的电话号码中重用他人的确认码或他/她自己的确认码_，这可以通过在签名之前将所有基本数据散列在一起（用户的eth地址，电话号码，确认码）并通过检查来避免合约中重复项的电话号码。
+3. _用户可以提交表单，但不签署交易。_因此，在将电话号码添加到区块链并将`tx_id`呈现给服务器之后，将发送SMS。
+4. _用户可以提交表单并签署交易_，但将另一个电话号码发送到服务器以发送SMS到第一笔交易之后，服务器会自行查看添加的电话号码并从合约中获取该电话号码，而不是信任客户端。然后，使用会话代码检索相应的确认代码。为简化起见，我们可以限制用户每个块仅提交一个电话号码。在这种情况下，合约只需要找到与`creation_block`匹配的第一条记录。
+5. _用户可以多次向服务器重新提交相同的tx\_id_。这是通过在发送第一张明信片后从内存中删除会话代码来防止的。
 

@@ -1,37 +1,41 @@
-# Governance DApp
+---
+description: Governance DApp
+---
 
-This client-side DApp provides the list of existing ballots with the ability of filtering by active, unanswered, and expired ballots, and gives the opportunity to create new ballots and to vote for or against notaries.
+# 治理DApp
 
-The governance is available only with a valid voting key that should be selected in the MetaMask Google Chrome plugin.
+此客户端DApp提供了现有选票列表，并可以按有效，未答复和过期的选票进行过滤，并提供了创建新选票以及对公证人投票或反对的机会。
 
-#### Creating a new ballot
+只有在MetaMask Google Chrome插件中应选择有效的投票密钥才能使用此治理。
 
-![Click image to enlarge](../../../../.gitbook/assets/new-ballot.png)
+**进行新的投票**
 
- Valid notary of the POA Network fills out a form in DApp providing:
+![&#x70B9;&#x51FB;&#x56FE;&#x7247;&#x653E;&#x5927;](../../../../.gitbook/assets/new-ballot.png)
 
-* _mining key_ - mining key of a new or existing notary, which will be voted on
-* _affected key type_ - key type \(mining, payout, or voting key\) of a new or existing notary, which will be voted on
-* _memo_ - brief information about notary, which will be voted on
-* _action_ - add affected key to the network or remove it from the network
+ POA网络的有效公证人在DApp中填写了以下表格：
 
-If the affected key type is mining key, the user will be asked to provide personal data of the notary \(owner of this mining key\) such as full name, physical address, U.S. state name, zip code, notary license ID, and notary license expiration date.
+* 挖掘密钥-新的或现有的公证人的挖掘密钥，将对其进行投票
+* 受影响的密钥类型-将被投票的新的或现有的公证人的密钥类型（挖掘，支付或投票密钥）
+* 备忘录-有关公证人的简要信息，将在上面进行投票
+* 操作-将受影响的密钥添加到网络或将其从网络中删除
 
-At the final step, one transaction to create a new ballot in POA contract will be pushed to the blockchain to add a new ballot after the user presses "Continue" button. It should be noted, that in case of a mining key, it will be two consistent transactions: to add personal data of a notary and a new ballot to contract. User will see MetaMask popups equal to the number of transactions. After the confirmation and successful mining of the transaction by existing validators, the user will see the created ballot in the list and be able to vote on it.
+如果受影响的密钥类型是挖掘密钥，则将要求用户提供公证人（此挖掘密钥的所有者）的个人数据，例如全名，物理地址，美国州名，邮政编码，公证许可证ID和公证许可证。截止日期。  
+  
+在最后一步，在用户按下“继续”按钮后，一项用于在POA合约中创建新选票的交易将被推送到区块链以添加新选票。应当指出的是，在使用密匙的情况下，这将是两个一致的事务：添加公证人的个人数据和新的签约合约。用户将看到等于交易数量的MetaMask弹出窗口。在通过现有验证程序确认并成功挖掘交易后，用户将在列表中看到创建的选票并可以对其进行投票。
 
-#### Voting on a ballot
+**投票表决**
 
-![Click image to enlarge](../../../../.gitbook/assets/ballot-voting.png)
+![&#x70B9;&#x51FB;&#x56FE;&#x7247;&#x653E;&#x5927;](../../../../.gitbook/assets/ballot-voting.png)
 
-The user can see all his/her unanswered ballots by clicking on the self-titled button on the filtering panel. The list of unanswered ballots will be displayed after filtering, and the "Vote now" button will be enabled for any item in the list. After clicking on this button, a preview of the ballot will be opened with the notary's personal data, statistics of voting, and time to ballot's ending. Two buttons will be enabled here: "Vote for" and "Vote against". After clicking on any of them, the transaction to account the user's voice will be generated, and a MetaMask popup will be shown with the transaction information. After the confirmation and successful mining of the transaction by existing validators, the user will see the updated statistics with his/her voice, and the ballot will disappear from the unanswered ballots filter.
+通过单击过滤面板上的自命名按钮，用户可以查看他/她所有未答复的选票。过滤后将显示未答复的选票列表，并且将为列表中的任何项目启用“立即投票”按钮。单击此按钮后，将打开投票预览，其中包含公证人的个人数据，投票统计信息和投票结束时间。此处将启用两个按钮：“投票”和“反对”。单击它们中的任何一个后，将生成处理用户对话的交易，并显示带有交易信息的MetaMask弹出窗口。 在现有验证程序确认并成功挖掘了交易之后，用户将看到使用他/她的对话更新的统计信息，并且该选票将从未答复的选票过滤器中消失。
 
-### Possible cheating
+### 可能的作弊
 
-1. _user can create ballot or vote with his/her own dummy key_ It is impossible, because only a valid payout key can govern. It is checked on the contract side.
-2. _same user can vote for or against a notary twice_ It is restricted at the contract side.
-3. _user can vote after ballot's time has ended_ It is restricted at the contract side.
-4. _notary with counterfeit license can become a member of the network_ It is impossible in practice, because any of the voters can check public information about every notary before voting.
-5. _user can govern other notaries alone_ It is impossible, because the minimal amount of voices for a ballot is equal to 3.
+1. _用户可以使用自己的虚拟密钥进行投票或投票_。这是不可能的，因为只有有效的支付密钥才能支配。在合约方面进行检查。
+2. _同一用户可以两次投票支持或反对公证人_。在合约方是受限制的。
+3. _投票时间结束后，用户可以投票_。这是在合约方的限制。
+4. _具有伪造许可证的公证人可以成为网络的成员在实践中是不可能的_，因为任何投票者都可以在投票前检查有关每个公证人的公共信息。
+5. _用户可以单独管理其他公证人这是不可能的_，因为选票的最小对话等于3。
 
-_user can manage the time of a ballot_ Duration of a ballot is constant and equal to 48 hours. It is set in the contract.
+用户可以管理投票时间投票的持续时间是恒定的，等于48小时。它在合约中设置。
 

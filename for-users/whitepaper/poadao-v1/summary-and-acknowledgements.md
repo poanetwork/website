@@ -1,12 +1,12 @@
-# Summary & Acknowledgements
+# 总结和致谢
 
-## Summary
+## 总结
 
-We believe that such networks with Proof of Authority consensus algorithms will be a trend in public blockchains in the coming years. On-demand systems with trusted validators will play a major role in creating specialized open networks based on Ethereum's protocol. Our goal is to be a model for the generation of networks connected by inter-ledger protocols, such as Polkadot and Cosmos.
+我们认为，具有权威证明共识算法的此类网络将在未来几年成为公共区块链中的趋势。 具有可信赖验证器的按需系统将在基于以太坊协议的创建专用开放网络中扮演重要角色。 我们的目标是成为通过账本间协议（如Polkadot和Cosmos）连接的网络生成的模型。
 
-## Acknowledgments
+## 致谢
 
-We would like to express our gratitude to our mentors, advisors and to the many people in the Ethereum community that have been so welcoming and generous with their knowledge.
+我们要感谢我们的导师，顾问以及以太坊社区的许多人，他们如此热情和慷慨的知识。
 
-We would also like to thank the organizers and community members that we’ve met at the Silicon Valley and SF Ethereum Meetups including Roman Storm, Joseph Chow, Martin Koppelmann, Grant Hummer, Tom Ding, Chris Peel, Jeff Flowers, and many others.
+我们还要感谢在硅谷和SF以太坊聚会上认识的组织者和社区成员，包括Roman Storm，Joseph Chow，Martin Koppelmann，Grant Hummer，Tom Ding，Chris Peel，Jeff Flowers等。
 

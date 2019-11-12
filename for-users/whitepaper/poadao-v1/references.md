@@ -1,4 +1,4 @@
-# References
+# 参考文献
 
 ```text
 [^fn1]: Ethereum, A Next-Generation Smart Contract and Decentralized Application Platform https://github.com/ethereum/wiki/wiki/White-Paper    

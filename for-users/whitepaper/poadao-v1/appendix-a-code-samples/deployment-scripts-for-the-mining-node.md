@@ -1,4 +1,4 @@
-# Deployment scripts for the mining node
+# 为挖矿节点的部署脚本
 
 ```bash
 #!/bin/bash

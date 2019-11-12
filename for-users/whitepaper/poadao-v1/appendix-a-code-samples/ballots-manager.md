@@ -2,7 +2,7 @@
 description: Code Sample
 ---
 
-# Ballots manager
+# 投票管理员
 
 ```javascript
 pragma solidity ^0.4.14;

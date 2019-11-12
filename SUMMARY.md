@@ -50,12 +50,12 @@
       * [社交网络证明DApp](for-users/whitepaper/poadao-v1/decentralized-apps-dapps/proof-of-social-network-dapp.md)
       * [电话号码证明DApp](for-users/whitepaper/poadao-v1/decentralized-apps-dapps/proof-of-phone-number-dapp.md)
       * [治理DApp](for-users/whitepaper/poadao-v1/decentralized-apps-dapps/governance-dapp.md)
-    * [Summary & Acknowledgements](for-users/whitepaper/poadao-v1/summary-and-acknowledgements.md)
-    * [References](for-users/whitepaper/poadao-v1/references.md)
-    * [Appendix A: Code Samples](for-users/whitepaper/poadao-v1/appendix-a-code-samples/README.md)
-      * [Ballots manager](for-users/whitepaper/poadao-v1/appendix-a-code-samples/ballots-manager.md)
-      * [Validators manager](for-users/whitepaper/poadao-v1/appendix-a-code-samples/validators-manager.md)
-      * [Deployment scripts for the mining node](for-users/whitepaper/poadao-v1/appendix-a-code-samples/deployment-scripts-for-the-mining-node.md)
+    * [总结和致谢](for-users/whitepaper/poadao-v1/summary-and-acknowledgements.md)
+    * [参考文献](for-users/whitepaper/poadao-v1/references.md)
+    * [附录A：代码示例](for-users/whitepaper/poadao-v1/appendix-a-code-samples/README.md)
+      * [投票管理员](for-users/whitepaper/poadao-v1/appendix-a-code-samples/ballots-manager.md)
+      * [验证人管理员](for-users/whitepaper/poadao-v1/appendix-a-code-samples/validators-manager.md)
+      * [为挖矿节点的部署脚本](for-users/whitepaper/poadao-v1/appendix-a-code-samples/deployment-scripts-for-the-mining-node.md)
 
 ## 面向开发者 <a id="for-developers"></a>
 

@@ -1,40 +1,40 @@
 ---
-description: General information and links
+description: 一般信息和链接
 ---
 
 # 开发人员资源
 
-## General Information <a id="general-information"></a>
+## 一般信息 <a id="general-information"></a>
 
-| Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
+| 区块大小 | 块生成速度 | Gas价格 | 补丁集 | 原生令牌 | 网络ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 10,000,000 Gas | 5 sec | 1 GWei | St.Petersburg | POA | 99 |
 
-## Blockchain Explorer <a id="blockchain-explorer"></a>
+## 区块链浏览器 <a id="blockchain-explorer"></a>
 
-BlockScout is the official blockchain explorer for the POA Network
+BlockScout是POA网络的官方区块链浏览器
 
-* POA Core Network: [https://blockscout.com/poa/core](https://blockscout.com/poa/core)
-* Sokol Testnet: [https://blockscout.com/poa/sokol](https://blockscout.com/poa/sokol)
+* POA Core核心网络: [https://blockscout.com/poa/core](https://blockscout.com/poa/core)
+* Sokol测试网络: [https://blockscout.com/poa/sokol](https://blockscout.com/poa/sokol)
 
-With BlockScout you can
+你可以通过BlockScout：
 
-* View blocks, transactions, accounts, balances, token transfers
-* Access blockchain data via API
-* Read and verify smart contracts
+* 查看区块，交易，账户，余额，代币转移 
+* 通过API访问区块链数据 
+* 阅读和验证智能合约
 
-## JSON RPC endpoints <a id="json-rpc-endpoints"></a>
+## JSON RPC端点 <a id="json-rpc-endpoints"></a>
 
-There are endpoints provided by POA and Nodesmith. They are used to connect to the network. Use these endpoints to connect with DApps or when connecting to the POA Network with MetaMask or other web3 wallets.
+POA和Nodesmith提供了端点。 它们用于连接到网络。 当使用MetaMask或其他web3钱包连接到POA网络时，请使用这些端点连接DApp。
 
 ### POA RPC <a id="poa-rpc"></a>
 
-| ​POA Core Network | ​ |
+| ​POA Core核心网络 | ​ |
 | :--- | :--- |
 | URL | ​[https://core.poa.network](https://core.poa.network) |
 | Network ID | 99 |
 
-| **POA Sokol Testnet** |  |
+| **POA Sokol 测试网络** |  |
 | :--- | :--- |
 | URL | https://sokol.poa.network |
 | Network ID | 77 |
@@ -44,7 +44,7 @@ There are endpoints provided by POA and Nodesmith. They are used to connect to t
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">&#x200B;POA Core Network</th>
+      <th style="text-align:left">&#x200B;POA Core &#x6838;&#x5FC3;&#x7F51;&#x7EDC;</th>
       <th style="text-align:left">&#x200B;</th>
     </tr>
   </thead>
@@ -64,7 +64,7 @@ There are endpoints provided by POA and Nodesmith. They are used to connect to t
 </table><table>
   <thead>
     <tr>
-      <th style="text-align:left">POA Sokol Testnet</th>
+      <th style="text-align:left">POA Sokol &#x6D4B;&#x8BD5;&#x7F51;&#x7EDC;</th>
       <th style="text-align:left">&#x200B;</th>
     </tr>
   </thead>
@@ -82,34 +82,34 @@ There are endpoints provided by POA and Nodesmith. They are used to connect to t
       <td style="text-align:left">77</td>
     </tr>
   </tbody>
-</table>## Bridge POA &lt;&gt; POA20 <a id="bridge-dai-less-than-greater-than-xdai"></a>
+</table>## 桥接POA &lt;&gt; POA20 <a id="bridge-dai-less-than-greater-than-xdai"></a>
 
-The POA bridge is required to move locked POA tokens from the POA Core network and mint POA20 on the Ethereum Mainnet.
+需要POA桥接器才能从POA核心网络和以太坊主网上的薄荷POA20移动锁定的POA令牌。
 
-* TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
+* TokenBridge UI网桥界面 [https://bridge.poa.net/](https://bridge.poa.net/)
 
-## **Faucets** <a id="additional-resources"></a>
+## 水龙头 <a id="additional-resources"></a>
 
-* Sokol Testnet Faucet: [https://faucet.poa.network](https://faucet.poa.network/) Get free SPOA tokens for testing on the _Sokol_ testnet 
-* [ERC20 Test Token Faucet](erc20-test-token-faucet.md) Can be used on Sokol or POA Core. 
+* Sokol测试网络水龙头: [https://faucet.poa.network](https://faucet.poa.network/) 获取免费的SPOA令牌以在Sokol测试网上进行测试 
+* [ERC20测试令牌水龙头](erc20-test-token-faucet.md) 可以在_Sokol_或POA Core上使用。
 
-## **Additional resources** <a id="additional-resources"></a>
+## 额外资源 <a id="additional-resources"></a>
 
-### **POA Mainnet**
+### **POA**
 
-* WebSockets Endpoint \(can be useful to setup BlockScout for POA\) [ws://54.144.107.14:8546](ws://54.144.107.14:8546)
-* Archive Fullnode Endpoint \(Useful for setting up BlockScout for POA\) [http://54.144.107.14:8545](http://54.144.107.14:8545)
-* Chain spec files and known bootnodes of the POA network [https://github.com/poanetwork/poa-chain-spec/tree/core](https://github.com/poanetwork/poa-chain-spec/tree/core)
-* Netstats, an overview of POA Chain nodes [https://core-netstat.poa.network](https://core-netstat.poa.network)
-* DApps Deployed to POA: Partial list of deployed DApps along with statistics and links [https://www.stateofthedapps.com/rankings/platform/poa](https://www.stateofthedapps.com/rankings/platform/poa)
+* WebSockets端点（可用于为POA设置BlockScout） [ws://54.144.107.14:8546](ws://54.144.107.14:8546)
+* 存档Fullnode端点（用于为POA设置BlockScout） [http://54.144.107.14:8545](http://54.144.107.14:8545)
+* 链规范文件和POA网络的已知引导节点 [https://github.com/poanetwork/poa-chain-spec/tree/core](https://github.com/poanetwork/poa-chain-spec/tree/core)
+* Netstats，POA链节点概述 [https://core-netstat.poa.network](https://core-netstat.poa.network)
+* 部署到POA的DApp：已部署DApp的部分列表以及统计信息和链接 [https://www.stateofthedapps.com/rankings/platform/poa](https://www.stateofthedapps.com/rankings/platform/poa)
 
-### POA Sokol Testnet
+### POA Sokol测试网络
 
-* WebSockets Endpoint \(can be useful to setup BlockScout for Sokol\) [ws://3.85.253.242:8546](ws://3.85.253.242:8546)
-* Archive Fullnode Endpoint \(can be useful to setup BlockScout for Sokol\) [http://3.85.253.242:8545](http://3.85.253.242:8545/)
-* Chain [spec](https://github.com/poanetwork/poa-chain-spec/blob/sokol/spec.json) files and known [bootnodes ](https://github.com/poanetwork/poa-chain-spec/blob/sokol/bootnodes.txt)of the _Sokol_ network
-* [Ethereum Networks Stats ](https://github.com/cubedro/eth-netstats)\(Netstats\) with a list of nodes on Sokol network. Nodes should have netstats agent installed to be listed in the netstats. [https://sokol-netstat.poa.network](https://sokol-netstat.poa.network/)
-* Governance DApps: To use governance dapps please switch to Sokol network in your Nifty Wallet
-  * Validators DApp: [https://validators.poa.network/ ](https://validators.poa.network/) In the DApp anyone can get information about validators of the _Sokol_ network and their keys
-  * Voting DApp: [https://voting.poa.network/ ](https://voting.poa.network/) In the DApp anyone can get information about governance decisions on the _Sokol_ network.
+* WebSockets端点（对于为Sokol设置BlockScout可能有用） [ws://3.85.253.242:8546](ws://3.85.253.242:8546)
+* 存档Fullnode端点（对于为Sokol设置BlockScout可能有用） [http://3.85.253.242:8545](http://3.85.253.242:8545/)
+* 链[规范](https://github.com/poanetwork/poa-chain-spec/blob/sokol/spec.json)文件和Sokol网络的已知[引导节点](https://github.com/poanetwork/poa-chain-spec/blob/sokol/bootnodes.txt)
+* 以太坊网络统计（Netstats）以及Sokol网络上的节点列表。 节点应安装netstats代理才能在netstats中列出。 [https://sokol-netstat.poa.network](https://sokol-netstat.poa.network/)
+* 治理DApp： 要使用管理dapp，请在您的Nifty Wallet中切换到Sokol网络
+  * 验证人DApp: [https://validators.poa.network/ ](https://validators.poa.network/) 在DApp中，任何人都可以获取有关Sokol网络验证器及其密钥的信息。
+  * 投票DApp: [https://voting.poa.network/ ](https://voting.poa.network/) 在DApp中，任何人都可以在_Sokol_网络上获取有关治理决策的信息。
 

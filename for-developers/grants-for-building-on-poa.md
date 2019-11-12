@@ -4,15 +4,13 @@ description: Grants available to POA developers.
 
 # 基于POA的赠款
 
-We are actively looking for game developers interested in building on the POA Network. To date, we have provided $50,000.00 in DAI for game development on the network, including funds for GEON, [one of the most popular games in the entire Ethereum ecosystem](https://www.stateofthedapps.com/rankings/category/games), and [Clovers](https://clovers.network/), a new game which will utilize the POA TokenBridge to move transactions between the POA Network and the Ethereum Mainnet.
+我们正在积极寻找对POA网络感兴趣的游戏开发商。 迄今为止，我们已为网络上的游戏开发提供了50,000.00美元的DAI资金，其中包括用于GEON的资金，GEON是整个以太坊生态系统中[最受欢迎的游戏之一](https://www.stateofthedapps.com/rankings/category/games)，而[Clovers](https://clovers.network/)是一款新游戏，它将利用POA TokenBridge在各游戏之间移动交易。 POA网络和以太坊主网。 如果您有兴趣申请拨款以在POA上开发下一款出色的游戏，请填写以下表格！
 
-Please fill out the form below if you are interested in applying for a grant to build the next great game on POA! 
+## POA游戏基金
 
-## POA Games Fund
+### 我们在找什么？
 
-### What are we looking for?
-
-We are looking for high performance games or DApps that are ready to utilize POA Core. Bonus points for beautiful UX and unique gameplay and concept.
+我们正在寻找可以使用POA Core的高性能游戏或DApp。 精美的用户体验以及独特的游戏玩法和概念的奖励积分。
 
 {% embed url="https://poa950111.typeform.com/to/FO33wq" %}
 

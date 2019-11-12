@@ -1,4 +1,4 @@
-# Validators manager
+# 验证人管理员
 
 ```javascript
 pragma solidity ^0.4.14;

@@ -29,7 +29,7 @@ Interacting with Smart Contracts:
 
 ## The following items will be covered on their own subpages
 
-* Getting Started
+* [Getting Started](getting-started.md)
 * Sending & Receiving Transactions
 * Connecting to Different Chains
 * Importing Accounts

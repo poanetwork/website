@@ -61,6 +61,7 @@
 ## For developers
 
 * [Developer Resources](for-developers/developer-resourses.md)
+* [POA Installation](for-developers/poa-installation.md)
 * [ERC20 Test Token Faucet](for-developers/erc20-test-token-faucet.md)
 * [Grants for Building on POA](for-developers/grants-for-building-on-poa.md)
 

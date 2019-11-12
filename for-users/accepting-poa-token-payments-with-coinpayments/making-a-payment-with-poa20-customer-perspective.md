@@ -18,7 +18,7 @@ description: 使用Nifty Wallet接收POS发票时的示例用例。
 * 2\) 付款金额: 5.23206000
 * 3\) 点击**下一步**
 
-![&#x8F93;&#x5165;&#x5730;&#x5740;&#x548C;&#x91D1;&#x989D;&#x4EE5;&#x53D1;&#x9001;&#x4ED8;&#x6B3E;](../../.gitbook/assets/nifty2.png)
+![&#x8F93;&#x5165;&#x5730;&#x5740;&#x548C;&#x91D1;&#x989D;&#x4EE5;&#x53D1;&#x9001;&#x4ED8;&#x6B3E;](../../.gitbook/assets/nifty2%20%281%29.png)
 
 3\) 单击**提交**完成钱包交易。 在通过Coinpayments进行确认之前，将在您的钱包中进行确认。
 

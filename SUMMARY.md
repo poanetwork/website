@@ -91,7 +91,6 @@
     * [Local & Remote Machine System Requirements](for-validators/validator-node-setup/non-aws-validator-node-setup/local-and-remote-machine-system-requirements.md)
     * [Remote Machine Setup](for-validators/validator-node-setup/non-aws-validator-node-setup/remote-machine-setup.md)
     * [Configure Node using Deployment Playbook](for-validators/validator-node-setup/non-aws-validator-node-setup/configure-node-using-deployment-playbook.md)
-  * [Untitled](for-validators/validator-node-setup/untitled.md)
 * [Hard Forks](for-validators/hard-forks/README.md)
   * [Previous Hard Fork Information](for-validators/hard-forks/previous-hard-fork-information.md)
 * [Validator Dapps](for-validators/validator-dapps/README.md)

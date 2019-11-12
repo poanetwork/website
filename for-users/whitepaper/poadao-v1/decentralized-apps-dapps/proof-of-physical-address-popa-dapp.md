@@ -1,31 +1,34 @@
-# Proof of Physical Address \(PoPA\) DApp
+---
+description: Proof of Physical Address
+---
 
-## Proof of Physical Address \(PoPA\) DApp
+# 物理地址证明（PoPA）DApp
 
-Using Proof of Physical Address, a user can confirm his/her physical address. It can be used to prove residency.
+## 物理地址证明（PoPA）DApp
 
-### **Typical workflow for Identity DApps on PoPA example**
+使用物理地址证明，用户可以确认其物理地址。 它可以用来证明居住权。
 
-![ Click on Image to Enlarge: User fills out a form in DApp and submits it to the server.](../../../../.gitbook/assets/proof-of-address.png)
+### PoPA上身分识别DApps的典型工作流程示例
 
-Server consists of a web app and a ****Parity node connected to the blockchain. The node is run under the Ethereum account that was used to deploy the PoPA contract \(contract's `owner`\), and this account needs to be unlocked. It shouldn't have any ether on it though, as it doesn't send any more transactions.
+![ &#x5355;&#x51FB;&#x56FE;&#x50CF;&#x653E;&#x5927;&#xFF1A;&#x7528;&#x6237;&#x5728;DApp&#x4E2D;&#x586B;&#x5199;&#x8868;&#x683C;&#x5E76;&#x5C06;&#x5176;&#x63D0;&#x4EA4;&#x7ED9;&#x670D;&#x52A1;&#x5668;&#x3002;](../../../../.gitbook/assets/proof-of-address.png)
 
-Server validates and normalizes the user's input: removes trailing spaces, converts letters to lower case. Then it generates a random confirmation code \(alphanumeric sequence\) and computes its SHA-3 \(strictly speaking, keccak256\) hash. Also, it generates a random session code \(see below\), that it stores in memory/database along with the user's eth address and plain text confirmation code. Then the server combines input data, namely `str2sign = (user's eth address + user's name + all parts of physical address + confirmation code's hash)`into a string that is hashed and signed with the `owner`'s private key.   
-\(This is why the `owner`'s account needs to be unlocked. In the next release of web3js it will probably become possible to sign using a private key without unlocking.\)
+服务器由一个Web应用程序和一个连接到区块链的奇偶校验节点组成。 该节点在用于部署PoPA合同的Ethereum帐户（合同的`所有者`）下运行，该帐户需要解锁。 但是它不应该有任何以太币，因为它不再发送任何交易。
 
-Signature, the confirmation code's hash, the user's normalized input, and the session code are sent back to the client. User then confirms the transaction in MetaMask and invokes the contract's method. The contract combines input data in the same order as the server did, hashes it, and then uses the built-in function `ecrecover` to validate that the signature belongs to the `owner`. If it doesn't, the contract rejects the transaction, otherwise it adds some metadata, most importantly the current block's number, and saves it in the blockchain.
+服务器验证并规范化用户的输入：删除尾随空格，将字母转换为小写。 然后，它生成一个随机的确认码（字母数字序列）并计算其SHA-3（严格来说是keccak256）哈希。 此外，它还会生成一个随机会话代码（请参见下文），并将其与用户的eth地址和纯文本确认代码一起存储在内存/数据库中。 然后服务器合并输入数据，即`str2sign = (user's eth address + user's name + all parts of physical address + confirmation code's hash)`转换为一个字符串，该字符串经过哈希处理并用`所有者`的私钥签名。 （这就是`所有者`帐户需要被解锁的原因。在下一版的web3js中，很可能可以使用私钥进行签名而无需解锁。）
 
-When the transaction is mined, `tx_id` is returned to the client and then via the client to the server, along with the session code. Server queries memory by the session code and validates the user's eth address. Then it fetches the transaction from the blockchain by `tx_id`. It verifies that `tx.to` is equal to `owner` and `tx.from` is equal to the user's eth address. Then, using `tx.blockNumber` the server uses the contract's method to find the physical address added at that blockNumber. User should be limited to registering at most one address per eth block. Since block generation time is less than a minute, it shouldn't be too restrictive on the user.
+签名，确认代码的哈希，用户的规范化输入和会话代码被发送回客户端。 然后，用户在MetaMask中确认交易并调用合同的方法。 合同以与服务器相同的顺序组合输入数据，对其进行哈希处理，然后使用内置功能`ecrecover`来验证签名属于`所有者`。 如果不是，则合同拒绝交易，否则它将添加一些元数据，最重要的是当前块的编号，并将其保存在区块链中。
 
-Having fetched the address from the contract, the server calls postoffice's api \(lob.com\) to create a postcard. Server uses the session code to get plain text confirmation code from memory and print it on the postcard. Then the server removes this session code from memory to prevent reuse.
+当交易被挖掘时，`tx_id`连同会话代码一起返回到客户端，然后通过客户端返回到服务器。 服务器通过会话代码查询内存并验证用户的eth地址。 然后，它通过`tx_id`从区块链中获取交易。 它验证`tx.to`等于所有者，`tx.from`等于`用户`的eth地址。 然后，服务器使用`tx.blockNumber`使用合同的方法来查找在该区块号处添加的物理地址。 用户应被限制为每个eth块最多注册一个地址。 由于块生成时间少于一分钟，因此它对用户的限制不应太大。
 
-When the postcard arrives, the user enters the confirmation code in DApp, DApps gets signature from the server and invokes the contract's method. Contract verifies signature, computes the confirmation code's hash and loops over the user's addresses to find the matching one.
+从合约中获取地址后，服务器将调用邮局的api（lob.com）来创建明信片。 服务器使用会话代码从内存中获取纯文本确认代码，并将其打印在明信片上。 然后，服务器从内存中删除此会话代码，以防止重用。
 
-### Possible cheating: 
+当明信片到达时，用户在DApp中输入确认代码，DApps从服务器获取签名并调用合同的方法。 合同验证签名，计算确认码的哈希值，并在用户地址上循环查找匹配的地址。
 
-1. _user can generate his/her own confirmation code, compute all hashes and submit it to the contract, and then confirm it_ This can't be done because the user doesn't know the `owner`'s private key and therefore can't compute a valid signature. 
-2. _user can reuse someone else's confirmation code, or his/her own confirmation code from one of the previously confirmed addresses_ This is prevented by hashing all essential pieces of data together before signing \(user's eth address, full physical address, confirmation code\) and by checking the address for duplicates in the contract. 
-3. _user can submit the form, but doesn't sign the transaction_ For this reason the postcard is sent after the address is added to the blockchain and `tx_id` is presented to the server. 
-4. _user can submit the form and sign the transaction, but sends another address to the server to send postcard to_ After the first transaction is mined, the server sees for itself what address was added and fetches it from the contract instead of trusting the client. Session code is then used to retrieve the corresponding confirmation code. To simpify things, we can limit the user to only submitting a single address per block. In this case, the contract just needs to find the first record with matching `creation_block`
-5. _user can resubmit the same tx\_id to the server multiple times_ This is prevented by removing the session code from memory after the first postcard is sent.
+### 可能的作弊：
+
+1. _用户可以生成自己的确认代码_，计算所有哈希并将其提交给合同，然后进行确认。这无法完成，因为用户不知道`所有者`的私钥，因此无法计算有效签名。
+2. _用户可以从先前确认的地址之一重用他人的确认码或他/她自己的确认码_，这可以通过在签名之前将所有基本数据散列在一起（用户的eth地址，完整的物理地址，确认码）并通过检查来避免合同中重复项的地址。
+3. _用户可以提交表单，但不签署交易_。因此，在将地址添加到区块链并将`tx_id`呈现给服务器之后，便会发送明信片。
+4. _用户可以提交表单并签署交易_，但是将另一个地址发送到服务器以将明信片发送给。挖掘到第一笔交易后，服务器会自己查看添加的地址，然后从合同中获取地址，而不是信任客户端。然后，使用会话代码检索相应的确认代码。为简化起见，我们可以限制用户每个块仅提交一个地址。在这种情况下，合同只需找到与`creation_block`匹配的第一条记录
+5. _用户可以多次向服务器重新提交相同的tx\_id_。这是通过在发送第一张明信片后从内存中删除会话代码来防止的。
 

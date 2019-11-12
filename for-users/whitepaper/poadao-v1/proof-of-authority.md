@@ -1,25 +1,25 @@
-# Proof of Authority
+# 权威证明 - Proof of Authority
 
 ### AuthorityRound \(AuRa\)
 
-Aura is one of the Blockchain consensus algorithms available in Parity. It is capable of tolerating up to 50% of malicious nodes with chain reorganizations possible up to a limited depth, dependent on the number of validators, after which finality is guaranteed. This consensus requires a set of validators to be specified, which determines the list of blockchain addresses which participate in the consensus at each height. Sealing a block is the act of collecting transactions and attaching a header to produce a block.
+Aura是Parity中可用的区块链共识算法之一。 它能够容忍多达50％的恶意节点，并且根据验证人的数量，可以在有限的深度进行链重组，此后保证了确定性。 该共识需要指定一组验证人，以确定每个高度参与共识的区块链地址列表。 密封块是收集事务并附加标题以产生块的行为。
 
-At each step the primary node is chosen that is entitled to seal and broadcast a block, specifically `step modulo #_of_validators`the validator is chosen from the set. Blocks should be always sealed on top of the latest known block in the canonical chain. The block's header includes the step and the primary's signature of the block hash.
+在每个步骤中，选择有权加盖并广播一个块的主节点，`step modulo #_of_validators`，从该集合中选择验证人。 块应始终密封在规范链中最新已知的块之上。 块的标头包括步骤和块哈希的主要签名。
 
-Block can be verified by checking that the signature belongs to the correct primary for the given step. Finality of the chain can be achieved within at most `2 x #_of_validator` steps, after more than 50% of the nodes are signed on a chain and then they are signed again on those signatures. 
+可以通过检查签名是否属于给定步骤的正确主签名来验证Block。 在超过50％的节点在一条链上签名然后在这些签名上再次签名之后，链的终结性最多可以在`2 x #_of_validator`步之内完成。
 
-### History of POA
+### POA的历史
 
-On March 6, 2017, a group of blockchain companies announced new blockchain based on Ethereum protocol with Proof of Authority consensus . Spam attack on the Ropsten testnet was the reason to create a new public test network. This network was named Kovan, for a metro station in Singapore, where companies who founded the network are located. It is a common name convention for Ethereum test networks, for example, Morden, Ropsten, and Rinkeby are names of metro stations.
+2017年3月6日，一群区块链公司宣布了基于以太坊协议的新区块链，并获得了权威证明。 Ropsten测试网上的垃圾邮件攻击是创建新的公共测试网络的原因。 该网络名为Kovan，用于新加坡的地铁站，创建该网络的公司都位于该地铁站。 这是以太坊测试网络的通用名称约定，例如，Morden，Ropsten和Rinkeby是地铁站的名称。
 
-### Adoption of Kovan blockchain
+### 采用Kovan区块链
 
-In the table below we show stats for Main \(Homestead\) and Test \(Kovan\) Ethereum networks.
+在下表中，我们显示了主要（Homestead）和测试（Kovan）以太坊网络的统计信息。
 
-| Network | Type | Blocks mined | Tx created | Contract created | Accounts created |  |
+| 网络 | 类型 | 已挖区块 | 已达成交易 | 已创建合约 | 已创建账号 |  |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Kovan | Testnet | 3,417,527 | 2,859,549 | 54,384 | 18,082 | Text |
 | Homestead | Mainnet | 4,203,319 | 50,374,359 | 1,488,072 | 4,957,479 | Text |
 
-Large numbers of transactions, smart contracts, and accounts on the test network show adoption from the community and proven utility benefit.
+测试网络上的大量交易，智能合约和帐户显示出已被社区采用，并证明了公用事业的优势。
 

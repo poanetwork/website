@@ -1,12 +1,12 @@
-# Introduction
+# 介绍
 
-POA Network is an open, public, permissioned blockchain based on the Ethereum protocol. To reach consensus on a global state, it uses a Proof of Authority consensus algorithm. PoA consensus is a straightforward and efficient form of Proof of Stake with known validators and governance-based penalty system. A list of validators is managed by a smart contract with governance by validators. 
+POA Network是一个基于以太坊协议的开放，公开，允许的区块链。为了在全局状态上达成共识，它使用权威证明共识算法。 PoA共识是股权证明的一种简单有效的形式，它具有已知的验证人和基于治理的惩罚系统。验证者列表由智能合约管理，并由验证人进行治理。
 
-During an initial ceremony, the master of ceremony distributes keys to 12 independent validators. They add 12 plus one more to reach initial requirements for the consensus. To be validators on the network, a master of ceremony asks them to have an active notary public license within the United States. A concerned third party can cross-validate validators' identities using open data sources and ensure that each validator is a good actor with no criminal record. In the proposed network, the identity of an individual validator and the trust of independent and non-affiliated participants secures the consensus.
+在初始仪式中，仪式主持人将密钥分发给12个独立的验证人。他们增加了12加1，以达到共识的初始要求。为了成为网络上的验证人，仪式主持人要求他们在美国拥有有效的公证人公共许可证。有关的第三方可以使用开放数据源对验证人的身份进行交叉验证，并确保每个验证人都是没有犯罪记录的好人。在提议的网络中，单个验证人的身份以及独立和非关联参与者的信任确保了共识。
 
-The network is fully compatible with Ethereum protocol. The network supports only Parity client version 1.7 and later. The network supports trusted setup, on-chain governance, and a variety of "proof of identity" oracles. 
+该网络与以太坊协议完全兼容。网络仅支持奇偶校验客户端1.7版和更高版本。该网络支持受信任的设置，链上管理以及各种“身份证明”预言。
 
-We believe that POA Network will close a gap between private and public networks, and will become a model for open networks based on PoA consensus.
+我们认为，POA网络将填补了私有网络和公共网络之间的鸿沟，并将成为基于PoA共识的开放网络的模型。
 
 
 

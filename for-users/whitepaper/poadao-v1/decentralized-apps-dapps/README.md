@@ -1,10 +1,10 @@
-# Decentralized apps \(DApps\)
+# 去中心化应用程序（DApps）
 
-The term decentralized app or DApp stands for an application which works with a smart contract and can be deployed on any host and redeployed in case of attack or censorship without any harm to its functions. POA Network provides sets of supported DApps for identity verification, governance, and network administration.
+去中心化应用程序或DApp代表可与智能合约配合使用的应用程序，可在任何主机上部署并在遭受攻击或审查的情况下重新部署而不会对其功能造成任何损害。 POA Network提供了一组受支持的DApp，用于身份验证，治理和网络管理
 
-### Proof of Identity DApps
+### 身份证明DApp（Proof of Identity）
 
-In POA Network, identity of individual validators plays a major role for selected consensus. We propose a requirement for the initial validators to have an active notary commission within one of the states of the United States, although notary commission is not an object a validator can control solely. A regulator, e.g. a Secretary of State, may revoke notarial license from a validator, and we propose additional checks of identity, performed in a decentralized way.
+在POA网络中，单个验证人的身份对于选定的共识起着重要作用。 我们提出了一项要求，即最初的验证人必须在美国一个州内拥有活跃的公证人委员会，尽管公证人委员会不是验证人只能控制的对象。 调节器，例如 国务卿可从验证人处撤销公证，我们建议以分散的方式进行额外的身份检查。 
 
-Proof of Identity DApps is a series of decentralized applications focused on connecting a user's identity to his/her wallet. Applications can be run on any Ethereum-compatible network.
+身份证明（Proof of Identity）DApps是一系列去中心化的应用程序，致力于将用户的身份与其钱包关联。 应用程序可以在任何与以太坊兼容的网络上运行。
 

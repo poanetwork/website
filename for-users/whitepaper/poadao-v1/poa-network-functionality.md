@@ -1,100 +1,98 @@
 ---
-description: >-
-  Includes network description, economy,  use cases, security risks and
-  deployment
+description: 包括网络描述，经济性，用例，安全风险和部署
 ---
 
-# POA Network Functionality
+# POA网络功能
 
-### Validators
+### 验证者
 
-Independent U.S. public notaries with active commission license will be the first validators in POA Network. For the initial ceremony, 12 initial keys will be created by a master of ceremony. He will distribute those keys to individual validators. Each validator will change a key to a new subset of keys using a client-side DApp. After the initial distribution of licenses, an additional validator can be added through the voting process on the built-in Governance DApp. A majority of votes will be needed from validators to be accepted into the smart contract with a list of validators.
+具有有效佣金许可证的美国独立公证人将成为POA网络中的第一批验证人。 对于初始仪式，仪式主持人将创建12个初始键。 他会将这些密钥分发给各个验证人。 每个验证人都将使用客户端DApp将密钥更改为新的密钥子集。 初始分配许可证后，可以通过内置的Governance DApp的投票过程添加一个附加的验证人。 验证人需要获得大多数投票，才能通过验证人列表被加入智能合约。
 
-### Economy
+### 经济模型
 
-Crowdsale will take place before the launch of the main network. Purchased coins will be included in the genesis block and will create initial liquidity for the network.
+众筹将在主网络启动之前进行。购买的代币将包含在创世块中，并将为网络创造初始流动性。
 
-Validators will start to create blocks and generate a reward for the network security. For each generated block, a validator who created it will get one coin and all fees for transactions. Each validator has equal rights to create a block.
+验证程序将开始创建块并为网络安全性提供奖励。对于每个生成的区块，创建它的验证者将获得一枚硬币和所有交易费用。每个验证人都有创建块的平等权利。
 
-The network will start with 12 validators. With 12 validators active, each validator will create one block every 12 blocks. For each block one coin will be created as a reward for validators and one coin for self sustaining of the network.
+网络将从12个验证人开始。启用12个验证人后，每个验证人将每隔12个区块创建一个块。对于每个区块，将创建一个代币作为对验证人的奖励，并创建一个代币用于网络的自我维持。
 
-A block will be generated with an average time of 5 seconds. During the first year of the network, validators will create 31,536,000 sec/5 sec per block = 6,307,200 blocks.
+生成一个区块的平均时间为5秒。在网络的第一年，验证人将创建每块31,536,000秒/ 5秒= 6,307,200个块。
 
-The emission rate for validators is 2.5% for the first year of the network. The network will use disinflation model, and emission will decrease every year. An additional 2.5% will be added to support sustainability of the network.
+网络第一年验证人的排放率为2.5％。该网络将使用通货膨胀模型，并且排放量每年都会减少。将另外增加2.5％，以支持网络的可持续性。
 
-Therefore, 2.5% of the network supply will be generated as a reward for validators to secure the network. And 2.5% of total supply will be distributed to support sustainability. Validators will be able to propose areas of spending:
+因此，将产生网络供应量的2.5％，作为验证人保护网络安全的奖励。总供应量的2.5％将用于支持可持续性。验证人将能够对这些代币作出以下处置：
 
-* burn coins
-* hold coins
-* spend on R&D Foundation
+* 烧币（burn coins）
+* 持币（hold coins）
+* 花费在研发基金会上
 
-Sustainability emission will be governed by decentralized apps.
+可持续发展的排放将由去中心化的应用程序控制。
 
-![Emission rate. X-axis - %, Y-axis - Years](../../../.gitbook/assets/emission_rate_1.png)
+![&#x6392;&#x653E;&#x7387;. X-axis - %, Y-axis - &#x5E74;&#x9650;](../../../.gitbook/assets/emission_rate_1.png)
 
-### Use Cases
+### 用例
 
-#### Inexpensive Network
+#### 费用低廉的网络
 
-POA Network provides inexpensive consensus to secure the network. Users can run Ethereum programs on POA Network and spend less money on transaction fees. Overall cost of the network's security will also be cheaper due to lower market cap.
+POA Network提供费用廉价的共识来保护网络。 用户可以在POA网络上运行以太坊程序，而在交易费用上花费更少的钱。 由于费用较低，网络安全性的总体成本也将降低。
 
-**Problem**
+**问题**
 
-Though the issuance of ETH is in a fixed amount each year, the rate of growth of the monetary base \(monetary inflation\) is not constant. This monetary inflation rate decreases every year, making ETH a disinflationary currency \(in terms of monetary base\). Disinflation is a special case of inflation in which the amount of inflation shrinks over time.
+尽管ETH的发行量每年是固定的，但货币基础的增长率（货币通胀）不是恒定的。 货币通货膨胀率每年下降，使ETH成为通货紧缩货币（就货币基础而言）。 通货紧缩是通货膨胀的一种特例，其中通货膨胀量会随着时间的流逝而缩小。
 
-In 2017 the issuance rate of Ether is 14.75%. Roughly five Ethers per block are issued. Because Ethereum rewards Uncles it means that there may be more or less than five Ethers.
+2017年以太币的发行率为14.75％。 每个区块大约发布五个以太币。 因为以太坊中的叔块\(uncle block\)，这意味着以太坊可能多于或少于五个。
 
-By 9/7/2017 miners generated 21,335,541.72 ETH as Mining Block Reward and 1,181,201.88 Mining Uncle Reward. For securing the network, they received a total of 22,516,743.6 ETH. Using the 9/7/2017 price of $303.86, security of the network costs 22516743.6 ETH \* $303.86 = $6,841,937,710.296.
+到2017年9月7日，矿工生成了21,335,541.72 ETH作为采矿区块奖励和1,181,201.88 ETH。 为了保护网络安全，他们总共收到了22,516,743.6 ETH。 使用2017年9月7日的价格303.86美元来计算，网络安全成本为22516743.6 ETH \* 303.86美元= 6,841,937,710.296美元。
 
-There are 56,048,767 transactions on the network. Security of a transaction in the main Ethereum network costs are about $122.07 at the current rate.
+网络上有56,048,767笔交易。 以当前汇率计算，以太坊主网络成本中的交易安全性约为122.07美元。
 
-**Solution**
+**解决方案**
 
-In POA Network the issuance rate is 2.5% with future disinflation. There is no Mining Uncle Reward in the network, because consensus is not based on Proof of Work.
+在POA网络中，未来的通货紧缩发行率为2.5％。 网络中没有叔块挖矿奖励（Mining Uncle Reward），因为共识不是基于工作量证明。
 
-#### Validators with known identity
+**具有已知身份的验证人**
 
-Each validator of the network will prove his/her identity using "proof of identity" DApps. Each block will be attributed with the identity of a validator. If a miner breaks the rules of the open network, e.g. will not accept a transaction to a specific address, participants of the network will have legal instruments to resolve that problem.
+网络的每个验证人都将使用“身份证明” DApp来证明其身份。 每个块将被赋予验证人的身份。 如果矿工违反开放网络的规则，例如 将不会接受到特定地址的交易，该网络的参与者将拥有解决该问题的法律工具。
 
-#### Fast network
+**快速的网络**
 
-Validators in POA Network create blocks every five seconds. This rate is tested on Kovan testnet and usable in the long-term. A faster network allows for building new types of applications where response rate from the distributed consensus is important.
+POA网络中的验证程序每五秒钟创建一次块。 此速率已在Kovan testnet上测试并可以长期使用。 更快的网络可用于构建新型应用程序，其中来自分布式共识的响应率很重要。
 
-#### Legally recognizable hard forks
+**易于识别的合法硬分叉**
 
-Hard fork is a change of the software. After applying this software, old clients will not be able to work on the new network. All validators on the network are residents of the U.S. Therefore, they are all located in the same legal system. Hard fork decisions will be signed as legal documents and will be recognizable in a court system. This will bring protections to participants of the network and will open new possibilities to decide how to deal with ongoing changes.
+硬分叉是对软件的更改。 应用此软件后，旧客户端将无法在新网络上工作。 网络上的所有验证人都是美国居民。因此，他们都位于同一法律体系中。 硬分叉决定将被签署为法律文件，并将在法院系统中被识别。 这将为网络的参与者提供保护，并为决定如何应对持续的变化提供新的可能性。
 
-#### Model for experiments
+**实验模型**
 
-The network is built to iterate fast. In the future many open and independent networks based on Ethereum protocol will operate and have interface for interoperability.
+该网络旨在快速迭代。 将来，许多基于以太坊协议的开放和独立网络都将运行并具有互操作性接口。
 
-### Security Risks
+### 安全风险
 
-#### Key compromise
+**密钥泄露**
 
-During the initial ceremony, validators will be required to replace their initial keys with a set of three keys. Mining keys are located on a mining node. If a node is compromised, validators will create a ballot using Governance DApp and propose replacement of the mining key. If a voting key is compromised, a validator will ask another validator to create a ballot to replace his/her voting key. If a payout key is compromised, a validator will create a ballot to replace his/her payout key. Because payout is not required, a validator can specify a new payout key on a mining node without proposing ballots.
+在初始仪式期间，将要求验证者用一组三个密钥替换其初始密钥。挖掘密钥位于挖掘节点上。如果某个节点受到威胁，验证者将使用Governance DApp创建选票并建议更换挖掘密钥。如果投票密钥被泄露，验证者将要求另一个验证者创建一个选票来替换他/她的投票密钥。如果支付密钥被泄露，验证者将创建一个选票来替换他/她的支付密钥。由于不需要支付，因此验证者可以在挖掘节点上指定新的支付密钥，而无需提议投票。
 
-#### Censoring signer
+**审查签名人**
 
-Censoring signing is an attack vector in which a signer or a group of signers attempts to censor out blocks that vote on removing them from the validators list. To work around this, we restrict the allowed minting frequency of signers to 1 out of N. This ensures that malicious signers need to control at least 51% of signing accounts, at which case it's game over anyway.
+审查签名是一种攻击媒介，签名者或一组签名者试图审查掉投票决定将其从验证者列表中删除的块。要解决此问题，我们将签名者的允许铸造频率限制为N个中的1个。这确保了恶意签名者需要控制至少51％的签名帐户，在这种情况下，无论如何这都是游戏。
 
-#### Regulatory risks
+**监管风险**
 
-All validators are required to have an active notary commission. Doing block validation under the name of a notary public may be considered as false advertising and a regulator may revoke the notary commission from the validator. The network will mitigate the risk by providing additional identity checks for a validator. Eventually, those unbiased checks will replace the need for a validator to have an active notary commission.
+所有验证人都必须拥有活跃的公证人佣金。以公证人名义进行集体验证可能被视为虚假广告，监管机构可能会撤消验证人的公证委托。网络将通过为验证者提供其他身份检查来减轻风险。最终，那些公正的支票将代替验证人拥有活跃的公证人佣金的需求。
 
-#### Collusion of validators
+**验证人的合谋‌**
 
-Validators may become an affiliated group even though we require them to be independent. Before distribution of initial keys, the master of ceremony will require validators to sign a non-affiliation agreement between them and the network. All validators are in the same jurisdiction, where the general public may enforce that agreement.
+即使我们要求验证者独立，验证者也可能成为其附属团体。在分发初始密钥之前，仪式主持人将要求验证者签署他们与网络之间的非关联协议。所有验证人都在同一司法管辖区中，公众可以执行该协议。
 
-### Deployment
+### 部署方式
 
-We provide a deployment script for cloud installation of mining, boot, and general purpose nodes. For a validator, setting up a node is a one-button solution. For a mining node, a validator will provide
+我们提供了一个部署脚本，用于采矿节点，引导节点和通用节点的云安装。 对于验证者，设置节点是一键式解决方案。 对于挖掘节点，验证器将提供
 
-* Mining Address. The address of the mining key received at the initial ceremony.
-* Mining Keyfile. File with the private key of the mining key.
-* Mining Keypass. The password to unlock the private key of the mining key. 
-* Admin Username. Username of admin user of the virtual machine, e.g. `root`.
-* Admin SSH public key. Content of admin's SSH public key. We do not allow use of passwords for the VMs.
-* Netstats Server. Network statistics, e.g. number of Active Nodes, Last Block, Avg Block Time, Best Block, Gas Spending, Gas Limit, List of validators with parameters. 
-* Netstats Secret. Password to the netstat server.
+* 采矿地址 - 初始仪式上收到的挖掘密钥的地址。
+* 挖掘密钥文件 - 使用挖掘密钥的私钥进行文件。
+* 挖矿密码 - 用于解锁挖掘密钥的私钥的密码。
+* 管理员用户名 - 虚拟机管理员用户的用户名，例如`root`。
+* 管理员SSH公钥 - 管理员的SSH公钥的内容。我们不允许为虚拟机使用密码。
+* Netstats服务器 - 网络统计信息，例如活动节点数，最后一个块，平均块时间，最佳块，气体支出，气体限制，带有参数的验证者列表。
+* Netstats的秘密 - netstat服务器的密码。
 

@@ -39,6 +39,7 @@
 * [Wallets](for-users/wallets/README.md)
   * [Nifty Wallet](for-users/wallets/nifty-wallet/README.md)
     * [Getting Started](for-users/wallets/nifty-wallet/getting-started.md)
+  * [Trust Wallet](for-users/wallets/trust-wallet.md)
 * [Whitepaper](for-users/whitepaper/README.md)
   * [POADAO v1](for-users/whitepaper/poadao-v1/README.md)
     * [Introduction](for-users/whitepaper/poadao-v1/introduction.md)

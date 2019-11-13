@@ -9,7 +9,7 @@
 3\)  使用您的电子邮件和**密码**登录到您的**帐户**。 您将收到第二封包含**激活码**的电子邮件。 输入此激活码以访问您的商家帐户。
 
 {% hint style="success" %}
-[Next: Setup your Merchant Account](setup-merchant-account.md)
+[下一步：设置您的商家帐户](setup-merchant-account.md)
 {% endhint %}
 
 ## 

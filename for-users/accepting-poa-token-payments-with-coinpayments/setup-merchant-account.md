@@ -18,17 +18,21 @@
 
 💲 **付款方式:**
 
-* **To Balance:** Received payments are stored in your CoinPayments wallet for later withdrawal at your leisure.
-* **ASAP:** Received payments are sent to the address you specify as soon as they are received and confirmed.
-* **Nightly:** Received payments are grouped together and sent daily \(at approx. midnight EST GMT-0500\). The main benefit of this option is it will save you coin TX fees.
-* **To Balance + Convert:** Received payments are converted to the selected coin and stored in your CoinPayments wallet. In some cases such as if the amount received is too large to convert at current market volumes you may receive the original currency instead.
-* **ASAP + Convert:** Received payments are converted to the selected coin and sent to the address specified. In some cases such as if the amount received is too large to convert at current market volumes you may receive the original currency instead in your CoinPayments wallet.
+* **余额**：收到的付款存储在您的CoinPayments钱包中，以便以后有空时提款。
 
-💲 **Discount Options**: Enter a positive number to discount an item paid for with cryptocurrency, or a negative item to increase price if cryptocurrency is used.
+* **快速收款**：收到并确认付款后，付款便立即发送到您指定的地址。
 
-4\) Once you have chosen the coins to select and options scroll to the bottom of the form and click **Update Coin Preferences**. You will be forwarded to the Merchant payment method setup screen.
+* **夜间付款**：将收到的付款汇总在一起，每天发送一次（大约在美国东部标准时间GMT-0500午夜）。 此选项的主要优点是，它将节省您的硬币TX费用。
+
+* **余额+转换**：收到的付款将转换为所选硬币并存储在您的CoinPayments钱包中。 在某些情况下，例如，如果收到的金额太大而无法按当前的市场量进行转换，则您可能会收到原始货币。
+
+* **快速收款+转换**：收到的付款将转换为所选硬币并发送到指定的地址。 在某些情况下，例如如果收到的金额太大而无法按当前的市场量进行转换，则您可能会在CoinPayments钱包中收到原始货币。
+
+💲 **折扣选项**：输入正数以折扣使用加密货币支付的商品，或输入负数以增加价格（如果使用了加密货币）。
+
+4\) 选择代币后，选项将滚动到表单底部，然后单击“**更新代币首选项**”。 您将被转到商户付款方式设置屏幕。
 
 {% hint style="success" %}
-[Next: Merchant Payment Methods Setup](merchant-payment-method-setup.md)
+[下一页：商户付款方式设置](merchant-payment-method-setup.md)
 {% endhint %}
 

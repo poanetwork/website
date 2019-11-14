@@ -4,7 +4,7 @@ description: >-
   split swaps across multiple exchanges
 ---
 
-# POA20 Token Swaps on 1inch
+# POA20 Token Swaps on 1inch.exchange
 
 1inch.exchange offers the ability to swap POA20 with a large list of other ERC20 tokens. The exchange compiles rates from [several different decentralized exchanges](../about-poa-token/poa-and-poa20-exchanges.md#poa20-markets) and provides the best rates.  Features include a dedicated DApp \(not required\) and [GasToken](https://gastoken.io/) utilization, which lowers transaction costs.
 

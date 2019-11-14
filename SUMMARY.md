@@ -32,7 +32,7 @@
   * [Making a Payment with POA20 \(Customer Perspective\)](for-users/accepting-poa-token-payments-with-coinpayments/making-a-payment-with-poa20-customer-perspective.md)
 * [Tutorials](for-users/tutorials/README.md)
   * [Trading POA20 on DEX.AG](for-users/tutorials/trading-poa20-on-dex.ag.md)
-  * [POA20 Token Swaps on 1inch.exchange](for-users/tutorials/poa20-token-swaps-on-1inch.exchange.md)
+  * [POA20 Token Swaps on 1inch](for-users/tutorials/poa20-token-swaps-on-1inch.exchange.md)
   * [Getting Airdrops via Discord](for-users/tutorials/airdrops-via-discord.md)
 * [Governance](for-users/governance/README.md)
   * [Article: A Successful Year of On-Chain Governance](for-users/governance/article-a-successful-year-of-on-chain-governance.md)

@@ -25,7 +25,8 @@ Swap exchange
 
 * DeFi Swap Exchanges
   * [Uniswap Exchange](https://uniswap.exchange/swap)
-  * [One Inch Exchange](https://1inch.exchange)
+  * [1Inch Exchange](https://1inch.exchange)
+  * [Dex.ag](http://dex.ag)
 * [Bancor Network](https://www.bancor.network/)
   * [POA20/BNT](https://www.bancor.network/communities/5af31ea96f1d0f00018b2c80/about)
 * [Ethfinex](https://www.ethfinex.com/)

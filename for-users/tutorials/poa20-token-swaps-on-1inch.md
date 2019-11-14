@@ -63,7 +63,7 @@ In this case, we'd like some BAT to help support [Brave Browser](https://brave.c
 
 1. Select **From** token - in this case we chose POA20.
 2. Enter **Amount** of POA20 you want to swap.
-3. Select **To** token. We want to swap ETH into POA20.
+3. Select **To** token. We want to swap POA20 into BAT.
 4. The amount will auto-populate based on the best exchange rate.
 5. Click **Unlock**.
 

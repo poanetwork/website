@@ -32,6 +32,7 @@
   * [使用POA20付款（客户角度）](for-users/accepting-poa-token-payments-with-coinpayments/making-a-payment-with-poa20-customer-perspective.md)
 * [教程](for-users/tutorials/README.md)
   * [在DEX.AG上交易POA20](for-users/tutorials/trading-poa20-on-dex.ag.md)
+  * [在1inch.exchange上交换POA20令牌](for-users/tutorials/zai-1inch.exchange-shang-jiao-huan-poa20-ling-pai.md)
   * [通过Discord获取空投](for-users/tutorials/airdrops-via-discord.md)
 * [治理](for-users/governance/README.md)
   * [文章：链上治理成功的一年](for-users/governance/article-a-successful-year-of-on-chain-governance.md)

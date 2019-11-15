@@ -64,6 +64,7 @@
 
 * [Developer Resources](for-developers/developer-resourses.md)
 * [POA Installation](for-developers/poa-installation.md)
+* [Sokol Testnet Faucet](for-developers/sokol-testnet-faucet.md)
 * [ERC20 Test Token Faucet](for-developers/erc20-test-token-faucet.md)
 * [Grants for Building on POA](for-developers/grants-for-building-on-poa.md)
 

@@ -6,7 +6,7 @@ description: 1inch令牌交换聚合器显示可用汇率，并且可以将交�
 
 1inch.exchange提供了将POA20与大量其他ERC20令牌交换的功能。 该交易所汇总了[几个不同的去中心化交易所](../about-poa-token/poa-and-poa20-exchanges.md)的汇率，并提供了最佳汇率。 功能包括专用的DApp（不是必要的）和[GasToken](https://gastoken.io/)利用率，从而降低了交易成本。
 
-首先，启用web3钱包扩展程序，例如[Nifty Wallet](../wallets/nifty-wallet.md)（在本教程中使用）或MetaMask。 该帐户必须包含少量以太币才能进行交易。
+首先，启用web3钱包扩展程序，例如[Nifty Wallet](../wallets/nifty-wallet/)（在本教程中使用）或MetaMask。 该帐户必须包含少量以太币才能进行交易。
 
 ## 将ETH交换为POA20
 

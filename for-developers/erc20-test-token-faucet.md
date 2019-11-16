@@ -11,7 +11,7 @@ description: 在POA上创建ERC20 FAU令牌以测试智能合约和令牌传输�
 ### 先决条件
 
 * 装有足够的本机货币（POA）来支付交易的网络钱包地址。 
-* Web3钱包界面，例如MetaMask或[NiftyWallet](../for-users/wallets/nifty-wallet.md)。 在本教程中，我们使用[NiftyWallet](https://forum.poa.network/t/nifty-wallet-is-back-on-the-chrome-store/2408)。
+* Web3钱包界面，例如MetaMask或[NiftyWallet](../for-users/wallets/nifty-wallet/)。 在本教程中，我们使用[NiftyWallet](https://forum.poa.network/t/nifty-wallet-is-back-on-the-chrome-store/2408)。
 
 {% hint style="info" %}
 ERC20令牌龙头也可以与[Portis](https://www.portis.io/)或[Squarelink](https://squarelink.com/)一起使用。

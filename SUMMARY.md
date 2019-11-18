@@ -64,7 +64,9 @@
 
 * [开发人员资源](for-developers/developer-resourses.md)
 * [POA安装](for-developers/poa-an-zhuang.md)
+* [Sokol测试网络水龙头](for-developers/sokol-ce-shi-wang-luo-shui-long-tou.md)
 * [ERC20测试令牌水龙头](for-developers/erc20-test-token-faucet.md)
+* [DApp部署](for-developers/dapp-bu-shu.md)
 * [基于POA的赠款](for-developers/grants-for-building-on-poa.md)
 
 ## 对于验证者 <a id="for-validators"></a>

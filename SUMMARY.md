@@ -63,6 +63,7 @@
 ## 面向开发者 <a id="for-developers"></a>
 
 * [开发人员资源](for-developers/developer-resourses.md)
+* [POA安装](for-developers/poa-an-zhuang.md)
 * [ERC20测试令牌水龙头](for-developers/erc20-test-token-faucet.md)
 * [基于POA的赠款](for-developers/grants-for-building-on-poa.md)
 

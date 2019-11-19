@@ -48,7 +48,7 @@ ansible-playbook -i hosts site.yml
 
 如果要在测试网上（sokol）进行部署，请按照以下步骤操作： 
 
-1\) 登录到该节点并从奇偶校验日志中获取enode：
+1\) 登录到该节点并从Parity日志中获取enode：
 
 ```text
 ssh root@192.0.2.1 OR, if root SSH access is not enabled:
@@ -59,7 +59,7 @@ sudo su    #NOTE:  enter the 'ubuntu' user password, or other user password if y
 grep enode /home/validator/logs/parity.log
 ```
 
-2\) 复制`enode` uri并将其发送给仪式主持人。 如果找不到此行，请重新启动奇偶校验
+2\) 复制`enode` uri并将其发送给仪式主持人。 如果找不到此行，请重新启动Parity
 
 ```text
 systemctl restart poa-parity
@@ -68,7 +68,7 @@ systemctl restart poa-parity
 然后再试一次。 如果仍然找不到`enode` uri，请使用以下命令重新启动所有服务。
 
 {% hint style="info" %}
-如果奇偶校验重新启动后，您发现`NETSTATS_SERVER` url上您的节点开始落后于其他节点（块号小于其他节点）并且几分钟后仍未赶上，_请尝试以下操作：_ 
+如果Parity重新启动后，您发现`NETSTATS_SERVER` url上您的节点开始落后于其他节点（块号小于其他节点）并且几分钟后仍未赶上，_请尝试以下操作：_ 
 {% endhint %}
 
 1\) 尝试重新启动统计信息服务（假设您以`root`用户身份连接）：

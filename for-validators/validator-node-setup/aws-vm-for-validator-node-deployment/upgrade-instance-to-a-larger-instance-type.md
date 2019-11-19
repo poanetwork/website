@@ -13,7 +13,7 @@
 ssh root@192.0.2.1
 ```
 
-    9. 编辑奇偶校验配置文件以更新您的公共IP地址。 要在您喜欢的文本编辑器（例如`nano`）中执行此打开文件
+    9. 编辑Parity配置文件以更新您的公共IP地址。 要在您喜欢的文本编辑器（例如`nano`）中执行此打开文件
 
 ```text
 nano /home/validator/node.toml
@@ -33,7 +33,7 @@ nat = "extip:192.0.2.2"
 
 保存并退出文本编辑器（对于`nano`，请按CTRL + X，然后按y）。
 
-10.   重新启动奇偶校验和netstats
+10.   重新启动Parity和netstats
 
 ```text
 sudo systemctl restart poa-parity

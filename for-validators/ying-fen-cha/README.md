@@ -11,7 +11,7 @@ description: 通过硬分叉来引入主要更新
 与硬人叉相关的信息将发布在[POA Wiki](https://github.com/poanetwork/wiki)中。 这将包括描述和更新说明。 有关示例，请参见[先前的硬分叉信息](li-ci-ying-fen-cha-xin-xi.md)。 如果需要任何帮助，请随时通过论坛或其他渠道联系或提出问题。
 
 {% hint style="info" %}
-在硬分叉期间，以下信息已更新。 其他项目（例如奇偶校验版本）也可能需要更新。
+在硬分叉期间，以下信息已更新。 其他项目（例如Parity版本）也可能需要更新。
 {% endhint %}
 
 1\) [https://github.com/poanetwork/poa-chain-spec](https://github.com/poanetwork/poa-chain-spec)​

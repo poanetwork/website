@@ -84,7 +84,7 @@ ansible-playbook -i hosts site.yml -K --key-file "~/.ssh/id_poa-core"
 
 9\) 在浏览器中打开`NETSTATS_SERVER` URL，并检查名为`NODE_FULLNAME`的节点是否出现在列表中
 
-10\) 登录到该节点并从奇偶校验日志中获取enode：  
+10\) 登录到该节点并从Parity日志中获取enode：  
 如果没有访问`root`的权限，则可以使用`sudo`用户，在连接到远程计算机后在命令前附加`sudo`
 
 ```text
@@ -92,7 +92,7 @@ ssh root@192.0.2.1
 grep enode /home/bootnode/logs/parity.log
 ```
 
-复制`enode` uri并将其发送给仪式主持人。 如果找不到此行，请重新启动奇偶校验
+复制`enode` uri并将其发送给仪式主持人。 如果找不到此行，请重新启动Parity
 
 ```text
 systemctl restart poa-parity

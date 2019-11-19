@@ -99,7 +99,7 @@ ansible-playbook -i hosts site.yml -K --key-file "~/.ssh/id_poa-core"
 如果要将节点部署到CORE网络，请跳过此步骤。 您不应该公开您的`enode`，因为它将使您的验证器节点成为拒绝服务攻击的简单目标。
 {% endhint %}
 
-如果要在测试网上（sokol）进行部署，请执行以下步骤：登录到节点并从奇偶校验日志中获取enode：  
+如果要在测试网上（sokol）进行部署，请执行以下步骤：登录到节点并从Parity日志中获取enode：  
 
 
 如果没有访问`root`的权限，则可以使用`sudo`用户，在连接到远程计算机后在命令前附加`sudo`
@@ -109,7 +109,7 @@ ssh root@192.0.2.1
 grep enode /home/validator/logs/parity.log
 ```
 
-_复制`enode` uri并将其发送给仪式主持人。 如果找不到此行，请重新启动奇偶校验_
+_复制`enode` uri并将其发送给仪式主持人。 如果找不到此行，请重新启动_Parity
 
 ```text
 systemctl restart poa-parity
@@ -117,7 +117,7 @@ systemctl restart poa-parity
 
 然后再试一次。 如果仍然找不到`enode`uri，请使用以下命令重新启动所有服务。
 
-_注意_如果在奇偶校验重新启动后您发现在`NETSTATS_SERVER` url上您的节点开始落后于其他节点（块号小于其他节点），请尝试重新启动统计信息服务（假设您以`root`身份连接）：
+_注意_如果在Parity重新启动后您发现在`NETSTATS_SERVER` url上您的节点开始落后于其他节点（块号小于其他节点），请尝试重新启动统计信息服务（假设您以`root`身份连接）：
 
 ```text
 su validator

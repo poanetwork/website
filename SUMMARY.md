@@ -15,6 +15,7 @@
 ## For users
 
 * [POA Tokens](for-users/about-poa-token/README.md)
+  * [POA Token Supply](for-users/about-poa-token/poa-token-supply.md)
   * [POA & POA20 Exchanges](for-users/about-poa-token/poa-and-poa20-exchanges.md)
   * [FAQ: POA20 General Questions](for-users/about-poa-token/faq-poa20-general-questions.md)
 * [POA Token Use Cases](for-users/use-cases-of-poa-token/README.md)

@@ -18,10 +18,10 @@ Check the endpoint ****below for the up-to-date supply.
 
 ### How Supply is Derived
 
-Currently, 2 POA are created per block. At the onset of the network, the initial supply was 252,460,800 POA. 1 POA was created per block. Since November 2018 \(Block 5329160\), the emission fund was activated and an additional 1 token created per block.  
+Currently, 2 POA are created per block. At the onset of the network, the initial supply was 252,460,800 POA and 1 POA was created per block. Since November 2018 \(Block 5329160\), the POA emission fund was activated and an additional 1 token created per block.  
 
 * For every block, 1 new POA token is created and distributed to the validator responsible for sealing that block. The sum of the total blocks created to date = the amount of POA created as validator rewards.
-* Since block 5329160, and additional 1 POA token is created per block and sent to the Emission fund contract. Currently, the POA Foundation is set as the receiver of the emission fund. 
+* Since block 5329160, and additional 1 POA token is created per block and sent to the emission fund contract. Currently, the POA Foundation is set as the receiver of the emission fund. 
 
 A total of 1,550,643 POA Tokens were burned when validators voted to burn the 3rd emission fund. [More information available here](https://forum.poa.network/t/emission-funds-3-results/2957).
 

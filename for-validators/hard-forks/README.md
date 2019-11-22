@@ -8,7 +8,7 @@ description: Major updates are introduced through hard forks
 Hard forks are used to introduce new functionality or fix security related issues. Validators will receive instructions to update their nodes in the event of a hard fork.
 {% endhint %}
 
-Information related to a hard fork will be posted in the [POA wiki](https://github.com/poanetwork/wiki). This will include a **description** and **update instructions**. See [previous hard fork information](previous-hard-fork-information.md) for examples. If any assistance is needed, feel free to reach out or ask questions through the forum or other channels.
+Information related to a hard fork will be posted. If any assistance is needed, feel free to reach out or ask questions through the forum or other channels.
 
 {% hint style="info" %}
 The following information is updated during a hard fork. Other items such as the Parity version may also require updates.

@@ -22,7 +22,7 @@ To use governance DApps, switch to the **POA Core** or **Sokol Testnet** in the 
 ## Hard Forks
 
 * [Files to update during a hard fork](../hard-forks/)
-* [Previous hard fork information for POA Core and Sokol](../hard-forks/previous-hard-fork-information.md)
+* [Previous hard fork information for POA Core and Sokol]()
 
 
 

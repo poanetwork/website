@@ -39,6 +39,7 @@
   * [Article: A Successful Year of On-Chain Governance](for-users/governance/article-a-successful-year-of-on-chain-governance.md)
   * [Governance Quarterly Reports](for-users/governance/governance-quarterly-report/README.md)
     * [Nov 2019 Report](for-users/governance/governance-quarterly-report/nov-2019-report.md)
+  * [Ballot Type, Lifecycle & Limits](for-users/governance/ballot-type-lifecycle-and-limits.md)
 * [Wallets](for-users/wallets/README.md)
   * [Nifty Wallet](for-users/wallets/nifty-wallet/README.md)
     * [Getting Started](for-users/wallets/nifty-wallet/getting-started.md)

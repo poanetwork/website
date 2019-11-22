@@ -14,6 +14,8 @@ description: POA Governance Updates Sept - Nov 2019
 
 {% hint style="info" %}
 Additional voting information available at: [https://voting.poa.network/poa-dapps-voting](https://voting.poa.network/poa-dapps-voting)
+
+Ballot types and properties are [explained here](../ballot-type-lifecycle-and-limits.md).
 {% endhint %}
 
 ## Governance Ballot Details: Sept - Nov 2019

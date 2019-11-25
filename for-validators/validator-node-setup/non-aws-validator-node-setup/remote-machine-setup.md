@@ -45,6 +45,14 @@ _**Azure users will not have access to their root account by default, use your s
  usermod -aG sudo ubuntu
 ```
 
+3\) Copy authorized keys from `root` to `ubuntu` user
+```text
+su ubuntu
+mkdir -p ~/.ssh
+touch ~/.ssh/authorized_keys
+ctrl+d
+cat ~/.ssh/authorized_keys >> /home/ubuntu/.ssh/authorized_keys
+```
 Your Non-AWS node is now ready for configuration using ansible-playbook provided by POA. 
 
 {% hint style="success" %}

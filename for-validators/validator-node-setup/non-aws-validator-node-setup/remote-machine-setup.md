@@ -20,7 +20,7 @@ Log into your Cloud Dashboard and deploy a new node with a minimum of 1 CPU, 1GB
     /home/ubuntu/.ssh/id_poa-sokol
    ```
 
-* This will save 2 files, .pub will be your public key and the other is your private key. Private SSH key stays on your local machine and Public key gets copied to remote machines you want access to.
+2. This will save 2 files, .pub will be your public key and the other is your private key. Private SSH key stays on your local machine and Public key gets copied to remote machines you want access to.
 
 **Add User with Sudo Privileges**
 
@@ -46,6 +46,7 @@ _**Azure users will not have access to their root account by default, use your s
 ```
 
 3\) Copy authorized keys from `root` to `ubuntu` user
+
 ```text
 su ubuntu
 mkdir -p ~/.ssh
@@ -53,11 +54,10 @@ touch ~/.ssh/authorized_keys
 ctrl+d
 cat ~/.ssh/authorized_keys >> /home/ubuntu/.ssh/authorized_keys
 ```
-Your Non-AWS node is now ready for configuration using ansible-playbook provided by POA. 
+
+Your Non-AWS node is now ready for configuration using ansible-playbook provided by POA.
 
 {% hint style="success" %}
 Continue to [Node Configuration with Deployment Playbook](configure-node-using-deployment-playbook.md)
 {% endhint %}
-
-
 

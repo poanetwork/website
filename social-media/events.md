@@ -1,4 +1,22 @@
+---
+description: Prior and Upcoming Events
+---
+
 # Events
+
+## POA Core Istanbul Network Upgrade \(Hard Fork\)
+
+December 12 2019
+
+One week following the Sokol upgrade, POA core will upgrade to Istanbul. Additional details to follow.
+
+## Sokol Istanbul Network Upgrade \(Hard Fork\)
+
+December 5 2019
+
+The Sokol testnet will be upgraded to Istanbul. Istanbul has been running on the Kovan testnet since October 13 without issue. 
+
+ [Hard Fork Details](../for-validators/hard-forks/sokol/upcoming-hf-2019-12-05-or-12095200.md)
 
 ## ETC Summit 
 

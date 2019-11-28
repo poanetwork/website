@@ -98,6 +98,7 @@
     * [远程机器设置](for-validators/validator-node-setup/non-aws-validator-node-setup/remote-machine-setup.md)
     * [使用部署手册配置节点](for-validators/validator-node-setup/non-aws-validator-node-setup/configure-node-using-deployment-playbook.md)
 * [硬分叉](for-validators/ying-fen-cha/README.md)
+  * [Parity升级指南](for-validators/ying-fen-cha/parity-sheng-ji-zhi-nan.md)
   * [历次硬分叉信息](for-validators/ying-fen-cha/li-ci-ying-fen-cha-xin-xi.md)
 * [验证程序Dapps](for-validators/validator-dapps/README.md)
   * [验证人元数据DApp](for-validators/validator-dapps/validators-metadata-dapp.md)

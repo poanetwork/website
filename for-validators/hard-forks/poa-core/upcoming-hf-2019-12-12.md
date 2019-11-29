@@ -1,12 +1,12 @@
 ---
-description: Istanbul Upgrade
+description: 'Istanbul Upgrade planned for block 12478880 on December 12, 2019 at ~8:00 UTC'
 ---
 
-# Upcoming HF 2019-12-12
+# Upcoming HF 2019-12-12 \| \#12478880
 
 * **Network**: POA Core
 * **Date**: 2019-12-12
-* **Block number**: `TBA`
+* **Block number**: `12478880`
 
 ## Description: Istanbul Upgrade
 

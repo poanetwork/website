@@ -10,7 +10,7 @@ description: Istanbul Upgrade
 
 ## Description: Istanbul Upgrade
 
-* eip1283ReenableTransition
+* eip1283Transition
 * eip1344Transition
 * eip1706Transition
 * eip1884Transition

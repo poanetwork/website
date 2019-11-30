@@ -22,5 +22,5 @@
 ## 硬分叉 <a id="hard-forks"></a>
 
 * ​[硬分叉期间要更新的文件](../ying-fen-cha/) 
-* [以前的POA Core和Sokol硬分叉信息](../ying-fen-cha/li-ci-ying-fen-cha-xin-xi.md)
+* [以前的POA Core和Sokol硬分叉信息](../ying-fen-cha/li-ci-ying-fen-cha-xin-xi/)
 

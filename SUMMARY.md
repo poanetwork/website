@@ -99,7 +99,11 @@
     * [使用部署手册配置节点](for-validators/validator-node-setup/non-aws-validator-node-setup/configure-node-using-deployment-playbook.md)
 * [硬分叉](for-validators/ying-fen-cha/README.md)
   * [Parity升级指南](for-validators/ying-fen-cha/parity-sheng-ji-zhi-nan.md)
-  * [历次硬分叉信息](for-validators/ying-fen-cha/li-ci-ying-fen-cha-xin-xi.md)
+  * [POA Core主网](for-validators/ying-fen-cha/li-ci-ying-fen-cha-xin-xi/README.md)
+    * [即将到来的 HF 2019-12-12 \| \#12478880](for-validators/ying-fen-cha/li-ci-ying-fen-cha-xin-xi/ji-jiang-dao-lai-de-hf-20191212-12478880.md)
+    * [2019-04-29 \| \#8582254](for-validators/ying-fen-cha/li-ci-ying-fen-cha-xin-xi/2019-04-29-or-8582254.md)
+    * [2018-01-29 \| \# 772000](for-validators/ying-fen-cha/li-ci-ying-fen-cha-xin-xi/2018-01-29-or-772000.md)
+    * [2018-10-22 \| \#5329160](for-validators/ying-fen-cha/li-ci-ying-fen-cha-xin-xi/2018-10-22-or-5329160.md)
 * [验证程序Dapps](for-validators/validator-dapps/README.md)
   * [验证人元数据DApp](for-validators/validator-dapps/validators-metadata-dapp.md)
 

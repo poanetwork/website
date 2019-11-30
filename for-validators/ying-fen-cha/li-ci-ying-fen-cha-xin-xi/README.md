@@ -1,8 +1,8 @@
 ---
-description: 包括POA核心网络和Sokol Testnet测试网络上的历史性硬分叉的一般说明，日期和区块号
+description: 包括POA核心网络上的历史性硬分叉的一般说明，日期和区块号
 ---
 
-# 历次硬分叉信息
+# POA Core主网
 
 ## POA Core核心网络
 

@@ -6,9 +6,11 @@ description: Prior and Upcoming Events
 
 ## POA Core Istanbul Network Upgrade \(Hard Fork\)
 
-December 12 2019
+December 19 2019
 
-One week following the Sokol upgrade, POA core will upgrade to Istanbul. Additional details to follow.
+Two weeks following the Sokol upgrade, POA core will upgrade to Istanbul.
+
+[Hard Fork Details](../for-validators/hard-forks/poa-core/upcoming-hf-2019-12-19-or-12598600.md)
 
 ## Sokol Istanbul Network Upgrade \(Hard Fork\)
 

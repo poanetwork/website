@@ -66,7 +66,9 @@
 ## For developers
 
 * [Developer Resources](for-developers/developer-resourses.md)
-* [POA Installation](for-developers/poa-installation.md)
+* [POA Installation](for-developers/poa-installation/README.md)
+  * [Install Parity Client](for-developers/poa-installation/install-parity-client.md)
+  * [Install Nethermind Client](for-developers/poa-installation/install-nethermind-client.md)
 * [Sokol Testnet Faucet](for-developers/sokol-testnet-faucet.md)
 * [ERC20 Test Token Faucet](for-developers/erc20-test-token-faucet.md)
 * [DApp Deployment](for-developers/dapp-deployment.md)

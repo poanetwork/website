@@ -102,16 +102,12 @@ The POA bridge is required to move locked POA tokens from the POA Core network a
 
 ### **POA Mainnet**
 
-* WebSockets Endpoint \(can be useful to setup BlockScout for POA\) [ws://54.144.107.14:8546](ws://54.144.107.14:8546)
-* Archive Fullnode Endpoint \(Useful for setting up BlockScout for POA\) [http://54.144.107.14:8545](http://54.144.107.14:8545)
 * Chain spec files and known bootnodes of the POA network [https://github.com/poanetwork/poa-chain-spec/tree/core](https://github.com/poanetwork/poa-chain-spec/tree/core)
 * Netstats, an overview of POA Chain nodes [https://core-netstat.poa.network](https://core-netstat.poa.network)
 * DApps Deployed to POA: Partial list of deployed DApps along with statistics and links [https://www.stateofthedapps.com/rankings/platform/poa](https://www.stateofthedapps.com/rankings/platform/poa)
 
 ### POA Sokol Testnet
 
-* WebSockets Endpoint \(can be useful to setup BlockScout for Sokol\) [ws://3.85.253.242:8546](ws://3.85.253.242:8546)
-* Archive Fullnode Endpoint \(can be useful to setup BlockScout for Sokol\) [http://3.85.253.242:8545](http://3.85.253.242:8545/)
 * Chain [spec](https://github.com/poanetwork/poa-chain-spec/blob/sokol/spec.json) files and known [bootnodes ](https://github.com/poanetwork/poa-chain-spec/blob/sokol/bootnodes.txt)of the _Sokol_ network
 * [Ethereum Networks Stats ](https://github.com/cubedro/eth-netstats)\(Netstats\) with a list of nodes on Sokol network. Nodes should have netstats agent installed to be listed in the netstats. [https://sokol-netstat.poa.network](https://sokol-netstat.poa.network/)
 * Governance DApps: To use governance dapps please switch to Sokol network in your Nifty Wallet

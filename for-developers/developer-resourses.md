@@ -10,18 +10,17 @@ description: General information and links
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 10,000,000 Gas | 5 sec | 1 GWei | St.Petersburg | POA | 99 |
 
-## Blockchain Explorer <a id="blockchain-explorer"></a>
+## Blockchain Explorers <a id="blockchain-explorer"></a>
 
-BlockScout is the official blockchain explorer for the POA Network
+1\) **BlockScout** is the official blockchain explorer for the POA Network. With this full-featured, open-source explorer you can view transactions, accounts & balances, access data via the API and read and verify smart contracts.
 
 * POA Core Network: [https://blockscout.com/poa/core](https://blockscout.com/poa/core)
 * Sokol Testnet: [https://blockscout.com/poa/sokol](https://blockscout.com/poa/sokol)
 
-With BlockScout you can
+2\) **AnyBlock Analytics Explorer** is convenient for exploring recent transactions and blocks and locating basic information extremely quickly**.**
 
-* View blocks, transactions, accounts, balances, token transfers
-* Access blockchain data via API
-* Read and verify smart contracts
+* Poa Core Network: [https://explorer.anyblock.tools/ethereum/poa/core/](https://explorer.anyblock.tools/ethereum/poa/core/)
+* Sokol Testnet: [https://explorer.anyblock.tools/ethereum/poa/sokol/](https://explorer.anyblock.tools/ethereum/poa/sokol/)
 
 ## JSON RPC endpoints <a id="json-rpc-endpoints"></a>
 
@@ -36,53 +35,49 @@ There are endpoints provided by POA and Nodesmith. They are used to connect to t
 
 | **POA Sokol Testnet** |  |
 | :--- | :--- |
-| URL | https://sokol.poa.network |
+| URL | [https://sokol.poa.network](https://sokol.poa.network) |
 | Network ID | 77 |
 
 ### **Nodesmith RPC** <a id="nodesmith-rpc"></a>
 
+| ​POA Core Network | ​ |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">&#x200B;POA Core Network</th>
-      <th style="text-align:left">&#x200B;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">URL</td>
-      <td style="text-align:left">
+      <th style="text-align:left">URL</th>
+      <th style="text-align:left">
         <p>&#x200B;<a href="https://poa.api.nodesmith.io/v1/dai/jsonrpc?apiKey=YOUR_API_KEY">https://poa.api.nodesmith.io/v1/poa/jsonrpc?apiKey=</a>&#x200B;YOUR_API_KEY</p>
         <p>(requires <a href="https://nodesmith.io/docs/#/overview/httpsQuickstart">free Nodesmith account for your API key</a>):</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Network ID</td>
-      <td style="text-align:left">99</td>
-    </tr>
-  </tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">POA Sokol Testnet</th>
-      <th style="text-align:left">&#x200B;</th>
+      </th>
     </tr>
   </thead>
-  <tbody>
+  <tbody></tbody>
+</table>| Network ID | 99 |
+| :--- | :--- |
+
+
+| POA Sokol Testnet | ​ |
+| :--- | :--- |
+
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left">URL</td>
-      <td style="text-align:left">
+      <th style="text-align:left">URL</th>
+      <th style="text-align:left">
         <p><a href="https://poa.api.nodesmith.io/v1/sokol/jsonrpc?apiKey=YOUR_API_KEY">https://poa.api.nodesmith.io/v1/sokol/jsonrpc?apiKey=YOUR_API_KEY</a>
         </p>
         <p>(requires <a href="https://nodesmith.io/docs/#/overview/httpsQuickstart">free Nodesmith account for your API key</a>):</p>
-      </td>
+      </th>
     </tr>
-    <tr>
-      <td style="text-align:left">Network ID</td>
-      <td style="text-align:left">77</td>
-    </tr>
-  </tbody>
-</table>## Bridge POA &lt;&gt; POA20 <a id="bridge-dai-less-than-greater-than-xdai"></a>
+  </thead>
+  <tbody></tbody>
+</table>| Network ID | 77 |
+| :--- | :--- |
+
 
 The POA bridge is required to move locked POA tokens from the POA Core network and mint POA20 on the Ethereum Mainnet.
 

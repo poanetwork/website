@@ -6,9 +6,17 @@ description: General information and links
 
 ## General Information <a id="general-information"></a>
 
+### POA Core
+
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 10,000,000 Gas | 5 sec | 1 GWei | St.Petersburg | POA | 99 |
+
+### POA Sokol
+
+| Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 10,000,000 Gas | 5 sec | 1 GWei | Istanbul | SPOA | 77 |
 
 ## Blockchain Explorers <a id="blockchain-explorer"></a>
 
@@ -86,7 +94,7 @@ The POA bridge is required to move locked POA tokens from the POA Core network a
 ## **Faucets** <a id="additional-resources"></a>
 
 * Sokol Testnet Faucet: [https://faucet.poa.network](https://faucet.poa.network/) Get free SPOA tokens for testing on the _Sokol_ testnet 
-* [ERC20 Test Token Faucet](erc20-test-token-faucet.md) Can be used on Sokol or POA Core. 
+* [ERC20 Test Token Faucet](getting-tokens-for-tests/erc20-test-token-faucet.md) Can be used on Sokol or POA Core. 
 
 ## DApp Management & Developer Tools
 

@@ -10,6 +10,7 @@ We are continuing to add new functionality and improve performance for our major
 
 * [BlockScout Roadmap](https://docs.blockscout.com/about/roadmap)
 * [TokenBridge Roadmap](https://docs.tokenbridge.net/about-tokenbridge/roadmap)
+* [xDai Roadmap](https://www.xdaichain.com/about-xdai/roadmap)
 
 ## **POA Network Roadmap**
 

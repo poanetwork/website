@@ -10,7 +10,7 @@ December 19 2019
 
 Two weeks following the Sokol upgrade, POA core will upgrade to Istanbul.
 
-[Hard Fork Details](../for-validators/hard-forks/poa-core/upcoming-hf-2019-12-19-or-12598600.md)
+[Hard Fork Details](../for-validators/hard-forks/poa-core/2019-12-19-or-12598600.md)
 
 ## Sokol Istanbul Network Upgrade \(Hard Fork\)
 

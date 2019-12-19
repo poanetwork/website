@@ -11,4 +11,7 @@
 * [Constantinople \(St.Petersfork\) hard fork](https://github.com/poanetwork/wiki/wiki/HFs-Core-2019-04-29)
   * **Date:** 2019-04-29
   * **Block:** `8582254`
+* [Istanbul hard fork](2019-12-19-or-12598600.md)
+  * **Date:** 2019-12-19
+  * **Block:** `12598600`
 

@@ -16,7 +16,15 @@ We are continuing to add new functionality and improve performance for our major
 
 ### **Istanbul Upgrade**
 
-**Target date: Q1 2020**
+**Target: Q1 2020  
+Status: Completed Q4 2019**
+
+{% hint style="success" %}
+**All Networks Successfully Activated**
+
+* POA Sokol: Updated 12/05/2019 \| Block \#12095200
+* POA Core: Updated 12/19/2019 \| Block\# 12598600
+{% endhint %}
 
 We have successfully upgraded the Kovan testnet to the latest Ethereum hard fork  **"**[Istanbul](https://eth.wiki/en/roadmap/istanbul)". This occurred on October 13, and we have not experienced any issues related to the update.
 

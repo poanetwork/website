@@ -63,11 +63,7 @@ There are endpoints provided by POA and Nodesmith. They are used to connect to t
     </tr>
   </thead>
   <tbody></tbody>
-</table>| Network ID | 99 |
-| :--- | :--- |
-
-
-| POA Sokol Testnet | ​ |
+</table>| POA Sokol Testnet | ​ |
 | :--- | :--- |
 
 
@@ -83,11 +79,7 @@ There are endpoints provided by POA and Nodesmith. They are used to connect to t
     </tr>
   </thead>
   <tbody></tbody>
-</table>| Network ID | 77 |
-| :--- | :--- |
-
-
-The POA bridge is required to move locked POA tokens from the POA Core network and mint POA20 on the Ethereum Mainnet.
+</table>The POA bridge is required to move locked POA tokens from the POA Core network and mint POA20 on the Ethereum Mainnet.
 
 * TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
 

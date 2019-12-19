@@ -10,7 +10,7 @@ description: General information and links
 
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 10,000,000 Gas | 5 sec | 1 GWei | St.Petersburg | POA | 99 |
+| 10,000,000 Gas | 5 sec | 1 GWei | Istanbul | POA | 99 |
 
 ### POA Sokol
 

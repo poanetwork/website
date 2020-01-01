@@ -10,13 +10,13 @@ description: General information and links
 
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ~8,000,000 Gas | 5 sec | 1 GWei | Istanbul | POA | 99 |
+| ~10,000,000 Gas | 5 sec | 1 GWei | Istanbul | POA | 99 |
 
 ### POA Sokol
 
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ~8,000,000 Gas | 5 sec | 1 GWei | Istanbul | SPOA | 77 |
+| ~10,000,000 Gas | 5 sec | 1 GWei | Istanbul | SPOA | 77 |
 
 ## Blockchain Explorers <a id="blockchain-explorer"></a>
 

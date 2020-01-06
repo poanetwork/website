@@ -5,7 +5,7 @@ description: Parity may need to be updated to prepare for a hard fork
 # Parity Upgrade Guide
 
 {% hint style="info" %}
-This guide assumes that you're running this playbook from the same machine that you used to make initial deployment of your node. You should already have `python` and `ansible` installed, and the correct ssh keypair to root-access the node.
+This guide assumes you are running this playbook from the same machine you used initially deploy of your node. You should already have `python` and `ansible` installed, and the correct ssh keypair to root-access the node.
 {% endhint %}
 
 ## Running the update
@@ -32,10 +32,10 @@ cp group_vars/upd-parity-version.example group_vars/all
 
 and change the following variables:
 
-1. `poa_role` - role of the node on the network \(one of `bootnode`, `validator`, `moc`, `explorer`\)
+1. `poa_role` - role of the node on the network \(select one of these: `bootnode`, `validator`, `moc`, `explorer`\)
 2. `GENESIS_BRANCH` - either `"sokol"` or `"core"` or `"dai"` or `"kovan"` depending which network you're updating
 
-don't change other options
+DO NOT change other options
 
 3\) Create/edit `hosts` file and put your node's ip address \(assuming it's 192.0.2.1\) there with the following header:
 
@@ -57,13 +57,13 @@ ansible-playbook -i hosts upd-parity-version.yml
 {% hint style="warning" %}
 If you get a ssh connection error, try to add option `-e 'ansible_ssh_user=ubuntu'` to the command line above, substituting `ubuntu` with correct ssh username, which is usually either `ubuntu` or `root` or `poa` or `centos` depending on your setup. You may also need to specify exact path to your ssh private key with `--key-file=/path/to/private.key` cli option.
 
-If you are installing an update to the localhost machine, use `-c local` instead of specifying the private key
+If you are installing an update to the localhost machine, use `-c local` instead of specifying the private key.
 {% endhint %}
 
 ## Verifying the update
 
 {% hint style="success" %}
-Playbook run should be completed without errors
+Playbook run should complete without errors.
 {% endhint %}
 
 1\) Open network statistic webpage:
@@ -106,7 +106,7 @@ By Wood/Paronyan/Kotewicz/Drwięga/Volf
 ## Rollback to the previous version \(in case of problems\)
 
 {% hint style="warning" %}
-**I**f you get any errors please consult the POA Team first, probably you have a minor issue and don't need to rollback
+**I**f you get any errors please consult the POA Team first, most likely it is a minor issue and you don't need to rollback.
 {% endhint %}
 
 1\) Connect to the node:
@@ -143,7 +143,7 @@ it contains folders labeled by the time backup was created in format`<year><mont
 
 copy the version number that corresponds to this day. In the following examples we assume that it's `20180209T214517`.
 
-5\) Make sure you have your mining key data \(keyfile, password, address\) available to you
+5\) Make sure you have your mining key data \(keyfile, password, address\) available to you.
 
 6\) Remove files from the new version:
 
@@ -194,5 +194,5 @@ systemctl restart poa-netstats
 * for core main network: [https://core-netstat.poa.network](https://core-netstat.poa.network/)
 * for dai network: [https://dai-netstat.poa.network](https://dai-netstat.poa.network/)
 
-Check that your node is "green" and is catching new blocks. It may take 2-3 minutes to fully start and reconnect
+Check that your node is "green" and is catching new blocks. It may take 2-3 minutes to fully start and reconnect.
 

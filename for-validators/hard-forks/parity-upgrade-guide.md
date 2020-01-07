@@ -55,7 +55,7 @@ ansible-playbook -i hosts upd-parity-version.yml
 ```
 
 {% hint style="warning" %}
-If you get a ssh connection error, try to add option `-e 'ansible_ssh_user=ubuntu'` to the command line above, substituting `ubuntu` with correct ssh username, which is usually either `ubuntu` or `root` or `poa` or `centos` depending on your setup. You may also need to specify exact path to your ssh private key with `--key-file=/path/to/private.key` cli option.
+If you get a ssh connection error, try to add option `-e 'ansible_ssh_user=ubuntu'` and/or `--user="ubuntu"` to the command line above, substituting `ubuntu` with correct ssh username, which is usually either `ubuntu` or `root` or `poa` or `centos` depending on your setup. You may also need to specify exact path to your ssh private key with `--key-file=/path/to/private.key` cli option.
 
 If you are installing an update to the localhost machine, use `-c local` instead of specifying the private key.
 {% endhint %}

@@ -13,7 +13,7 @@ description: General information and links
 | ~10,000,000 Gas | 5 sec | 1 -10 GWei | Istanbul | POA | 99 |
 
 {% hint style="info" %}
-To mitigate an ongoing denial-of-service attack, validators decided to increase the gas price to a range between 1-10 Gwei. Each validator can determine their own value. [More information](https://forum.poa.network/t/increase-gas-price-from-1-gwei-to-5-gwei-to-mitigate-ongoing-resource-wasting-attack/3232)
+To mitigate an ongoing denial-of-service attack, validators decided to increase the gas price to a range between 1-10 Gwei. Each validator can determine their own value within this range.
 {% endhint %}
 
 ### POA Sokol

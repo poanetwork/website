@@ -10,7 +10,11 @@ description: General information and links
 
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ~10,000,000 Gas | 5 sec | 1 GWei | Istanbul | POA | 99 |
+| ~10,000,000 Gas | 5 sec | 1 -10 GWei | Istanbul | POA | 99 |
+
+{% hint style="info" %}
+To mitigate an ongoing denial-of-service attack, validators decided to increase the gas price to a range between 1-10 Gwei. Each validator can determine their own value. [More information](https://forum.poa.network/t/increase-gas-price-from-1-gwei-to-5-gwei-to-mitigate-ongoing-resource-wasting-attack/3232)
+{% endhint %}
 
 ### POA Sokol
 
@@ -32,7 +36,7 @@ description: General information and links
 
 ## JSON RPC endpoints <a id="json-rpc-endpoints"></a>
 
-There are endpoints provided by POA and Nodesmith. They are used to connect to the network. Use these endpoints to connect with DApps or when connecting to the POA Network with MetaMask or other web3 wallets.
+There are endpoints provided by POA. They are used to connect to the network. Use these endpoints to connect with DApps or when connecting to the POA Network with MetaMask or other web3 wallets.
 
 ### POA RPC <a id="poa-rpc"></a>
 
@@ -46,7 +50,11 @@ There are endpoints provided by POA and Nodesmith. They are used to connect to t
 | URL | [https://sokol.poa.network](https://sokol.poa.network) |
 | Network ID | 77 |
 
-### **Nodesmith RPC** <a id="nodesmith-rpc"></a>
+### **Nodesmith RPC \(discontinued\)** <a id="nodesmith-rpc"></a>
+
+{% hint style="warning" %}
+Nodesmith RPC will be shut down by the end of December 2019.
+{% endhint %}
 
 | ​POA Core Network | ​ |
 | :--- | :--- |
@@ -63,11 +71,7 @@ There are endpoints provided by POA and Nodesmith. They are used to connect to t
     </tr>
   </thead>
   <tbody></tbody>
-</table>| POA Sokol Testnet | ​ |
-| :--- | :--- |
-
-
-<table>
+</table><table>
   <thead>
     <tr>
       <th style="text-align:left">URL</th>
@@ -79,9 +83,9 @@ There are endpoints provided by POA and Nodesmith. They are used to connect to t
     </tr>
   </thead>
   <tbody></tbody>
-</table>The POA bridge is required to move locked POA tokens from the POA Core network and mint POA20 on the Ethereum Mainnet.
+</table>## TokenBridge UI
 
-* TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
+TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
 
 ## **Faucets** <a id="additional-resources"></a>
 

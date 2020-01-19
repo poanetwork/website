@@ -12,3 +12,5 @@ description: Branding and Logos
 
 Font: Roboto
 
+![SVG](../.gitbook/assets/poa.svg)
+

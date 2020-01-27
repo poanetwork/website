@@ -8,7 +8,7 @@ description: >-
 
 POA20 is available to buy and sell on [several different decentralized exchanges](../about-poa-token/poa-and-poa20-exchanges.md#poa20-markets). However, rates can differ from exchange to exchange. DEX.AG pulls rates from all exchanges, offering a quick list sorted by rates. Plus, there are no extra fees for using DEX.AG - only the fees charged by the exchange you choose.
 
-To start, you will need a connected web3 wallet like [NiftyWallet](../wallets/nifty-wallet/) or MetaMask and funded with some Ether for transaction fees. 
+To start, you will need a connected web3 wallet like [NiftyWallet](../nifty-wallet/) or MetaMask and funded with some Ether for transaction fees. 
 
 ## BUY POA20
 

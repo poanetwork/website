@@ -14,7 +14,7 @@ Compatible with Google Chrome v59.0.3071.115 or later.
 
 2\) __Click on the **purple app icon** in your browser toolbar to open. Accept Terms of Use.
 
-![Purple icon in top right opens the terms of use](../../../.gitbook/assets/nifty3%20%281%29.png)
+![Purple icon in top right opens the terms of use](../../.gitbook/assets/nifty3%20%281%29.png)
 
 3\) Create a new vault or import an existing vault \(called a DEN\) which will hold all of your wallet information.
 
@@ -27,11 +27,11 @@ Compatible with Google Chrome v59.0.3071.115 or later.
 
 4\) Copy your seed words and store in a secure location.
 
-![](../../../.gitbook/assets/vault1.png)
+![](../../.gitbook/assets/vault1.png)
 
 5\) Your wallet is ready to use! Below are some config and interaction options.
 
-![](../../../.gitbook/assets/nifty_direct_2.png)
+![](../../.gitbook/assets/nifty_direct_2.png)
 
      1\) **Change the account name**: hovering over the current name \(Account 1\), click **edit**, change name and click **save**.
 
@@ -54,11 +54,12 @@ Compatible with Google Chrome v59.0.3071.115 or later.
 * Sokol Testnet
 * Rinkby Testnet
 * Ropsten Testnet
+* Any Custom RPC
 
      4\) **Account dropdown**
 
 * Create Account
-* Import Account: Can choose Private Key, JSON File, Contract, or Proxy
+* Import Account: Can choose Private Key, JSON File, Contract, or Proxy Contract
 * Connect a Hardware Wallet: Ledger and Trezor Support
 
      5\) **Settings**

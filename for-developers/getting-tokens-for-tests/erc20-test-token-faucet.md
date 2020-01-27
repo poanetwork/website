@@ -13,7 +13,7 @@ The faucet can quickly generate any number of FAU \(FAUCET\) tokens directly fro
 ### Prerequisites
 
 * Network wallet address loaded with enough native currency \(POA\) to cover the transaction.
-* Web3 wallet interface such as MetaMask or [NiftyWallet](../../for-users/wallets/nifty-wallet/). In this tutorial we use [NiftyWallet](https://forum.poa.network/t/nifty-wallet-is-back-on-the-chrome-store/2408).
+* Web3 wallet interface such as MetaMask or [NiftyWallet](../../for-users/nifty-wallet/). In this tutorial we use [NiftyWallet](https://forum.poa.network/t/nifty-wallet-is-back-on-the-chrome-store/2408).
 
 {% hint style="info" %}
 ERC20 Token Faucet can also be used with [Portis](https://www.portis.io/) or [Squarelink](https://squarelink.com/).

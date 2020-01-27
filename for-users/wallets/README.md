@@ -1,4 +1,4 @@
-# Wallets
+# 3rd Party Wallets
 
 The POA network is supported by a large selection of wallets, including browser-based wallets, mobile wallets for android and IOS, and hardware \(cold storage wallets\).
 

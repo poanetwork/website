@@ -6,7 +6,7 @@ description: Example use case when receiving an POS invoice using Nifty Wallet.
 
 To pay using POA20, a wallet that supports POA20 along with the required amount of POA20 is needed. Depending on the method \(web button, ecommerce plugin or in-person POS\) the interaction will vary. 
 
-In this example, an in-person request for payment is received. [Nifty Wallet](../wallets/nifty-wallet/) is used to complete the payment.
+In this example, an in-person request for payment is received. [Nifty Wallet](../nifty-wallet/) is used to complete the payment.
 
 1\) Receive payment request.Open Nifty Wallet, connect to the Ethereum Mainnet, and **click on the dots** next to the POA20 token. This will open a second menu. Click **Send**.
 

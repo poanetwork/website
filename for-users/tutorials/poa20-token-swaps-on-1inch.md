@@ -8,7 +8,7 @@ description: >-
 
 1inch.exchange offers the ability to swap POA20 with a large list of other ERC20 tokens. The exchange compiles rates from [several different decentralized exchanges](../about-poa-token/poa-and-poa20-exchanges.md#poa20-markets) and provides the best rates.  Features include a dedicated DApp \(not required\) and [GasToken](https://gastoken.io/) utilization, which lowers transaction costs.
 
-To start, enable a web3 wallet extension like [Nifty Wallet](../wallets/nifty-wallet/) \(used in this tutorial\) or MetaMask. The account must contain a small amount of Ether for transactions.
+To start, enable a web3 wallet extension like [Nifty Wallet](../nifty-wallet/) \(used in this tutorial\) or MetaMask. The account must contain a small amount of Ether for transactions.
 
 ## Swapping ETH for POA20
 

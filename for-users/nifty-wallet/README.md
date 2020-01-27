@@ -6,12 +6,12 @@ description: >-
 
 # Nifty Wallet
 
-Nifty Wallet is a full-featured browser wallet built for interacting with web3 applications. 
+Nifty Wallet is a full-featured browser wallet built for interacting with web3 applications. Originally forked from MetaMask, Nifty Wallet has been refactored by POA to include an expanded list of RPC endpoints and expanded to include features like the ability to interact with contracts, connect to a decentralized node network, and more.
+
+Nifty Wallet is the preferred browser-based wallet for interaction with POA Core and POA Sokol.
 
 * [Chrome extension](https://chrome.google.com/webstore/detail/nifty-wallet/jbdaocneiiinmjbjlgalhcelgbejmnid?hl=en)
 * [Github Repository](https://github.com/poanetwork/nifty-wallet)
-
-Originally forked from MetaMask, Nifty Wallet has been refactored to include an expanded list of RPC endpoints and features the ability to interact with contracts right from the interface.
 
 {% hint style="warning" %}
 Nifty Wallet and MetaMask do not function properly when both are activated at the same time as chrome extensions. To use one or the other, **right click** on the extension icon, go to **Manage Extensions**, and **toggle off/on** the application you want to use. All data will be preserved in the wallet for future access.

@@ -6,7 +6,7 @@ We are introducing an on-chain RNG based on RANDAO. It may be leveraged by smart
 * [How to access the random seed in a smart contract](accessing-a-random-seed-with-a-smart-contract.md)
 
 {% hint style="success" %}
-The following article explains on-chain randomness functions and how they will be used when POSDAO is implemented. It includes concepts and an example, and is a good place to start.
+This article provides an overview of how on-chain randomness functions and will be used when POSDAO is implemented. It includes concepts and an example, and is a good place to start.
 
 [https://forum.poa.network/t/reliable-randomness-bringing-on-chain-entropy-to-the-xdai-stable-chain/3015](https://forum.poa.network/t/reliable-randomness-bringing-on-chain-entropy-to-the-xdai-stable-chain/3015)
 {% endhint %}

@@ -140,7 +140,7 @@ The RandomAura Contract interfaces with the Authority Round consensus process to
 
 Below is the full RandomAura contract code, located at [https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol)
 
-_Updated here: 1/30/2020. Check the repo for the latest version._
+_Updated here: 1/31/2020. Check the repo for the latest version._
 
 ```javascript
 pragma solidity 0.5.10;

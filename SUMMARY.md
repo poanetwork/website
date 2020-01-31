@@ -77,7 +77,7 @@
   * [Install Nethermind Client](for-developers/poa-installation/install-nethermind-client.md)
 * [DApp Deployment](for-developers/dapp-deployment.md)
 * [On-Chain Random Numbers](for-developers/on-chain-random-numbers/README.md)
-  * [PRNG explainer \(AuRa + RandomAura Contract\)](for-developers/on-chain-random-numbers/prng-explainer.md)
+  * [RNG explainer \(AuRa + RandomAura Contract\)](for-developers/on-chain-random-numbers/prng-explainer.md)
   * [Accessing a Random Seed with a Smart Contract](for-developers/on-chain-random-numbers/accessing-a-random-seed-with-a-smart-contract.md)
 * [Grants for Building on POA](for-developers/grants-for-building-on-poa.md)
 

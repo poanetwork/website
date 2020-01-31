@@ -1,13 +1,9 @@
-# PRNG explainer \(AuRa + RandomAura Contract\)
-
-{% hint style="info" %}
-_Note: Randomness created in a deterministic manner, through computerized means, it is called pseudorandomness. Pseudorandom numbers exhibit the same properties as random numbers. The method described below is a Pseudorandom number generator \(PRNG\)_
-{% endhint %}
+# RNG explainer \(AuRa + RandomAura Contract\)
 
 {% hint style="success" %}
-The following example uses methods from the [RandomAura](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol) contract. A [RANDAO ](https://github.com/randao/randao)methodology is used for random number generation.
+The following example uses methods from the [RandomAura](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol) contract. A [RANDAO ](https://github.com/randao/randao)methodology implemented by the validator nodes generates pseudorandom numbers.
 
-The following is designed to work with [Parity's AuRa](https://wiki.parity.io/Proof-of-Authority-Chains) consensus protocol v2.7.1+, slated for implementation onn Kovan, Sokol, POA Core and xDai. In this protocol, validators take turns sealing blocks, one after the other, in a prescribed order.
+The following is designed to work with [Parity's AuRa](https://wiki.parity.io/Proof-of-Authority-Chains) consensus protocol v2.7.1+, slated for implementation on Kovan, Sokol, POA Core and xDai. In this protocol, validators take turns sealing blocks, one after the other, in a prescribed order.
 {% endhint %}
 
 ### Collection Rounds
@@ -120,7 +116,7 @@ function getCipher(uint256 _collectRound, address _miningAddress) public view re
     }
 ```
 
-2\) The validator decrypts the cipher with their key and retrieves the `number` .
+2\) The validator decrypts the cipher with their key and retrieves the `number`.
 
 3\) The validator calls the `revealNumber`function to reveal their committed number \(and XORs it with the previous secret to create a new random seed stored in the `currentSeed` state variable\).
 
@@ -134,11 +130,15 @@ function getCipher(uint256 _collectRound, address _miningAddress) public view re
     }
 ```
 
+{% hint style="info" %}
+_Note: Randomness created in a deterministic manner, through computerized means, it is called pseudorandomness. Pseudorandom numbers exhibit the same properties as random numbers. The method described above is technically a pseudorandom number generator \(PRNG\)_
+{% endhint %}
+
 ## RandomAura Contract Code
 
 The RandomAura Contract interfaces with the Authority Round consensus process to store and iterate the `currentSeed` , control when the seed is revealed, and report on skipped reveals by Validators.
 
-This is the full RandomAura contract code, located at [https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol)
+Below is the full RandomAura contract code, located at [https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol)
 
 _Updated here: 1/30/2020. Check the repo for the latest version._
 

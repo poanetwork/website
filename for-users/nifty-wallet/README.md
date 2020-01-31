@@ -33,5 +33,5 @@ Interacting with Smart Contracts:
 * Sending & Receiving Transactions
 * Connecting to Different Chains
 * Importing Accounts
-* [Interacting with Smart Contracts / Calling Contract Methods](import-and-interact-with-smart-contracts.md)
+* Calling Contract Methods
 

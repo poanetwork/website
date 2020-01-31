@@ -1,4 +1,4 @@
-# PRNG explainer
+# PRNG explainer \(AuRa + RandomAura Contract\)
 
 {% hint style="info" %}
 _Note: Randomness created in a deterministic manner, through computerized means, it is called pseudorandomness. Pseudorandom numbers exhibit the same properties as random numbers. The method described below is a Pseudorandom number generator \(PRNG\)_
@@ -12,7 +12,7 @@ The following is designed to work with [Parity's AuRa](https://wiki.parity.io/Pr
 
 ### Collection Rounds
 
-A series of **collection rounds** are for random number generation. The  collection round length is configurable - in this example we use 38 blocks for a round, ****split into two equal 19 block phases:
+A series of **collection rounds** are used for random number generation. The  collection round length is configurable - in this example we use 38 blocks for a round, ****split into two equal 19 block phases:
 
 * `commit phase` 
 * `reveal phase`
@@ -42,7 +42,7 @@ Block number   |   Phase
 ...
 ```
 
-During each collection round, the RandomAura contract \(see below\) collects the random numbers used during that round.
+During each collection round, the RandomAura contract \(see below\) collects the random numbers generated during that round.
 
 ### Commit Phase
 
@@ -106,9 +106,9 @@ When the `commit phase` finishes, the `reveal phase` starts.
 
 ### Reveal Phase
 
-When their turn arrives to create a block:
+When a validator's turn arrives to create a block:
 
-1\) The validator acquires the cipher of the secret using the `getCipher` public getter
+1\) The validator gets the cipher of the number using the `getCipher` public getter.
 
 ```text
 /// @dev Returns the cipher of the validator's number for the specified collection round and the specified validator
@@ -120,9 +120,9 @@ function getCipher(uint256 _collectRound, address _miningAddress) public view re
     }
 ```
 
-2\) The validator decrypts the cipher with their key and retrieves the `number` 
+2\) The validator decrypts the cipher with their key and retrieves the `number` .
 
-3\) The validator calls the `revealNumber`function to reveal their committed number \(and XORs it with the previous secret to create a new random seed stored in the `currentSeed` state variable\)
+3\) The validator calls the `revealNumber`function to reveal their committed number \(and XORs it with the previous secret to create a new random seed stored in the `currentSeed` state variable\).
 
 ```text
 /// @dev Called by the validator's node to XOR its number with the current random seed.
@@ -135,6 +135,8 @@ function getCipher(uint256 _collectRound, address _miningAddress) public view re
 ```
 
 ## RandomAura Contract Code
+
+The RandomAura Contract interfaces with the Authority Round consensus process to store and iterate the `currentSeed` , control when the seed is revealed, and report on skipped reveals by Validators.
 
 This is the full RandomAura contract code, located at [https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol)
 

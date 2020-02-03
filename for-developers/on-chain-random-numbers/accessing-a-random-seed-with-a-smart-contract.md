@@ -2,17 +2,24 @@
 
 The  [RandomAura](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol) contract allows smart contracts to access a random number generated on-chain by the protocol.
 
+#### Public getters:
+
+* **`currentSeed`**: access the network's random seed.
+* **`isCommitPhase`**: returns true if current block is in commit phase
+* **`nextCommitPhaseStartBlock:`** retrieve block number of first block in next commit phase.
+* **`nextRevealPhaseStartBlock`:** retrieve block number of first block in next reveal phase.
+
 The public getter `currentSeed` is used to access the network's random seed. Its value is only updated when the `revealNumber` function is called. This should occur **at least once per collection round**. The length in blocks of each collection round can be retrieved with the `collectRoundLength` public getter.
 
-There are two phases in each round, a `commits phase` and a `reveals phase`. Since the revealing validator always knows the next random number before sending it, a DApp should prohibit business logic actions that depend on a random value during the `reveals phase`.
+There are two phases in each round, a `commit phase` and a `reveal phase`. Since the revealing validator always knows the next random number before sending it, a DApp should prohibit business logic actions that depend on a random value during the `reveal phase`. For example, a gambling application that relies on a random value should only allow bets to be placed during the `commit phase`.
 
-To determine the current phase, use `isCommitPhase` public getter: it will return `true` if the current block is in the `commits phase`, `false` if the block is in the `reveals phase`. To retrieve the number of the first block of the next `commits phase`, use the `nextCommitPhaseStartBlock` public getter. To do the same for `reveals phase`, use the `nextRevealPhaseStartBlock` public getter.
+To determine the current phase, use the `isCommitPhase` public getter: it returns `true` if the current block is in the `commit phase` and `false` if the block is in the `reveal phase`. 
 
-For example, a gambling application that relies on a random value should only allow bets to be placed during the `commits phase`.
+To retrieve the number of the first block of the next `commit phase`, use the `nextCommitPhaseStartBlock` public getter. To do the same for the `reveal phase`, use the `nextRevealPhaseStartBlock` public getter.
 
 ## Example code to retrieve a random seed
 
-Note: we are currently testing on Kovan and will provide a detailed example when the randomness contract is deployed.
+Note: we are currently testing on Sokol and will provide a detailed example when the randomness contract is deployed.
 
 ```javascript
 pragma solidity 0.5.16;

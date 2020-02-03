@@ -6,7 +6,7 @@ The public getter `currentSeed` is used to access the network's random seed. Its
 
 There are two phases in each round, a `commits phase` and a `reveals phase`. Since the revealing validator always knows the next random number before sending it, a DApp should prohibit business logic actions that depend on a random value during the `reveals phase`.
 
-To determine the current phase, use `isCommitPhase` public getter: it will return `true` if the current block is in the `commits phase`, `false` if the block is in the `reveals phase`.
+To determine the current phase, use `isCommitPhase` public getter: it will return `true` if the current block is in the `commits phase`, `false` if the block is in the `reveals phase`. To retrieve the number of the first block of the next `commits phase`, use the `nextCommitPhaseStartBlock` public getter. To do the same for `reveals phase`, use the `nextRevealPhaseStartBlock` public getter.
 
 For example, a gambling application that relies on a random value should only allow bets to be placed during the `commits phase`.
 

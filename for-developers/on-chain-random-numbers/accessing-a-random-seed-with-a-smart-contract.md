@@ -5,6 +5,7 @@ The  [RandomAura](https://github.com/poanetwork/posdao-contracts/blob/master/con
 #### Public getters:
 
 * **`currentSeed`**: access the network's random seed.
+* **`collectRoundLength`**: length in blocks for each collection round \(commit + reveal phases\)
 * **`isCommitPhase`**: returns true if current block is in commit phase
 * **`nextCommitPhaseStartBlock:`** retrieve block number of first block in next commit phase.
 * **`nextRevealPhaseStartBlock`:** retrieve block number of first block in next reveal phase.

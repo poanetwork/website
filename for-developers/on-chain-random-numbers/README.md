@@ -12,6 +12,6 @@ The following article explains on-chain randomness functions and how they will b
 {% endhint %}
 
 {% hint style="info" %}
-The current implementation requires a chain running Parity's AuRa consensus mechanism with version 2.7.1+. The Random Number generation contract was [introduced in this PR](https://github.com/paritytech/parity-ethereum/pull/10946).
+The current implementation requires a chain running Parity's AuRa consensus mechanism with version 2.7.2+. The Random Number generation contract was [introduced in this PR](https://github.com/paritytech/parity-ethereum/pull/10946).
 {% endhint %}
 

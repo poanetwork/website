@@ -3,7 +3,7 @@
 {% hint style="success" %}
 The following example uses methods from the [RandomAura](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol) contract. A [RANDAO ](https://github.com/randao/randao)methodology implemented by the validator nodes generates pseudorandom numbers.
 
-The following is designed to work with [Parity's AuRa](https://wiki.parity.io/Proof-of-Authority-Chains) consensus protocol v2.7.1+, slated for implementation on Kovan, Sokol, POA Core and/or xDai. In this protocol, validators take turns sealing blocks, one after the other, in a prescribed order.
+The following is designed to work with [Parity's AuRa](https://wiki.parity.io/Proof-of-Authority-Chains) consensus protocol v2.7.2+, slated for implementation on Kovan, Sokol, POA Core and/or xDai. In this protocol, validators take turns sealing blocks, one after the other, in a prescribed order.
 {% endhint %}
 
 ### Collection Rounds

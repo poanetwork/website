@@ -76,6 +76,7 @@
   * [Install Parity Client](for-developers/poa-installation/install-parity-client.md)
   * [Install Nethermind Client](for-developers/poa-installation/install-nethermind-client.md)
 * [DApp Deployment](for-developers/dapp-deployment.md)
+* [TheGraph Data Indexing](for-developers/thegraph-data-indexing.md)
 * [On-Chain Random Numbers](for-developers/on-chain-random-numbers/README.md)
   * [RNG explainer \(AuRa + RandomAura Contract\)](for-developers/on-chain-random-numbers/prng-explainer.md)
   * [Accessing a Random Seed with a Smart Contract](for-developers/on-chain-random-numbers/accessing-a-random-seed-with-a-smart-contract.md)

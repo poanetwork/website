@@ -20,7 +20,7 @@
 * [Instanbul Updgrade](2019-12-05-or-12095200.md)
   * **Date:** 2019-12-05
   * **Block:** `12095200`
-* On-Chain Randomness
+* [On-Chain Randomness](2020-02-20-or-13391641.md)
   * **Date:** 2020-02-20
   * **Block:** `13391641`
 

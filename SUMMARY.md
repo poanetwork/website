@@ -118,6 +118,7 @@
     * [2018-10-22 \| \#5329160](for-validators/hard-forks/poa-core/2018-10-22-or-5329160.md)
     * [POA Core spec.json hard-fork update](for-validators/hard-forks/poa-core/poa-core-spec.json-hard-fork-update.md)
   * [Sokol](for-validators/hard-forks/sokol/README.md)
+    * [2020-02-20 \| \#13391641](for-validators/hard-forks/sokol/2020-02-20-or-13391641.md)
     * [2019-12-05 \| \#12095200](for-validators/hard-forks/sokol/2019-12-05-or-12095200.md)
     * [2019-02-06 \| \#7026400](for-validators/hard-forks/sokol/2019-02-06-or-7026400.md)
     * [2019-01-04 \| \#6464300](for-validators/hard-forks/sokol/2019-01-04-or-6464300.md)

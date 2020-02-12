@@ -1,6 +1,6 @@
 # Sokol
 
-## Previous Sokol Hardforks
+## Sokol Hardforks
 
 * [Hard Fork Prep, Update Consensus Contract](2018-01-08-or-362296.md)
   * **Date:** 2018-01-08
@@ -17,4 +17,10 @@
 * [Disables Constantinople EIP-1283](2019-02-06-or-7026400.md)
   * **Date:** [2019-02-06](https://github.com/poanetwork/wiki/wiki/HFs-Sokol-2019-02-06)
   * **Block:** `7026400`
+* [Instanbul Updgrade](2019-12-05-or-12095200.md)
+  * **Date:** 2019-12-05
+  * **Block:** `12095200`
+* On-Chain Randomness
+  * **Date:** 2020-02-20
+  * **Block:** `13391641`
 

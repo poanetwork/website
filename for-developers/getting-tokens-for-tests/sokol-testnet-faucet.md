@@ -10,15 +10,15 @@ DApp testing requires SPOA, the native token for Sokol. SPOA is available throug
 
 ## SPOA Faucet
 
-SPOA is distributed in increments of 0.5 SPOA. You can request as many times as you would like.
+SPOA is distributed in increments of 100 SPOA. You can request as many times as you would like.
 
 Go to [https://faucet.poa.network/](https://faucet.poa.network/) 
 
 1. Enter an `0x...` address where you will receive the SPOA
 2. Select I'm not a robot!
-3. Click **Request 0.5 SPOA**
+3. Click **Request 100 SPOA**
 
-![Enter in an address where 0.5 SPOA will be sent](../../.gitbook/assets/sokol3.png)
+![Enter in an address where 100 SPOA will be sent](../../.gitbook/assets/sokol3.png)
 
 ![Successful Transaction](../../.gitbook/assets/sokol2.png)
 

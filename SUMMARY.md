@@ -10,6 +10,8 @@
   * [Community-Based Currencies](use-cases/community-based-currencies.md)
   * [Subsidized Transactions](use-cases/content-curation.md)
   * [Decentralized Finance \(DeFi\)](use-cases/interoperability.md)
+* [DApp Spotlights](dapp-spotlights/README.md)
+  * [Ethernal.World](dapp-spotlights/ethernal.world.md)
 * [Roadmap](roadmap.md)
 
 ## For users

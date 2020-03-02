@@ -51,5 +51,5 @@ As these previously funded games continue to gain traction, we are initiating a 
 
 **Target date: 2020**
 
-We will continue to research and explore ways to expand POA token usage, adoption and use cases. This includes creating a POA-based [stable token](for-users/use-cases-of-poa-token/stable-token.md), and exploring the ability to leverage POA as a [staking token](for-users/use-cases-of-poa-token/staking-token.md), either on its own or through a multi-collateral token basket.  To keep POA vital and growing, we must not only increase network adoption but also research the possibility of expanding usage beyond the network via the [TokenBridge](https://docs.tokenbridge.net/).
+We will continue to research and explore ways to expand POA token usage, adoption and use cases. This includes the possibility of creating a POA-based [stable token](for-users/use-cases-of-poa-token/stable-token.md), and exploring the ability to leverage POA as a [staking token](for-users/use-cases-of-poa-token/staking-token.md), either on its own or through a multi-collateral token basket.  To keep POA vital and growing, we must not only increase network adoption but also research the possibility of expanding usage beyond the network via the [TokenBridge](https://docs.tokenbridge.net/).
 

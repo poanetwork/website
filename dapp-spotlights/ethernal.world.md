@@ -12,7 +12,7 @@ Text and grid-based MUD \(multi-user dungeon\) games have a long and storied his
 
 Players can collect weapons, battle monsters, and even collaborate or compete with other players.  It's a lot of fun, brings back sweet memories for some of us seasoned players👴and its all on-chain!
 
-The Sokol chain runs quickly enough to make monster battles, which require transactions \(attack/defense strategy\), feel interactive. Onboarding with the [Portis ](https://portis.io/)wallet is also extremely easy as users don't need a wallet or crypto to start playing \(although crypto vets can use MetaMask or another web3wallet\). Transaction fees are consolidated into a single fee paid at the beginning of the game which can be recharged as needed. This helps keep gameplay moving quickly.
+The Sokol chain runs quickly enough so that monster battles feel interactive. Each action \(attack / defense\) requires a transaction -  it's important that they are processed quickly. Onboarding with the [Portis ](https://portis.io/)wallet is also extremely easy as users don't need a wallet or crypto to start playing \(although crypto vets can use MetaMask or another web3wallet\). Transaction fees are consolidated into a single fee paid at the beginning of the game which can be recharged as needed. This helps keep gameplay moving quickly.
 
 Collected items can be kept, sold/traded with other players, or potentially used in other dungeons and games. Rare collected items remain rare due to the protocol rules, and generated rooms are immutable.
 
@@ -39,13 +39,13 @@ Rooms are explored by choosing a direction \(North, South, East, West\) to proce
 
 ![Items in our Bag](../.gitbook/assets/ethernal-world-bag.png)
 
-Items are collected by defeating monsters or discovered in new rooms. These items can be saved to a wallet for later trading or bridging to the mainnet \(these features are not yet active, but will be introduced in subsequent versions\). However, if you die with unstored items, everything you carry is also left in the room for other players to scavenge. 
+Items are collected by defeating monsters or discovered in rooms. These items can be saved to a wallet for later trading or bridging to the mainnet \(these features are not yet active, but will be introduced in subsequent versions\). However, if you die with unstored items,  these items are left in the room for other players to scavenge. 
 
 ## Monsters
 
 ![Ogre!](../.gitbook/assets/ethernal-world-ogre.png)
 
-When encountering monsters, you can choose to Attack or Run. Attack and defense is based on your existing abilities, which are leveled up by defeating enemies or through room discovery. Each attack counts as transaction, which takes only a few seconds to process.
+When encountering monsters, you can choose to Attack or Run. Attack and defense against an attack is based on your existing abilities, which are leveled up by defeating enemies or through room discovery. Each attack counts as transaction, which takes only a few seconds to process.
 
 ![We should have Run!](../.gitbook/assets/ethernal-world-djinn.png)
 

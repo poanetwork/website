@@ -10,7 +10,7 @@ description: On-chain randomness questions and answers
 
 #### How is randomness created on-chain?
 
-Currently, randomness is created through a RANDAO-like process, where validators commit the hash of a random number to the chain, then reveal that number later on.  The revealed number is XORd with a previous revealed number, creating a new random seed.    
+Currently, randomness is created through a [RANDAO](https://github.com/randao/randao)-like process, where validators commit the hash of a random number to the chain, then reveal that number later on.  The revealed number is XORd with a previous revealed number, creating a new random seed.    
 For more details, see  [https://forum.poa.network/t/reliable-randomness-bringing-on-chain-entropy-to-the-xdai-stable-chain/3015](https://forum.poa.network/t/reliable-randomness-bringing-on-chain-entropy-to-the-xdai-stable-chain/3015)
 
 In the future, we will have [secure, per-block randomness when HoneyBadger BFT is introduced.](randomness-faqs.md#will-on-chain-unpredictable-random-numbers-per-block-be-available-in-the-future)

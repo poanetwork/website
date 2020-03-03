@@ -51,6 +51,8 @@ Since validators on Sokol and POA are known individuals staking their reputation
 
 Using this approach, validators will signal their approval of a block by providing a portion of a signature \(a signature share\) rather than the entire signature. Once a predetermined number of shares are received by the algorithm \(the threshold\), they are combined to create a single signature which cannot be known beforehand. Because this number is secret until it is revealed, it can be used as a random number. A special property of this algorithm is that any combination of validators can collaborate to create the same final signature.
 
+For more on HoneyBadger BFT, see [https://www.xdaichain.com/for-validators/consensus/honeybadger-bft-consensus](https://www.xdaichain.com/for-validators/consensus/honeybadger-bft-consensus)
+
 
 
 

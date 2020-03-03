@@ -12,7 +12,11 @@ The  [RandomAura](https://github.com/poanetwork/posdao-contracts/blob/master/con
 
 The public getter `currentSeed` is used to access the network's random seed. Its value is only updated when the `revealNumber` function is called. This should occur **at least once per collection round**. The length in blocks of each collection round can be retrieved with the `collectRoundLength` public getter.
 
-There are two phases in each round, a `commit phase` and a `reveal phase`. Since the revealing validator always knows the next random number before sending it, a DApp should **prohibit business logic actions** that depend on a random value **during the `reveal phase`**. For example, a gambling application that relies on a random value should only allow bets to be placed during the `commit phase`.
+There are two phases in each round, a `commit phase` and a `reveal phase`. Since the revealing validator always knows the next random number before sending it, a DApp should **prohibit business logic actions** that depend on a random value **during the `reveal phase`**. 
+
+{% hint style="warning" %}
+For example, a gambling application that relies on a random value should only allow bets to be placed during the `commit phase`. This type of application must **prevent users from placing new bets during the entire reveal phase**.
+{% endhint %}
 
 To determine the current phase, use the `isCommitPhase` public getter: it returns `true` if the current block is in the `commit phase` and `false` if the block is in the `reveal phase`. 
 

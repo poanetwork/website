@@ -82,6 +82,7 @@
 * [On-Chain Random Numbers](for-developers/on-chain-random-numbers/README.md)
   * [RNG explainer \(AuRa + RandomAura Contract\)](for-developers/on-chain-random-numbers/prng-explainer.md)
   * [Accessing a Random Seed with a Smart Contract](for-developers/on-chain-random-numbers/accessing-a-random-seed-with-a-smart-contract.md)
+  * [Randomness FAQs](for-developers/on-chain-random-numbers/randomness-faqs.md)
 * [Grants for Building on POA](for-developers/grants-for-building-on-poa.md)
 
 ## For validators

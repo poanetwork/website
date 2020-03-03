@@ -1,6 +1,6 @@
 # On-Chain Random Numbers
 
-We are introducing an on-chain RNG based on RANDAO. It may be leveraged by smart contract developers to introduce random numbers into their applications. 
+We are introducing an on-chain RNG based on RANDAO. It may be leveraged by smart contract developers to introduce random numbers into their applications.  _Note that there are limitations to random number generation in the current implementation \(unpredictable randomness is not available on every block\). See the pages below for more information._
 
 * [PRNG implementation explainer](prng-explainer.md)
 * [How to access the random seed in a smart contract](accessing-a-random-seed-with-a-smart-contract.md)

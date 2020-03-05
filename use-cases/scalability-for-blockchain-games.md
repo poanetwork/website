@@ -4,7 +4,7 @@ description: POA Network provides optimal conditions for game development and pl
 
 # Scalability for BlockChain Games
 
-POA Network provides an irresistible scalability solution for Ethereum DApps and developers. A consistent, high-performance environment means 5 second block times, 60 transactions per seconds, and a fixed gas price of 1 Gwei. This is ideal for game development and user experience. 
+POA Network provides an irresistible scalability solution for Ethereum DApps and developers. A consistent, high-performance environment means 5 second block times, 60 transactions per seconds, and a minimal gas price of 5 Gwei. This is ideal for game development and user experience. 
 
 In addition to favorable network conditions, TokenBridge functionality provides the ability to move game tokens to and from the POA network. This is a "game-changer", and several games \(see Everdragons and Clovers below\) are taking advantage of this feature to provide fast, cheap gameplay on POA Network, while moving tokens across the bridge to access the larger Ethereum user base for marketplace functionality.
 

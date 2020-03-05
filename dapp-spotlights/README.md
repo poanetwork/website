@@ -15,13 +15,3 @@ Developers choose POA network \(and the Sokol testnet and xDai Chain\) to run th
 
 A short list of DApps running on POA Mainnet \(this is not an exhaustive list, only apps that have been submitted\) is available at [https://www.stateofthedapps.com/platforms/poa](https://www.stateofthedapps.com/platforms/poa)
 
- 
-
-
-
-
-
-
-
-[https://www.stateofthedapps.com/platforms/poa](https://www.stateofthedapps.com/platforms/poa)
-

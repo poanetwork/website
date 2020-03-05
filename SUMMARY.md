@@ -10,6 +10,7 @@
   * [Community-Based Currencies](use-cases/community-based-currencies.md)
   * [Subsidized Transactions](use-cases/content-curation.md)
   * [Decentralized Finance \(DeFi\)](use-cases/interoperability.md)
+  * [DAO Governance](use-cases/dao-governance.md)
 * [DApp Spotlights](dapp-spotlights/README.md)
   * [Ethernal.World](dapp-spotlights/ethernal.world.md)
 * [Roadmap](roadmap.md)
@@ -83,6 +84,7 @@
   * [RNG explainer \(AuRa + RandomAura Contract\)](for-developers/on-chain-random-numbers/prng-explainer.md)
   * [Accessing a Random Seed with a Smart Contract](for-developers/on-chain-random-numbers/accessing-a-random-seed-with-a-smart-contract.md)
   * [Randomness FAQs](for-developers/on-chain-random-numbers/randomness-faqs.md)
+* [API & SQL Access](for-developers/api-and-sql-access.md)
 * [Grants for Building on POA](for-developers/grants-for-building-on-poa.md)
 
 ## For validators

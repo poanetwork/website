@@ -42,7 +42,11 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 
 | ​POA Core Network | ​ |
 | :--- | :--- |
-| URL | ​[https://core.poa.network](https://core.poa.network) |
+| **Main RPC \(HTTP2\)** | [​](https://core.poanetwork.dev/)[https://core.poanetwork.dev/](https://core.poanetwork.dev/)  |
+| Main RPC \(HTTP\) | [http://core.poanetwork.dev:8545](http://core.poanetwork.dev:8545) |
+| RPC Alias \(HTTPS\) | [https://core.poa.network/](https://core.poa.network/) |
+| WebSockets | [ws://core.poanetwork.dev:8546](ws://core.poanetwork.dev:8546) |
+| Archive node \(last 100k blocks\) | [https://core-archive.blockscout.com/](https://core-archive.blockscout.com/) |
 | Network ID | 99 |
 
 | **POA Sokol Testnet** |  |
@@ -89,7 +93,7 @@ TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
 
 ## **Faucets** <a id="additional-resources"></a>
 
-* Sokol Testnet Faucet: [https://faucet.poa.network](https://faucet.poa.network/) Get free SPOA tokens for testing on the _Sokol_ testnet 
+* Sokol Testnet Faucet: [https://faucet.poa.network](https://faucet.poa.network/) Get free 100 SPOA tokens for testing on the _Sokol_ testnet 
 * [ERC20 Test Token Faucet](getting-tokens-for-tests/erc20-test-token-faucet.md) Can be used on Sokol or POA Core. 
 
 ## DApp Management & Developer Tools

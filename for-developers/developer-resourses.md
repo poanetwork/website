@@ -54,40 +54,7 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 | URL | [https://sokol.poa.network](https://sokol.poa.network) |
 | Network ID | 77 |
 
-### **Nodesmith RPC \(discontinued\)** <a id="nodesmith-rpc"></a>
-
-{% hint style="warning" %}
-Nodesmith RPC will be shut down by the end of December 2019.
-{% endhint %}
-
-| ​POA Core Network | ​ |
-| :--- | :--- |
-
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">URL</th>
-      <th style="text-align:left">
-        <p>&#x200B;<a href="https://poa.api.nodesmith.io/v1/dai/jsonrpc?apiKey=YOUR_API_KEY">https://poa.api.nodesmith.io/v1/poa/jsonrpc?apiKey=</a>&#x200B;YOUR_API_KEY</p>
-        <p>(requires <a href="https://nodesmith.io/docs/#/overview/httpsQuickstart">free Nodesmith account for your API key</a>):</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left">URL</th>
-      <th style="text-align:left">
-        <p><a href="https://poa.api.nodesmith.io/v1/sokol/jsonrpc?apiKey=YOUR_API_KEY">https://poa.api.nodesmith.io/v1/sokol/jsonrpc?apiKey=YOUR_API_KEY</a>
-        </p>
-        <p>(requires <a href="https://nodesmith.io/docs/#/overview/httpsQuickstart">free Nodesmith account for your API key</a>):</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>## TokenBridge UI
+## TokenBridge UI
 
 TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
 

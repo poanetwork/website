@@ -44,7 +44,7 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 | :--- | :--- |
 | **Main RPC \(HTTP2\)** | [​](https://core.poanetwork.dev/)[https://core.poanetwork.dev/](https://core.poanetwork.dev/)  |
 | Main RPC \(HTTP\) | [http://core.poanetwork.dev:8545](http://core.poanetwork.dev:8545) |
-| RPC Alias \(HTTPS\) | [https://core.poa.network/](https://core.poa.network/) |
+| RPC Alias \(HTTPS/Cloudflare\) | [https://core.poa.network/](https://core.poa.network/) |
 | WebSockets | [ws://core.poanetwork.dev:8546](ws://core.poanetwork.dev:8546) |
 | Archive node \(last 100k blocks\) | [https://core-archive.blockscout.com/](https://core-archive.blockscout.com/) |
 | Network ID | 99 |
@@ -58,7 +58,6 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 | WebSockets | [ws://sokol.poa.network:8546](ws://sokol.poa.network:8546) |
 | Archive node \(last 100k blocks\) | [http://sokol-archive.blockscout.com/](http://sokol-archive.blockscout.com/) |
 | Network ID | 77 |
-|  |  |
 
 ### Kovan Testnet
 

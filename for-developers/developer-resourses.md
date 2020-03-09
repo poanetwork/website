@@ -38,7 +38,7 @@ To mitigate an ongoing denial-of-service attack, validators decided to increase 
 
 There are endpoints provided by POA. They are used to connect to the network. Use these endpoints to connect with DApps or when connecting to the POA Network with MetaMask or other web3 wallets.
 
-### POA RPC <a id="poa-rpc"></a>
+### POA Core  <a id="poa-rpc"></a>
 
 | ​POA Core Network | ​ |
 | :--- | :--- |
@@ -49,10 +49,25 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 | Archive node \(last 100k blocks\) | [https://core-archive.blockscout.com/](https://core-archive.blockscout.com/) |
 | Network ID | 99 |
 
+### Sokol Testnet
+
 | **POA Sokol Testnet** |  |
 | :--- | :--- |
-| URL | [https://sokol.poa.network](https://sokol.poa.network) |
+| Main RPC \(HTTPS\) | [https://sokol.poa.network](https://sokol.poa.network) |
+| Main RPC \(HTTP\) | [http://sokol.poa.network:8545](http://sokol.poa.network:8545) |
+| WebSockets | [ws://sokol.poa.network:8546](ws://sokol.poa.network:8546) |
+| Archive node \(last 100k blocks\) | [http://sokol-archive.blockscout.com/](http://sokol-archive.blockscout.com/) |
 | Network ID | 77 |
+|  |  |
+
+### Kovan Testnet
+
+| Kovan Testnet |  |
+| :--- | :--- |
+| Main RPC \(HTTPS\) | [https://kovan.poa.network/](https://kovan.poa.network/) |
+| Main RPC \(HTTP\) | [http://kovan.poa.network:8545](http://kovan.poa.network:8545) |
+| WebSockets | [ws://kovan.poa.network:8546](ws://kovan.poa.network:8546) |
+| Network ID | 42 |
 
 ## TokenBridge UI
 

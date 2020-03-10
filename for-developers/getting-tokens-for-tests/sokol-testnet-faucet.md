@@ -29,15 +29,15 @@ Go to [https://faucet.poa.network/](https://faucet.poa.network/)
 | RPC  | https://sokol.poa.network |
 | Network ID | 77 |
 
-### Using Web3 Wallets with Sokol 
+## Using Web3 Wallets with Sokol 
 
-#### **Nifty Wallet**
+### **Nifty Wallet**
 
 Nifty Wallet ships with Sokol. Go to the network dropdown and select Sokol. Once connected, you ou should see your SPOA \(displayed as POA\) token balance.
 
 ![](../../.gitbook/assets/niftysokol.png)
 
-#### Saturn Wallet
+### Saturn Wallet
 
 Saturn Wallet includes the Sokol Testnet in Developers Mode. To access:
 
@@ -51,7 +51,7 @@ Sokol will now appear in the network dropdown list. Select to Connect.
 
 ![Select Sokol Testnet from the dropdown](../../.gitbook/assets/sokolsatrun2.png)
 
-#### MetaMask
+### MetaMask
 
 You will add the Sokol Custom RPC to MetaMask to interact with Sokol.
 

@@ -22,7 +22,12 @@ To mitigate an ongoing denial-of-service attack, validators decided to increase 
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | ~10,000,000 Gas | 5 sec | 1 GWei | Istanbul | SPOA | 77 |
 
-## Blockchain Explorers <a id="blockchain-explorer"></a>
+### **Sokol Faucets**
+
+* Sokol Testnet Faucet: [https://faucet.poa.network](https://faucet.poa.network/) Get free 100 SPOA tokens for testing on the _Sokol_ testnet 
+* [ERC20 Test Token Faucet](getting-tokens-for-tests/erc20-test-token-faucet.md) Can be used on Sokol or POA Core. 
+
+## Blockchain Explorers
 
 1\) **BlockScout** is the official blockchain explorer for the POA Network. With this full-featured, open-source explorer you can view transactions, accounts & balances, access data via the API and read and verify smart contracts.
 
@@ -72,17 +77,15 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 
 TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
 
-## **Faucets** <a id="additional-resources"></a>
-
-* Sokol Testnet Faucet: [https://faucet.poa.network](https://faucet.poa.network/) Get free 100 SPOA tokens for testing on the _Sokol_ testnet 
-* [ERC20 Test Token Faucet](getting-tokens-for-tests/erc20-test-token-faucet.md) Can be used on Sokol or POA Core. 
-
 ## DApp Management & Developer Tools
 
 * [Terminal ](https://terminal.co)provides management, monitoring and analytics tools for DApp developers. 
 * [Pocket](https://www.pokt.network/) provides a decentralized API layer for DApp developers \(IOS, Android & Web SDKs available\) and blockchain users.
-* [Tenderly ](https://tenderly.dev/)dashboard supports xDai transaction inspection - smart contracts can also be pushed to the dashboard for real-time monitoring.
+* [TheGraph](https://thegraph.com) supports xDai data indexing, querying and display. 
 * [AnyBlock Analytics](https://www.anyblockanalytics.com/) provides[ ElasticSearch & SQL access](api-and-sql-access.md)  
+* [Tenderly ](https://tenderly.dev/)dashboard supports xDai transaction inspection - smart contracts can also be pushed to the dashboard for real-time monitoring.
+
+![Tenderly Dashboard Gas Profiler example](../.gitbook/assets/tenderly.png)
 
 ## **Additional Resources** <a id="additional-resources"></a>
 

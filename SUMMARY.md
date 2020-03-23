@@ -117,6 +117,7 @@
 * [Hard Forks](for-validators/hard-forks/README.md)
   * [Parity Upgrade Guide](for-validators/hard-forks/parity-upgrade-guide.md)
   * [POA Core](for-validators/hard-forks/poa-core/README.md)
+    * [2020-03-31 \| \#14350721](for-validators/hard-forks/poa-core/2020-03-31-or-14350721.md)
     * [2019-12-19 \| \#12598600](for-validators/hard-forks/poa-core/2019-12-19-or-12598600.md)
     * [2019-04-29 \| \#8582254](for-validators/hard-forks/poa-core/2019-04-29-or-8582254.md)
     * [2018-01-29 \| \# 772000](for-validators/hard-forks/poa-core/2018-01-29-or-772000.md)

@@ -12,6 +12,22 @@ The following article explains on-chain randomness functions and how they will b
 [https://forum.poa.network/t/reliable-randomness-bringing-on-chain-entropy-to-the-xdai-stable-chain/3015](https://forum.poa.network/t/reliable-randomness-bringing-on-chain-entropy-to-the-xdai-stable-chain/3015)
 {% endhint %}
 
+## Randomness Contract \(RandomAuRa\) 
+
+{% tabs %}
+{% tab title="POA Core" %}
+| Block | Date | Contract |
+| :--- | :--- | :--- |
+| 14350721 | 03/31/2020 | 0x67e90a54AeEA85f21949c645082FE95d77BC1E70 |
+{% endtab %}
+
+{% tab title="POA Sokol \(Testnet\)" %}
+| Block | Date | Contract |
+| :--- | :--- | :--- |
+| 13391641 | 02/20/2020 | 0x8f2b78169B0970F11a762e56659Db52B59CBCf1B |
+{% endtab %}
+{% endtabs %}
+
 {% hint style="info" %}
 The current implementation requires a chain running Parity's AuRa consensus mechanism with version 2.7.2+. The Random Number generation contract was [introduced in this PR](https://github.com/paritytech/parity-ethereum/pull/10946).
 {% endhint %}

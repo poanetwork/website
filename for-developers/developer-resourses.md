@@ -6,7 +6,9 @@ description: General information and links
 
 ## General Information <a id="general-information"></a>
 
-### POA Core
+{% tabs %}
+{% tab title="POA Core" %}
+
 
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -15,12 +17,16 @@ description: General information and links
 {% hint style="info" %}
 To mitigate an ongoing denial-of-service attack, validators decided to increase the gas price to a range between 1-10 Gwei. Each validator can determine their own value within this range.
 {% endhint %}
+{% endtab %}
 
-### POA Sokol
-
+{% tab title="POA Sokol \(Testnet\)" %}
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | ~10,000,000 Gas | 5 sec | 1 GWei | Istanbul | SPOA | 77 |
+{% endtab %}
+{% endtabs %}
+
+
 
 ### **Sokol Faucets**
 

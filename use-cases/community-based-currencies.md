@@ -14,6 +14,12 @@ Moving from paper vouchers to blockchain currencies provides the ability for nei
 >
 > From: [https://github.com/GrassrootsEconomics/CIC-WhitePaper](https://github.com/GrassrootsEconomics/CIC-WhitePaper)
 
+### Cash distribution in times of crisis
+
+CICs can be used for targeted aid when markets or supply chains deteriorate in the midst of a crisis. Specific health or food related business may be targeted using blockchain transaction data in order to provide rapid aid to those who need it most. 
+
+{% embed url="https://www.grassrootseconomics.org/single-post/CIC-COVID-19-Crisis-Cash-Aid" %}
+
 ## Media
 
 {% embed url="https://www.bloomberg.com/news/features/2018-10-31/closing-the-cash-gap-with-cryptocurrency" %}

@@ -8,8 +8,6 @@ description: General information and links
 
 {% tabs %}
 {% tab title="POA Core" %}
-
-
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | ~10,000,000 Gas | 5 sec | 1 -10 GWei | Istanbul | POA | 99 |

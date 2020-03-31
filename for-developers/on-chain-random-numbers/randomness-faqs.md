@@ -6,7 +6,11 @@ description: On-chain randomness questions and answers
 
 ## Is on-chain randomness available now?
 
-**Yes!** it is available on the Sokol testnet and coming soon to the POA mainnet. We've introduced the RandomAura contract which provides on-chain random numbers. [Contract details for Sokol are available here. ](https://blockscout.com/poa/sokol/address/0x8f2b78169B0970F11a762e56659Db52B59CBCf1B/transactions)
+**Yes!** it is activated on the POA Mainnet and the Sokol testnet. The RandomAura contract provides on-chain random numbers.
+
+Mainnet Contract: [0x67e90a54AeEA85f21949c645082FE95d77BC1E70](https://blockscout.com/poa/core/address/0x67e90a54AeEA85f21949c645082FE95d77BC1E70)
+
+Sokol Contract: [0x8f2b78169B0970F11a762e56659Db52B59CBCf1B](https://blockscout.com/poa/sokol/address/0x8f2b78169B0970F11a762e56659Db52B59CBCf1B/transactions)
 
 ## How is randomness created on-chain?
 
@@ -37,7 +41,7 @@ It is possible to create an on-chain PRNG where the `currentSeed` value is used 
 
 ## How secure is this method of on-chain random number generation?
 
-While secure, there are potential issues with this type of RNG. It has to do with malicious validators who may choose to manipulate the outcome by not revealing their number. Validators cannot change the number they have committed, but they can choose to not commit or not reveal a number.
+While secure, there are considerations to keep in mind. They have to do with malicious validators who may choose to manipulate the outcome by not revealing their number. Validators cannot change the number they have committed, but they can choose to not commit or not reveal a number.
 
 This means that during the reveal phase, a validator can effectively choose between 2 numbers, either the current number or the new one that will be created when they reveal their number. If an application uses the final number of the reveals phase, only the final validator can make this choice, limiting the scope of this issue.
 

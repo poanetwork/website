@@ -18,7 +18,7 @@ Nifty Wallet and MetaMask do not function properly when both are activated at th
 {% endhint %}
 
 {% hint style="info" %}
-We are currently updating the instructions here. For immediate help, please see:
+We are currently updating instructions here. For immediate help, please see:
 
 Basic Instructions:   
 [https://forum.poa.network/t/nifty-wallet-guide/1789](https://forum.poa.network/t/nifty-wallet-guide/1789)  

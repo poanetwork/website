@@ -6,9 +6,9 @@ description: On-chain randomness questions and answers
 
 ## Is on-chain randomness available now?
 
-**Yes!** it is activated on the POA Mainnet and the Sokol testnet. The RandomAura contract provides on-chain random numbers.
+**Yes!** it is activated on the POA Core and the Sokol Testnet. The RandomAura contract provides on-chain random numbers.
 
-Mainnet Contract: [0x67e90a54AeEA85f21949c645082FE95d77BC1E70](https://blockscout.com/poa/core/address/0x67e90a54AeEA85f21949c645082FE95d77BC1E70)
+POA Core Contract: [0x67e90a54AeEA85f21949c645082FE95d77BC1E70](https://blockscout.com/poa/core/address/0x67e90a54AeEA85f21949c645082FE95d77BC1E70)
 
 Sokol Contract: [0x8f2b78169B0970F11a762e56659Db52B59CBCf1B](https://blockscout.com/poa/sokol/address/0x8f2b78169B0970F11a762e56659Db52B59CBCf1B/transactions)
 

@@ -12,12 +12,12 @@ A no-loss lottery where POA hodlers can win an extra slice of POA Pie 🥧. Emis
 
 POA Mania is currently in beta mode and available on POA core and the Sokol testnet. We are using the new RANDAO-based randomness contracts to test our decentralized on-chain lottery. 
 
-POA Core:
+**POA Core:**
 
 * Link: [http://www.poamania.com](http://www.poamania.com)
 * Telegram Bot on POA Telegram: [https://t.me/oraclesnetwork](https://t.me/oraclesnetwork)
 
-Sokol Testnet:
+**Sokol Testnet:**
 
 * Test Application[: https://poa-mania.herokuapp.com/](https://poa-mania.herokuapp.com/)
 * SPOA for testing: [https://www.poa.network/for-developers/getting-tokens-for-tests/sokol-testnet-faucet](https://www.poa.network/for-developers/getting-tokens-for-tests/sokol-testnet-faucet)

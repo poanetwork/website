@@ -5,6 +5,7 @@
   * [Known Validators](features/known-validators.md)
   * [POADAO Consensus](features/poadao-consensus.md)
   * [Bridged Native Token](features/bridged-native-token.md)
+  * [On-Chain Randomness](features/on-chain-randomness.md)
 * [Use Cases](use-cases/README.md)
   * [Scalability for BlockChain Games](use-cases/scalability-for-blockchain-games.md)
   * [Community-Based Currencies](use-cases/community-based-currencies.md)

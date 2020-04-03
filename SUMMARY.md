@@ -54,6 +54,7 @@
 * [POA Mania](for-users/poa-mania/README.md)
   * [Rules](for-users/poa-mania/rules.md)
   * [Winner Selection](for-users/poa-mania/winner-selection.md)
+  * [Round Details](for-users/poa-mania/round-details.md)
   * [POA Mania vs PoolTogether](for-users/poa-mania/poa-mania-vs-pooltogether.md)
   * [POA Mania FAQs](for-users/poa-mania/poa-mania-faqs.md)
 * [Whitepaper](for-users/whitepaper/README.md)

@@ -16,11 +16,11 @@ To view details for any round, click **See Details** button next to a round in t
 
 ![](../../.gitbook/assets/details-1.png)
 
-Detailed stats are displayed per round, including winners and amount of POA won.
+Detailed stats are displayed per round, including deposit amounts, winners and the amount of POA won for for 1st, 2nd and 3rd place.
 
 ![](../../.gitbook/assets/mania-winners-1.png)
 
-Participating address is highlighted when a wallet is connected.
+A participant's address is highlighted when a wallet is connected.
 
 ![](../../.gitbook/assets/highlighted-address.png)
 

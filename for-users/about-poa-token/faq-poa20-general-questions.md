@@ -50,15 +50,15 @@ POA20 Tokens are minted to prove cross chain bridges can work in a safe and secu
 
 ## What is the difference between POA native token and POA20 token?
 
- POA native tokens live on the POA Network whereas ​POA20 tokens live on the Ethereum network.
+POA native tokens live on the POA Network whereas ​POA20 tokens live on the Ethereum network.
 
 ## What is the POA20 token Contract Address, Symbol, and \# of Decimal Places in order to add it as a Custom Coin on MyEtherWallet?
 
-The symbol will be POA20. The number of Decimal places is 18. The smart contract address is [0x6758B7d441a9739b98552B373703d8d3d14f9e62](https://etherscan.io/token/0x6758B7d441a9739b98552B373703d8d3d14f9e62)
+The symbol is POA20. The number of Decimal places is 18. The smart contract address is [0x6758B7d441a9739b98552B373703d8d3d14f9e62](https://etherscan.io/token/0x6758B7d441a9739b98552B373703d8d3d14f9e62)
 
 ## How do I transform my POA native tokens to POA20 tokens? 
 
-The POA20 Bridge will be a public DApp where users will be able to access by using [Metamask](https://github.com/poanetwork/wiki/wiki/POA-Network-on-MetaMask). You will be able to send your POA native tokens and receive an equivalent amount of POA20 tokens on the Ethereum network. By toggling the network on Metamask, you’re also able to transfer the other way around and send POA20 tokens to receive POA native tokens.
+The POA20 Bridge is a public DApp users can access with [Metamask](https://github.com/poanetwork/wiki/wiki/POA-Network-on-MetaMask). A user can send POA native tokens and receive an equivalent amount of POA20 tokens on the Ethereum network. By toggling the network on Metamask, you’re also able to transfer the other way around and send POA20 tokens to receive POA native tokens.
 
 ## Has the contract code for the POA20 Bridge been audited? 
 
@@ -121,7 +121,7 @@ There is no limit, however, there is a daily quota. Hypothetically the entire ci
 
 ## Is there a minimum or maximum amount of tokens per wallet that can be transferred via the POA20 Bridge? 
 
-The minimum amount of POA native tokens to transfer to the Ethereum main network will be **300 POA native tokens** . The minimum amount in transferring POA20 to POA Network will be 750 POA20 tokens.
+The minimum amount of POA native tokens to transfer to the Ethereum main network is **300 POA native tokens** . The minimum amount in transferring POA20 to POA Network is **750 POA20 tokens**.
 
 Since POA Network is sponsoring the fees for the transfer through the bridge, we wanted to impose a minimum amount of tokens to transfer. We calculated the minimum amount of tokens to transfer based on the fees that POA Network is sponsoring.
 

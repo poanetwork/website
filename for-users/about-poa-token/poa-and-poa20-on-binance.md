@@ -45,21 +45,21 @@ Only POA may be withdrawn from Binance. Any POA20 deposited will be converted to
 5. Enter the amount to withdraw.
 6. Click Submit
 
-It will take a short amount of time to process the transaction and withdraw the POA to the selected address.
+It will take a short amount of time to process the transaction and withdraw the POA from Binance to the selected address.
 
-&lt;img1&gt;
+![](../../.gitbook/assets/withdraw1.png)
 
-2\) Confirm withdrawal request
+2\) Confirm the withdrawal request in your email \(if required\).
 
-&lt;img2&gt;
+![](../../.gitbook/assets/withdraw2.png)
 
-3\) Check transaction. In deposit and withdrawal history. Click on TX to view details on BlockScout.
+3\) Check transaction in the Deposit and Withdrawal history once processing is complete.
 
-&lt;img3&gt; Pending
+![](../../.gitbook/assets/withdraw3.png)
 
-&lt;img4&gt; Complete
+4\) Click on TX to view details on BlockScout. [0x1351ba6fd235c6863e77174158e94b426fd4109c6eb17c02983b003acf553ffd](https://explorer.poa.network/poa/core/tx/0x1351ba6fd235c6863e77174158e94b426fd4109c6eb17c02983b003acf553ffd)
 
-&lt;img5&gt; Blockscout
+![](../../.gitbook/assets/withdraw4.png)
 
 
 

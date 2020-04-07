@@ -93,6 +93,7 @@
   * [Accessing a Random Seed with a Smart Contract](for-developers/on-chain-random-numbers/accessing-a-random-seed-with-a-smart-contract.md)
   * [Randomness FAQs](for-developers/on-chain-random-numbers/randomness-faqs.md)
 * [API & SQL Access](for-developers/api-and-sql-access.md)
+* [Smart Contract Dashboard](for-developers/smart-contract-dashboard.md)
 * [Grants for Building on POA](for-developers/grants-for-building-on-poa.md)
 
 ## For validators

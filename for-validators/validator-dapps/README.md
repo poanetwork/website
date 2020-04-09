@@ -1,2 +1,2 @@
-# Validator Dapps
+# Validator DApps
 

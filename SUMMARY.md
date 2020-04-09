@@ -141,8 +141,9 @@
     * [2018-01-18 \| \#509355](for-validators/hard-forks/sokol/2018-01-18-or-509355.md)
     * [2018-01-08 \| \#362296](for-validators/hard-forks/sokol/2018-01-08-or-362296.md)
     * [Sokol spec.json hard-fork update](for-validators/hard-forks/sokol/sokol-spec.json-hard-fork-update.md)
-* [Validator Dapps](for-validators/validator-dapps/README.md)
+* [Validator DApps](for-validators/validator-dapps/README.md)
   * [Validators MetaData DApp](for-validators/validator-dapps/validators-metadata-dapp.md)
+  * [Adding or Removing a Validator](for-validators/validator-dapps/adding-or-removing-a-validator.md)
 
 ## Media <a id="social-media"></a>
 

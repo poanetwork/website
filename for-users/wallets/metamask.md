@@ -5,7 +5,7 @@
 **Description**:  MetaMask is the original web3 wallet. It allows you to run Ethereum dApps right in your browser without running a full Ethereum node. See below for setup with POA Network.  
 
 {% hint style="warning" %}
-N[ifty Wallet](../nifty-wallet/) and MetaMask do not function properly when both are activated at the same time as chrome extensions. To use one or the other, **right click** on the extension icon, go to **Manage Extensions**, and **toggle off/on** the application you want to use. All data will be preserved in the wallet for future access.
+[Nifty Wallet](../nifty-wallet/) and MetaMask do not function properly when both are activated at the same time as chrome extensions. To use one or the other, **right click** on the extension icon, go to **Manage Extensions**, and **toggle off/on** the application you want to use. All data will be preserved in the wallet for future access.
 {% endhint %}
 
 ## Metamask Setup

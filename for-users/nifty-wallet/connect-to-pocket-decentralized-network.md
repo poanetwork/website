@@ -19,7 +19,7 @@ Nifty allows users to easily connect to a decentralized network rather than stri
 | :--- | :--- |
 | Ethereum **Mainnet** network \(PoW//cross-client\) | 1 |
 | Ethereum **Ropsten** testnet \(PoW//cross-client\) | 3 |
-| Ethereum **Rinkby** testnet \(POA - Clique//Geth\) | 4 |
+| Ethereum **Rinkeby** testnet \(POA - Clique//Geth\) | 4 |
 | Ethereum **Goerli** testnet \(POA-Clique//cross-client\) | 5 |
 | Ethereum **Kovan** testnet \(POA-AURA//parity, nethermind\) | 42 |
 | **POA** Core network \(POA-AURA//parity, nethermind\) | 99 |

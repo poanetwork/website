@@ -9,7 +9,7 @@ Nifty allows users to easily connect to a decentralized network rather than stri
 2\) Scroll down to the Provider section:
 
 1. Select Switch to Decentralized Provider \(Pocket\)
-2.  Press the back arrow to return to your wallet.
+2. Press the back arrow to return to your wallet.
 
 ![](../../.gitbook/assets/settings_2.png)
 

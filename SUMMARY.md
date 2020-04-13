@@ -52,6 +52,7 @@
   * [Connect to Pocket Decentralized Network](for-users/nifty-wallet/connect-to-pocket-decentralized-network.md)
 * [3rd Party Wallets](for-users/wallets/README.md)
   * [Trust Wallet](for-users/wallets/trust-wallet.md)
+  * [MetaMask](for-users/wallets/metamask.md)
 * [POA Mania](for-users/poa-mania/README.md)
   * [Rules](for-users/poa-mania/rules.md)
   * [Winner Selection](for-users/poa-mania/winner-selection.md)

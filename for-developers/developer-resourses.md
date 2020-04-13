@@ -61,7 +61,7 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 {% tab title="POA Core" %}
 | POA Core Network | ​ |
 | :--- | :--- |
-| **Main RPC \(HTTP2\)** | [​](https://core.poanetwork.dev/)[https://core.poanetwork.dev/](https://core.poanetwork.dev/)  |
+| **Main RPC \(HTTP2\)** | [​](https://core.poanetwork.dev/)[https://core.poanetwork.dev](https://core.poanetwork.dev/)/ |
 | Main RPC \(HTTP\) | [http://core.poanetwork.dev:8545](http://core.poanetwork.dev:8545) |
 | RPC Alias \(HTTPS/Cloudflare\) | [https://core.poa.network/](https://core.poa.network/) |
 | WebSockets | [ws://core.poanetwork.dev:8546](ws://core.poanetwork.dev:8546) |

@@ -1,12 +1,12 @@
 ---
-description: POA Governance Updates Sept - Nov 2019
+description: POA Governance Updates Sept - Dec 2019
 ---
 
-# Nov 2019 Report
+# December 2019 Report
 
 ## Summary
 
-✅ The POA network is governed by a dynamic validator set. A new validator was added to the set and several validators were removed. The current validator set along with Notary Licensure details can be viewed here \(select POA Network in Network Dropdown\): [https://validators.poa.network/poa-dapps-validators](https://validators.poa.network/poa-dapps-validators)
+✅ The POA network is governed by a dynamic validator set. New validators were added to the set and several validators were removed. The current validator set along with Notary Licensure details can be viewed here \(select POA Network in Network Dropdown\): [https://validators.poa.network/poa-dapps-validators](https://validators.poa.network/poa-dapps-validators)
 
 ✅ A measure was proposed to reduce the minimal number of votes required to pass some types of future ballots \(ballots related to adding/removing validators and reducing/increasing consensus thresholds\). This measure passed, and the number was reduced from 8 to 5 required votes. This means future votes will require at least 5 participants, with a majority of "yes" votes needed to pass a measure. 
 
@@ -18,7 +18,7 @@ Additional voting information available at: [https://voting.poa.network/poa-dapp
 Ballot types and properties are [explained here](../ballot-type-lifecycle-and-limits.md).
 {% endhint %}
 
-## Governance Ballot Details: Sept - Nov 2019
+## Governance Ballot Details: Sept - Dec 2019
 
 ### Proposal Date: September 27, 2019
 
@@ -76,5 +76,17 @@ Ballot types and properties are [explained here](../ballot-type-lifecycle-and-li
 * **Description: "**Regarding new emission funds proposal [https://forum.poa.network/t/proposal-to-change-the-receiver-of-sustainability-emission-from-the-emissionfunds-contract-to-the-poa-foundation-multisig-wallet/3118](https://forum.poa.network/t/proposal-to-change-the-receiver-of-sustainability-emission-from-the-emissionfunds-contract-to-the-poa-foundation-multisig-wallet/3118)"
 * **Result**: **Yes: 14**, No: 0. POA Foundation will receive emission funds directly.
 
+### Proposal Date: November 6, 2019
 
+* **Type**: Update RewardByBlock Contract
+* **Proxy Ballot ID:** 2
+* **Description: "**Regarding new emission funds proposal [https://forum.poa.network/t/proposal-to-change-the-receiver-of-sustainability-emission-from-the-emissionfunds-contract-to-the-poa-foundation-multisig-wallet/3118](https://forum.poa.network/t/proposal-to-change-the-receiver-of-sustainability-emission-from-the-emissionfunds-contract-to-the-poa-foundation-multisig-wallet/3118)"
+* **Result**: **Yes: 14**, No: 0. POA Foundation will receive emission funds directly.
+
+### Proposal Date: December 14, 2019
+
+* **Type**: Add Validator
+* **Keys Ballot ID:** 53
+* **Description:** "New Validator Proposal: Siarhei Barylau Notary Commission Number: 2247900 Commission expiration date: 06/28/2022 Notary search link: [http://canotary.info/notaries/?comm\_num=2247900](http://canotary.info/notaries/?comm_num=2247900) intro: [https://forum.poa.network/t/siarhei-barylau-ca-notary-public/1423](https://forum.poa.network/t/siarhei-barylau-ca-notary-public/1423)"
+* **Result: Yes: 8**, No: 1. Siarhei Barylau added to set. 
 

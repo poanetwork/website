@@ -19,6 +19,7 @@ description: POA/POA20 is currently available on the following exchanges.
 Swap exchange
 
 * [Stealthex](https://stealthex.io/)
+* [SwapSpace](https://swapspace.co/)
 
 ## POA20 Markets
 

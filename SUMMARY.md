@@ -102,6 +102,7 @@
 
 * [Getting Started](for-validators/untitled/README.md)
   * [Validator Resources](for-validators/untitled/validator-resources.md)
+  * [Becoming a Validator](for-validators/untitled/becoming-a-validator.md)
 * [Bootnode Setup](for-validators/bootnode-setup/README.md)
   * [AWS Bootnode Setup](for-validators/bootnode-setup/aws-bootnode-setup/README.md)
     * [Prerequisites](for-validators/bootnode-setup/aws-bootnode-setup/prerequisites.md)

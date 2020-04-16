@@ -2,7 +2,7 @@
 
 After the initial ceremony stage, it's time for the initial set of validators to vote in new validators using the POA Voting Dapp. One validator will create a Ballot for each of the needed keys to participate and each validator will cast their own vote minus the MoC, who is not allowed to vote on consensus level. It has been agreed upon by the POA network that the next stage would end with 25 Validators on the Core network. This number may change in the future and can have any amount one desires, this would likely be proposed by a ballot to increase.
 
-Before the ballot can be proposed, the applicant would need to generate 3 separate key pairs with passwords & JSON keyfiles. There is a very simple method of doing this, see below. 1. Simply go to this URL in your browser to generate 3 key/pass pairs with needed keyfiles.
+Before the ballot can be proposed, the applicant needs to generate 3 separate key pairs with passwords & JSON keyfiles. There is a very simple method of doing this, see below. 1. Simply go to this URL in your browser to generate 3 key/pass pairs with needed keyfiles.
 
 * [https://ceremony.poa.network/\#just-generate-keys](https://ceremony.poa.network/#just-generate-keys)
 

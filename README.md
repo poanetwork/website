@@ -8,11 +8,11 @@ description: >-
 
 POA Network is an autonomous network secured by a group of trusted validators. All validators on the network are United States notaries, and their information is publicly available.  This distributed group of known validators allows the network to provide fast and inexpensive transactions.
 
-POA also develops products and tools to improve interoperability, infrastructure and transparency throughout the ecosystem. These include [BlockScout](https://docs.blockscout.com/), an open-source explorer, [TokenBridge](https://docs.tokenbridge.net/), a multi-chain asset transfer solution, and the [xDai Network](https://www.xdaichain.com/), a stable coin based Network.
+POA also develops products and tools to improve interoperability, infrastructure and transparency throughout the ecosystem. These include [BlockScout](https://docs.blockscout.com/), an open-source explorer, [TokenBridge](https://docs.tokenbridge.net/), a multi-chain asset-transfer solution, and the [xDai Network](https://www.xdaichain.com/), a stable coin based network.
 
 Engaging with POA will help you experience and create a first-class application on our platform. Welcome to POA!
 
-![POA on BlockScout.com](.gitbook/assets/poa-on-blockscout.png)
+![POA on the BlockScout.com Blockchain Explorer](.gitbook/assets/poa1.png)
 
 ## About our Logo
 

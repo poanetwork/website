@@ -8,7 +8,6 @@ description: POA/POA20 is currently available on the following exchanges.
 
 * [Binance Exchange](https://binance.com/)
   * [POA/BTC](https://www.binance.com/en/trade/POA_BTC)
-  * [POA/ETH](https://www.binance.com/en/trade/POA_ETH)
 * [BiBox Exchange](https://bibox.com/)
   * [POA/BTC](https://www.bibox.com/exchange?coinPair=POA_BTC)
   * [POA/ETH](https://www.bibox.com/exchange?coinPair=POA_ETH)

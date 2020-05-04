@@ -6,11 +6,11 @@ _POA Mania is currently in Beta, use at your own risk_
 
 1\) You cannot lose POA! All prizes come from the POA emission fund, not from participant deposits.
 
-2\) Deposits and withdrawals can be made at any time, except at the very end of a round. During the last ~3.5 minutes of a round a final RNG \(Random Number Generator\) round is completed where deposits and withdrawals are not allowed. This withdrawal/deposit restriction continues until the round is closed.
+2\) Deposits and withdrawals can be made at any time, except at the very end of a round. During the last ~7 minutes of a round a final RNG \(Random Number Generator\) round is completed where deposits and withdrawals are not allowed. This withdrawal/deposit restriction continues until the round is closed.
 
 3\) The **minimum deposit amount is 100 POA**. At all times, your balance must either be 100+ POA, or you must withdraw your entire deposit \(e.g. you cannot withdraw 60 POA from a 120 POA balance, you can either withdraw up to 20 POA or withdraw the entire 120 POA balance\).
 
-4\) The **maximum deposit amount is 100,000 POA \(on the POA Core network - 500k SPOA on Sokol\)**. If winnings result in a balance that exceeds 100k POA, the entire amount may be withdrawn or reduced below 100k to enable deposits. No new deposits are allowed until the amount is reduced below 100k, however play may continue.
+4\) The **maximum deposit amount is 50,000 POA \(on the POA Core network - 500k SPOA on Sokol\)**. If winnings result in a balance that exceeds 50k POA, the entire amount may be withdrawn or reduced below 100k to enable deposits. No new deposits are allowed until the amount is reduced below 100k, however play may continue.
 
 5\) All participant funds are automatically rolled over to the next round unless withdrawn by a participant.
 

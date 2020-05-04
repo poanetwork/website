@@ -2,7 +2,7 @@
 
 A no-loss lottery where POA hodlers can win an extra slice of POA Pie 🥧. Emission fund rewards are distributed to the winners every round. Featuring:
 
-* 🏆 3 winners per round.
+* 🏆 3 winners per round. Rounds close daily.
 * 🎆 Each round, 15% of prize pool is added to an ongoing jackpot. There is a 1% chance of winning the jackpot per round.
 * 💰 Prizes based on emission funds independent of the amount in the pool.
 * ⏳ Close a round, win POA. 

@@ -56,6 +56,7 @@
   * [MetaMask](for-users/wallets/metamask.md)
 * [POA Mania](for-users/poa-mania/README.md)
   * [Rules](for-users/poa-mania/rules.md)
+  * [How Tos](for-users/poa-mania/how-tos.md)
   * [Winner Selection](for-users/poa-mania/winner-selection.md)
   * [Round Details](for-users/poa-mania/round-details.md)
   * [POA Mania vs PoolTogether](for-users/poa-mania/poa-mania-vs-pooltogether.md)

@@ -16,7 +16,7 @@ Winners split 84.5% of each pot. Of that amount, the breakdown is as follows:
 * 30% 2nd place winner
 * 20% 3rd place winner
 
-Odds of winning are increased by adding more POA to a pool.  Final winners are determined by a random number generated though the [on-chain RNG]().
+Odds of winning are increased by adding more POA to a pool.  Final winners are determined by a random number generated though the [on-chain RNG](../../features/on-chain-randomness.md).
 
 ## How do I close a round?
 
@@ -26,7 +26,7 @@ Whomever presses the button signs the transaction and pays the transaction fee. 
 
 ## What does "On-chain RNG reveal phase in progress" mean? Why can't I close the round now?
 
-The on-chain randomness contract relies on a RANDAO-like process which proceeds in 40 block increments \(on the Sokol testnet\). During the first 20 blocks, validators commit random numbers to the chain, but they are not yet available to the protocol. During the second 20 blocks, these random numbers are revealed, undergo additional mathematical operations to increase entropy, and are made available.  
+The on-chain randomness contract relies on a RANDAO-like process which proceeds in 40 block increments. During the first 20 blocks, validators commit random numbers to the chain, but they are not yet available to the protocol. During the second 20 blocks, these random numbers are revealed, undergo additional mathematical operations to increase entropy, and are made available.  
 
 Depending on the block number, validators will either be in a commit or reveal phase. During a reveal phase, the revealing validator will know the next random number, so any business logic must be prohibited during this time. Rounds can only be closed during the commit phase. For more on the on-chain randomness process, see [https://www.poa.network/for-developers/on-chain-random-numbers](https://www.poa.network/for-developers/on-chain-random-numbers).   
 
@@ -36,5 +36,5 @@ Deposit and withdrawals are allowed during the majority of each round. **The exc
 
 ## How do I win the jackpot?
 
-Every round there is a 1% chance that the jackpot will have a winner. The winner is not removed from the round, so it is possible to win both the jackpot and a prize in the round. If no-one wins at the end of a round, the amount is carried over and 10% of the prize pool is added to the jackpot total. The jackpot resets once there is a winner.
+Every round there is a 1% chance that the jackpot will have a winner. The winner is not removed from the round, so it is possible to win both the jackpot and a prize in the round. If no-one wins at the end of a round, the amount is carried over and 15% of the prize pool is added to the jackpot total. The jackpot resets once there is a winner.
 

@@ -13,7 +13,7 @@
 
 ## Jackpot Winner Selection
 
-At the end of each round, 10% of the total prize pool is sent to a Jackpot. This amount accumulates until there is a winner, at which point it resets \(returns to 0\).  
+At the end of each round, 15% of the total prize pool is sent to a Jackpot. This amount accumulates until there is a winner, at which point it resets \(returns to 0\).  
 
 In each round there is a 1% chance that any participant will win the jackpot. Odds are based on deposit amount, and follow the same procedures as above. However, the jackpot winner is not removed from the list, so it is possible that a jackpot winner may also win a prize in the same round.
 

@@ -21,9 +21,9 @@ In the future, we will have [secure, per-block randomness when HoneyBadger BFT i
 
 ## Is an unpredictable random value created on every block?
 
-**No!** Random values are only created during the **reveals phase**, which occurs on Sokol every 20 blocks and continues for a period of 20 blocks \(note this value is configurable\). 
+**No!** Random values are only created during the **reveals phase**, which occurs every 20 blocks and continues for a period of 20 blocks \(note this value is configurable\). 
 
-A complete collection phase on Sokol is currently set to 40 blocks. The first half \(the first 20 blocks\) is called the commit phase, where random number hashes are committed by validators. The second half \(the second 20 blocks\) is the reveal phase, where numbers are revealed and added to the `currentSeed` getter.
+A complete collection phase on both POA Core & Sokol is currently set to 40 blocks. The first half \(the first 20 blocks\) is called the commit phase, where random number hashes are committed by validators. The second half \(the second 20 blocks\) is the reveal phase, where numbers are revealed and added to the `currentSeed` getter.
 
 Entropy increases throughout the reveal phase, and the final number revealed is the most secure. Applications requiring secure randomness should retrieve the `currentSeed` from the final block of a reveal phase or during a commit phase.
 

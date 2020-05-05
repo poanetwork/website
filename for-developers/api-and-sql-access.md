@@ -15,7 +15,7 @@ description: >-
 ## ElasticSearch
 
 * Your API key is used to replace `$mytoken` in standard queries. 
-* Queries to the xDai chain use the poa eth.events endpoint:
+* Queries use the poa eth.events endpoint:
   * Core: [https://api.eth.events/ethereum/poa/core/es/](https://api.eth.events/ethereum/poa/xdai/es/block/search/%20)
   * Sokol Testnet: [https://api.eth.events/ethereum/poa/sokol/es/](https://api.eth.events/ethereum/poa/xdai/es/block/search/%20)
 * Example Queries are located here: [https://docs.anyblockanalytics.com/en/latest/elastic/example-queries/index.html](https://docs.anyblockanalytics.com/en/latest/elastic/example-queries/index.html)

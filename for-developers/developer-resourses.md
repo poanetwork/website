@@ -115,7 +115,6 @@ TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
 
 ## DApp Management & Developer Tools
 
-* [Terminal ](https://terminal.co)provides management, monitoring and analytics tools for DApp developers. 
 * [Pocket](https://www.pokt.network/) provides a decentralized API layer for DApp developers \(IOS, Android & Web SDKs available\) and blockchain users.
 * [TheGraph](https://thegraph.com) supports xDai data indexing, querying and display. 
 * [AnyBlock Analytics](https://www.anyblockanalytics.com/) provides[ ElasticSearch & SQL access](api-and-sql-access.md)  

@@ -9,7 +9,7 @@ If you participated in the prior version, your funds are SAFU! [See withdrawal i
 {% endhint %}
 
 * The new version will move to [poamania.com](https://poamania.com), replacing the previous version. 
-* Previous version will move to [beta.poamania.com](https://beta.poamania.com). Deposits will remain in the contract for withdrawal but no new deposits can be made, and rewards will no longer be distributed. 
+* Previous version will move to [beta.poamania.com](https://beta.poamania.com). Deposits will remain in the contract for withdrawal but no new rewards will be generated or distributed. 
 * Quantstamp completed a comprehensive security audit: [https://www.poa.network/for-users/poa-mania/poa-mania-security-audit](https://www.poa.network/for-users/poa-mania/poa-mania-security-audit) 
 * Rules were adjusted based on community feedback
 

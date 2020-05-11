@@ -55,6 +55,7 @@
   * [Trust Wallet](for-users/wallets/trust-wallet.md)
   * [MetaMask](for-users/wallets/metamask.md)
 * [POA Mania](for-users/poa-mania/README.md)
+  * [News - Updates](for-users/poa-mania/news-updates.md)
   * [Rules](for-users/poa-mania/rules.md)
   * [Deposit & Withdraw](for-users/poa-mania/deposit-withdraw.md)
   * [Winner Selection](for-users/poa-mania/winner-selection.md)

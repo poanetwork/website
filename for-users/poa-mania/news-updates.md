@@ -1,6 +1,6 @@
 # News - Updates
 
-## **POA Mania Announcement 05/11/20202**
+## **POA Mania Announcement 05/11/2020**
 
 ### **POA Mania upgrades to version 2.0**
 

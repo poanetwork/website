@@ -38,7 +38,7 @@ if you get an error that host cannot be reached over SSH, please wait a minute a
 
 ## Set Metadata‌ in DApp
 
-Follow the guide on how to [Update Validator MetaData.](evernote-html-snippet:///@poa/s/poa/~/drafts/-Lt65LU4zQf0k_iW4w-G/for-validators/validator-dapps/validators-metadata-dapp#for-validators-update-metadata)
+Follow the guide on how to Update [Validator MetaData](../../validator-dapps/validators-metadata-dapp.md).
 
 ## Obtaining enode uri for Master of Ceremony
 

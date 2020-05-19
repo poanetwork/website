@@ -36,6 +36,6 @@ POA's initial token supply at Core network launch was **252,460,800 POA**. **70%
 * **10%** or **25,246,080 POA** reserved for Partners and Advisors of POA Network.
 
 {% hint style="info" %}
-[See the whitepaper ](../whitepaper/poadao-v1/poa-network-functionality.md)for more information on POA token supply and emission mechanics.
+[The whitepaper](../whitepaper/poadao-v1/poa-network-functionality.md) has more information on POA token supply and emission mechanics.
 {% endhint %}
 

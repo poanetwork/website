@@ -96,7 +96,7 @@ We have had 4 different independent security audits of bridge contracts, includi
 
 #### Legal memorandum for Native to ERC20 bridge:
 
-* Federal Money Transmitting Laws as Applied to Bridge by Harris, Wiltshire & Grannis LLP [2018\_05\_04\_Bridge\_money\_transmission.pdf\|attachment](upload://jm5ndHjTeFcV5Mx2sCk2U6yWVbC.pdf) \(525.4 KB\)
+* Federal Money Transmitting Laws as Applied to Bridge by Harris, Wiltshire & Grannis LLP [2018\_05\_04\_Bridge\_money\_transmission.pdf](https://forum.poa.network/uploads/short-url/jm5ndHjTeFcV5Mx2sCk2U6yWVbC.pdf)
 
 Please contact [info@poa.network](mailto:info@poa.network) with inquiries about legal review
 

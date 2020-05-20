@@ -10,7 +10,7 @@ A no-loss lottery where POA hodlers can win an extra slice of POA Pie 🥧. Emis
 
 ## 🎲 POA Mania 
 
-POA Mania is currently in Beta and available on POA core and the Sokol testnet. We are using the new RANDAO-based randomness contracts to support this decentralized, no-loss, on-chain lottery. 
+POA Mania is currently available on POA core and the Sokol testnet. We are using the new RANDAO-based randomness contracts to support this decentralized, no-loss, on-chain lottery. 
 
 #### **POA Core:**
 

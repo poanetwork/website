@@ -18,10 +18,18 @@ This API endpoint displays the total supply as a numerical value. Total supply i
 
 ### How Supply is Derived
 
-Currently, 2 POA are created per block. At the onset of the network, the initial supply was 252,460,800 POA and 1 POA was created per block. Since November 2018 \(Block 5329160\), the POA emission fund was activated and an additional 1 token created per block.  
+At the onset of the network, the initial supply was 252,460,800 POA and 1 POA was created per block. Since November 2018 \(Block 5329160\), the POA emission fund was activated and an additional 1 token created per block.  
 
-* For every block, 1 new POA token is created and distributed to the validator responsible for sealing that block. The sum of the total blocks created to date = the amount of POA created as validator rewards.
-* Since block 5329160, and additional 1 POA token is created per block and sent to the emission fund contract. Currently, the POA Foundation is set as the receiver of the emission fund. 
+* For every block, 1 new POA token is created and distributed to the validator responsible for sealing that block. 
+* Starting at block 5329160, an additional 1 POA token is created per block. Initially this amount was sent to the emission fund contract and the POA Foundation was set as the receiver of the emission fund.
+* On May 9, 2020 Validators passed a vote to redistribute the emission fund, sending 0.5 POA to support POA Mania and 0.5 to the POA Foundation. The vote was enacted in block [15011232](https://blockscout.com/poa/core/blocks/15011232) \([see BlockScout transaction for details](https://blockscout.com/poa/core/tx/0xe7d562923ae3b0f3aa67b583a2c95e5f9fe0fc9a81a6c5f035b2b202914a7b3b/internal_transactions)\). Per-block emissions are now distributed accordingly:
+  * 1 POA distributed to the sealing validator.
+  * 0.5 POA accrued to POA Mania lottery proxy contract \(0xD9505dc188d0f6dC583143e5A97D8e8cF7c107e0\) 
+  * 0.5 POA accrued to EmissionFunds address \(0x517F3AcfF3aFC2fb45e574718bca6F919b798e10\)
+
+
+
+    More Details on this proposal: [https://forum.poa.network/t/proposal-to-support-poa-mania-with-a-block-reward-adjustment/3297/24](https://forum.poa.network/t/proposal-to-support-poa-mania-with-a-block-reward-adjustment/3297/24)
 
 A total of **1,550,643** POA Tokens were burned when validators voted to burn the 3rd emission fund. These are not included in the total supply count. [More information available here](https://forum.poa.network/t/emission-funds-3-results/2957).
 

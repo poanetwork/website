@@ -1,8 +1,12 @@
 ---
-description: POA Network serves as the base layer for local currency generation & exchange
+description: POA Network served as the base layer for local currency generation & exchange
 ---
 
 # Community-Based Currencies
+
+{% hint style="info" %}
+Grassroots Economics started their project on the POA Network. They now operate on [xDai](https://www.xdaichain.com).
+{% endhint %}
 
 ### Community Currency Use Case: [Grassroots Economics](https://www.grassrootseconomics.org/) in Kenya
 

@@ -16,8 +16,22 @@ POA Mania is currently available on POA core and the Sokol testnet. We are using
 
 * Link: [http://www.poamania.com](http://www.poamania.com)
 * Telegram Bot on POA Telegram: [https://t.me/oraclesnetwork](https://t.me/oraclesnetwork) 
-* Proxy Contract Address: [0xf7ECea96dA4951e88E699cfb67d909Ec74Ba917E](https://blockscout.com/poa/core/address/0xf7ECea96dA4951e88E699cfb67d909Ec74Ba917E/transactions)
-* POA Mania Contract: [0x0C31e682d401c465fdD05e40cE7149F8497B18E5](https://blockscout.com/poa/core/address/0x0C31e682d401c465fdD05e40cE7149F8497B18E5)
+
+{% tabs %}
+{% tab title="Production" %}
+| Contract | Address |
+| :--- | :--- |
+| Proxy | [0xD9505dc188d0f6dC583143e5A97D8e8cF7c107e0](https://blockscout.com/poa/core/address/0xD9505dc188d0f6dC583143e5A97D8e8cF7c107e0/transactions) |
+| Implementation | [0x2300e0cd5d065d285236D7f55f6E2a19EB090C50](https://blockscout.com/poa/core/address/0x2300e0cd5d065d285236D7f55f6E2a19EB090C50/transactions) |
+{% endtab %}
+
+{% tab title="Beta" %}
+| Contract | Address |
+| :--- | :--- |
+| Proxy | [0xf7ECea96dA4951e88E699cfb67d909Ec74Ba917E](https://blockscout.com/poa/core/address/0xf7ECea96dA4951e88E699cfb67d909Ec74Ba917E/transactions) |
+| Implementation | [0x0C31e682d401c465fdD05e40cE7149F8497B18E5](https://blockscout.com/poa/core/address/0x0C31e682d401c465fdD05e40cE7149F8497B18E5/transactions) |
+{% endtab %}
+{% endtabs %}
 
 #### **Sokol Testnet:**
 

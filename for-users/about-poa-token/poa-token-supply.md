@@ -16,8 +16,6 @@ Check the endpoint ****below for the up-to-date supply. Current circulating supp
 This API endpoint displays the total supply as a numerical value. Total supply is the **current number of coins in existence** \(burned coins are not included\).
 {% endhint %}
 
-Circulating supply is available through
-
 ### How Supply is Derived
 
 At the onset of the network, the initial supply was 252,460,800 POA and 1 POA was created per block. Since November 2018 \(Block 5329160\), the POA emission fund was activated and an additional 1 token created per block.  

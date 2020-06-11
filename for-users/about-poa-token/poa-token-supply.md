@@ -8,13 +8,15 @@ description: POA emission schedule and current supply
 
 Currently, 2 POA tokens are added per block. Each block is generated with an average time of 5 seconds, resulting in 6,307,200 blocks per year and an additional 12,614,400 POA tokens added to the total token supply per year.
 
-Check the endpoint ****below for the up-to-date supply.
+Check the endpoint ****below for the up-to-date supply. Current circulating supply is also available at [CoinMarketCap](https://coinmarketcap.com/currencies/poa/).
 
 {% hint style="success" %}
 **Current Total Supply:**  [https://blockscout.com/poa/core/api?module=stats&action=coinsupply](https://blockscout.com/poa/core/api?module=stats&action=coinsupply)  
   
 This API endpoint displays the total supply as a numerical value. Total supply is the **current number of coins in existence** \(burned coins are not included\).
 {% endhint %}
+
+Circulating supply is available through
 
 ### How Supply is Derived
 

@@ -18,7 +18,7 @@ Please fill out the form below if you are interested in applying for a grant to 
 
 We are looking for high performance games or DApps that are ready to utilize POA Core. Bonus points for beautiful UX and unique gameplay and concept.
 
-{% embed url="https://poa950111.typeform.com/to/FO33wq" %}
+{% embed url="https://airtable.com/shruOcT9Edvpze9yy" %}
 
 
 

@@ -7,7 +7,7 @@ description: An eternal dungeon on the Sokol Testnet
 
 
 {% hint style="warning" %}
-Ethernal.World was tested on the Sokol Testnet. The beta version is released on the Matic network.
+Ethernal.World alpha test architecture is deployed on the Sokol Testnet. The beta version is released on the Matic network.
 {% endhint %}
 
 ![Exploring Ethernal.world](../.gitbook/assets/ethernal.world-1%20%281%29.png)

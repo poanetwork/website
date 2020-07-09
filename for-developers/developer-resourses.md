@@ -61,7 +61,9 @@ POA和Nodesmith提供了端点。 它们用于连接到网络。 当使用MetaMa
       <td style="text-align:left">99</td>
     </tr>
   </tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">POA Sokol &#x6D4B;&#x8BD5;&#x7F51;&#x7EDC;</th>
@@ -82,7 +84,9 @@ POA和Nodesmith提供了端点。 它们用于连接到网络。 当使用MetaMa
       <td style="text-align:left">77</td>
     </tr>
   </tbody>
-</table>## 桥接POA &lt;&gt; POA20 <a id="bridge-dai-less-than-greater-than-xdai"></a>
+</table>
+
+## 桥接POA &lt;&gt; POA20 <a id="bridge-dai-less-than-greater-than-xdai"></a>
 
 需要POA桥接器才能从POA核心网络和以太坊主网上的薄荷POA20移动锁定的POA令牌。
 

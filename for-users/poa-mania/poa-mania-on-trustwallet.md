@@ -12,7 +12,7 @@ See our [Trust Wallet post](../wallets/trust-wallet.md) for more info on TW.
 
 ## Getting Started
 
-1\) Open Trust Wallet and connect to your POA Network wallet. If you don't have a POA Wallet setup in Trust Wallet yet, you can create a new multi-coin wallet or import an existing wallet.  Once created or imported, press the + button and toggle on the POA Network to add the network to your wallet. If you don't have POA coins, you can send it to this wallet as you normally would \(see instructions below for basic trust wallet features\).
+1\) Open Trust Wallet and connect to your POA Network wallet. If you don't have a POA Wallet setup in Trust Wallet yet, you can create a new multi-coin wallet or import an existing wallet.  Once created or imported, press the + button and toggle on the POA Network to add the network to your wallet. If you don't have POA coins, you can send it to this wallet as you normally would \(see [resources](poa-mania-on-trustwallet.md#resources) for basic trust wallet features\).
 
 ![](../../.gitbook/assets/img1.png)
 

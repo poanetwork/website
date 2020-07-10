@@ -4,7 +4,7 @@ description: POA Mania is now optimized for mobile
 
 # POA Mania on Trust Wallet
 
-You can access POA-Mania with a mobile device web browser connected to a web3 wallet, or use a POA supported mobile wallet. Here, we use [Trust Wallet](https://trustwallet.com/) to connect to the POA Network and deposit POA into POA Mania.
+You can access [POA Mania](https://www.poamania.com) with a mobile device web browser connected to a web3 wallet, or use a POA supported mobile wallet. Here, we use [Trust Wallet](https://trustwallet.com/) to connect to the POA Network and deposit POA into POA Mania.
 
 {% hint style="info" %}
 See our [Trust Wallet post](../wallets/trust-wallet.md) for more info on TW.

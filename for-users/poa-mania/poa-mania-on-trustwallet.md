@@ -10,15 +10,19 @@ You can access with a mobile device connected to a web3 wallet, or use a POA sup
 
 ![](../../.gitbook/assets/img1.png)
 
-**Trust Wallet instructions on creating/importing a wallet:**
-
-{% embed url="https://community.trustwallet.com/c/helpcenter/basics/11" %}
-
 2\) Use the Browser icon \(1\) to navigate to \(2\) poamania.com.
 
 ![](../../.gitbook/assets/img3.png)
 
-3\) Click **Connect Wallet**. You will see your Account address along with any POA Balance you have. If you don't have POA, you can follow the link to purchase from Binance through the application \(click Buy POA\)
+3. Switch to the POA Network \(if needed\)
+
+If using a multi-coin wallet, the Ethereum network will be selected by default. To change, click on the icon in the upper-right hand corner and select POA Network from the dropdown list.
+
+![Click on the icon in the upper-right hand corner and select the POA Network](../../.gitbook/assets/poamania-1.png)
+
+![Select POA Network from the dropdown list](../../.gitbook/assets/poamania-2.png)
+
+4\) Click **Connect Wallet**. You will see your Account address along with any POA Balance you have. If you don't have POA, you can follow the link to purchase from Binance through the application \(click **Buy POA**\)
 
 ![](../../.gitbook/assets/connectwallet.png)
 
@@ -43,6 +47,10 @@ You are now entered! You will see your deposit amount and your share of the tota
 You can check previous winners in the winners tab and receive daily updates by following PoaMania on twitter.
 
 {% embed url="https://twitter.com/poamania" %}
+
+## Resources
+
+{% embed url="https://community.trustwallet.com/c/helpcenter/basics/11" %}
 
 
 

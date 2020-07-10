@@ -4,10 +4,12 @@ description: Interact safely with POA using this full-featured mobile wallet
 
 # Trust Wallet
 
-
-
 {% hint style="info" %}
 POA Network wallet download Link: [https://trustwallet.com/poa-network-wallet](https://trustwallet.com/poa-network-wallet)
+{% endhint %}
+
+{% hint style="success" %}
+Interested in [POA Mania](https://poamania.com) on Trust Wallet? [Instructions here](../poa-mania/poa-mania-on-trustwallet.md).
 {% endhint %}
 
 Trust Wallet provides a simple, secure non-custodial multi-coin wallet for your mobile device.  The UI is intuitive and easy to use. Local key storage and 12 word recovery phrase creates a secure environment, and the ‘watch’ functionality lets you monitor balances on your hardware / cold-storage wallets \(like Ledger and Trezor\)

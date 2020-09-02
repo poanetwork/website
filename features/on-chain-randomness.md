@@ -1,5 +1,5 @@
 ---
-description: A RANDOA-like process creates reliable randomness on the POA Network
+description: A RANDAO-like process creates reliable randomness on the POA Network
 ---
 
 # On-Chain Randomness

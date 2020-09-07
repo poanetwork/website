@@ -39,7 +39,7 @@ _Unless noted, mobile wallets have downloadable apps for Android and IOS_
 * [Coinomi ](https://www.coinomi.com/en/)
 * [Ownbit ](https://ownbit.io/en/)
 * [TrustWallet](https://trustwallet.com/)
-* Ether-1
+* [Ether-1](https://ether1.org)
   * [IOS](https://apps.apple.com/za/app/nextshore-ether-1-wallet/id1521802485)
   * [Android](https://play.google.com/store/apps/details?id=app.web.nextshore_ether1)
 

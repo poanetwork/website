@@ -1,16 +1,16 @@
 ---
 description: >-
-  POA Network encompasses an EVM blockchain as well as product development for
-  the entire Ethereum ecosystem
+  POA Core encompasses an EVM blockchain as well as product development for the
+  entire Ethereum ecosystem
 ---
 
 # Welcome to POA
 
-POA Network is an autonomous network secured by a group of trusted validators. All validators on the network are United States notaries, and their information is publicly available.  This distributed group of known validators allows the network to provide fast and inexpensive transactions.
+POA Core is an autonomous network secured by a group of trusted validators. All validators on the network are United States notaries, and their information is publicly available.  This distributed group of known validators allows the network to provide fast and inexpensive transactions.
 
-POA also develops products and tools to improve interoperability, infrastructure and transparency throughout the ecosystem. These include [BlockScout](https://docs.blockscout.com/), an open-source explorer, [TokenBridge](https://docs.tokenbridge.net/), a multi-chain asset-transfer solution.
+POA organization also develops products and tools to improve interoperability, infrastructure and transparency throughout the ecosystem. These include [BlockScout](https://docs.blockscout.com/), an open-source explorer, [TokenBridge](https://docs.tokenbridge.net/), a multi-chain asset-transfer solution.
 
-Engaging with POA will help you experience and create a first-class application on our platform. Welcome to POA!
+Engaging with POA Core will help you experience and create a first-class application on our platform. Welcome to POA Core!
 
 ![POA on the BlockScout.com Blockchain Explorer](.gitbook/assets/poa1.png)
 

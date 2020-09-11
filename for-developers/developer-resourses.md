@@ -10,7 +10,7 @@ description: General information and links
 {% tab title="POA Core" %}
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ~10,000,000 Gas | 5 sec | 1 -10 GWei | Istanbul | POA | 99 |
+| ~12,500,000 Gas | 5 sec | 1 -10 GWei | Istanbul | POA | 99 |
 
 {% hint style="info" %}
 To mitigate an ongoing denial-of-service attack, validators decided to increase the gas price to a range between 1-10 Gwei. Each validator can determine their own value within this range.
@@ -20,7 +20,7 @@ To mitigate an ongoing denial-of-service attack, validators decided to increase 
 {% tab title="POA Sokol \(Testnet\)" %}
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ~10,000,000 Gas | 5 sec | 1 GWei | Istanbul | SPOA | 77 |
+| ~12,500,000 Gas | 5 sec | 1 GWei | Istanbul | SPOA | 77 |
 
 ### **Sokol Faucets**
 

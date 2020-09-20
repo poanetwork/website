@@ -74,7 +74,8 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 | :--- | :--- |
 | Main RPC \(HTTPS\) | [https://sokol.poa.network](https://sokol.poa.network) |
 | Main RPC \(HTTP\) | [http://sokol.poa.network:8545](http://sokol.poa.network:8545) |
-| WebSockets | [ws://sokol.poa.network:8546](ws://sokol.poa.network:8546) |
+| WebSockets \(Secure\) | [wss://sokol.poa.network/wss ](wss://sokol.poa.network/wss%20) |
+| WebSockets | [ws://sokol.poa.network:8546/wss](ws://sokol.poa.network:8546/wss) |
 | Archive node \(last 100k blocks\) | [http://sokol-archive.blockscout.com/](http://sokol-archive.blockscout.com/) |
 | Network ID | 77 |
 {% endtab %}

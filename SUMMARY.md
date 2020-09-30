@@ -63,6 +63,7 @@
   * [POA Mania vs PoolTogether](for-users/poa-mania/poa-mania-vs-pooltogether.md)
   * [POA Mania on Trust Wallet](for-users/poa-mania/poa-mania-on-trustwallet.md)
   * [POA Mania Security Audit](for-users/poa-mania/poa-mania-security-audit.md)
+  * [POA Mania on MetaMask Mobile](for-users/poa-mania/poa-mania-on-metamask-mobile.md)
 * [Whitepaper](for-users/whitepaper/README.md)
   * [POADAO v1](for-users/whitepaper/poadao-v1/README.md)
     * [Introduction](for-users/whitepaper/poadao-v1/introduction.md)

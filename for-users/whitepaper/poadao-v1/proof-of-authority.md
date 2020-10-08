@@ -2,7 +2,7 @@
 
 ### AuthorityRound \(AuRa\)
 
-Aura is one of the Blockchain consensus algorithms available in Parity. It is capable of tolerating up to 50% of malicious nodes with chain reorganizations possible up to a limited depth, dependent on the number of validators, after which finality is guaranteed. This consensus requires a set of validators to be specified, which determines the list of blockchain addresses which participate in the consensus at each height. Sealing a block is the act of collecting transactions and attaching a header to produce a block.
+Aura is one of the Blockchain consensus algorithms available in OpenEthereum \(previously Parity\). It is capable of tolerating up to 50% of malicious nodes with chain reorganizations possible up to a limited depth, dependent on the number of validators, after which finality is guaranteed. This consensus requires a set of validators to be specified, which determines the list of blockchain addresses which participate in the consensus at each height. Sealing a block is the act of collecting transactions and attaching a header to produce a block.
 
 At each step the primary node is chosen that is entitled to seal and broadcast a block, specifically `step modulo #_of_validators`the validator is chosen from the set. Blocks should be always sealed on top of the latest known block in the canonical chain. The block's header includes the step and the primary's signature of the block hash.
 

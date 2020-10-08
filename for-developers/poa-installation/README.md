@@ -10,6 +10,6 @@ You do not need to run your own node to interact with the POA blockchain \(play 
 
 ## POA Network Support:
 
-* [Parity](install-parity-client.md)
+* [OpenEthereum](install-parity-client.md)
 * [Nethermind](install-nethermind-client.md)
 

@@ -107,7 +107,7 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 {% endtabs %}
 
 {% hint style="info" %}
-The current implementation requires a chain running Parity's AuRa consensus mechanism with version 2.7.2+. The Random Number generation contract was [introduced in this PR](https://github.com/paritytech/parity-ethereum/pull/10946).
+The current implementation requires a chain running OpenEthereum AuRa consensus mechanism with version 2.7.2+. The Random Number generation contract was [introduced in this PR](https://github.com/paritytech/parity-ethereum/pull/10946).
 {% endhint %}
 
 ## TokenBridge UI

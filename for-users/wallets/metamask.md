@@ -20,9 +20,16 @@
 
 * Network Name: POA
 * New RPC URL: https://core.poanetwork.dev
-* ChainID \(Optional\): 99
+* ChainID: 99
 * Symbol: POA
 * Block Explorer URL: https://blockscout.com/poa/core
+
+{% hint style="warning" %}
+Note: MetaMask recently updated the ChainID to be a required field. When you update, you may need to reenter the chain id, and it will be converted to a hexidecimal. 
+
+**POA: 0x63  
+Sokol: 0x4d**
+{% endhint %}
 
 ### POA Sokol
 

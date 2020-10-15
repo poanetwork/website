@@ -20,7 +20,7 @@
 
 * Network Name: POA
 * New RPC URL: https://core.poanetwork.dev
-* ChainID: 99
+* ChainID: 0x63 \(99\)
 * Symbol: POA
 * Block Explorer URL: https://blockscout.com/poa/core
 
@@ -35,7 +35,7 @@ Sokol: 0x4d**
 
 * Network Name: POA Sokol Testnet
 * New RPC URL: https://sokol.poa.network
-* ChainID \(Optional\): 77
+* ChainID: 0x4d \(77\)
 * Symbol: SPOA
 * Block Explorer URL: https://blockscout.com/poa/sokol
 

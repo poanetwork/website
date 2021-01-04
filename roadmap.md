@@ -1,5 +1,5 @@
 ---
-description: POA Projects and the POA Network Roadmap for 2019-2020
+description: POA Projects and the POA Network Roadmap for 2019-2021
 ---
 
 # Roadmap
@@ -10,14 +10,38 @@ We are continuing to add new functionality and improve performance for our major
 
 * [BlockScout Roadmap](https://docs.blockscout.com/about/roadmap)
 * [TokenBridge Roadmap](https://docs.tokenbridge.net/about-tokenbridge/roadmap)
-* [xDai Roadmap](https://www.xdaichain.com/about-xdai/roadmap)
 
 ## **POA Network Roadmap**
+
+## **2021 In Process**
+
+{% hint style="info" %}
+Additional items will be added as features are prioritized for deployment.
+{% endhint %}
+
+### **Berlin HF Migration**
+
+**Target:** Q1 2021
+
+To maintain compatibility with Ethereum Mainnet, the Berlin Hard Fork will be activated on the POA Sokol Network and the POA Core network following a successful Ethereum migration. Berlin is currently scheduled for January on Ethereum, and will introduce the following EIPs:
+
+1. EIP-2315: Simple Subroutines for the EVM
+2. EIP-2929: Gas cost increases for state access opcodes
+
+POA Sokol and Core will be supported by both OpenEthereum and Nethermind Clients.
+
+### **AMB/OmniBridge implementation between POA and xDai**
+
+**Target:** Q1 2021
+
+To further POA interoperability and token usage, an Arbitrary Message Bridge and OmniBridge UI will be deployed between the POA Network and the xDai Chain. This will enable cross-chain transfers of POA and other tokens created on POA \(ERC20/ERC677 tokens\) between the POA network and xDai. POA native tokens and tokens created on POA can then be used on the xDai chain in applications such as the HoneySwap.
+
+## **2020 Completed**
 
 ### **Istanbul Upgrade**
 
 **Target:** Q1 2020  
-**Status:** Completed Q4 2019
+ ****✅ **Status:** Completed Q4 2019
 
 {% hint style="success" %}
 **All Networks Successfully Activated**
@@ -33,7 +57,7 @@ We will continue to monitor progress and are planning to update the Sokol testne
 ### **On-Chain Randomness Activation**
 
 **Target:** Q1 2020  
-**Status:** Completed on Sokol Testnet,  block \# set for POA Core
+ ****✅ **Status:** Completed 2020
 
 {% hint style="success" %}
 **Activation Status**
@@ -53,7 +77,7 @@ Randomness is vital to a blockchain and difficult to achieve within the protocol
 ### **POA Games Fund \#2**
 
 **Target:** Q2 2020  
-**Status:** Ongoing
+ ****✅ **Status: Completed**
 
 {% hint style="success" %}
 We are currently accepting applications for our next round of funding. See [Grants for building on POA for more information](for-developers/grants-for-building-on-poa.md#poa-games-fund).
@@ -71,7 +95,7 @@ As these previously funded games continue to gain traction, we are initiating a 
 ### **POA Token Use Case Expansion**
 
 **Target:** Q1 - Q4 2020  
-**Status:** Ongoing
+ ****✅ **Status: POA Mania was created as an application used to stake POA tokens.**
 
 We will continue to research and explore ways to expand POA token usage, adoption and use cases. This includes the possibility of creating a POA-based [stable token](for-users/use-cases-of-poa-token/stable-token.md), and exploring the ability to leverage POA as a [staking token](for-users/use-cases-of-poa-token/staking-token.md), either on its own or through a multi-collateral token basket.  To keep POA vital and growing, we must not only increase network adoption but also research the possibility of expanding usage beyond the network via the [TokenBridge](https://docs.tokenbridge.net/).
 

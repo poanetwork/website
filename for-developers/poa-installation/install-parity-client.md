@@ -31,12 +31,26 @@ openethereum --chain poasokol --no-warp
 
 ### Setting specific bootnodes
 
-_If you would like to limit or choose specific bootnodes, you can obtain the bootnodes.txt file from POA github:_
+_If you would like to limit or choose specific bootnodes, you can obtain the bootnodes.txt file from POA github. E_nter all supplied enodes for the desired network separated by a comma, no space  
+  
+**POA Core**
 
-Enter all the supplied enodes for the desired network separated by a comma, no space. 
+```bash
+git clone -b core https://github.com/poanetwork/poa-chain-spec.git
+```
 
 ```text
-./openethereum --chain /path/to/spec.json --bootnodes enode://ENODE@IP:PORT,enode://ENODE@IP:PORT
+openethereum --chain poacore --bootnodes enode://ENODE@IP:PORT,enode://ENODE@IP:PORT
+```
+
+**POA Sokol**
+
+```bash
+git clone -b sokol https://github.com/poanetwork/poa-chain-spec.git
+```
+
+```text
+openethereum --chain poasokol --bootnodes enode://ENODE@IP:PORT,enode://ENODE@IP:PORT
 ```
 
 ## 3\) Connect to your Node

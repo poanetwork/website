@@ -27,7 +27,7 @@ openethereum --chain poasokol --no-warp
 
 #### Optional
 
-`--no-warp` flag is optional: [more information.](https://openethereum.github.io/wiki/Getting-Synced)
+`--no-warp` flag is optional: [more information.](https://openethereum.github.io/Beginner-Introduction.html)
 
 ### Setting specific bootnodes
 

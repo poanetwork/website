@@ -18,7 +18,7 @@ The faucet is integrated with BlockScout Explorer. To start go to [https://block
 
 ### Get SPOA
 
-1. Enter an `0x...` address where you will receive the SPOA
+1. Enter an `0x...` address where you want to receive the SPOA.
 2. Enter a valid phone number where you can receive a SMS text message. Be sure to select the correct country with the flag icon.
 3. Complete the Captcha process.
 4. Click **Send SMS.**

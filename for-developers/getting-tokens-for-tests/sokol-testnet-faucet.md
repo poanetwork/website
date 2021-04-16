@@ -10,17 +10,32 @@ DApp testing requires SPOA, the native token for Sokol. SPOA is available throug
 
 ## SPOA Faucet
 
-SPOA is distributed in increments of 100 SPOA. You can request as many times as you would like.
+SPOA is distributed in increments of 1 SPOA. Due to [reports of unscrupulous users](https://alphawallet.com/faq/sokol-poa-tokens-have-no-value-beware-of-scammers/) \(users selling SPOA which is a test token with no actual value\) we have added measures to make obtaining large amounts of SPOA difficult. 
 
-Go to [https://faucet.poa.network/](https://faucet.poa.network/) 
+Users are now limited to requesting 1 SPOA per day and are required to add a phone number for SMS verification.
+
+The faucet is integrated with BlockScout Explorer. To start go to [https://blockscout.com/poa/sokol/faucet](https://blockscout.com/poa/sokol/faucet)
+
+### Get SPOA
 
 1. Enter an `0x...` address where you will receive the SPOA
-2. Select I'm not a robot!
-3. Click **Request 100 SPOA**
+2. Enter a valid phone number where you can receive a SMS text message. Be sure to select the correct country with the flag icon.
+3. Complete the Captcha process.
+4. Click **Send SMS.**
 
-![Enter in an address where 100 SPOA will be sent](../../.gitbook/assets/sokol3.png)
+![](../../.gitbook/assets/sokol-1%20%281%29.png)
 
-![Successful Transaction](../../.gitbook/assets/sokol2.png)
+**You will be forwarded to the next screen and should receive a text message with a 6 digit code.**
+
+1. Enter the verification code.
+2. Complete the Captcha.
+3. Click **Request 1 SPOA**.
+
+![](../../.gitbook/assets/sokol-2.png)
+
+You should see a success message and receive 1 SPOA to your account.
+
+![](../../.gitbook/assets/sokol-3.png)
 
 ## Interacting with SPOA
 

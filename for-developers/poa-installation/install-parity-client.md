@@ -7,7 +7,7 @@
 
 ## 1\) Download OpenEthereum
 
-You can build from [source](https://github.com/openethereum/openethereum) or download binary release, see the official [OpenEthereum Releases Page](https://github.com/openethereum/openethereum/releases). Please use  `OpenEthereum` versions \(2.7.2 - 3.0.1\).
+You can build from [source](https://github.com/openethereum/openethereum) or download binary release, see the official [OpenEthereum Releases Page](https://github.com/openethereum/openethereum/releases). Please use  `OpenEthereum` version 3.2.6\).
 
 After downloading, you need to perform the command `chmod +x openethereum` to be able to run the binary.
 

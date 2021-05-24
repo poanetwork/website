@@ -21,7 +21,8 @@ Additional items will be added as features are prioritized for deployment.
 
 ### **Berlin HF Migration**
 
-**Target:** Q1 2021
+**Target:** Q1 2021  
+ ✅ **Completed**: POA Core: May 24, 2021 Block \#21,364,900
 
 To maintain compatibility with Ethereum Mainnet, the Berlin Hard Fork will be activated on the POA Sokol Network and the POA Core network following a successful Ethereum migration. Berlin is currently scheduled for January on Ethereum, and will introduce the following EIPs:
 
@@ -32,7 +33,7 @@ POA Sokol and Core will be supported by both OpenEthereum and Nethermind Clients
 
 ### **AMB/OmniBridge implementation between POA and xDai**
 
-**Target:** Q1 2021
+**Target:** Q3 2021
 
 To further POA interoperability and token usage, an Arbitrary Message Bridge and OmniBridge UI will be deployed between the POA Network and the xDai Chain. This will enable cross-chain transfers of POA and other tokens created on POA \(ERC20/ERC677 tokens\) between the POA network and xDai. POA native tokens and tokens created on POA can then be used on the xDai chain in applications such as the HoneySwap.
 

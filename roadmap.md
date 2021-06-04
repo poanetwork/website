@@ -31,6 +31,24 @@ To maintain compatibility with Ethereum Mainnet, the Berlin Hard Fork will be ac
 
 POA Sokol and Core will be supported by both OpenEthereum and Nethermind Clients.
 
+### **EIP 1559 Implementation**
+
+**Target:** Q2 2021
+
+EIP 1559 introduces a `Base Fee` for all blockchain transactions. This is a minimum fee that is adjusted based on gas usage per block. When gas usage is high, the fee increases, and when it is low, the fee decreases. 
+
+`Base fees` are burned by the protocol rather than paid directly to the miners \(or validators in the case of POA\). In addition to the base fee, a `priority fee` can be added to a transaction as a tip to incentivize POA validators to include it in a block.
+
+EIP 1559 is an important change to Ethereum and POA Network will implement this change to maintain compatibility as well as be an early adopter of this improvement proposal.
+
+### OpenEthereum Deprecation + Nethermind Implementation
+
+ **Target:** Q2 2021
+
+OpenEthereum has announced it will be deprecated and no longer supported by the team. The client will change to Erigon, formerly Turbo-geth, with no guarantees that it will support the POA network consensus. Due to this upcoming change, POA plans to shift to a Nethermind-only implementation. Validators and other node operators will need to migrate their nodes to the [Nethermind](https://nethermind.io/) client, details coming soon.
+
+{% embed url="https://medium.com/openethereum/gnosis-joins-erigon-formerly-turbo-geth-to-release-next-gen-ethereum-client-c6708dd06dd" %}
+
 ### **AMB/OmniBridge implementation between POA and xDai**
 
 **Target:** Q3 2021

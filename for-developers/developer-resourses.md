@@ -61,10 +61,8 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 {% tab title="POA Core" %}
 | POA Core Network | ​ |
 | :--- | :--- |
-| **Main RPC \(HTTP2\)** | [​](https://core.poanetwork.dev/)[https://core.poanetwork.dev](https://core.poanetwork.dev/)/ |
-| Main RPC \(HTTP\) | [http://core.poanetwork.dev:8545](http://core.poanetwork.dev:8545) |
-| RPC Alias \(HTTPS/Cloudflare\) | [https://core.poa.network/](https://core.poa.network/) |
-| WebSockets | [ws://core.poanetwork.dev:8546](ws://core.poanetwork.dev:8546) |
+| **Main RPC \(HTTP2\)** | [​](https://core.poanetwork.dev/)[https://core.poa.network/](https://core.poa.network/) |
+| WebSockets | wss://core.poa.network/wss |
 | Archive node \(last 100k blocks\) | [https://core-archive.blockscout.com/](https://core-archive.blockscout.com/) |
 | Network ID | 99 |
 {% endtab %}
@@ -73,9 +71,7 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 | **POA Sokol Testnet** |  |
 | :--- | :--- |
 | Main RPC \(HTTPS\) | [https://sokol.poa.network](https://sokol.poa.network) |
-| Main RPC \(HTTP\) | [http://sokol.poa.network:8545](http://sokol.poa.network:8545) |
 | WebSockets \(Secure\) | [wss://sokol.poa.network/wss ](wss://sokol.poa.network/wss%20) |
-| WebSockets | [ws://sokol.poa.network:8546/wss](ws://sokol.poa.network:8546/wss) |
 | Archive node \(last 100k blocks\) | [http://sokol-archive.blockscout.com/](http://sokol-archive.blockscout.com/) |
 | Network ID | 77 |
 {% endtab %}
@@ -84,8 +80,7 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 | Kovan Testnet |  |
 | :--- | :--- |
 | Main RPC \(HTTPS\) | [https://kovan.poa.network/](https://kovan.poa.network/) |
-| Main RPC \(HTTP\) | [http://kovan.poa.network:8545](http://kovan.poa.network:8545) |
-| WebSockets | [ws://kovan.poa.network:8546](ws://kovan.poa.network:8546) |
+| WebSockets | wss://kovan.poa.network/wss |
 | Network ID | 42 |
 {% endtab %}
 {% endtabs %}

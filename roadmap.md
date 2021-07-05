@@ -22,7 +22,7 @@ Additional items will be added as features are prioritized for deployment.
 ### **Berlin HF Migration**
 
 **Target:** Q1 2021  
- ✅ **Completed**: POA Core: May 24, 2021 Block \#21,364,900
+ ✅ **Completed**: POA Core: May 24, 2021 Block \#21,364,900, POA Sokol May 24,2021 Block \#21,050,600
 
 To maintain compatibility with Ethereum Mainnet, the Berlin Hard Fork will be activated on the POA Sokol Network and the POA Core network following a successful Ethereum migration. Berlin is currently scheduled for January on Ethereum, and will introduce the following EIPs:
 
@@ -43,7 +43,8 @@ EIP 1559 is an important change to Ethereum and POA Network will implement this 
 
 ### OpenEthereum Deprecation + Nethermind Implementation
 
- **Target:** Q2 2021
+ **Target:** Q2-Q3 2021  
+☑ **In Progress:** All Sokol Validators are now running the Nethermind Client. POA core validators are migrating gradually 
 
 OpenEthereum has announced it will be deprecated and no longer supported by the team. The client will change to Erigon, formerly Turbo-geth, with no guarantees that it will support the POA network consensus. Due to this upcoming change, POA plans to shift to a Nethermind-only implementation. Validators and other node operators will need to migrate their nodes to the [Nethermind](https://nethermind.io/) client, details coming soon.
 

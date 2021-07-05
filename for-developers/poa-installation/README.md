@@ -10,6 +10,10 @@ You do not need to run your own node to interact with the POA blockchain \(play 
 
 ## POA Network Support:
 
+{% hint style="info" %}
+Note: While OE still works fine with POA network, it will be deprecated in the future. [Nethermind](install-nethermind-client.md) is the recommended client for new installations.
+{% endhint %}
+
 * [OpenEthereum](install-parity-client.md)
 * [Nethermind](install-nethermind-client.md)
 

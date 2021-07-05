@@ -1,5 +1,9 @@
 # Install OpenEthereum Client
 
+{% hint style="info" %}
+Note: While OE still works fine with POA network, it will be deprecated in the future. [Nethermind](install-nethermind-client.md) is the recommended client for new installations.
+{% endhint %}
+
 ## Requirements
 
 * [OpenEthereum client](https://github.com/openethereum/openethereum/releases)

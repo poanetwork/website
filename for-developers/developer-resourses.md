@@ -10,7 +10,7 @@ description: General information and links
 {% tab title="POA Core" %}
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ~12,500,000 Gas | 5 sec | 1 -10 GWei | Istanbul | POA | 99 |
+| ~17,000,000 Gas | 5 sec | 1 -10 GWei | Berlin | POA | 99 |
 
 {% hint style="info" %}
 To mitigate an ongoing denial-of-service attack, validators decided to increase the gas price to a range between 1-10 Gwei. Each validator can determine their own value within this range.
@@ -20,7 +20,9 @@ To mitigate an ongoing denial-of-service attack, validators decided to increase 
 {% tab title="POA Sokol \(Testnet\)" %}
 | Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ~12,500,000 Gas | 5 sec | 1 GWei | Istanbul | SPOA | 77 |
+| ~17,000,000 Gas | 5 sec | 1 GWei | Berlin | SPOA | 77 |
+
+_Note: Sokol validators run the_ [_Nethermind_ ](https://nethermind.io/)_client only._
 
 ### **Sokol Faucets**
 
@@ -102,7 +104,7 @@ There are endpoints provided by POA. They are used to connect to the network. Us
 {% endtabs %}
 
 {% hint style="info" %}
-The current implementation requires a chain running OpenEthereum AuRa consensus mechanism with version 2.7.2+. The Random Number generation contract was [introduced in this PR](https://github.com/paritytech/parity-ethereum/pull/10946).
+The current implementation requires a chain running OpenEthereum or Nethermind AuRa consensus. The Random Number generation contract was [introduced in this PR](https://github.com/paritytech/parity-ethereum/pull/10946).
 {% endhint %}
 
 ## TokenBridge UI

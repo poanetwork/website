@@ -128,6 +128,7 @@
     * [Deployment](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/deployment.md)
     * [Upgrade Instance to a Larger Instance Type](for-validators/validator-node-setup/aws-vm-for-validator-node-deployment/upgrade-instance-to-a-larger-instance-type.md)
   * [Non-AWS Validator Node Setup](for-validators/validator-node-setup/non-aws-validator-node-setup/README.md)
+    * [NetStats Dashboard](for-validators/validator-node-setup/non-aws-validator-node-setup/netstats-dashboard.md)
     * [Local & Remote Machine System Requirements](for-validators/validator-node-setup/non-aws-validator-node-setup/local-and-remote-machine-system-requirements.md)
     * [Remote Machine Setup](for-validators/validator-node-setup/non-aws-validator-node-setup/remote-machine-setup.md)
     * [Configure Node using Deployment Playbook](for-validators/validator-node-setup/non-aws-validator-node-setup/configure-node-using-deployment-playbook.md)

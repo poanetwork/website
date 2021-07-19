@@ -14,8 +14,9 @@ description: POA/POA20 is currently available on the following exchanges.
 * [Cex.Plus Exchange](https://cex.plus/)
   * [POA/BTC](https://cex.plus/market/poa_btc)
   * [POA/ETH](https://cex.plus/market/poa_eth)
+* [7B Mobile Exchange](https://sevenb.io/currencies/poa) - broker that supports all cryptocurrencies listed on Binance.
 
-Swap exchange
+Swap Exchanges
 
 * [Stealthex](https://stealthex.io/)
 * [SwapSpace](https://swapspace.co/)

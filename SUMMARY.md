@@ -49,6 +49,7 @@
   * [Getting Started](for-users/nifty-wallet/getting-started.md)
   * [Import and Interact with Smart Contracts](for-users/nifty-wallet/import-and-interact-with-smart-contracts.md)
   * [Connect to a Hardware Wallet \(Ledger & Trezor\)](for-users/nifty-wallet/connect-to-a-hardware-wallet-ledger-and-trezor.md)
+  * [Connect to D'CENT Biometric Wallet](for-users/nifty-wallet/connect-to-dcent-biometric-wallet.md)
   * [Connect to Pocket Decentralized Network](for-users/nifty-wallet/connect-to-pocket-decentralized-network.md)
 * [3rd Party Wallets](for-users/wallets/README.md)
   * [Trust Wallet](for-users/wallets/trust-wallet.md)

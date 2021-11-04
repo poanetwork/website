@@ -1,4 +1,4 @@
-# RNG explainer \(AuRa + RandomAura Contract\)
+# RNG explainer (AuRa + RandomAura Contract)
 
 {% hint style="success" %}
 The following example uses methods from the [RandomAura](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol) contract. A [RANDAO ](https://github.com/randao/randao)methodology implemented by the validator nodes generates pseudorandom numbers.
@@ -8,14 +8,14 @@ The following is designed to work with [Parity's AuRa](https://wiki.parity.io/Pr
 
 ### Collection Rounds
 
-A series of **collection rounds** are used for random number generation. The  collection round length is configurable - in this example we use 38 blocks for a round, ****split into two equal 19 block phases:
+A series of **collection rounds** are used for random number generation. The  collection round length is configurable - in this example we use 38 blocks for a round,** **split into two equal 19 block phases:
 
-* `commit phase` 
+* `commit phase`&#x20;
 * `reveal phase`
 
-The length of each phase is  `19` blocks \( `38 / 2 = 19`\). When one collection round finishes, the next collection round starts, and so on. For example:
+The length of each phase is  `19` blocks ( `38 / 2 = 19`). When one collection round finishes, the next collection round starts, and so on. For example:
 
-```text
+```
 Block number   |   Phase
 ...
 101                Commit phase     <-- collection round #1 started here
@@ -38,11 +38,11 @@ Block number   |   Phase
 ...
 ```
 
-During each collection round, the RandomAura contract \(see below\) collects the random numbers generated during that round.
+During each collection round, the RandomAura contract (see below) collects the random numbers generated during that round.
 
 ### Commit Phase
 
-1\) Each validator in the set generates a random `number` locally with their node, hashes the secret, and calls the `commitHash` function when it is their turn to create a block.  
+1\) Each validator in the set generates a random `number` locally with their node, hashes the secret, and calls the `commitHash` function when it is their turn to create a block. &#x20;
 
 ```javascript
 /// @dev Called by the validator's node to store a hash and a cipher of the validator's number on each collection
@@ -66,11 +66,11 @@ function commitHash(bytes32 _numberHash, bytes calldata _cipher) external {
 }
 ```
 
-2\) This function accepts the hash of the secret `number` and its `cipher`. The `cipher` is the `number` encrypted with a validator's key, and  is needed for the `reveal phase` \(see below\).
+2\) This function accepts the hash of the secret `number` and its `cipher`. The `cipher` is the `number` encrypted with a validator's key, and  is needed for the `reveal phase` (see below).
 
-For example, if there are three validators, they will call `commitHash` in the following order \(for the sample case above\):
+For example, if there are three validators, they will call `commitHash` in the following order (for the sample case above):
 
-```text
+```
 Block number   |   Phase   |       What happens
 ...
 101             Commit phase    Validator1 calls `commitHash`
@@ -122,7 +122,7 @@ function getCommitAndCipher(
 
 2\) The validator decrypts the cipher with their key and retrieves the `number`.
 
-3\) The validator calls the `revealNumber`function to reveal their committed number \(the function XORs the number with the previous seed to create a new random seed stored in the `currentSeed` state variable\).
+3\) The validator calls the `revealNumber`function to reveal their committed number (the function XORs the number with the previous seed to create a new random seed stored in the `currentSeed `state variable).
 
 ```javascript
 /// @dev Called by the validator's node to XOR its number with the current random seed.
@@ -150,14 +150,14 @@ function revealNumber(uint256 _number) external {
 ```
 
 {% hint style="info" %}
-_Note: Randomness created in a deterministic manner, through computerized means, it is called pseudorandomness. Pseudorandom numbers exhibit the same properties as random numbers. The method described above is technically a pseudorandom number generator \(PRNG\)_
+_Note: Randomness created in a deterministic manner, through computerized means, it is called pseudorandomness. Pseudorandom numbers exhibit the same properties as random numbers. The method described above is technically a pseudorandom number generator (PRNG)_
 {% endhint %}
 
 ## RandomAura Contract Code
 
-The RandomAura Contract interfaces with the Authority Round consensus process to store and iterate the `currentSeed` , control when the seed is revealed, and report on skipped reveals by Validators.
+The RandomAura Contract interfaces with the Authority Round consensus process to store and iterate the `currentSeed `, control when the seed is revealed, and report on skipped reveals by Validators.
 
-Below is the full RandomAura contract code \(its POSDAO implementation is located at [https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol)\)
+Below is the full RandomAura contract code (its POSDAO implementation is located at [https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol))
 
 ```javascript
 pragma solidity 0.5.16;
@@ -292,4 +292,3 @@ contract RandomAuRa {
 }
 
 ```
-

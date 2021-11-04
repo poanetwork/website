@@ -6,8 +6,9 @@ description: The original POA Whitepaper distributed October 2017.
 
 ## Original Publication Dates
 
-* The first draft of the whitepaper was distributed on Oct 4, 2017 . Read more here: [https://medium.com/poa-network/introducing-oracles-network-864d1d7e37e2](https://medium.com/poa-network/introducing-oracles-network-864d1d7e37e2) 
-* The last revision was made Sep 28, 2018 to adjust several figures. 
+* The first draft of the whitepaper was distributed on Oct 4, 2017 . Read more here: [https://medium.com/poa-network/introducing-oracles-network-864d1d7e37e2](https://medium.com/poa-network/introducing-oracles-network-864d1d7e37e2)\
+
+* The last revision was made Sep 28, 2018 to adjust several figures.&#x20;
 
 ## Abstract
 
@@ -24,4 +25,3 @@ Authors: Igor Barinov, Viktor Baranov, Pavel Khahulin
 * [Summary & Acknowledgements](summary-and-acknowledgements.md)
 * [References](references.md)
 * [Appendix A: Code Samples](appendix-a-code-samples/)
-

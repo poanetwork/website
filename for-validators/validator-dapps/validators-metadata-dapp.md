@@ -10,7 +10,7 @@ description: >-
 
 To see current validators along with their Notary information, visit [https://validators.poa.network/poa-dapps-validators](https://validators.poa.network/poa-dapps-validators).  In the Network Dropdown menu, select POA Core.
 
-![Select the POA Core to view the current validator set](../../.gitbook/assets/network_dropdown.png)
+![Select the POA Core to view the current validator set](../../.gitbook/assets/network\_dropdown.png)
 
 ## For Validators: Update Metadata
 
@@ -43,9 +43,7 @@ You must have a small amount of POA on your Voting Key to submit a transaction. 
 
 10\) Open the `PENDING CHANGES` tab and verify your data in the list.
 
-11\) Ask fellow validators to confirm and finalize your request. The metadata-change request needs at least **2 confirmations** by different validators and can then be finalized by any validator including yourself. Finalizing a request commits changes to the network.
+11\) Ask fellow validators to confirm and finalize your request. The metadata-change request needs at least **2 confirmations **by different validators and can then be finalized by any validator including yourself. Finalizing a request commits changes to the network.
 
 ![Ask fellow validators to confirm your request](../../.gitbook/assets/p2.png)
-
-
 

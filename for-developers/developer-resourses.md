@@ -4,30 +4,30 @@ description: General information and links
 
 # Developer Resources
 
-## General Information <a id="general-information"></a>
+## General Information <a href="general-information" id="general-information"></a>
 
 {% tabs %}
 {% tab title="POA Core" %}
-| Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| ~17,000,000 Gas | 5 sec | 1 -10 GWei | Berlin | POA | 99 |
+| Block Size       | Block Speed | Gas price  | Patchset | Native token | Network ID |
+| ---------------- | ----------- | ---------- | -------- | ------------ | ---------- |
+| \~17,000,000 Gas | 5 sec       | 1 -10 GWei | Berlin   | POA          | 99         |
 
 {% hint style="info" %}
 To mitigate an ongoing denial-of-service attack, validators decided to increase the gas price to a range between 1-10 Gwei. Each validator can determine their own value within this range.
 {% endhint %}
 {% endtab %}
 
-{% tab title="POA Sokol \(Testnet\)" %}
-| Block Size | Block Speed | Gas price | Patchset | Native token | Network ID |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| ~17,000,000 Gas | 5 sec | 1 GWei | Berlin | SPOA | 77 |
+{% tab title="POA Sokol (Testnet)" %}
+| Block Size       | Block Speed | Gas price | Patchset | Native token | Network ID |
+| ---------------- | ----------- | --------- | -------- | ------------ | ---------- |
+| \~17,000,000 Gas | 5 sec       | 1 GWei    | Berlin   | SPOA         | 77         |
 
-_Note: Sokol validators run the_ [_Nethermind_ ](https://nethermind.io/)_client only._
+_Note: Sokol validators run the _[_Nethermind _](https://nethermind.io)_client only._
 
 ### **Sokol Faucets**
 
-* Sokol Testnet Faucet: [https://faucet.poa.network](https://faucet.poa.network/) Get free 100 SPOA tokens for testing on the _Sokol_ testnet 
-* [ERC20 Test Token Faucet](getting-tokens-for-tests/erc20-test-token-faucet.md) Can be used on Sokol or POA Core. 
+* Sokol Testnet Faucet: [https://faucet.poa.network](https://faucet.poa.network) Get free 100 SPOA tokens for testing on the _Sokol_ testnet&#x20;
+* [ERC20 Test Token Faucet](getting-tokens-for-tests/erc20-test-token-faucet.md) Can be used on Sokol or POA Core.&#x20;
 {% endtab %}
 {% endtabs %}
 
@@ -35,7 +35,7 @@ _Note: Sokol validators run the_ [_Nethermind_ ](https://nethermind.io/)_client 
 
 {% tabs %}
 {% tab title="POA Core" %}
- **BlockScout** is the official blockchain explorer for the POA Network. With this full-featured, open-source explorer you can view transactions, accounts & balances, access data via the API and read and verify smart contracts.
+&#x20;**BlockScout** is the official blockchain explorer for the POA Network. With this full-featured, open-source explorer you can view transactions, accounts & balances, access data via the API and read and verify smart contracts.
 
 * POA Core Network: [https://blockscout.com/poa/core](https://blockscout.com/poa/core)
 
@@ -45,7 +45,7 @@ _Note: Sokol validators run the_ [_Nethermind_ ](https://nethermind.io/)_client 
 {% endtab %}
 
 {% tab title="Sokol Testnet" %}
- **BlockScout** is the official blockchain explorer for the POA Network. With this full-featured, open-source explorer you can view transactions, accounts & balances, access data via the API and read and verify smart contracts.
+&#x20;**BlockScout** is the official blockchain explorer for the POA Network. With this full-featured, open-source explorer you can view transactions, accounts & balances, access data via the API and read and verify smart contracts.
 
 * Sokol Testnet: [https://blockscout.com/poa/sokol](https://blockscout.com/poa/sokol)
 
@@ -55,50 +55,50 @@ _Note: Sokol validators run the_ [_Nethermind_ ](https://nethermind.io/)_client 
 {% endtab %}
 {% endtabs %}
 
-## JSON RPC endpoints <a id="json-rpc-endpoints"></a>
+## JSON RPC endpoints <a href="json-rpc-endpoints" id="json-rpc-endpoints"></a>
 
 There are endpoints provided by POA. They are used to connect to the network. Use these endpoints to connect with DApps or when connecting to the POA Network with MetaMask or other web3 wallets.
 
 {% tabs %}
 {% tab title="POA Core" %}
-| POA Core Network | ​ |
-| :--- | :--- |
-| **Main RPC \(HTTP2\)** | [​](https://core.poanetwork.dev/)[https://core.poa.network/](https://core.poa.network/) |
-| WebSockets | wss://core.poa.network/wss |
-| Archive node \(last 100k blocks\) | [https://core-archive.blockscout.com/](https://core-archive.blockscout.com/) |
-| Network ID | 99 |
+| POA Core Network                | ​                                                                                     |
+| ------------------------------- | ------------------------------------------------------------------------------------- |
+| **Main RPC (HTTP2)**            | [​](https://core.poanetwork.dev)[https://core.poa.network/](https://core.poa.network) |
+| WebSockets                      | wss://core.poa.network/wss                                                            |
+| Archive node (last 100k blocks) | [https://core-archive.blockscout.com/](https://core-archive.blockscout.com)           |
+| Network ID                      | 99                                                                                    |
 {% endtab %}
 
 {% tab title="Sokol Testnet" %}
-| **POA Sokol Testnet** |  |
-| :--- | :--- |
-| Main RPC \(HTTPS\) | [https://sokol.poa.network](https://sokol.poa.network) |
-| WebSockets \(Secure\) | [wss://sokol.poa.network/wss ](wss://sokol.poa.network/wss%20) |
-| Archive node \(last 100k blocks\) | [http://sokol-archive.blockscout.com/](http://sokol-archive.blockscout.com/) |
-| Network ID | 77 |
+| **POA Sokol Testnet**           |                                                                             |
+| ------------------------------- | --------------------------------------------------------------------------- |
+| Main RPC (HTTPS)                | [https://sokol.poa.network](https://sokol.poa.network)                      |
+| WebSockets (Secure)             | [wss://sokol.poa.network/wss ](wss://sokol.poa.network/wss)                 |
+| Archive node (last 100k blocks) | [http://sokol-archive.blockscout.com/](http://sokol-archive.blockscout.com) |
+| Network ID                      | 77                                                                          |
 {% endtab %}
 
 {% tab title="Kovan Testnet" %}
-| Kovan Testnet |  |
-| :--- | :--- |
-| Main RPC \(HTTPS\) | [https://kovan.poa.network/](https://kovan.poa.network/) |
-| WebSockets | wss://kovan.poa.network/wss |
-| Network ID | 42 |
+| Kovan Testnet    |                                                         |
+| ---------------- | ------------------------------------------------------- |
+| Main RPC (HTTPS) | [https://kovan.poa.network/](https://kovan.poa.network) |
+| WebSockets       | wss://kovan.poa.network/wss                             |
+| Network ID       | 42                                                      |
 {% endtab %}
 {% endtabs %}
 
-## On-Chain Randomness Contract \(RandomAuRa\) 
+## On-Chain Randomness Contract (RandomAuRa)&#x20;
 
 {% tabs %}
 {% tab title="POA Core" %}
-| Block | Date | Contract |
-| :--- | :--- | :--- |
+| Block    | Date       | Contract                                   |
+| -------- | ---------- | ------------------------------------------ |
 | 14350721 | 03/31/2020 | 0x67e90a54AeEA85f21949c645082FE95d77BC1E70 |
 {% endtab %}
 
-{% tab title="POA Sokol \(Testnet\)" %}
-| Block | Date | Contract |
-| :--- | :--- | :--- |
+{% tab title="POA Sokol (Testnet)" %}
+| Block    | Date       | Contract                                   |
+| -------- | ---------- | ------------------------------------------ |
 | 13391641 | 02/20/2020 | 0x8f2b78169B0970F11a762e56659Db52B59CBCf1B |
 {% endtab %}
 {% endtabs %}
@@ -109,18 +109,18 @@ The current implementation requires a chain running OpenEthereum or Nethermind A
 
 ## TokenBridge UI
 
-TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
+TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net)
 
 ## DApp Management & Developer Tools
 
-* [Pocket](https://www.pokt.network/) provides a decentralized API layer for DApp developers \(IOS, Android & Web SDKs available\) and blockchain users.
-* [TheGraph](https://thegraph.com) supports xDai data indexing, querying and display. 
-* [AnyBlock Analytics](https://www.anyblockanalytics.com/) provides[ ElasticSearch & SQL access](api-and-sql-access.md)  
+* [Pocket](https://www.pokt.network) provides a decentralized API layer for DApp developers (IOS, Android & Web SDKs available) and blockchain users.
+* [TheGraph](https://thegraph.com) supports xDai data indexing, querying and display.&#x20;
+* [AnyBlock Analytics](https://www.anyblockanalytics.com) provides[ ElasticSearch & SQL access](api-and-sql-access.md) &#x20;
 * Tenderly dashboard supports POA transaction inspection - smart contracts can also be pushed to the dashboard for real-time monitoring.
 
 ![Tenderly Dashboard Gas Profiler example](../.gitbook/assets/tenderly.png)
 
-## **Additional Resources** <a id="additional-resources"></a>
+## **Additional Resources** <a href="additional-resources" id="additional-resources"></a>
 
 {% tabs %}
 {% tab title="POA Mainnet" %}
@@ -131,12 +131,10 @@ TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net/)
 
 {% tab title="Sokol Testnet" %}
 * Chain [spec](https://github.com/poanetwork/poa-chain-spec/blob/sokol/spec.json) files and known [bootnodes ](https://github.com/poanetwork/poa-chain-spec/blob/sokol/bootnodes.txt)of the _Sokol_ network
-* [Ethereum Networks Stats ](https://github.com/cubedro/eth-netstats)\(Netstats\) with a list of nodes on Sokol network. Nodes should have netstats agent installed to be listed in the netstats. [https://sokol-netstat.poa.network](https://sokol-netstat.poa.network/)
+* [Ethereum Networks Stats ](https://github.com/cubedro/eth-netstats)(Netstats) with a list of nodes on Sokol network. Nodes should have netstats agent installed to be listed in the netstats. [https://sokol-netstat.poa.network](https://sokol-netstat.poa.network)
 * Governance DApps: To use governance dapps please switch to Sokol network in your Nifty Wallet
-  * Validators DApp: [https://validators.poa.network/ ](https://validators.poa.network/) In the DApp anyone can get information about validators of the _Sokol_ network and their keys
-  * Voting DApp: [https://voting.poa.network/ ](https://voting.poa.network/) In the DApp anyone can get information about governance decisions on the _Sokol_ network.
+  * Validators DApp: [https://validators.poa.network/ ](https://validators.poa.network) In the DApp anyone can get information about validators of the _Sokol_ network and their keys
+  * Voting DApp: [https://voting.poa.network/ ](https://voting.poa.network) In the DApp anyone can get information about governance decisions on the _Sokol_ network.
 {% endtab %}
 {% endtabs %}
-
-
 

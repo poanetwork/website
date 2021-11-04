@@ -18,6 +18,7 @@
 ## For users
 
 * [POA Tokens](for-users/about-poa-token/README.md)
+  * [POA Merger & STAKE Swap](for-users/about-poa-token/poa-merger-and-stake-swap.md)
   * [POA Token Supply](for-users/about-poa-token/poa-token-supply.md)
   * [POA & POA20 Exchanges](for-users/about-poa-token/poa-and-poa20-exchanges.md)
   * [POA & POA20 on Binance](for-users/about-poa-token/poa-and-poa20-on-binance.md)

@@ -22,7 +22,15 @@ STAKE is a popular token used throughout the xDai ecosystem including various [D
 
 **-> **[Learn more about STAKE here](https://www.xdaichain.com/for-stakers/stake-token).
 
-\-> Questions about the merger? Ask in the [xDai discord poa-sokol channel.](https://discord.gg/mPJ9zkq)
+\-> Questions about the merger? Ask in the [xDai discord poa channel.](https://discord.gg/mPJ9zkq)
+
+{% hint style="info" %}
+**STAKE on Exchanges:**
+
+****[Ascendex](https://ascendex.com/en/global-digital-asset-platform) supports direct deposits and withdrawals of STAKE on xDai. To use with other exchanges, users can bridge tokens with the OmniBridge to the Ethereum Mainnet. &#x20;
+
+Decentralized options for STAKE on xDai include [Sushiswap](https://sushi.com), [Honeyswap](https://honeyswap.org), [Swapr](https://swapr.eth.link/#/pools?chainId=1) and many more. [See the complete list](https://www.xdaichain.com/about-xdai/project-spotlights#defi).
+{% endhint %}
 
 ## Swap Details
 

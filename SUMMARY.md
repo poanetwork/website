@@ -161,8 +161,6 @@
 
 ## Media <a href="social-media" id="social-media"></a>
 
-* [Events](social-media/events.md)
-* [R\&D Partners](https://forum.poa.network/t/r-d-partners-of-poa-team/2598)
 * [Social Media](social-media/social-media.md)
 * [Media Kit](social-media/branding.md)
 * [Contact Us](social-media/contact-us.md)

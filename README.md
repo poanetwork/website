@@ -11,7 +11,7 @@ description: >-
 
 POA Network is entering a new phase as a valuable part of the xDai ecosystem! Over the next 6 months, POA users will have the opportunity to swap their POA for STAKE on xDai.
 
-[Learn more about this opportunity and what it means for the future of POA and xDai](for-users/about-poa-token/poa-merger-and-stake-swap.md).
+\-> [Learn more about this opportunity and what it means for the future of POA and xDai](for-users/about-poa-token/poa-merger-and-stake-swap.md).
 {% endhint %}
 
 POA Core is an autonomous network secured by a group of trusted validators. All validators on the network are United States notaries, and their information is publicly available.  This distributed group of known validators allows the network to provide fast and inexpensive transactions.

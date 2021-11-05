@@ -12,6 +12,10 @@ POA Network is entering a new phase as a valuable part of the xDai ecosystem! Ov
 Learn more about this opportunity and what it means for the future of POA and xDai below.
 {% endhint %}
 
+{% hint style="info" %}
+Follow swap progress on [Dune Analytics](https://dune.xyz/maxaleks/POA-STAKE-merge).
+{% endhint %}
+
 ## Overview & Token Details
 
 xDai provides a full-featured ecosystem with many tools POA users know (BlockScout, bridges) along with additional applications, DEXs, lending, games, and much more. The xDai community welcomes the expertise and experience of POA users and developers to the xDai chain.&#x20;
@@ -22,7 +26,7 @@ STAKE is a popular token used throughout the xDai ecosystem including various [D
 
 **-> **[Learn more about STAKE here](https://www.xdaichain.com/for-stakers/stake-token).
 
-\-> Questions about the merger? Ask in the [xDai discord poa channel.](https://discord.gg/mPJ9zkq)
+**->** Questions about the merger? Ask in the [xDai discord poa channel.](https://discord.gg/mPJ9zkq)
 
 {% hint style="info" %}
 **STAKE on Exchanges:**

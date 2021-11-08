@@ -52,10 +52,14 @@ Following emission & swapping cessation, POA network will continue to function i
 
 ## How to Swap
 
-Swapping from POA on POA Network to STAKE on xDai is a 2 step process.&#x20;
+Swapping from POA on POA Network to STAKE on xDai is a 2 step process. Steps detailed below.
 
-1. POA is bridged from the POA Network to xDai using the OmniBridge. During bridging, POA is converted to WPOA (wrapped POA) on the xDai chain.
-2. WPOA on xDai is swapped for STAKE on xDai using a swap application.
+1.  POA is bridged from the POA Network to xDai using the OmniBridge. During bridging, POA is converted to WPOA (wrapped POA) on the xDai chain.
+
+    [omni.xdaichain.com/bridge](http://omni.xdaichain.com/bridge)
+2.  WPOA on xDai is swapped for STAKE on xDai using a swap application.
+
+    [https://poa-to-stake.poa.network/](https://poa-to-stake.poa.network)
 
 ### 1. Bridge POA to WPOA on xDai
 

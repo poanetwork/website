@@ -55,7 +55,16 @@ Binance was responsible for nearly 100% of the trading volume for POA. Since it 
 
 ## What about POA20 on Ethereum. Is it available to swap?
 
-Yes, but first you must move it back to POA Network. You can move back to POA using the POA bridge. Gas fees are paid in Eth when bridging. POA20 is an ERC20 on Ethereum that is originally bridged from POA. It must be bridged back to complete the swap.
+Yes, but first you must move it back to POA Network. You can move back to POA using the POA bridge. Gas fees are paid in Eth when bridging. POA20 is an ERC20 on Ethereum that is originally bridged from POA. It must be bridged back to [complete the swap](poa-merger-and-stake-swap.md).
 
 {% embed url="https://youtu.be/8oMPorqRedw" %}
+
+## What is the POA contract address?
+
+POA does not have a contract address, it is the native token on the POA network (like ETH is the native token on Ethereum). To send, you need to be on the POA network.  If you [swap to xDai](poa-merger-and-stake-swap.md), it will be wrapped POA (WPOA) on the xDai chain. The address for **WPOA on xDai** is [0x9fe3864F9Ae7cfb5668Dae90C0e20c4C3D437664 ](https://blockscout.com/xdai/mainnet/token/0x9fe3864F9Ae7cfb5668Dae90C0e20c4C3D437664/token-transfers)
+
+## How do I add POA to MetaMask?
+
+* You can add easily at [https://chainlist.org/](https://chainlist.org/,)&#x20;
+* We have [instructions here](../wallets/metamask.md#metamask-setup) on adding a custom network.
 

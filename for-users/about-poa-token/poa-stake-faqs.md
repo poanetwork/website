@@ -2,7 +2,9 @@
 
 We will continue to add questions/answers here as they arise. If you have an immediate concern, contact us in[ the discord poa channel.](https://discord.gg/mPJ9zkq)&#x20;
 
+{% hint style="success" %}
 Instructions for how to [swap for POA on POA Network to STAKE on xDai are available here](poa-merger-and-stake-swap.md#how-to-swap).
+{% endhint %}
 
 ## I can't see my POA in my wallet
 

@@ -16,6 +16,10 @@ Learn more about this opportunity and what it means for the future of POA and xD
 Follow swap progress on [Dune Analytics](https://dune.xyz/maxaleks/POA-STAKE-merge).
 {% endhint %}
 
+{% hint style="info" %}
+Go Directly to the [Swap Instructions](poa-merger-and-stake-swap.md#how-to-swap)
+{% endhint %}
+
 ## Overview & Token Details
 
 xDai provides a full-featured ecosystem with many tools POA users know (BlockScout, bridges) along with additional applications, DEXs, lending, games, and much more. The xDai community welcomes the expertise and experience of POA users and developers to the xDai chain.&#x20;
@@ -54,23 +58,27 @@ Following emission & swapping cessation, POA network will continue to function i
 
 Swapping from POA on POA Network to STAKE on xDai is a 2 step process. Steps detailed below.
 
-1.  POA is bridged from the POA Network to xDai using the OmniBridge. During bridging, POA is converted to WPOA (wrapped POA) on the xDai chain.
+1.  **POA is bridged from the POA Network to the xDai Network using the OmniBridge**. During bridging, POA is converted to WPOA (wrapped POA) on the xDai chain.
 
     [omni.xdaichain.com/bridge](http://omni.xdaichain.com/bridge)
-2.  WPOA on xDai is swapped for STAKE on xDai using a swap application.
+2.  **WPOA on xDai is swapped for STAKE on xDai using a swap application.**
 
     [https://poa-to-stake.poa.network/](https://poa-to-stake.poa.network)
 
 ### 1. Bridge POA to WPOA on xDai
 
+{% hint style="info" %}
+Do you need to withdraw your POA tokens from Binance?  [Start here](poa-stake-faqs.md#im-having-trouble-moving-poa-out-of-binance)
+{% endhint %}
+
 1\) **Connect and Initiate Bridge Transaction**
 
 1. Go to [omni.xdaichain.com/bridge](http://omni.xdaichain.com/bridge)
-2. Connect your web3 wallet (MetaMask) to the **POA Network**. Select the POA-XDAI Bridge in the bridge selector dropdown.
+2. Connect your web3 wallet (in this example we use MetaMask) to the **POA Network**.   If you need to add POA Network to MetaMask custom networks, [instructions are here](../wallets/metamask.md#poa-core). Select the **POA-XDAI Bridge** in the bridge selector dropdown.
 3. Enter the **amount of POA** you want to bridge to WPOA. Note you need to reserve a very small amount to pay for gas.
-4. Shows how much wrapped POA you will receive on xDai. 3 and 4 should match.
+4. Wrapped POA (WPOA) you will receive on xDai. 3 and 4 should match.
 
-Click **Transfer** to start. (_note: this will transfer to your same wallet address on the xDai chain. If you want to send to a different address on the xDai chain, you can use the Advanced feature. Be sure to **triple check if you choose this option**, as funds sent to the wrong address may not be recoverable_).
+Click **Transfer** to start. (_note: this will transfer to **your same wallet address on the xDai chain**. If you want to send to a different address on the xDai chain, you can use the Advanced feature. Be sure to **triple check if you choose this option**, as funds sent to the wrong address may not be recoverable_).
 
 ![](../../.gitbook/assets/poa-1.png)
 
@@ -90,7 +98,11 @@ You can view progress on the ALM monitor. The transfer should only take a few mi
 
 5\) **Add Balance to xDai Wallet (optional)**
 
-The following processes detail adding WPOA to your wallet. You can also confirm the transfer in Blockscout by pasting your address in the search bar and checking your tokens balance.  If you don't want to add WPOA to view in your wallet, skip to [section 2 swap WPOA to STAKE](poa-merger-and-stake-swap.md#1.-bridge-poa-to-wpoa-on-xdai-1).
+The following processes detail adding WPOA to your wallet. You can also confirm the transfer in Blockscout by pasting your address in the search bar and checking your tokens balance.&#x20;
+
+{% hint style="info" %}
+&#x20;If you don't want to add WPOA to view in your wallet, skip to [section 2 swap WPOA to STAKE](poa-merger-and-stake-swap.md#1.-bridge-poa-to-wpoa-on-xdai-1).
+{% endhint %}
 
 Here we use Metamask as an example.
 

@@ -58,20 +58,24 @@ Following emission & swapping cessation, POA network will continue to function i
 
 Swapping from POA on POA Network to STAKE on xDai is a 2 step process. Steps detailed below.
 
-1.  **POA is bridged from the POA Network to the xDai Network using the OmniBridge**. During bridging, POA is converted to WPOA (wrapped POA) on the xDai chain.
+1.  **Bridged POA from the POA Network to the xDai Network using the OmniBridge**. During bridging, POA is converted to WPOA (wrapped POA) on the xDai chain.
 
     [omni.xdaichain.com/bridge](http://omni.xdaichain.com/bridge)
 2.  **WPOA on xDai is swapped for STAKE on xDai using a swap application.**
 
     [https://poa-to-stake.poa.network/](https://poa-to-stake.poa.network)
 
-### 1. Bridge POA to WPOA on xDai
+## 1. Bridge POA to WPOA on xDai
 
 {% hint style="info" %}
 Do you need to withdraw your POA tokens from Binance?  [Start here](poa-stake-faqs.md#im-having-trouble-moving-poa-out-of-binance)
 {% endhint %}
 
-1\) **Connect and Initiate Bridge Transaction**
+{% hint style="warning" %}
+Having issues? [See the FAQs](poa-stake-faqs.md)
+{% endhint %}
+
+### 1) **Connect and Initiate Bridge Transaction**
 
 1. Go to [omni.xdaichain.com/bridge](http://omni.xdaichain.com/bridge)
 2. Connect your web3 wallet (in this example we use MetaMask) to the **POA Network**.   If you need to add POA Network to MetaMask custom networks, [instructions are here](../wallets/metamask.md#poa-core). Select the **POA-XDAI Bridge** in the bridge selector dropdown.
@@ -82,21 +86,21 @@ Click **Transfer** to start. (_note: this will transfer to **your same wallet ad
 
 ![](../../.gitbook/assets/poa-1.png)
 
-2\) **Continue Transfer**
+### 2) **Continue Transfer**
 
 ![](../../.gitbook/assets/wpoa-2.png)
 
-3\) **Confirm in MetaMask**
+### 3) **Confirm in MetaMask**
 
 ![](../../.gitbook/assets/wpoa-3.png)
 
-4\) **Wait for Confirmation**
+### 4) **Wait for Confirmation**
 
 You can view progress on the ALM monitor. The transfer should only take a few minutes to process between POA Network and the xDai Chain.
 
 ![](../../.gitbook/assets/wpoa-4.png)
 
-5\) **Add Balance to xDai Wallet (optional)**
+### 5) **Add Balance to xDai Wallet (optional)**
 
 The following processes detail adding WPOA to your wallet. You can also confirm the transfer in Blockscout by pasting your address in the search bar and checking your tokens balance.&#x20;
 
@@ -126,31 +130,31 @@ You should now see WPOA along with your balance.&#x20;
 
 ![](../../.gitbook/assets/import-3.png)
 
-### 2. Swap WPOA to STAKE on the xDai Network
+## 2. Swap WPOA to STAKE on the xDai Network
 
-1\) **Go to swap application at **[**https://poa-to-stake.poa.network/**](https://poa-to-stake.poa.network)**. **
+### 1) **Go to swap application at **[**https://poa-to-stake.poa.network/**](https://poa-to-stake.poa.network)**. **
 
 Press **Connect wallet**.
 
 ![](../../.gitbook/assets/swap-1.png)
 
-2\) **Select your wallet application of choice. **
+### 2) **Select your wallet application of choice. **
 
-In this example we use MetaMask connected to the xDai Chain.
+In this example we use MetaMask connected to the xDai Chain. **Note you must have MetaMask enabled in your extensions to see this option. **
 
 ![](../../.gitbook/assets/swap-2.png)
 
-3\) **Enter the amount you want to swap, or Convert All to swap all. **
+### 3) **Enter the amount you want to swap, or Convert All to swap all. **
 
-_Note you will need a small amount of xDai to process the transaction. You can get some at the community faucet at _[_https://xdai-app.herokuapp.com/faucet_](https://xdai-app.herokuapp.com/faucet)__
+_You will need a small amount of xDai to process the transaction. You can get some at the community faucet at _[_https://xdai-app.herokuapp.com/faucet_](https://xdai-app.herokuapp.com/faucet)__
 
 ![](../../.gitbook/assets/swap-3.png)
 
-4\)_** **_**Confirm the Transaction in MetaMask**
+### 4)_** **_**Confirm the Transaction in MetaMask**
 
 ![](../../.gitbook/assets/swap-4.png)
 
-5\)** Transaction is initiated and should be completed shortly. **
+### 5)** Transaction is initiated and should be completed shortly. **
 
 From this final screen you can:
 
@@ -174,3 +178,6 @@ STAKE Address on xDai: [https://blockscout.com/xdai/mainnet/token/0xb7D311E2Eb55
 BlockScout Tx of example WPOA to STAKE swap: [https://blockscout.com/xdai/mainnet/tx/0x36c282174dc10c002c3d38f657c5d951279ce3fd6b905e95402485649f7656f3](https://blockscout.com/xdai/mainnet/tx/0x36c282174dc10c002c3d38f657c5d951279ce3fd6b905e95402485649f7656f3)
 {% endhint %}
 
+{% hint style="warning" %}
+If you are having difficulties, [see the FAQs](poa-stake-faqs.md)
+{% endhint %}

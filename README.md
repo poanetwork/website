@@ -26,6 +26,8 @@ Engaging with POA Core will help you experience and create a first-class applica
 
 All POA Projects utilize [Identicon](http://identicon.net) to generate unique logos. A hash of the project name along with the project color scheme is used to create the visual identity for each project. This creates consistency while highlighting the uniqueness of each project.
 
+[Main Version](https://app.gitbook.com/o/-Loxl4rmid\_XZStTXG0U/s/PXI1GLcK7FWcRvP4BRgd/)
+
 ![POA logo](.gitbook/assets/poa\_2.png)
 
 

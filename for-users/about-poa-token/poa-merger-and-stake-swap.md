@@ -81,8 +81,10 @@ Having issues? [See the FAQs](poa-stake-faqs.md)
 
 ### 1) **Connect and Initiate Bridge Transaction**
 
+Best option is to use MetaMask, these instructions do not support TrustWallet. The easiest way to start is to create a MetaMask account and send funds to that account from Trustwallet to complete the swap.
+
 1. Go to [omni.xdaichain.com/bridge](http://omni.xdaichain.com/bridge)
-2. Connect your web3 wallet (in this example we use MetaMask) to the **POA Network**.   If you need to add POA Network to MetaMask custom networks, [instructions are here](../wallets/metamask.md#poa-core). Select the **POA-XDAI Bridge** in the bridge selector dropdown.
+2. **Connect your web3 wallet **(in this example we use MetaMask)** to the POA Network**.   If you need to add POA Network to MetaMask custom networks, [instructions are here](../wallets/metamask.md#poa-core). Select the **POA-XDAI Bridge** in the bridge selector dropdown.
 3. Enter the **amount of POA** you want to bridge to WPOA. Note you need to reserve a very small amount to pay for gas.
 4. Wrapped POA (WPOA) you will receive on xDai. 3 and 4 should match.
 

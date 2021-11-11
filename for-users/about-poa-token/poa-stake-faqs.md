@@ -69,9 +69,15 @@ Once it is on POA, follow the [swap process outlined here](poa-merger-and-stake-
 * [POA community created telegram group offering assistance.](https://t.me/POAHELP)
 {% endhint %}
 
-## Why do CoinMarketCap & CoinGecko show different valuations for POA?
+## What is the current POA price?
 
-Binance was responsible for nearly 100% of the trading volume for POA. Since it has been delisted, there is very little liquidity or trading options for the POA token. Tracking varies between these 2 services, and they are picking up different listings for their metrics. Either way, volume is very low and valuation may not reflect actual trade value or ability to trade. The aggregators are here for reference.
+Valuations in your wallet may differ from what you receive when swapping. The rate for the swap is **466.6163443 POA per 1 STAKE,  **so the actual valuation is based on this rate.
+
+Binance was responsible for nearly 100% of the trading volume for POA. Since it has been delisted, there is very little liquidity or trading options for the POA token.&#x20;
+
+Tracking varies between tracking services and is not likely accurate.  Volume is very low and valuation may not reflect actual trade value or ability to trade.&#x20;
+
+Primary price aggregators are here for reference.
 
 * [Coin Market Cap](https://www.coingecko.com/en/coins/poa-network)
 * [Coin Gecko](https://www.coingecko.com/en/coins/poa-network)
@@ -114,6 +120,8 @@ You should now see WPOA along with your balance.&#x20;
 
 ## How can I get xDai to complete a transaction?
 
-_You can get some at the community faucet at _[_https://xdai-app.herokuapp.com/faucet_](https://xdai-app.herokuapp.com/faucet)__
+You can get some at the community faucet at [https://xdai-app.herokuapp.com/faucet](https://xdai-app.herokuapp.com/faucet)
+
+
 
 __

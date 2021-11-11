@@ -56,6 +56,12 @@ Following emission & swapping cessation, POA network will continue to function i
 
 ## How to Swap
 
+### Video
+
+{% embed url="https://www.youtube.com/watch?v=7CCtA1Rl66g" %}
+
+### Instructions
+
 Swapping from POA on POA Network to STAKE on xDai is a 2 step process. Steps detailed below.
 
 1.  **Bridge POA from the POA Network to the xDai Network using the OmniBridge**. During bridging, POA is converted to WPOA (wrapped POA) on the xDai chain.

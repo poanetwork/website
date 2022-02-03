@@ -6,9 +6,14 @@ description: >-
 
 # Nifty Wallet
 
+{% hint style="warning" %}
+**Nifty Wallet is discontinued.** \
+As a result of changing crypto market conditions and to continually improve support for our growing family of Gnosis Chain products effectively, certain products will be retired in 2022 including Nifty Wallet browser wallet. Nifty Wallet extension will be delisted from Google Chrome web store.&#x20;
+{% endhint %}
+
 Nifty Wallet is a full-featured browser wallet built for interacting with web3 applications. Originally forked from MetaMask, Nifty Wallet has been refactored by POA to include an expanded list of RPC endpoints and expanded to include features like the ability to interact with contracts, connect to a decentralized node network, and more.
 
-Nifty Wallet is the preferred browser-based wallet for interaction with POA Core and POA Sokol. 
+Nifty Wallet is the preferred browser-based wallet for interaction with POA Core and POA Sokol.&#x20;
 
 * [Chrome extension](https://chrome.google.com/webstore/detail/nifty-wallet/jbdaocneiiinmjbjlgalhcelgbejmnid?hl=en)
 * [Github Repository](https://github.com/poanetwork/nifty-wallet)
@@ -19,7 +24,7 @@ Nifty Wallet and MetaMask do not function properly when both are activated at th
 {% endhint %}
 
 {% hint style="info" %}
-We are currently updating instructions here. For immediate help, please see the basic wallet guide:   
+We are currently updating instructions here. For immediate help, please see the basic wallet guide: \
 [https://forum.poa.network/t/nifty-wallet-guide/1789](https://forum.poa.network/t/nifty-wallet-guide/1789)
 {% endhint %}
 
@@ -29,4 +34,3 @@ We are currently updating instructions here. For immediate help, please see the 
 * [Interacting with Smart Contracts / Calling Contract Methods](import-and-interact-with-smart-contracts.md)
 * [Connecting to a hardware wallet](connect-to-a-hardware-wallet-ledger-and-trezor.md)
 * [Connecting to Pocket](connect-to-pocket-decentralized-network.md)
-

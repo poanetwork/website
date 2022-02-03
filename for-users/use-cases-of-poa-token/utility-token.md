@@ -6,7 +6,7 @@ description: Interaction with DApps and services
 
 **Type:** Utility Token
 
-**Function: **An asset used for interaction with applications and services on a network. It is used for all transaction (gas) fees on the network.
+**Function:** An asset used for interaction with applications and services on a network. It is used for all transaction (gas) fees on the network.
 
 **Use Cases:**  On the POA Network, POA tokens are used for all network related functionality. This includes on-chain governance related transactions (proposing votes, voting, and finalizing votes), bridge transactions, and interactions with other applications deployed to the network. For example, [DopeRaider](https://doperaider.com/#/) players pay for in-game items with POA, and [Snailfarm](https://www.stateofthedapps.com/dapps/poa-snailfarm) players spend and earn POA through gameplay.
 

@@ -16,7 +16,7 @@ The Nethermind Launcher will present several options on start. Use arrow keys to
 When you start the Launcher choose the following options to sync a node:
 
 * Start Nethermind: **Node**
-* Select network:** Poacore**
+* Select network: **Poacore**
 * Select sync: **Fast sync**
 {% endhint %}
 
@@ -46,7 +46,7 @@ RocksDB library does not always load properly on macOS. One (hacky) workaround i
 3. run Nethermind.Launcher.exe
 4. Select desired configuration
 
-### **Linux **(Ubuntu 16.04 or above)
+### **Linux** (Ubuntu 16.04 or above)
 
 1\) Install dependencies:&#x20;
 

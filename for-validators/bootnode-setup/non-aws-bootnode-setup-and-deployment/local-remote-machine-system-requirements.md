@@ -7,7 +7,7 @@
 * Minimum 1GB Memory
 * Anything > 4GB will be good, but may need to be upgraded in the future
 
-**Control Machine Dependencies**_ _
+**Control Machine Dependencies** __&#x20;
 
 * Linux Based Bash Terminal
 * Python 2 (v2.6-v2.7)/Python3 (v3.5+)

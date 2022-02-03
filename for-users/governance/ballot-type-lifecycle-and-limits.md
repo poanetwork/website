@@ -11,7 +11,7 @@ description: A Ballot is a proposal that changes the current state of the networ
   * **`Consensus Threshold`**: change minimum consensus threshold (total votes required) for `Keys Ballot` and `Consensus Threshold Ballot`.
   * **`Proxy`**: change the addresses of smart contract implementations
   * **`Emission Funds`**: Send, burn or freeze accumulated emission funds
-* **Ballot End Time: **Defines the time window in which the Ballot is open for voting. Currently, this must be a date/time in the future that allows a reasonable time for other validators to consider, research, and discuss the ballot.  The format is `mm/dd/yyyy, hh:mm AM/PM` (local time), for example, `02/22/2022, 10:00 PM`. &#x20;
+* **Ballot End Time:** Defines the time window in which the Ballot is open for voting. Currently, this must be a date/time in the future that allows a reasonable time for other validators to consider, research, and discuss the ballot.  The format is `mm/dd/yyyy, hh:mm AM/PM` (local time), for example, `02/22/2022, 10:00 PM`. &#x20;
 * **Consensus Threshold**: Defines the minimum number of votes required for a Ballot to succeed.  Once a ballot has been created this value is immutable. The minimum threshold for Keys and Consensus Threshold Ballots is determined through the `Consensus Threshold Ballot`. The threshold for `Proxy` and `Emission Funds` ballots is always calculated based on validator\_count. This threshold is equal to `(validators_count - master_of_ceremony) / 2 + 1` (we exclude the Master of Ceremony (MoC) from the validator set count because the MoC cannot vote).
 
 ## Ballot Lifecycle

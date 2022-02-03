@@ -8,7 +8,7 @@
 
 ![](../../.gitbook/assets/payment\_methods.png)
 
-3\) From the list, select **POA20**. If you want to receive payments to an Address **immediately following confirmation**, **input that address in the Your Payment Address field **and **change the Payout mode to ASAP or ASAP + Convert**. Otherwise, purchases will be sent to your CoinPayments wallet address.&#x20;
+3\) From the list, select **POA20**. If you want to receive payments to an Address **immediately following confirmation**, **input that address in the Your Payment Address field** and **change the Payout mode to ASAP or ASAP + Convert**. Otherwise, purchases will be sent to your CoinPayments wallet address.&#x20;
 
 {% hint style="info" %}
 Options for Payout Modes and Discount options are displayed below.

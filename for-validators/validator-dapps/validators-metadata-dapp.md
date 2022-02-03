@@ -43,7 +43,7 @@ You must have a small amount of POA on your Voting Key to submit a transaction. 
 
 10\) Open the `PENDING CHANGES` tab and verify your data in the list.
 
-11\) Ask fellow validators to confirm and finalize your request. The metadata-change request needs at least **2 confirmations **by different validators and can then be finalized by any validator including yourself. Finalizing a request commits changes to the network.
+11\) Ask fellow validators to confirm and finalize your request. The metadata-change request needs at least **2 confirmations** by different validators and can then be finalized by any validator including yourself. Finalizing a request commits changes to the network.
 
 ![Ask fellow validators to confirm your request](../../.gitbook/assets/p2.png)
 

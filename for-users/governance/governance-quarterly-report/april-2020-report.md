@@ -30,14 +30,14 @@ Ballot types and properties are [explained here](../ballot-type-lifecycle-and-li
 ### Proposal Date: April 07, 2020
 
 * **Type**: Remove Validator
-* **Keys Ballot ID: **55
+* **Keys Ballot ID:** 55
 * **Description:** "Remove Irvin as irresponsible validator. We need active and on-time folks on POA Core"
 * **Result: Yes: 7**, No: 4. Irvin Cardenas removed from set.
 
 ### Proposal Date: April 07, 2020
 
 * **Type**: Remove Validator
-* **Keys Ballot ID: **56
+* **Keys Ballot ID:** 56
 * **Description:** "This is a proposal to remove Kristina Yevseyeva from the consensus for falling behind on the validator's responsibilities."
 * **Result: Yes: 10**, No: 0. Kristina Yevseyeva removed from set.
 
@@ -55,40 +55,40 @@ Ballot types and properties are [explained here](../ballot-type-lifecycle-and-li
 * **Type**: Remove Validator
 * **Keys Ballot ID:** 86
 * **Description:** "Established validators that have been running a node for more than a year can be assumed to be established, therefore no longer need to run Sokol testnet. Please vote Yes to remove my key from Sokol testnet."
-* **Result: **Yes: 6 No: 0. Removed ...
+* **Result:** Yes: 6 No: 0. Removed ...
 
 ### Proposal Date: March 28, 2020
 
 * **Type**: Remove Validator
 * **Keys Ballot ID:** 87
 * **Description:** "This ballot is to remove Core Validator John D. Storey from consensus by his request."
-* **Result: Yes: 5, **No: 0**.**&#x20;
+* **Result: Yes: 5,** No: 0**.**&#x20;
 
 ### Proposal Date: March 30, 2020
 
 * **Type**: Update RewardByBlock Contract
 * **Proxy Ballot ID:** 3
 * **Description:** "This is a proposal to support POA Mania with a Block Reward Adjustment.  Discussion: [https://forum.poa.network/t/proposal-to-support-poa-mania-with-a-block-reward-adjustment/3297](https://forum.poa.network/t/proposal-to-support-poa-mania-with-a-block-reward-adjustment/3297)"
-* **Result: **Yes: 7,** **No: 0**.** Threshold of 8 votes not met, proposal not passed.
+* **Result:** Yes: 7, **** No: 0**.** Threshold of 8 votes not met, proposal not passed.
 
 ### Proposal Date: April 7, 2020
 
 * **Type**: Remove Validator
-* **Keys Ballot ID: **88
+* **Keys Ballot ID:** 88
 * **Description**: "This is a proposal to remove Kristina Yevseyeva from the consensus for falling behind on the validator's responsibilities."
 * **Result**: **Yes: 8** No: 0  Kristina Yevseyeva removed from set.
 
 ### Proposal Date: April 7, 2020
 
 * **Type**: Remove Validator
-* **Keys Ballot ID: **89
+* **Keys Ballot ID:** 89
 * **Description: "**This is a proposal to remove Irvin Cardenas from the consensus for falling behind on the validator's responsibilities."
 * **Result**: **Yes: 5**, No: 4. Irvin Cardenas removed from set.
 
 ### Proposal Date: April 08, 2020
 
 * **Type**: Update RewardByBlock Contract
-* **Proxy Ballot ID: **4
+* **Proxy Ballot ID:** 4
 * **Description:** "Critical bug in Core related to ballot’s finalization has been discovered. Discussion: [https://forum.poa.network/t/critical-bug-in-core-sokol-related-to-ballots-finalization/3357](https://forum.poa.network/t/critical-bug-in-core-sokol-related-to-ballots-finalization/3357)"
 * **Result: Yes: 11**, No: 0. Contract Updated
 
@@ -97,5 +97,5 @@ Ballot types and properties are [explained here](../ballot-type-lifecycle-and-li
 * **Type**: Update RewardByBlock Contract
 * **Proxy Ballot ID:** 5
 * **Description:** "This is a proposal to support POA Mania with a Block Reward Adjustment.  Discussion: [https://forum.poa.network/t/proposal-to-support-poa-mania-with-a-block-reward-adjustment/3297](https://forum.poa.network/t/proposal-to-support-poa-mania-with-a-block-reward-adjustment/3297)"
-* **Result: **Yes: 6,** **No: 0**.** TBD - vote ongoing until 4/16. Requires a 7 vote threshold.
+* **Result:** Yes: 6, **** No: 0**.** TBD - vote ongoing until 4/16. Requires a 7 vote threshold.
 

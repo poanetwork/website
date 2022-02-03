@@ -6,7 +6,7 @@ description: Providing network interoperability
 
 **Type:** Bridged Token
 
-**Function: **Token can be used on multiple EVM based networks, creating interoperability and additional liquidity and/or arbitrage opportunities.
+**Function:** Token can be used on multiple EVM based networks, creating interoperability and additional liquidity and/or arbitrage opportunities.
 
 **Use Case:**  Currently, [POA20](../about-poa-token/faq-poa20-general-questions.md) is a bridged POA token on the Ethereum mainnet. It retains all of the same attributes, but can be used on the mainnet as an ERC20 token. Current applications include exchanging POA20 for other Ethereum based tokens on [Uniswap](https://uniswap.io) or [Bancor](https://www.bancor.network) and providing POA20 as collateral for loans on [Ethlend](https://ethlend.io).
 

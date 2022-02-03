@@ -21,7 +21,7 @@ ERC20 Token Faucet can also be used with [Portis](https://www.portis.io) or [Squ
 
 ### Steps
 
-1\) Go to [https://erc20faucet.com/](https://erc20faucet.com)**. **Check that your web3 wallet (ie NiftyWallet) is connected to the POA network. If you change this after step 3, you will need to reconnect.
+1\) Go to [https://erc20faucet.com/](https://erc20faucet.com)**.** Check that your web3 wallet (ie NiftyWallet) is connected to the POA network. If you change this after step 3, you will need to reconnect.
 
 ![Check that your Web3 Wallet is connected to the POA Core](<../../.gitbook/assets/faucet11 (1).png>)
 

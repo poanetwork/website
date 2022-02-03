@@ -36,6 +36,6 @@ POA Mania is an no-loss savings lottery running on POA. Users commit funds to a 
 
 ## **Creating a public report**
 
-Go to the Report Studio to create a custom report. Here you can create different** **widgets to display with different types of data. The Chainbeat Report Studio tutorial walks you through the process here:  [https://chainbeat.io/reports/help](https://chainbeat.io/reports/help)\
+Go to the Report Studio to create a custom report. Here you can create different **** widgets to display with different types of data. The Chainbeat Report Studio tutorial walks you through the process here:  [https://chainbeat.io/reports/help](https://chainbeat.io/reports/help)\
 \
 Chainbeat makes it easy to monitor smart contracts and get useful information about usage. For more on this integration, see this Chainbeat Medium post: [https://medium.com/chainbeat/poa-xdai-integrated-into-chainbeat-5e26412c3c72](https://medium.com/chainbeat/poa-xdai-integrated-into-chainbeat-5e26412c3c72)

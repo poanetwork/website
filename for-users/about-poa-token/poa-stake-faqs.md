@@ -10,7 +10,7 @@ Instructions for how to [swap for POA on POA Network to STAKE on xDai are availa
 
 Likely you are not connected to the POA network.&#x20;
 
-Ethereum and POA Network externally owned addresses** **can co-exist on multiple chains. Switch the network to Mainnet to see tokens on Ethereum, and switch to POA Network to see tokens on POA (or xDai to see your balances on the xDai chain).&#x20;
+Ethereum and POA Network externally owned addresses **** can co-exist on multiple chains. Switch the network to Mainnet to see tokens on Ethereum, and switch to POA Network to see tokens on POA (or xDai to see your balances on the xDai chain).&#x20;
 
 To switch networks in MetaMask, click on the Network dropdown to select. **Note that POA and xDai are not native to MetaMask, so you will need to add them as custom networks. Instructions are below.**
 
@@ -71,7 +71,7 @@ Once it is on POA, follow the [swap process outlined here](poa-merger-and-stake-
 
 ## What is the current POA price?
 
-Valuations in your wallet may differ from what you receive when swapping. The rate for the swap is **466.6163443 POA per 1 STAKE,  **so the actual valuation is based on this rate.
+Valuations in your wallet may differ from what you receive when swapping. The rate for the swap is **466.6163443 POA per 1 STAKE,**  so the actual valuation is based on this rate.
 
 Binance was responsible for nearly 100% of the trading volume for POA. Since it has been delisted, there is very little liquidity or trading options for the POA token.&#x20;
 

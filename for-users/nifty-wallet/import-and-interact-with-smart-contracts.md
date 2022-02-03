@@ -4,6 +4,13 @@ description: Use Nifty Wallet to interact with smart contracts
 
 # Import and Interact with Smart Contracts
 
+{% hint style="warning" %}
+**Nifty Wallet is discontinued.** \
+As a result of changing crypto market conditions and to continually improve support for our growing family of Gnosis Chain products, certain existing products will be retired in 2022. This list includes the **Nifty Wallet browser wallet**. Nifty Wallet extension will be delisted from Google Chrome web store in the near future.&#x20;
+
+[See instructions ](./#move-export-an-address)to move your address to another wallet.
+{% endhint %}
+
 Nifty wallet is designed for developer interaction. You can import BlockScout verified contracts simply by entering the contract address - the ABI automatically populates from there. If a contract is not BlockScout verified, you can also paste in the ABI.
 
 In this example, we import a token contract and send an amount to a bridge mediator contract, which transfers the token (sUSD) from the xDai chain to the Ethereum Mainnet.
@@ -27,7 +34,7 @@ We recommend starting with a contract deployed to a testnet (like Kovan, Sokol, 
 ### &#x20;2) Import Contract
 
 1. Choose **Contract** in Select Type Dropdown.
-2. Paste in the **Contract Address **(we use`0x4C36d2919e407f0Cc2Ee3c993ccF8ac26d9CE64e `). If the contract is verified in BlockScout, the ABI will auto-populate. If not, paste the ABI. [Here are a few ways to retrieve the ABI of a contract.](https://ethereum.stackexchange.com/questions/3149/how-do-you-get-a-json-file-abi-from-a-known-contract-address)
+2. Paste in the **Contract Address** (we use`0x4C36d2919e407f0Cc2Ee3c993ccF8ac26d9CE64e` ). If the contract is verified in BlockScout, the ABI will auto-populate. If not, paste the ABI. [Here are a few ways to retrieve the ABI of a contract.](https://ethereum.stackexchange.com/questions/3149/how-do-you-get-a-json-file-abi-from-a-known-contract-address)
 3. Click **Import**.
 
 ![](../../.gitbook/assets/import\_2.png)
@@ -49,7 +56,7 @@ We recommend starting with a contract deployed to a testnet (like Kovan, Sokol, 
 The transfer method accepts two arguments.&#x20;
 
 1. In the `_to` field, we enter the bridge mediator contract address `0xD9a3039cfC70aF84AC9E566A2526fD3b683B995B`
-2. In the_ `_`_`value` field, we enter a value of sUSD in Wei to transfer.  We must have this amount in the account we will use to execute the call (min 0.5 sUSD or 500000000000000000 Wei)
+2. In the _ `_`_`value` field, we enter a value of sUSD in Wei to transfer.  We must have this amount in the account we will use to execute the call (min 0.5 sUSD or 500000000000000000 Wei)
 3. Click **Next** to continue.
 
 ![](../../.gitbook/assets/transfer4.png)

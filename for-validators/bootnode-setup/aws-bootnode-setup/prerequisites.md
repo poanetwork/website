@@ -65,7 +65,7 @@ ls -la ~/.ssh
 If you already have key pair, you can skip this section.
 {% endhint %}
 
-**2. **generate ssh key-pair
+**2.** generate ssh key-pair
 
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"

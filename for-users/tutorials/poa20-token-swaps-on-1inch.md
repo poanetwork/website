@@ -18,7 +18,7 @@ Any token combination can be used for a swap as long as it is covered through on
 
 1\) Go to [1inch.exchange](https://1inch.exchange)
 
-1. Select **From **token - in this case we chose ETH.
+1. Select **From** token - in this case we chose ETH.
 2. Enter **Amount** of ETH you want to swap (.01).
 3. Select **To** token. We want to swap ETH into POA20
 4. The amount will auto-populate based on the best exchange rate (115.582...).
@@ -29,7 +29,7 @@ Any token combination can be used for a swap as long as it is covered through on
 
 ![Bancor rates are slightly better, but will require higher (non-changeable) transaction costs](../../.gitbook/assets/rates.png)
 
-3\) To continue with the recommended exchange (Bancor), click the **SWAP NOW** button. Your web3 wallet should popup to confirm the transaction. Click **Submit **to process
+3\) To continue with the recommended exchange (Bancor), click the **SWAP NOW** button. Your web3 wallet should popup to confirm the transaction. Click **Submit** to process
 
 {% hint style="warning" %}
 When Using Bancor, do not change the Gas Price (it is included as part of the contract call). Changing the price will cause your transaction to fail.
@@ -61,7 +61,7 @@ In this case, we'd like some BAT to help support [Brave Browser](https://brave.c
 
 &#x20;1\) Go to [1inch.exchange](https://1inch.exchange)
 
-1. Select **From **token - in this case we chose POA20.
+1. Select **From** token - in this case we chose POA20.
 2. Enter **Amount** of POA20 you want to swap.
 3. Select **To** token. We want to swap POA20 into BAT.
 4. The amount will auto-populate based on the best exchange rate.
@@ -89,12 +89,12 @@ The transaction may still be processing during this time, click to check the tx 
 
 ![Click Add Token](../../.gitbook/assets/bat\_add\_token.png)
 
-&#x20;  2\) Search for your token and click** Next **to add. Confirm the addition.\
-_If your token does not appear, you can enter the token address in the Custom Search. _
+&#x20;  2\) Search for your token and click **Next** to add. Confirm the addition.\
+_If your token does not appear, you can enter the token address in the Custom Search._&#x20;
 
 ![Click Next to Add](../../.gitbook/assets/bat-token-search.png)
 
-_   _3) Click **Add Tokens** to confirm.&#x20;
+&#x20;  __   3) Click **Add Tokens** to confirm.&#x20;
 
 ![Add Tokens to confirm](../../.gitbook/assets/confirm-add.png)
 

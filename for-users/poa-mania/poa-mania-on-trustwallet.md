@@ -30,7 +30,7 @@ If using a multi-coin wallet, the Ethereum network may be selected by default. T
 
 4\) Click **Connect Wallet**. You will see your Account address along with any POA Balance you have.&#x20;
 
-:bulb: **New to blockchain? ** POA-Mania helps new users and crypto veterans alike buy POA from the Binance Exchange directly within the DApp!  Simply click on the "**Buy POA**" link at the top of the screen.  New Binance users can quickly create a free exchange account and existing members can log directly in to their Binance portal.  Use your account to buy and sell thousands of blockchain assets.  Getting involved in blockchain has never been simpler!
+:bulb: **New to blockchain?** POA-Mania helps new users and crypto veterans alike buy POA from the Binance Exchange directly within the DApp!  Simply click on the "**Buy POA**" link at the top of the screen.  New Binance users can quickly create a free exchange account and existing members can log directly in to their Binance portal.  Use your account to buy and sell thousands of blockchain assets.  Getting involved in blockchain has never been simpler!
 
 ![](../../.gitbook/assets/connectwallet.png)
 

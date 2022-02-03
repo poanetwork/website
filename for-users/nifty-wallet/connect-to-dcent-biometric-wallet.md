@@ -1,5 +1,12 @@
 # Connect to D'CENT Biometric Wallet
 
+{% hint style="warning" %}
+**Nifty Wallet is discontinued.** \
+As a result of changing crypto market conditions and to continually improve support for our growing family of Gnosis Chain products, certain existing products will be retired in 2022. This list includes the **Nifty Wallet browser wallet**. Nifty Wallet extension will be delisted from Google Chrome web store in the near future.&#x20;
+
+[See instructions ](./#move-export-an-address)to move your address to another wallet.
+{% endhint %}
+
 {% hint style="success" %}
 D'CENT Biometric Wallet provides top-level safety and security for your crypto assets. Their integration with Nifty wallet gives users an option for high-security application interactions.
 
@@ -7,7 +14,7 @@ D'CENT Biometric Wallet provides top-level safety and security for your crypto a
 * [Purchase a D'CENT Biometric wallet](https://dcentwallet.com/shop)
 {% endhint %}
 
-### Connect D’CENT Biometric Wallet to Nifty Wallet <a href="b3fa" id="b3fa"></a>
+### Connect D’CENT Biometric Wallet to Nifty Wallet <a href="#b3fa" id="b3fa"></a>
 
 **1)** Install the Nifty Wallet extension and complete the basic setup.&#x20;
 

@@ -4,6 +4,15 @@ description: Download the Chrome extension to start using Nifty Wallet
 
 # Getting Started
 
+{% hint style="warning" %}
+**Nifty Wallet is discontinued.** \
+As a result of changing crypto market conditions and to continually improve support for our growing family of Gnosis Chain products, certain existing products will be retired in 2022. This list includes the **Nifty Wallet browser wallet**. Nifty Wallet extension will be delisted from Google Chrome web store in the near future.&#x20;
+
+[See instructions ](./#move-export-an-address)to move your address to another wallet.
+{% endhint %}
+
+
+
 1\) Install the plugin for your browser. The app is compatible with Chrome and Brave browser
 
 * [Google Chrome Extension](https://chrome.google.com/webstore/detail/nifty-wallet/jbdaocneiiinmjbjlgalhcelgbejmnid)
@@ -12,7 +21,7 @@ description: Download the Chrome extension to start using Nifty Wallet
 Compatible with Google Chrome v59.0.3071.115 or later.
 {% endhint %}
 
-2\)_ _Click on the **purple app icon** in your browser toolbar to open. Accept Terms of Use.
+2\) __ Click on the **purple app icon** in your browser toolbar to open. Accept Terms of Use.
 
 ![Purple icon in top right opens the terms of use](<../../.gitbook/assets/nifty3 (1).png>)
 
@@ -20,10 +29,10 @@ Compatible with Google Chrome v59.0.3071.115 or later.
 
 * **Create New**&#x20;
   * Enter a secure password, save in a secure location.
-* **Restore **from previous Nifty vault
+* **Restore** from previous Nifty vault
   * Click **Import Existing DEN.**
   * Enter the 12 word phrase from your previous wallet.
-  * **Create a new password **and save in a secure location
+  * **Create a new password** and save in a secure location
 
 4\) Copy your seed words and store in a secure location.
 
@@ -35,7 +44,7 @@ Compatible with Google Chrome v59.0.3071.115 or later.
 
 &#x20;    1\) **Change the account name**: hovering over the current name (Account 1), click **edit**, change name and click **save**.
 
-&#x20;    2\) **Address interaction **- brings up a menu with several options.
+&#x20;    2\) **Address interaction** - brings up a menu with several options.
 
 * View on block explorer: Opens account address in BlockScout
 * Show QR Code

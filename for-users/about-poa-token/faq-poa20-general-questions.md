@@ -27,7 +27,7 @@ The POA20 Bridge is an interoperability protocol which allows users to convert t
 This new interoperability technology opens up a whole new avenue of solutions for POA users.
 
 {% hint style="success" %}
-**To convert your POA to POA20, vist the UI at **[**https://bridge.poa.net/**](https://bridge.poa.net)****
+**To convert your POA to POA20, vist the UI at** [**https://bridge.poa.net/**](https://bridge.poa.net)****
 {% endhint %}
 
 ## What is POA20?&#x20;

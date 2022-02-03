@@ -46,7 +46,7 @@ https://api.eth.events/ethereum/poa/core/es/block/search/ \
 
 ![](../.gitbook/assets/anyblock2.png)
 
-3\) In the **General **Tab, choose a **Name** for your server instance
+3\) In the **General** Tab, choose a **Name** for your server instance
 
 ![](../.gitbook/assets/anyblock-3.png)
 
@@ -62,7 +62,7 @@ https://api.eth.events/ethereum/poa/core/es/block/search/ \
 
 5\) You will see a list of all databases.&#x20;
 
-1. Click on **ethereum\_poa\_core** or **ethereum\_poa\_sokol **to interact with POA data.&#x20;
+1. Click on **ethereum\_poa\_core** or **ethereum\_poa\_sokol** to interact with POA data.&#x20;
 2. To Query the DB, go to Tools -> Query Tool
 
 ![](../.gitbook/assets/anyblock4.png)

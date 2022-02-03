@@ -18,7 +18,7 @@ A large majority of POA trading volume is currently carried out on Binance (www.
 
 ## Nifty Wallet Example: Sending POA20
 
-1\) With the **Ethereum** network selected, go to the **Token tab** and **click on the dots **next to POA20.
+1\) With the **Ethereum** network selected, go to the **Token tab** and **click on the dots** next to POA20.
 
 ![](../../.gitbook/assets/nifty-token-1.png)
 

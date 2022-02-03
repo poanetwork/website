@@ -28,7 +28,7 @@ STAKE (as the name implies) is the staking token on xDai. With POSDAO staking, s
 
 STAKE is a popular token used throughout the xDai ecosystem including various [DeFi platforms](https://www.xdaichain.com/about-xdai/project-spotlights#defi), and can be bridged to and from Ethereum Mainnet as well as other chains easily with the OmniBridge application. On Ethereum, STAKE has additional applications, including the ability for users to stake and earn rewards through the [EasyStaking](https://easy-staking.xdaichain.com) application.
 
-**-> **[Learn more about STAKE here](https://www.xdaichain.com/for-stakers/stake-token).
+**->** [Learn more about STAKE here](https://www.xdaichain.com/for-stakers/stake-token).
 
 **->** Questions about the merger? Ask in the [xDai discord poa channel.](https://discord.gg/mPJ9zkq)
 
@@ -50,7 +50,7 @@ The swap contract will launch with the ability for users to exchange 20% of POA 
 
 The swap program will be active with the same terms for 6 months, **starting on November 4, 2021 and ending on May 5, 2022**. POA holders will have the opportunity to swap at any time during this period without changes to the set price. Swaps are 1 way, there is no ability to swap STAKE back to WPOA through the application.&#x20;
 
-During the 6 month swapping window, POA users may continue to earn rewards on POA Mania on the POA Network. However,** on May 5, 2022, POA rewards will cease for POA Mania players and swapping will no longer be available. **
+During the 6 month swapping window, POA users may continue to earn rewards on POA Mania on the POA Network. However, **on May 5, 2022, POA rewards will cease for POA Mania players and swapping will no longer be available.**&#x20;
 
 Following emission & swapping cessation, POA network will continue to function in an important stress-testing capacity for users and developers. Client upgrades, testing, and experimentation will be conducted on POA prior to deployment on xDai or other chains using the POA network.
 
@@ -90,7 +90,7 @@ Having issues? [See the FAQs](poa-stake-faqs.md)
 Best option is to use MetaMask, these instructions do not support TrustWallet. The easiest way to start is to create a MetaMask account and send funds to that account from Trustwallet to complete the swap.
 
 1. Go to [omni.xdaichain.com/bridge](http://omni.xdaichain.com/bridge)
-2. **Connect your web3 wallet **(in this example we use MetaMask)** to the POA Network**.   If you need to add POA Network to MetaMask custom networks, [instructions are here](../wallets/metamask.md#poa-core). Select the **POA-XDAI Bridge** in the bridge selector dropdown.
+2. **Connect your web3 wallet** (in this example we use MetaMask) **to the POA Network**.   If you need to add POA Network to MetaMask custom networks, [instructions are here](../wallets/metamask.md#poa-core). Select the **POA-XDAI Bridge** in the bridge selector dropdown.
 3. Enter the **amount of POA** you want to bridge to WPOA. Note you need to reserve a very small amount to pay for gas.
 4. Wrapped POA (WPOA) you will receive on xDai. 3 and 4 should match.
 
@@ -144,29 +144,29 @@ You should now see WPOA along with your balance.&#x20;
 
 ## 2. Swap WPOA to STAKE on the xDai Network
 
-### 1) **Go to swap application at **[**https://poa-to-stake.poa.network/**](https://poa-to-stake.poa.network)**. **
+### 1) **Go to swap application at** [**https://poa-to-stake.poa.network/**](https://poa-to-stake.poa.network)**.**&#x20;
 
 Press **Connect wallet**.
 
 ![](../../.gitbook/assets/swap-1.png)
 
-### 2) **Select your wallet application of choice. **
+### 2) **Select your wallet application of choice.**&#x20;
 
-In this example we use MetaMask connected to the xDai Chain. **Note you must have MetaMask enabled in your extensions to see this option. **
+In this example we use MetaMask connected to the xDai Chain. **Note you must have MetaMask enabled in your extensions to see this option.**&#x20;
 
 ![](../../.gitbook/assets/swap-2.png)
 
-### 3) **Enter the amount you want to swap, or Convert All to swap all. **
+### 3) **Enter the amount you want to swap, or Convert All to swap all.**&#x20;
 
-_You will need a small amount of xDai to process the transaction. You can get some at the community faucet at _[_https://xdai-app.herokuapp.com/faucet_](https://xdai-app.herokuapp.com/faucet)__
+_You will need a small amount of xDai to process the transaction. You can get some at the community faucet at_ [_https://xdai-app.herokuapp.com/faucet_](https://xdai-app.herokuapp.com/faucet)__
 
 ![](../../.gitbook/assets/swap-3.png)
 
-### 4)_** **_**Confirm the Transaction in MetaMask**
+### 4) _****_** Confirm the Transaction in MetaMask**
 
 ![](../../.gitbook/assets/swap-4.png)
 
-### 5)** Transaction is initiated and should be completed shortly. **
+### 5) **Transaction is initiated and should be completed shortly.**&#x20;
 
 From this final screen you can:
 

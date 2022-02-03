@@ -32,12 +32,12 @@ graph init
 5\) Enter your subgraph details at the prompts:
 
 * **Subgraph name**: \<github\_username>/\<graph-name> \
-  _Chose the subgraph name created in step 2 as lowercase-hypenated _
+  _Chose the subgraph name created in step 2 as lowercase-hypenated_&#x20;
 * **Directory to create**: Choose a directory name
 * **Ethereum Network**: Select **poa-core**
 * **Contract address**: Address of the contract you want to use. If [verified in BlockScout](https://docs.blockscout.com/for-users/smart-contract-interaction/verifying-a-smart-contract), the graph will grab the ABI, otherwise you will need manually add the ABI
 * &#x20;**ABI file (path):** path-to-abi.json\
-  _You can save the abi from BlockScout or by running `truffle compile` or `solc` on a public project. _[_More info available here_](https://thegraph.com/docs/define-a-subgraph#the-subgraph-manifest)_._
+  _You can save the abi from BlockScout or by running `truffle compile` or `solc` on a public project._ [_More info available here_](https://thegraph.com/docs/define-a-subgraph#the-subgraph-manifest)_._
 
 6\)  Authenticate with the hosted service
 

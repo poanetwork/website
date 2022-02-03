@@ -57,8 +57,8 @@ The selling process is conducted in the same way.
 **1) Go to DEX.AG to get started**
 
 1. Choose the **Sell Button.**
-2. From the **Sell **Dropdown, select **POA20** (you can type in to find quickly).
-3. In the **for **field, select the currency to buy POA20 with. In this example we choose ETH, but you can use a wide variety of tokens.
+2. From the **Sell** Dropdown, select **POA20** (you can type in to find quickly).
+3. In the **for** field, select the currency to buy POA20 with. In this example we choose ETH, but you can use a wide variety of tokens.
 4. Select the **amount to sell** in POA20.
 5. Click the **Find trades** button.
 6. Select the exchange and click **Sell** (we choose the Uniswap option in this example).

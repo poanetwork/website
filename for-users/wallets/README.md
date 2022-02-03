@@ -13,7 +13,7 @@ _Browser extensions for interacting with DApps built on Ethereum based networks.
 * [MetaMask](https://metamask.io)
 * [Saturn Wallet](http://saturn.network)
 
-**Hardware wallets **\
+**Hardware wallets** \
 _Secure wallets designed for long term storage_
 
 * [Ledger ](https://www.ledger.com)
@@ -25,7 +25,7 @@ _Can be used as stand-alone wallets and as interfaces to connect through a web3 
 * [MyEtherWallet ](https://www.myetherwallet.com/access-my-wallet)
 * [MyCrypto](https://mycrypto.com)
 
-**Stand-alone browser wallets **\
+**Stand-alone browser wallets** \
 _Dedicated browser wallet with no downloads designed for desktop or mobile use_
 
 * [Portis](https://www.portis.io)

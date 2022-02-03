@@ -1,5 +1,12 @@
 # Connect to a Hardware Wallet (Ledger & Trezor)
 
+{% hint style="warning" %}
+**Nifty Wallet is discontinued.** \
+As a result of changing crypto market conditions and to continually improve support for our growing family of Gnosis Chain products, certain existing products will be retired in 2022. This list includes the **Nifty Wallet browser wallet**. Nifty Wallet extension will be delisted from Google Chrome web store in the near future.&#x20;
+
+[See instructions ](./#move-export-an-address)to move your address to another wallet.
+{% endhint %}
+
 Nifty supports connections with [Ledger](https://www.ledger.com) and [Trezor](https://trezor.io) devices. You can connect to a hardware wallet and use Nifty to view your hardware wallet balances and send and receive transactions.
 
 ## Ledger
@@ -21,7 +28,7 @@ The Ethereum application must be installed before the POA app.
 
 ![](../../.gitbook/assets/connect-3.png)
 
-4\) Select **Ledger **and press **Connect**.
+4\) Select **Ledger** and press **Connect**.
 
 ![](../../.gitbook/assets/connect\_to\_ledger.png)
 

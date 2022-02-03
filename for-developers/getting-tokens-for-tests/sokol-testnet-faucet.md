@@ -78,9 +78,9 @@ You will add the Sokol Custom RPC to MetaMask to interact with Sokol.
 Fill in the Sokol Network Details and click **Save**. Sokol will now be available in the dropdown list.
 
 * **Network Name:** Sokol Testnet
-* **New RPC URL: **https://sokol.poa.network
+* **New RPC URL:** https://sokol.poa.network
 * **ChainID:** 77
-* **Symbol: **SPOA
+* **Symbol:** SPOA
 * **Block Explorer URL:** https://blockscout.com/poa/sokol
 
 ![Sokol Testnet Details](../../.gitbook/assets/mm2.png)

@@ -8,7 +8,7 @@ Using Proof of Physical Address, a user can confirm his/her physical address. It
 
 ![ Click on Image to Enlarge: User fills out a form in DApp and submits it to the server.](../../../../.gitbook/assets/proof-of-address.png)
 
-Server consists of a web app and a** **Parity node connected to the blockchain. The node is run under the Ethereum account that was used to deploy the PoPA contract (contract's `owner`), and this account needs to be unlocked. It shouldn't have any ether on it though, as it doesn't send any more transactions.
+Server consists of a web app and a **** Parity node connected to the blockchain. The node is run under the Ethereum account that was used to deploy the PoPA contract (contract's `owner`), and this account needs to be unlocked. It shouldn't have any ether on it though, as it doesn't send any more transactions.
 
 Server validates and normalizes the user's input: removes trailing spaces, converts letters to lower case. Then it generates a random confirmation code (alphanumeric sequence) and computes its SHA-3 (strictly speaking, keccak256) hash. Also, it generates a random session code (see below), that it stores in memory/database along with the user's eth address and plain text confirmation code. Then the server combines input data, namely `str2sign = (user's eth address + user's name + all parts of physical address + confirmation code's hash)`into a string that is hashed and signed with the `owner`'s private key. \
 (This is why the `owner`'s account needs to be unlocked. In the next release of web3js it will probably become possible to sign using a private key without unlocking.)

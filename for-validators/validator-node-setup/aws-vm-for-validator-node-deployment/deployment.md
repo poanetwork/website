@@ -68,7 +68,7 @@ systemctl restart poa-parity
 and try again. If `enode` uri is still not found, use the commands below to restart all services.
 
 {% hint style="info" %}
-If after parity restart you notice that on `NETSTATS_SERVER` url your node starts to fall behind other nodes (block number is less than on other nodes) and has not caught up after a few minutes, _try the following: _
+If after parity restart you notice that on `NETSTATS_SERVER` url your node starts to fall behind other nodes (block number is less than on other nodes) and has not caught up after a few minutes, _try the following:_&#x20;
 {% endhint %}
 
 1\) try to restart statistics service (assuming you are connected as `root`):

@@ -20,7 +20,7 @@ In this example, an in-person request for payment is received. [Nifty Wallet](..
 
 ![Enter in the address and amount to send your payment](<../../.gitbook/assets/nifty2 (1).png>)
 
-3\) Click **Submit **to complete the wallet transaction. It will be confirmed in your wallet before it is confirmed through Coinpayments.
+3\) Click **Submit** to complete the wallet transaction. It will be confirmed in your wallet before it is confirmed through Coinpayments.
 
 ![Click Submit](../../.gitbook/assets/nifty3.png)
 

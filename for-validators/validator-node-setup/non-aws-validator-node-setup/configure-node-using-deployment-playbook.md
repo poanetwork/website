@@ -14,7 +14,7 @@ To run playbook you will need a user on the server with `sudo` privileges and wh
 Playbook will additionally create a new unprivileged user named `validator` and add your ssh public key to `root` account.
 {% endhint %}
 
-_1) _Clone repository with ansible playbooks and checkout branch with the network name you want to join (e.g. `core` for mainnet and `sokol` for testnet)
+_1)_ Clone repository with ansible playbooks and checkout branch with the network name you want to join (e.g. `core` for mainnet and `sokol` for testnet)
 
 ```
 git clone https://github.com/poanetwork/deployment-playbooks.git
@@ -74,7 +74,7 @@ associate_validator_elastic_ip: false
 Double check that `allow_validator_ssh` is `true` otherwise you won't be able to connect to the node.
 {% endhint %}
 
-_10) _create file `hosts` with the server's ip address (e.g. 192.0.2.1):
+_10)_ create file `hosts` with the server's ip address (e.g. 192.0.2.1):
 
 ```
 [validator]

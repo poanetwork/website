@@ -4,7 +4,7 @@ description: General information and links
 
 # Developer Resources
 
-## General Information <a href="general-information" id="general-information"></a>
+## General Information <a href="#general-information" id="general-information"></a>
 
 {% tabs %}
 {% tab title="POA Core" %}
@@ -22,7 +22,7 @@ To mitigate an ongoing denial-of-service attack, validators decided to increase 
 | ---------------- | ----------- | --------- | -------- | ------------ | ---------- |
 | \~17,000,000 Gas | 5 sec       | 1 GWei    | Berlin   | SPOA         | 77         |
 
-_Note: Sokol validators run the _[_Nethermind _](https://nethermind.io)_client only._
+_Note: Sokol validators run the_ [_Nethermind_ ](https://nethermind.io)_client only._
 
 ### **Sokol Faucets**
 
@@ -55,7 +55,7 @@ _Note: Sokol validators run the _[_Nethermind _](https://nethermind.io)_client o
 {% endtab %}
 {% endtabs %}
 
-## JSON RPC endpoints <a href="json-rpc-endpoints" id="json-rpc-endpoints"></a>
+## JSON RPC endpoints <a href="#json-rpc-endpoints" id="json-rpc-endpoints"></a>
 
 There are endpoints provided by POA. They are used to connect to the network. Use these endpoints to connect with DApps or when connecting to the POA Network with MetaMask or other web3 wallets.
 
@@ -120,7 +120,7 @@ TokenBridge UI at [https://bridge.poa.net/](https://bridge.poa.net)
 
 ![Tenderly Dashboard Gas Profiler example](../.gitbook/assets/tenderly.png)
 
-## **Additional Resources** <a href="additional-resources" id="additional-resources"></a>
+## **Additional Resources** <a href="#additional-resources" id="additional-resources"></a>
 
 {% tabs %}
 {% tab title="POA Mainnet" %}

@@ -47,7 +47,7 @@
     * [April 2020 Report](for-users/governance/governance-quarterly-report/april-2020-report.md)
     * [December 2019 Report](for-users/governance/governance-quarterly-report/nov-2019-report.md)
   * [Ballot Type, Lifecycle & Limits](for-users/governance/ballot-type-lifecycle-and-limits.md)
-* [Nifty Wallet](for-users/nifty-wallet/README.md)
+* [❌ Nifty Wallet (Discontinued)](for-users/nifty-wallet/README.md)
   * [Getting Started](for-users/nifty-wallet/getting-started.md)
   * [Import and Interact with Smart Contracts](for-users/nifty-wallet/import-and-interact-with-smart-contracts.md)
   * [Connect to a Hardware Wallet (Ledger & Trezor)](for-users/nifty-wallet/connect-to-a-hardware-wallet-ledger-and-trezor.md)
@@ -160,7 +160,7 @@
   * [Validators MetaData DApp](for-validators/validator-dapps/validators-metadata-dapp.md)
   * [Adding or Removing a Validator](for-validators/validator-dapps/adding-or-removing-a-validator.md)
 
-## Media <a href="social-media" id="social-media"></a>
+## Media <a href="#social-media" id="social-media"></a>
 
 * [Social Media](social-media/social-media.md)
 * [Media Kit](social-media/branding.md)

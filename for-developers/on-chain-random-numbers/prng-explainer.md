@@ -8,7 +8,7 @@ The following is designed to work with [Parity's AuRa](https://wiki.parity.io/Pr
 
 ### Collection Rounds
 
-A series of **collection rounds** are used for random number generation. The  collection round length is configurable - in this example we use 38 blocks for a round,** **split into two equal 19 block phases:
+A series of **collection rounds** are used for random number generation. The  collection round length is configurable - in this example we use 38 blocks for a round, **** split into two equal 19 block phases:
 
 * `commit phase`&#x20;
 * `reveal phase`
@@ -122,7 +122,7 @@ function getCommitAndCipher(
 
 2\) The validator decrypts the cipher with their key and retrieves the `number`.
 
-3\) The validator calls the `revealNumber`function to reveal their committed number (the function XORs the number with the previous seed to create a new random seed stored in the `currentSeed `state variable).
+3\) The validator calls the `revealNumber`function to reveal their committed number (the function XORs the number with the previous seed to create a new random seed stored in the `currentSeed` state variable).
 
 ```javascript
 /// @dev Called by the validator's node to XOR its number with the current random seed.
@@ -155,7 +155,7 @@ _Note: Randomness created in a deterministic manner, through computerized means,
 
 ## RandomAura Contract Code
 
-The RandomAura Contract interfaces with the Authority Round consensus process to store and iterate the `currentSeed `, control when the seed is revealed, and report on skipped reveals by Validators.
+The RandomAura Contract interfaces with the Authority Round consensus process to store and iterate the `currentSeed` , control when the seed is revealed, and report on skipped reveals by Validators.
 
 Below is the full RandomAura contract code (its POSDAO implementation is located at [https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol](https://github.com/poanetwork/posdao-contracts/blob/master/contracts/RandomAuRa.sol))
 
